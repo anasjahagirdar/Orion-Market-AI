@@ -1,0 +1,63 @@
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+*.env
+.env.*
+!.env.example
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# ─── Virtual Environment ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ─── Django ───────────────────────────────────────────────────────────────────
+*.sqlite3
+orion_db.sqlite3
+orion_debug.log
+staticfiles/
+media/
+*.log
+
+# ─── Node / React ─────────────────────────────────────────────────────────────
+node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Vector DB ────────────────────────────────────────────────────────────────
+chroma_db/
+
+# ─── ML Models Cache ──────────────────────────────────────────────────────────
+.cache/
+huggingface/
+*.bin
+*.safetensors
+
+# ─── PM2 / Logs ───────────────────────────────────────────────────────────────
+logs/
+*.pid
+.pm2/
+
+# ─── OS Files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
