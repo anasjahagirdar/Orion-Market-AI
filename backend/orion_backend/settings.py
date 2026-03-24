@@ -2,8 +2,10 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+# Load .env from project root (one level above backend/)
+BASE_DIR = Path(__file__).resolve().parent.parent
+ROOT_DIR = BASE_DIR.parent
+load_dotenv(r'D:\Bizmetric\F.S.D\Orion Market AI\.env')
 
 # Base directory
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -141,3 +143,5 @@ LOGGING = {
         'level': 'INFO',
     },
 }
+
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
