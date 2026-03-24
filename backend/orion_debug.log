@@ -653,3 +653,883 @@ AFC is enabled with max remote calls: 10.
 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
 AFC is enabled with max remote calls: 10.
 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 403 Forbidden"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+ChromaDB collection ready
+Groq client initialized successfully
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Indexed 100 stocks into vector DB
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+ChromaDB collection ready
+Groq client initialized successfully
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+D:\Bizmetric\F.S.D\Orion Market AI\backend\orion_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+D:\Bizmetric\F.S.D\Orion Market AI\backend\btc_analysis\pipeline.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+D:\Bizmetric\F.S.D\Orion Market AI\backend\btc_analysis\pipeline.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+D:\Bizmetric\F.S.D\Orion Market AI\backend\btc_analysis\modeling.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+D:\Bizmetric\F.S.D\Orion Market AI\backend\btc_analysis\pipeline.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Failed to get ticker 'BTC-USD' reason: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 87 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+btc_analysis_data failed (source=live): Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 61 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Provider failure from _finnhub_price for AAPL: finnhub request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/quote?symbol=AAPL&token=your_finnhub_key_here (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from _alpha_price for AAPL: alpha_vantage request failed: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=your_alpha_vantage_key_here (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Unexpected provider failure from _yfinance_price for AAPL
+Traceback (most recent call last):
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3251, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3596, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py", line 415, in get_price_data
+    payload = provider(symbol.upper())
+  File "D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py", line 358, in _yfinance_price
+    info = ticker.info
+           ^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\base.py", line 282, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\scrapers\quote.py", line 503, in info
+    self._fetch_info()
+    ~~~~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\scrapers\quote.py", line 612, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\scrapers\quote.py", line 588, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 462, in get_raw_json
+    response = self.get(url, params=params, timeout=timeout)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 375, in get
+    response = self._make_request(url, request_method = self._session.get, params=params, timeout=timeout)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 409, in _make_request
+    crumb, strategy = self._get_cookie_and_crumb()
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 365, in _get_cookie_and_crumb
+    crumb = self._get_cookie_and_crumb_basic(timeout)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 244, in _get_cookie_and_crumb_basic
+    if not self._get_cookie_basic(timeout):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 192, in _get_cookie_basic
+    elif self._load_cookie_curlCffi():
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 168, in _load_cookie_curlCffi
+    cookie_dict = cache.get_cookie_cache().lookup('curlCffi')
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\cache.py", line 371, in lookup
+    self.initialise()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\cache.py", line 354, in initialise
+    db.connect()
+    ~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3250, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3076, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 162, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3251, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3596, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+Provider failure from <lambda> for AAPL history: finnhub request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/candle?symbol=AAPL&resolution=D&from=1771752566&to=1774344566&token=your_finnhub_key_here (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from <lambda> for AAPL history: alpha_vantage request failed: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=AAPL&outputsize=full&apikey=your_alpha_vantage_key_here (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Unexpected provider failure from <lambda> for AAPL history
+Traceback (most recent call last):
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3251, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3596, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py", line 452, in get_history_data
+    history = provider(symbol.upper())
+  File "D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py", line 445, in <lambda>
+    lambda current_symbol: _yfinance_history(current_symbol, period=period, interval=interval),
+                           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py", line 384, in _yfinance_history
+    hist = ticker.history(period=period, interval=interval)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\base.py", line 129, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\base.py", line 135, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+                                                                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\base.py", line 142, in _get_ticker_tz
+    tz = c.lookup(self.ticker)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\cache.py", line 165, in lookup
+    self.initialise()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\cache.py", line 148, in initialise
+    db.connect()
+    ~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3250, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3076, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 162, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3251, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\peewee.py", line 3596, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+FinBERT model loaded successfully
+Provider failure from finnhub for AAPL: finnhub request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/quote?symbol=AAPL&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from alpha_vantage for AAPL: alpha_vantage request failed: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=2RZ8P2WRJAVXETNZ (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Failed to get ticker 'AAPL' reason: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 9 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Provider failure from yfinance for AAPL: yfinance has no quote data for AAPL
+Provider failure from finnhub for AAPL history: finnhub request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/candle?symbol=AAPL&resolution=D&from=1771752663&to=1774344663&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from alpha_vantage for AAPL history: alpha_vantage request failed: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=AAPL&outputsize=full&apikey=2RZ8P2WRJAVXETNZ (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Failed to get ticker 'AAPL' reason: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 0 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Unexpected provider failure from yfinance for AAPL history
+Traceback (most recent call last):
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\curl_cffi\requests\session.py", line 640, in request
+    c.perform()
+    ~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\curl_cffi\curl.py", line 365, in perform
+    self._check_error(ret, "perform")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\curl_cffi\curl.py", line 187, in _check_error
+    raise error
+curl_cffi.curl.CurlError: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 0 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py", line 481, in get_history_data
+    history = provider(symbol.upper())
+  File "D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py", line 472, in <lambda>
+    lambda current_symbol: _yfinance_history(
+                           ~~~~~~~~~~~~~~~~~^
+        current_symbol, period=period, interval=interval
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py", line 398, in _yfinance_history
+    hist = ticker.history(period=period, interval=interval)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\base.py", line 129, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\base.py", line 135, in _lazy_load_price_history
+    self._price_history = PriceHistory(self._data, self.ticker, self._get_ticker_tz(timeout=10))
+                                                                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\base.py", line 160, in _get_ticker_tz
+    if k in self.info:
+            ^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\ticker.py", line 159, in info
+    return self.get_info()
+           ~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\base.py", line 282, in get_info
+    data = self._quote.info
+           ^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\scrapers\quote.py", line 503, in info
+    self._fetch_info()
+    ~~~~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\scrapers\quote.py", line 612, in _fetch_info
+    result = self._fetch(modules=modules)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\scrapers\quote.py", line 588, in _fetch
+    result = self._data.get_raw_json(_QUOTE_SUMMARY_URL_ + f"/{self._symbol}", params=params_dict)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 462, in get_raw_json
+    response = self.get(url, params=params, timeout=timeout)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 375, in get
+    response = self._make_request(url, request_method = self._session.get, params=params, timeout=timeout)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 409, in _make_request
+    crumb, strategy = self._get_cookie_and_crumb()
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 365, in _get_cookie_and_crumb
+    crumb = self._get_cookie_and_crumb_basic(timeout)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 244, in _get_cookie_and_crumb_basic
+    if not self._get_cookie_basic(timeout):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\yfinance\data.py", line 199, in _get_cookie_basic
+    self._session.get(
+    ~~~~~~~~~~~~~~~~~^
+        url='https://fc.yahoo.com',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+        allow_redirects=True)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\curl_cffi\requests\session.py", line 661, in get
+    return self.request(method="GET", url=url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bizmetric\F.S.D\Orion Market AI\venv\Lib\site-packages\curl_cffi\requests\session.py", line 647, in request
+    raise error(str(e), e.code, rsp) from e
+curl_cffi.requests.exceptions.ConnectionError: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 0 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py changed, reloading.
+Watching for file changes with StatReloader
+Provider failure from finnhub for AAPL: finnhub request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/quote?symbol=AAPL&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from alpha_vantage for AAPL: alpha_vantage request failed: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=2RZ8P2WRJAVXETNZ (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Failed to get ticker 'AAPL' reason: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 50 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Provider failure from yfinance for AAPL: yfinance has no quote data for AAPL
+Provider failure from finnhub for AAPL history: finnhub request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/candle?symbol=AAPL&resolution=D&from=1771752700&to=1774344700&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from alpha_vantage for AAPL history: alpha_vantage request failed: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=AAPL&outputsize=full&apikey=2RZ8P2WRJAVXETNZ (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Failed to get ticker 'AAPL' reason: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 38 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Provider failure from yfinance for AAPL history: yfinance history fetch failed for AAPL: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 27 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+FinBERT model loaded successfully
+Provider failure from finnhub for AAPL: finnhub request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/quote?symbol=AAPL&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from alpha_vantage for AAPL: alpha_vantage request failed: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=2RZ8P2WRJAVXETNZ (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Failed to get ticker 'AAPL' reason: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 44 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Provider failure from yfinance for AAPL: yfinance has no quote data for AAPL
+Service Unavailable: /api/stocks/AAPL/price/
+Provider failure from finnhub for AAPL history: finnhub request failed: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/stock/candle?symbol=AAPL&resolution=D&from=1771752722&to=1774344722&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from alpha_vantage for AAPL history: alpha_vantage request failed: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=AAPL&outputsize=full&apikey=2RZ8P2WRJAVXETNZ (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Failed to get ticker 'AAPL' reason: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 24 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Provider failure from yfinance for AAPL history: yfinance history fetch failed for AAPL: Failed to perform, curl: (7) Failed to connect to fc.yahoo.com port 443 after 33 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Service Unavailable: /api/stocks/AAPL/history/
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Provider failure from yfinance for AAPL history: yfinance history fetch failed for AAPL: Too Many Requests. Rate limited. Try after a while.
+Service Unavailable: /api/stocks/AAPL/history/
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for TSLA: finnhub HTTP 401
+Provider failure from finnhub for TSLA history: finnhub HTTP 401
+Provider failure from finnhub for MSFT: finnhub HTTP 401
+Provider failure from finnhub for MSFT history: finnhub HTTP 401
+Rate limit from alpha_vantage for TSLA history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for GOOGL: finnhub HTTP 401
+Rate limit from alpha_vantage for MSFT: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for GOOGL history: finnhub HTTP 401
+Rate limit from alpha_vantage for TSLA: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for MSFT history: Alpha Vantage rate limit exceeded
+Provider failure from alpha_vantage for GOOGL history: Alpha Vantage has no historical data for GOOGL
+Rate limit from alpha_vantage for GOOGL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for META: finnhub HTTP 401
+Provider failure from finnhub for META history: finnhub HTTP 401
+Rate limit from alpha_vantage for META history: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for META: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for RELIANCE.NS: finnhub HTTP 401
+Provider failure from finnhub for RELIANCE.NS history: finnhub HTTP 401
+Provider failure from alpha_vantage for RELIANCE.NS: Alpha Vantage has no quote data for RELIANCE.NS
+Rate limit from alpha_vantage for RELIANCE.NS history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for TATACONSUM.NS history: finnhub HTTP 401
+Provider failure from finnhub for TATACONSUM.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for TATACONSUM.NS history: Alpha Vantage has no historical data for TATACONSUM.NS
+Rate limit from alpha_vantage for TATACONSUM.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for COST: finnhub HTTP 401
+Rate limit from alpha_vantage for COST: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+ChromaDB collection ready
+Groq client initialized successfully
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+D:\Bizmetric\F.S.D\Orion Market AI\backend\news\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Alpha sentiment fetch error for AAPL: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=NEWS_SENTIMENT&tickers=AAPL&sort=LATEST&limit=12&apikey=2RZ8P2WRJAVXETNZ (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Finnhub company news fetch error for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2026-02-22&to=2026-03-24&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Finnhub sentiment fetch error for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/news-sentiment?symbol=AAPL&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+News fetch error: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: /v2/everything?q=%22AAPL%22%20stock%20OR%20%22AAPL%22%20shares%20OR%20%22AAPL%22%20earnings%20OR%20%22AAPL%22%20market&language=en&sortBy=publishedAt&pageSize=10&apiKey=42c5c44fa1aa4eca93e6c85f9fc78e81 (Caused by NewConnectionError("HTTPSConnection(host='newsapi.org', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from finnhub for COST: finnhub HTTP 401
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for COST: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\market_data_service.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\news\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for POWERINDIA.NS: finnhub HTTP 401
+Provider failure from finnhub for POWERINDIA.NS history: finnhub HTTP 401
+Provider failure from alpha_vantage for POWERINDIA.NS: Alpha Vantage has no quote data for POWERINDIA.NS
+Rate limit from alpha_vantage for POWERINDIA.NS history: Alpha Vantage rate limit exceeded
+D:\Bizmetric\F.S.D\Orion Market AI\backend\stocks\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Provider failure from finnhub for COST: finnhub HTTP 401
+Rate limit from alpha_vantage for COST: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+D:\Bizmetric\F.S.D\Orion Market AI\backend\news\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+FinBERT model loaded successfully
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+get_stock_news error: name 'normalize_sentiment_label' is not defined
+Internal Server Error: /api/news/AAPL/
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+get_stock_news error: name 'normalize_sentiment_label' is not defined
+Internal Server Error: /api/news/AAPL/
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Alpha sentiment fetch error for AAPL: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=NEWS_SENTIMENT&tickers=AAPL&sort=LATEST&limit=12&apikey=2RZ8P2WRJAVXETNZ (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Finnhub company news fetch error for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2026-02-22&to=2026-03-24&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Finnhub sentiment fetch error for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/news-sentiment?symbol=AAPL&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+News fetch error: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: /v2/everything?q=%22AAPL%22%20stock%20OR%20%22AAPL%22%20shares%20OR%20%22AAPL%22%20earnings%20OR%20%22AAPL%22%20market&language=en&sortBy=publishedAt&pageSize=10&apiKey=42c5c44fa1aa4eca93e6c85f9fc78e81 (Caused by NewConnectionError("HTTPSConnection(host='newsapi.org', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+get_stock_news error: name 'normalize_sentiment_label' is not defined
+Internal Server Error: /api/news/AAPL/
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+D:\Bizmetric\F.S.D\Orion Market AI\backend\news\views.py changed, reloading.
+Watching for file changes with StatReloader
+Alpha sentiment fetch error for AAPL: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=NEWS_SENTIMENT&tickers=AAPL&sort=LATEST&limit=12&apikey=2RZ8P2WRJAVXETNZ (Caused by NewConnectionError("HTTPSConnection(host='www.alphavantage.co', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Finnhub company news fetch error for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=AAPL&from=2026-02-22&to=2026-03-24&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+Finnhub sentiment fetch error for AAPL: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/news-sentiment?symbol=AAPL&token=d715cppr01ql6rg1e79gd715cppr01ql6rg1e7a0 (Caused by NewConnectionError("HTTPSConnection(host='finnhub.io', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+News fetch error: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: /v2/everything?q=%22AAPL%22%20stock%20OR%20%22AAPL%22%20shares%20OR%20%22AAPL%22%20earnings%20OR%20%22AAPL%22%20market&language=en&sortBy=publishedAt&pageSize=10&apiKey=42c5c44fa1aa4eca93e6c85f9fc78e81 (Caused by NewConnectionError("HTTPSConnection(host='newsapi.org', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\news\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for 360ONE.NS history: finnhub HTTP 401
+Provider failure from finnhub for 360ONE.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for 360ONE.NS: Alpha Vantage has no quote data for 360ONE.NS
+Rate limit from alpha_vantage for 360ONE.NS history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ABBV: finnhub HTTP 401
+Provider failure from finnhub for ABBV history: finnhub HTTP 401
+Rate limit from alpha_vantage for ABBV history: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABBV: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ABB.NS history: finnhub HTTP 401
+Provider failure from finnhub for ABB.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for ABB.NS history: Alpha Vantage has no historical data for ABB.NS
+Rate limit from alpha_vantage for ABB.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for 360ONE.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIENT.NS: finnhub HTTP 401
+Provider failure from finnhub for ABB.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIENSOL.NS: finnhub HTTP 401
+Provider failure from finnhub for ACC.NS: finnhub HTTP 401
+Provider failure from finnhub for ABCAPITAL.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for ADANIENT.NS: Alpha Vantage has no quote data for ADANIENT.NS
+Rate limit from alpha_vantage for 360ONE.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIENSOL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABB.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABCAPITAL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ACC.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ADANIPOWER.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIPORTS.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIGREEN.NS: finnhub HTTP 401
+Provider failure from finnhub for ALKEM.NS: finnhub HTTP 401
+Provider failure from finnhub for APLAPOLLO.NS: finnhub HTTP 401
+Provider failure from finnhub for AMBUJACEM.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for ADANIPOWER.NS: Alpha Vantage has no quote data for ADANIPOWER.NS
+Rate limit from alpha_vantage for ADANIPORTS.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APLAPOLLO.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIGREEN.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMBUJACEM.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ALKEM.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ASIANPAINT.NS: finnhub HTTP 401
+Provider failure from finnhub for APOLLOHOSP.NS: finnhub HTTP 401
+Provider failure from finnhub for ASHOKLEY.NS: finnhub HTTP 401
+Provider failure from finnhub for ATGL.NS: finnhub HTTP 401
+Provider failure from finnhub for ASTRAL.NS: finnhub HTTP 401
+Provider failure from finnhub for AUBANK.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for ATGL.NS: Alpha Vantage has no quote data for ATGL.NS
+Rate limit from alpha_vantage for ASIANPAINT.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ASHOKLEY.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ASTRAL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AUBANK.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APOLLOHOSP.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AUROPHARMA.NS: finnhub HTTP 401
+Provider failure from finnhub for AXISBANK.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJ-AUTO.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJFINSV.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJHFL.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for AUROPHARMA.NS: Alpha Vantage has no quote data for AUROPHARMA.NS
+Provider failure from finnhub for BAJAJHLDNG.NS: finnhub HTTP 401
+Rate limit from alpha_vantage for AXISBANK.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJ-AUTO.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJFINSV.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJHFL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJHLDNG.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ADBE: finnhub HTTP 401
+Provider failure from finnhub for ADI: finnhub HTTP 401
+Provider failure from finnhub for ABNB: finnhub HTTP 401
+Provider failure from finnhub for ABBV: finnhub HTTP 401
+Provider failure from finnhub for ABT: finnhub HTTP 401
+Provider failure from finnhub for ACN: finnhub HTTP 401
+Rate limit from alpha_vantage for ADI: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABNB: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABBV: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABT: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ACN: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADBE: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ADP: finnhub HTTP 401
+Provider failure from finnhub for AEP: finnhub HTTP 401
+Provider failure from finnhub for AFL: finnhub HTTP 401
+Provider failure from finnhub for ALL: finnhub HTTP 401
+Provider failure from finnhub for AJG: finnhub HTTP 401
+Provider failure from finnhub for AMD: finnhub HTTP 401
+Rate limit from alpha_vantage for AEP: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AFL: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ALL: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AJG: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMD: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADP: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AMAT: finnhub HTTP 401
+Provider failure from finnhub for AMGN: finnhub HTTP 401
+Provider failure from finnhub for AMT: finnhub HTTP 401
+Provider failure from finnhub for AMZN: finnhub HTTP 401
+Provider failure from finnhub for ANET: finnhub HTTP 401
+Provider failure from finnhub for AON: finnhub HTTP 401
+Rate limit from alpha_vantage for AMAT: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMGN: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMT: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMZN: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AON: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ANET: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for APO: finnhub HTTP 401
+Provider failure from finnhub for APD: finnhub HTTP 401
+Provider failure from finnhub for APP: finnhub HTTP 401
+Provider failure from finnhub for APH: finnhub HTTP 401
+Provider failure from finnhub for AVGO: finnhub HTTP 401
+Rate limit from alpha_vantage for APO: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APD: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APH: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APP: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AVGO: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for ABBV history: finnhub HTTP 401
+Provider failure from finnhub for ABBV: finnhub HTTP 401
+Provider failure from alpha_vantage for ABBV history: Alpha Vantage has no historical data for ABBV
+Rate limit from alpha_vantage for ABBV: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for 360ONE.NS: finnhub HTTP 401
+Provider failure from finnhub for 360ONE.NS history: finnhub HTTP 401
+Provider failure from alpha_vantage for 360ONE.NS: Alpha Vantage has no quote data for 360ONE.NS
+Rate limit from alpha_vantage for 360ONE.NS history: Alpha Vantage rate limit exceeded

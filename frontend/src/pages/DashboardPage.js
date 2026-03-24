@@ -1,474 +1,454 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
-import { stocksAPI, newsAPI } from '../services/api';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import {
-  LineChart, Line, XAxis, YAxis, CartesianGrid,
-  Tooltip, ResponsiveContainer,
+  Area,
+  CartesianGrid,
+  Line,
+  LineChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
 } from 'recharts';
 import toast from 'react-hot-toast';
+import AppShell from '../components/AppShell';
+import CandlestickChart from '../components/CandlestickChart';
+import FloatingChatbot from '../components/FloatingChatbot';
+import MetricCard from '../components/MetricCard';
 import SearchBar from '../components/SearchBar';
+import SentimentCard from '../components/SentimentCard';
+import StockSelector from '../components/StockSelector';
+import { useAuth } from '../context/AuthContext';
+import { newsAPI, stocksAPI } from '../services/api';
+import './dashboard-page.css';
 
-const TRACKED_STOCKS = ['AAPL', 'TSLA', 'GOOGL', 'MSFT', 'RELIANCE.NS', 'TCS.NS'];
+const parseSymbolFromSearch = (search) => {
+  const query = new URLSearchParams(search);
+  return query.get('stock');
+};
+
+const STOCK_SWITCH_DEBOUNCE_MS = 180;
+const TOAST_THROTTLE_MS = 1200;
+const PERIOD_OPTIONS = [
+  { key: '1mo', label: '1 Month' },
+  { key: '3mo', label: '3 Months' },
+  { key: '6mo', label: '6 Months' },
+  { key: '1y', label: '1 Year' },
+];
+
+const formatChartDateTick = (value) => {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return String(value || '').slice(5);
+  }
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+};
+
+const formatTooltipDate = (value) => {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return String(value || '');
+  }
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+};
+
+const formatPrice = (value, digits = 2) => {
+  const numeric = Number(value);
+  if (!Number.isFinite(numeric)) {
+    return '--';
+  }
+  return `$${numeric.toLocaleString('en-US', { maximumFractionDigits: digits })}`;
+};
 
 const DashboardPage = () => {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
   const [selectedStock, setSelectedStock] = useState('AAPL');
   const [stockPrice, setStockPrice] = useState(null);
+  const [linePeriod, setLinePeriod] = useState('1y');
   const [stockHistory, setStockHistory] = useState([]);
   const [news, setNews] = useState([]);
+  const [newsLoading, setNewsLoading] = useState(false);
   const [loading, setLoading] = useState(false);
+  const stockPriceRequestRef = useRef(0);
+  const lineChartRequestRef = useRef(0);
+  const newsRequestRef = useRef(0);
+  const stockSwitchTimeoutRef = useRef(null);
+  const lastToastAtRef = useRef(0);
+
+  const notifyRequestIssue = (error, fallbackMessage) => {
+    const now = Date.now();
+    if (now - lastToastAtRef.current < TOAST_THROTTLE_MS) {
+      return;
+    }
+
+    const statusCode = error?.response?.status;
+    if (statusCode === 429) {
+      toast.error('API rate limit reached. Please wait and retry.');
+    } else {
+      toast.error(fallbackMessage);
+    }
+    lastToastAtRef.current = now;
+  };
+
+  const queueStockSelection = (symbol) => {
+    const normalized = String(symbol || '').toUpperCase();
+    if (!normalized) {
+      return;
+    }
+
+    if (stockSwitchTimeoutRef.current) {
+      clearTimeout(stockSwitchTimeoutRef.current);
+    }
+
+    stockSwitchTimeoutRef.current = setTimeout(() => {
+      setSelectedStock((previous) => (previous === normalized ? previous : normalized));
+    }, STOCK_SWITCH_DEBOUNCE_MS);
+  };
 
   useEffect(() => {
-    fetchStockData(selectedStock);
-    fetchNews();
+    const querySymbol = parseSymbolFromSearch(location.search);
+    if (querySymbol && querySymbol.toUpperCase() !== selectedStock) {
+      setSelectedStock(querySymbol.toUpperCase());
+    }
+  }, [location.search, selectedStock]);
+
+  useEffect(() => {
+    return () => {
+      if (stockSwitchTimeoutRef.current) {
+        clearTimeout(stockSwitchTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    const requestId = stockPriceRequestRef.current + 1;
+    stockPriceRequestRef.current = requestId;
+
+    const loadPrice = async () => {
+      try {
+        const priceResponse = await stocksAPI.getPrice(selectedStock);
+        if (requestId !== stockPriceRequestRef.current) {
+          return;
+        }
+        setStockPrice(priceResponse.data || null);
+      } catch (error) {
+        if (requestId !== stockPriceRequestRef.current) {
+          return;
+        }
+        setStockPrice(null);
+        notifyRequestIssue(error, 'Failed to fetch stock price');
+      }
+    };
+
+    loadPrice();
   }, [selectedStock]);
 
-  const fetchStockData = async (symbol) => {
-    setLoading(true);
-    try {
-      const [priceRes, historyRes] = await Promise.all([
-        stocksAPI.getPrice(symbol),
-        stocksAPI.getHistory(symbol, '1mo'),
-      ]);
-      setStockPrice(priceRes.data);
-      setStockHistory(historyRes.data.history || []);
-    } catch (error) {
-      toast.error('Failed to fetch stock data');
-    }
-    setLoading(false);
-  };
+  useEffect(() => {
+    const requestId = lineChartRequestRef.current + 1;
+    lineChartRequestRef.current = requestId;
 
-  const fetchNews = async () => {
-    try {
-      const res = await newsAPI.getAll();
-      setNews(res.data.articles?.slice(0, 8) || []);
-    } catch (error) {
-      console.log('News fetch failed:', error);
-    }
-  };
+    const timeoutId = setTimeout(async () => {
+      setLoading(true);
+      setStockHistory([]);
+      try {
+        const response = await stocksAPI.getHistory(selectedStock, linePeriod);
+        if (requestId !== lineChartRequestRef.current) {
+          return;
+        }
+        setStockHistory(response.data.history || []);
+      } catch (error) {
+        if (requestId !== lineChartRequestRef.current) {
+          return;
+        }
+        setStockHistory([]);
+        notifyRequestIssue(error, 'Failed to fetch line chart data');
+      }
+      if (requestId === lineChartRequestRef.current) {
+        setLoading(false);
+      }
+    }, 120);
+
+    return () => clearTimeout(timeoutId);
+  }, [selectedStock, linePeriod]);
+
+  useEffect(() => {
+    const requestId = newsRequestRef.current + 1;
+    newsRequestRef.current = requestId;
+
+    const timeoutId = setTimeout(async () => {
+      setNewsLoading(true);
+      try {
+        const response = await newsAPI.getStockNews(selectedStock);
+        if (requestId !== newsRequestRef.current) {
+          return;
+        }
+        setNews(response.data.articles?.slice(0, 8) || []);
+      } catch (error) {
+        if (requestId !== newsRequestRef.current) {
+          return;
+        }
+        setNews([]);
+      }
+      if (requestId === newsRequestRef.current) {
+        setNewsLoading(false);
+      }
+    }, 140);
+
+    return () => clearTimeout(timeoutId);
+  }, [selectedStock]);
 
   const handleLogout = async () => {
     await logout();
     navigate('/login');
   };
 
-  const getPriceChange = () => {
-    if (!stockPrice) return { change: 0, percent: 0, positive: true };
-    const change = (stockPrice.current_price - stockPrice.previous_close).toFixed(2);
-    const percent = ((change / stockPrice.previous_close) * 100).toFixed(2);
-    return { change, percent, positive: change >= 0 };
-  };
+  const priceChange = useMemo(() => {
+    if (!stockPrice?.current_price || !stockPrice?.previous_close) {
+      return { change: 0, percent: 0, positive: true };
+    }
 
-  const priceChange = getPriceChange();
+    const change = Number((stockPrice.current_price - stockPrice.previous_close).toFixed(2));
+    const percent = Number(((change / stockPrice.previous_close) * 100).toFixed(2));
+    return { change, percent, positive: change >= 0 };
+  }, [stockPrice]);
+
+  const portfolioValue = useMemo(() => {
+    if (!stockPrice?.current_price) {
+      return '--';
+    }
+    return `$${(stockPrice.current_price * 128).toLocaleString('en-US', {
+      maximumFractionDigits: 2,
+    })}`;
+  }, [stockPrice]);
+
+  const marketIndicators = useMemo(
+    () => [
+      {
+        label: selectedStock,
+        value: `${priceChange.positive ? '+' : ''}${priceChange.percent}%`,
+        tone: priceChange.positive ? 'positive' : 'negative',
+      },
+      { label: 'S&P 500', value: '+0.84%', tone: 'positive' },
+      { label: 'NIFTY 50', value: '-0.12%', tone: 'negative' },
+    ],
+    [selectedStock, priceChange]
+  );
+
+  const lineChartData = useMemo(
+    () =>
+      (stockHistory || [])
+        .map((item) => ({
+          ...item,
+          close: Number(item.close),
+        }))
+        .filter((item) => item.date && Number.isFinite(item.close)),
+    [stockHistory]
+  );
+
+  const lineChartDomain = useMemo(() => {
+    if (!lineChartData.length) {
+      return ['auto', 'auto'];
+    }
+    const values = lineChartData.map((item) => item.close);
+    const minValue = Math.min(...values);
+    const maxValue = Math.max(...values);
+    const spread = maxValue - minValue;
+    const padding = Math.max(spread * 0.12, maxValue * 0.01, 0.5);
+    return [Number((minValue - padding).toFixed(2)), Number((maxValue + padding).toFixed(2))];
+  }, [lineChartData]);
+
+  const lineGradientId = useMemo(
+    () => `lineGradient-${String(selectedStock || 'stock').replace(/[^a-zA-Z0-9]/g, '')}`,
+    [selectedStock]
+  );
 
   return (
-    <div style={styles.container}>
-      {/* Sidebar */}
-      <div style={styles.sidebar}>
-        <div style={styles.sidebarLogo}>
-          <span>📈</span>
-          <span style={styles.sidebarLogoText}>Orion</span>
-        </div>
-        <nav style={styles.nav}>
-          {[
-            { icon: '📊', label: 'Dashboard', path: '/dashboard' },
-            { icon: '⭐', label: 'Watchlist', path: '/watchlist' },
-            { icon: '🤖', label: 'AI Chatbot', path: '/chatbot' },
-          ].map((item) => (
-            <div
-              key={item.label}
-              style={{
-                ...styles.navItem,
-                ...(item.path === '/dashboard' ? styles.activeNavItem : {}),
-              }}
-              onClick={() => navigate(item.path)}
-            >
-              <span>{item.icon}</span>
-              <span>{item.label}</span>
-            </div>
-          ))}
-        </nav>
-        <div style={styles.sidebarBottom}>
-          <div style={styles.userInfo}>
-            <div style={styles.avatar}>
-              {user?.username?.[0]?.toUpperCase() || 'U'}
-            </div>
-            <span style={styles.username}>{user?.username || 'Guest'}</span>
-          </div>
-          <button onClick={handleLogout} style={styles.logoutBtn}>
-            Logout
-          </button>
-        </div>
+    <AppShell
+      title="Dashboard"
+      subtitle={`Tracking ${selectedStock}`}
+      activePath="/dashboard"
+      user={user}
+      onLogout={handleLogout}
+      indicators={marketIndicators}
+      portfolioValue={portfolioValue}
+      headerExtra={
+        <SearchBar
+          onSelectStock={(stock) => queueStockSelection(stock.symbol)}
+          placeholder="Search symbols, sectors, markets"
+        />
+      }
+    >
+      <StockSelector
+        selectedStock={selectedStock}
+        onSelectStock={queueStockSelection}
+      />
+
+      <div className="kpi-grid">
+        <MetricCard
+          label="Current Price"
+          value={stockPrice?.current_price ? `$${stockPrice.current_price.toFixed(2)}` : '--'}
+          subtitle={selectedStock}
+        />
+        <MetricCard
+          label="Price Change"
+          value={`${priceChange.positive ? '+' : ''}${priceChange.change}`}
+          tone={priceChange.positive ? 'positive' : 'negative'}
+          subtitle="Daily movement"
+        />
+        <MetricCard
+          label="Percent Change"
+          value={`${priceChange.positive ? '+' : ''}${priceChange.percent}%`}
+          tone={priceChange.positive ? 'positive' : 'negative'}
+          subtitle="vs previous close"
+        />
+        <MetricCard
+          label="Volume"
+          value={stockPrice?.volume ? `${(stockPrice.volume / 1000000).toFixed(1)}M` : '--'}
+          tone="neutral"
+          subtitle="Market participation"
+        />
       </div>
 
-      {/* Main Content */}
-      <div style={styles.main}>
-        {/* Header */}
-        <div style={styles.header}>
-          <div style={styles.headerTop}>
-            <h2 style={styles.headerTitle}>Market Dashboard</h2>
-            <SearchBar onSelectStock={(stock) => setSelectedStock(stock.symbol)} />
-          </div>
-          <div style={styles.stockTabs}>
-            {TRACKED_STOCKS.map((symbol) => (
+      <div className="dashboard-grid">
+        <section className="dashboard-card glass-card">
+          <h3>{selectedStock} Price Trend</h3>
+          <p className="dashboard-card-subtitle">
+            {PERIOD_OPTIONS.find((item) => item.key === linePeriod)?.label} line chart
+          </p>
+          <div className="line-filters">
+            {PERIOD_OPTIONS.map((item) => (
               <button
-                key={symbol}
-                style={{
-                  ...styles.stockTab,
-                  ...(selectedStock === symbol ? styles.activeStockTab : {}),
-                }}
-                onClick={() => setSelectedStock(symbol)}
+                key={item.key}
+                type="button"
+                className={`line-filter ${linePeriod === item.key ? 'active' : ''}`}
+                onClick={() => setLinePeriod(item.key)}
               >
-                {symbol}
+                {item.label}
               </button>
             ))}
           </div>
-        </div>
-
-        {/* Stats Cards */}
-        <div style={styles.statsGrid}>
-          <div style={styles.statCard}>
-            <p style={styles.statLabel}>Current Price</p>
-            <p style={styles.statValue}>
-              ${stockPrice?.current_price?.toFixed(2) || '---'}
-            </p>
-          </div>
-          <div style={styles.statCard}>
-            <p style={styles.statLabel}>Change</p>
-            <p style={{ ...styles.statValue, color: priceChange.positive ? '#00d4aa' : '#ff4d4d' }}>
-              {priceChange.positive ? '+' : ''}{priceChange.change}
-            </p>
-          </div>
-          <div style={styles.statCard}>
-            <p style={styles.statLabel}>Change %</p>
-            <p style={{ ...styles.statValue, color: priceChange.positive ? '#00d4aa' : '#ff4d4d' }}>
-              {priceChange.positive ? '+' : ''}{priceChange.percent}%
-            </p>
-          </div>
-          <div style={styles.statCard}>
-            <p style={styles.statLabel}>Volume</p>
-            <p style={styles.statValue}>
-              {stockPrice?.volume ? (stockPrice.volume / 1000000).toFixed(1) + 'M' : '---'}
-            </p>
-          </div>
-        </div>
-
-        {/* Chart + News */}
-        <div style={styles.contentGrid}>
-          {/* Price Chart */}
-          <div style={styles.chartCard}>
-            <h3 style={styles.cardTitle}>
-              {selectedStock} — Price History (1 Month)
-            </h3>
+          <div className="chart-wrap">
             {loading ? (
-              <div style={styles.loading}>Loading chart...</div>
+              <p className="dashboard-empty">Loading chart...</p>
+            ) : lineChartData.length === 0 ? (
+              <p className="dashboard-empty">No chart data available for this timeframe.</p>
             ) : (
-              <ResponsiveContainer width="100%" height={250}>
-                <LineChart data={stockHistory}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
+              <ResponsiveContainer width="100%" height={280}>
+                <LineChart data={lineChartData}>
+                  <defs>
+                    <linearGradient id={lineGradientId} x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stopColor="rgba(90, 139, 255, 0.42)" />
+                      <stop offset="78%" stopColor="rgba(90, 139, 255, 0.06)" />
+                      <stop offset="100%" stopColor="rgba(90, 139, 255, 0.01)" />
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid
+                    strokeDasharray="4 4"
+                    stroke="rgba(136, 168, 209, 0.18)"
+                    vertical={false}
+                  />
                   <XAxis
                     dataKey="date"
-                    tick={{ fill: 'rgba(255,255,255,0.4)', fontSize: 11 }}
-                    tickFormatter={(v) => v.slice(5)}
+                    tick={{ fill: '#9fb3d2', fontSize: 11 }}
+                    tickLine={false}
+                    axisLine={false}
+                    minTickGap={24}
+                    tickFormatter={formatChartDateTick}
                   />
                   <YAxis
-                    tick={{ fill: 'rgba(255,255,255,0.4)', fontSize: 11 }}
-                    domain={['auto', 'auto']}
+                    tick={{ fill: '#9fb3d2', fontSize: 11 }}
+                    tickLine={false}
+                    axisLine={false}
+                    domain={lineChartDomain}
+                    width={70}
+                    tickFormatter={(value) => formatPrice(value, 0)}
                   />
                   <Tooltip
+                    formatter={(value) => [formatPrice(value), 'Close']}
+                    labelFormatter={formatTooltipDate}
+                    cursor={{ stroke: 'rgba(90, 139, 255, 0.6)', strokeDasharray: '3 3' }}
                     contentStyle={{
-                      background: '#1a1a2e',
-                      border: '1px solid rgba(255,255,255,0.1)',
-                      borderRadius: '8px',
-                      color: '#fff',
+                      borderRadius: '10px',
+                      border: '1px solid rgba(136, 168, 209, 0.34)',
+                      background: 'rgba(11, 19, 34, 0.95)',
                     }}
                   />
-                  <Line
-                    type="monotone"
+                  <Area
+                    type="monotoneX"
                     dataKey="close"
-                    stroke="#6c63ff"
-                    strokeWidth={2}
+                    stroke="none"
+                    fill={`url(#${lineGradientId})`}
+                  />
+                  <Line
+                    type="monotoneX"
+                    dataKey="close"
+                    stroke="#5a8bff"
+                    strokeWidth={3}
                     dot={false}
+                    activeDot={{
+                      r: 6,
+                      stroke: '#0f1627',
+                      strokeWidth: 2,
+                      fill: '#f5c542',
+                    }}
+                    isAnimationActive
                   />
                 </LineChart>
               </ResponsiveContainer>
             )}
           </div>
+        </section>
 
-          {/* News Feed */}
-          <div style={styles.newsCard}>
-            <h3 style={styles.cardTitle}>📰 Stock Market News</h3>
-            <div style={styles.newsList}>
-              {news.length === 0 ? (
-                <p style={styles.noData}>Add NEWS_API_KEY in .env to see live news</p>
-              ) : (
-                news.map((article, i) => (
-                  <div
-                    key={i}
-                    onClick={() => window.open(article.url, '_blank')}
-                    style={styles.newsItem}
-                  >
-                    <div style={styles.newsContent}>
-                      <p style={styles.newsTitle}>{article.title}</p>
-                      <div style={styles.newsMeta}>
-                        <span style={styles.newsSourceBadge}>{article.source}</span>
-                        <span style={styles.newsDate}>
-                          {article.published_at
-                            ? new Date(article.published_at).toLocaleDateString('en-US', {
-                              month: 'short',
-                              day: 'numeric',
-                            })
-                            : ''}
-                        </span>
-                      </div>
-                    </div>
-                    <span style={styles.newsArrow}>›</span>
-                  </div>
-                ))
-              )}
-            </div>
-          </div>
-        </div>
+        <section className="dashboard-card glass-card">
+          <CandlestickChart
+            symbol={selectedStock}
+            data={stockHistory}
+            loading={loading}
+            period={linePeriod}
+            onPeriodChange={setLinePeriod}
+          />
+        </section>
 
-        {/* Go to Chatbot */}
-        <div style={styles.chatbotBanner}>
-          <div>
-            <h3 style={styles.bannerTitle}>🤖 Ask Orion AI</h3>
-            <p style={styles.bannerText}>Get AI-powered insights on any stock</p>
-          </div>
-          <button style={styles.bannerBtn} onClick={() => navigate('/chatbot')}>
-            Open Chatbot →
-          </button>
-        </div>
+        <section className="dashboard-card glass-card news-card">
+          <h3>Market Headlines</h3>
+          <p className="dashboard-card-subtitle">
+            Dual API sentiment for {selectedStock} (Alpha Vantage + Finnhub)
+          </p>
+          {newsLoading ? (
+            <p className="dashboard-empty">Loading sentiment headlines...</p>
+          ) : news.length === 0 ? (
+            <p className="dashboard-empty">
+              No headlines available. Check API keys or try another symbol.
+            </p>
+          ) : (
+            <ul className="news-list">
+              {news.map((article, index) => (
+                <SentimentCard key={`${article.url}-${index}`} article={article} />
+              ))}
+            </ul>
+          )}
+        </section>
       </div>
-    </div>
-  );
-};
 
-const styles = {
-  container: {
-    display: 'flex',
-    minHeight: '100vh',
-    background: '#0a0a1a',
-    color: '#fff',
-  },
-  sidebar: {
-    width: '220px',
-    background: 'rgba(255,255,255,0.03)',
-    borderRight: '1px solid rgba(255,255,255,0.07)',
-    display: 'flex',
-    flexDirection: 'column',
-    padding: '24px 16px',
-    flexShrink: 0,
-  },
-  sidebarLogo: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '10px',
-    fontSize: '22px',
-    marginBottom: '32px',
-    paddingLeft: '8px',
-  },
-  sidebarLogoText: { fontWeight: '700', color: '#fff', fontSize: '20px' },
-  nav: { display: 'flex', flexDirection: 'column', gap: '4px' },
-  navItem: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '10px',
-    padding: '10px 12px',
-    borderRadius: '10px',
-    cursor: 'pointer',
-    color: 'rgba(255,255,255,0.6)',
-    fontSize: '14px',
-    transition: 'all 0.2s',
-  },
-  activeNavItem: {
-    background: 'rgba(108,99,255,0.15)',
-    color: '#6c63ff',
-  },
-  sidebarBottom: { marginTop: 'auto' },
-  userInfo: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '10px',
-    padding: '12px',
-    background: 'rgba(255,255,255,0.05)',
-    borderRadius: '10px',
-    marginBottom: '10px',
-  },
-  avatar: {
-    width: '32px',
-    height: '32px',
-    borderRadius: '50%',
-    background: '#6c63ff',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    fontWeight: '700',
-    fontSize: '14px',
-  },
-  username: { color: '#fff', fontSize: '13px', fontWeight: '500' },
-  logoutBtn: {
-    width: '100%',
-    padding: '9px',
-    background: 'rgba(255,77,77,0.15)',
-    border: '1px solid rgba(255,77,77,0.3)',
-    borderRadius: '8px',
-    color: '#ff4d4d',
-    cursor: 'pointer',
-    fontSize: '13px',
-  },
-  main: { flex: 1, padding: '24px', overflowY: 'auto' },
-  header: { marginBottom: '24px' },
-  headerTitle: { fontSize: '22px', fontWeight: '700', margin: '0' },
-  stockTabs: { display: 'flex', gap: '8px', flexWrap: 'wrap' },
-  stockTab: {
-    padding: '6px 14px',
-    background: 'rgba(255,255,255,0.05)',
-    border: '1px solid rgba(255,255,255,0.1)',
-    borderRadius: '20px',
-    color: 'rgba(255,255,255,0.6)',
-    cursor: 'pointer',
-    fontSize: '13px',
-  },
-   headerTop: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    gap: '20px',
-    marginBottom: '16px',
-  },
-  activeStockTab: {
-    background: '#6c63ff',
-    border: '1px solid #6c63ff',
-    color: '#fff',
-  },
-  statsGrid: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(4, 1fr)',
-    gap: '16px',
-    marginBottom: '24px',
-  },
-  statCard: {
-    background: 'rgba(255,255,255,0.04)',
-    border: '1px solid rgba(255,255,255,0.07)',
-    borderRadius: '12px',
-    padding: '20px',
-  },
-  statLabel: {
-    color: 'rgba(255,255,255,0.4)',
-    fontSize: '12px',
-    margin: '0 0 8px 0',
-  },
-  statValue: {
-    color: '#fff',
-    fontSize: '22px',
-    fontWeight: '700',
-    margin: 0,
-  },
-  contentGrid: {
-    display: 'grid',
-    gridTemplateColumns: '1.5fr 1fr',
-    gap: '16px',
-    marginBottom: '24px',
-  },
-  chartCard: {
-    background: 'rgba(255,255,255,0.04)',
-    border: '1px solid rgba(255,255,255,0.07)',
-    borderRadius: '12px',
-    padding: '20px',
-  },
-  newsCard: {
-    background: 'rgba(255,255,255,0.04)',
-    border: '1px solid rgba(255,255,255,0.07)',
-    borderRadius: '12px',
-    padding: '20px',
-    overflowY: 'auto',
-    maxHeight: '380px',
-  },
-  cardTitle: {
-    fontSize: '15px',
-    fontWeight: '600',
-    marginBottom: '16px',
-    color: 'rgba(255,255,255,0.9)',
-  },
-  loading: {
-    color: 'rgba(255,255,255,0.3)',
-    textAlign: 'center',
-    padding: '40px',
-  },
-  noData: {
-    color: 'rgba(255,255,255,0.3)',
-    fontSize: '13px',
-    textAlign: 'center',
-    padding: '20px',
-  },
-  newsList: { display: 'flex', flexDirection: 'column', gap: '8px' },
-  newsItem: {
-    display: 'flex',
-    alignItems: 'center',
-    padding: '10px 12px',
-    background: 'rgba(255,255,255,0.03)',
-    borderRadius: '8px',
-    cursor: 'pointer',
-    border: '1px solid rgba(255,255,255,0.05)',
-    transition: 'all 0.2s',
-  },
-  newsContent: { flex: 1 },
-  newsTitle: {
-    color: 'rgba(255,255,255,0.85)',
-    fontSize: '12px',
-    marginBottom: '6px',
-    margin: '0 0 6px 0',
-    lineHeight: '1.4',
-  },
-  newsMeta: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '8px',
-    marginTop: '6px',
-  },
-  newsSourceBadge: {
-    background: 'rgba(108,99,255,0.15)',
-    color: '#6c63ff',
-    padding: '2px 8px',
-    borderRadius: '4px',
-    fontSize: '10px',
-    fontWeight: '600',
-  },
-  newsDate: {
-    color: 'rgba(255,255,255,0.3)',
-    fontSize: '11px',
-  },
-  newsArrow: {
-    color: 'rgba(255,255,255,0.2)',
-    fontSize: '20px',
-    flexShrink: 0,
-    marginLeft: '8px',
-  },
-  chatbotBanner: {
-    background: 'linear-gradient(135deg, rgba(108,99,255,0.2), rgba(61,53,181,0.2))',
-    border: '1px solid rgba(108,99,255,0.3)',
-    borderRadius: '12px',
-    padding: '20px 24px',
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  bannerTitle: { fontSize: '16px', fontWeight: '600', margin: '0 0 4px 0' },
-  bannerText: { color: 'rgba(255,255,255,0.5)', fontSize: '13px', margin: 0 },
-  bannerBtn: {
-    padding: '10px 20px',
-    background: '#6c63ff',
-    border: 'none',
-    borderRadius: '8px',
-    color: '#fff',
-    cursor: 'pointer',
-    fontWeight: '600',
-    fontSize: '14px',
-  },
+      <div className="dashboard-banner">
+        <div>
+          <h3>Use Orion AI for deeper stock signals</h3>
+          <p>Combine sentiment, trend, and sector context from one place.</p>
+        </div>
+        <button type="button" onClick={() => navigate('/chatbot')}>
+          Open AI Analysis
+        </button>
+      </div>
+
+      <FloatingChatbot />
+    </AppShell>
+  );
 };
 
 export default DashboardPage;

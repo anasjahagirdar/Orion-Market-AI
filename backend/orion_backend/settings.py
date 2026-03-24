@@ -1,21 +1,39 @@
 import os
 from pathlib import Path
-from dotenv import load_dotenv
 
-# Load .env from project root (one level above backend/)
+# ─── Reliable .env loader ─────────────────────────────────────────────────────
+def load_env_file(env_path):
+    try:
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, _, value = line.partition('=')
+                    key = key.strip()
+                    value = value.strip().strip('"').strip("'")
+                    if key not in os.environ:
+                        os.environ[key] = value
+    except FileNotFoundError:
+        pass
+
+# Find and load .env from project root
+for _p in [
+    Path(__file__).resolve().parent.parent.parent / '.env',
+    Path(__file__).resolve().parent.parent / '.env',
+]:
+    if _p.exists():
+        load_env_file(_p)
+        break
+
+# ─── Base Directory ───────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
-ROOT_DIR = BASE_DIR.parent
-load_dotenv(r'D:\Bizmetric\F.S.D\Orion Market AI\.env')
 
-# Base directory
-BASE_DIR = Path(__file__).resolve().parent.parent
-
-# Security
+# ─── Security ─────────────────────────────────────────────────────────────────
 SECRET_KEY = os.getenv('SECRET_KEY', 'fallback-secret-key')
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 ALLOWED_HOSTS = ['*']
 
-# Applications
+# ─── Applications ─────────────────────────────────────────────────────────────
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -69,7 +87,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'orion_backend.wsgi.application'
 
-# Database - SQLite
+# ─── Database ─────────────────────────────────────────────────────────────────
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -77,7 +95,7 @@ DATABASES = {
     }
 }
 
-# Password validation
+# ─── Password Validation ──────────────────────────────────────────────────────
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
     {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'},
@@ -85,26 +103,36 @@ AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator'},
 ]
 
-# Internationalization
+# ─── Internationalisation ─────────────────────────────────────────────────────
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'Asia/Kolkata'
 USE_I18N = True
 USE_TZ = True
 
-# Static files
+# ─── Static Files ─────────────────────────────────────────────────────────────
 STATIC_URL = 'static/'
-
-# Default primary key
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CORS - Allow React frontend to communicate
+# ─── CORS ─────────────────────────────────────────────────────────────────────
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
-CSRF_TRUSTED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000']
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
+CORS_ALLOW_HEADERS = [
+    'accept', 'accept-encoding', 'authorization',
+    'content-type', 'dnt', 'origin', 'user-agent',
+    'x-csrftoken', 'x-requested-with',
+]
 SESSION_COOKIE_SAMESITE = 'Lax'
 SESSION_COOKIE_HTTPONLY = True
 
-# REST Framework settings
+# ─── REST Framework ───────────────────────────────────────────────────────────
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
@@ -115,24 +143,24 @@ REST_FRAMEWORK = {
     ],
 }
 
-# API Keys from .env
-FINNHUB_API_KEY = os.getenv('FINNHUB_API_KEY')
-ALPHA_VANTAGE_API_KEY = os.getenv('ALPHA_VANTAGE_API_KEY')
-NEWS_API_KEY = os.getenv('NEWS_API_KEY')
-HUGGINGFACE_API_KEY = os.getenv('HUGGINGFACE_API_KEY')
-BINANCE_API_KEY = os.getenv('BINANCE_API_KEY')
-BINANCE_SECRET_KEY = os.getenv('BINANCE_SECRET_KEY')
-ANGEL_ONE_API_KEY = os.getenv('ANGEL_ONE_API_KEY')
-DHAN_API_KEY = os.getenv('DHAN_API_KEY')
+# ─── API Keys (loaded from .env) ──────────────────────────────────────────────
+GEMINI_API_KEY          = os.getenv('GEMINI_API_KEY')
+NEWS_API_KEY            = os.getenv('NEWS_API_KEY')
+FINNHUB_API_KEY         = os.getenv('FINNHUB_API_KEY')
+ALPHA_VANTAGE_API_KEY   = os.getenv('ALPHA_VANTAGE_API_KEY')
+HUGGINGFACE_API_KEY     = os.getenv('HUGGINGFACE_API_KEY')
+BINANCE_API_KEY         = os.getenv('BINANCE_API_KEY')
+BINANCE_SECRET_KEY      = os.getenv('BINANCE_SECRET_KEY')
+ANGEL_ONE_API_KEY       = os.getenv('ANGEL_ONE_API_KEY')
+DHAN_API_KEY            = os.getenv('DHAN_API_KEY')
+GROQ_API_KEY            = os.getenv('GROQ_API_KEY')
 
-# Logging
+# ─── Logging ──────────────────────────────────────────────────────────────────
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
-        },
+        'console': {'class': 'logging.StreamHandler'},
         'file': {
             'class': 'logging.FileHandler',
             'filename': BASE_DIR / 'orion_debug.log',
@@ -143,5 +171,3 @@ LOGGING = {
         'level': 'INFO',
     },
 }
-
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')

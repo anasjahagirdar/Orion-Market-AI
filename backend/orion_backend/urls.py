@@ -10,4 +10,5 @@ urlpatterns = [
     path('api/chatbot/', include('chatbot.urls')),
     path('api/portfolios/', include('portfolio.urls')),
     path('api/portfolio/', include('portfolio.urls')),
+    path('api/btc-analysis/', include('btc_analysis.urls')),
 ]

@@ -1,0 +1,186 @@
+.btc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.btc-card {
+  padding: 16px;
+}
+
+.btc-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btc-card-header h3 {
+  margin: 0;
+  color: var(--yellow);
+  font-family: 'Sora', 'Segoe UI', sans-serif;
+}
+
+.btc-range-pills {
+  display: flex;
+  gap: 8px;
+}
+
+.btc-range-pills button {
+  border: 1px solid rgba(136, 168, 209, 0.34);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btc-range-pills button.active {
+  border-color: rgba(245, 197, 66, 0.7);
+  background: rgba(245, 197, 66, 0.16);
+  color: #ffeebe;
+}
+
+.btc-refresh-btn {
+  border: 1px solid rgba(90, 139, 255, 0.55);
+  background: rgba(90, 139, 255, 0.14);
+  color: #d4e4ff;
+  border-radius: 9px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.btc-refresh-btn:disabled {
+  opacity: 0.62;
+  cursor: not-allowed;
+}
+
+.btc-state {
+  margin: 16px 0 4px;
+  color: var(--muted);
+}
+
+.btc-state.error {
+  color: #ffd2d2;
+}
+
+.btc-chart-wrap {
+  margin-top: 12px;
+  min-height: 312px;
+}
+
+.btc-future-strip {
+  margin-top: 12px;
+  border: 1px solid rgba(136, 168, 209, 0.2);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 10px;
+}
+
+.btc-future-strip h4 {
+  margin: 0;
+  color: #d9e7ff;
+  font-size: 13px;
+}
+
+.btc-future-list {
+  margin-top: 9px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(70px, 1fr));
+  gap: 8px;
+}
+
+.btc-future-item {
+  border-radius: 10px;
+  border: 1px solid rgba(46, 206, 134, 0.34);
+  background: rgba(46, 206, 134, 0.1);
+  padding: 7px 8px;
+}
+
+.btc-future-item span {
+  display: block;
+  color: #d4f7e2;
+  font-size: 11px;
+}
+
+.btc-future-item strong {
+  display: block;
+  margin-top: 2px;
+  color: #e9fff2;
+}
+
+.status-tag {
+  border-radius: 999px;
+  font-size: 11px;
+  padding: 3px 8px;
+  border: 1px solid rgba(136, 168, 209, 0.34);
+}
+
+.status-tag.ok {
+  color: #d8ffe9;
+  border-color: rgba(46, 206, 134, 0.4);
+  background: rgba(46, 206, 134, 0.12);
+}
+
+.status-tag.warn {
+  color: #ffe6ae;
+  border-color: rgba(245, 197, 66, 0.5);
+  background: rgba(245, 197, 66, 0.12);
+}
+
+.btc-explain-meta {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.impact-list {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.impact-list li {
+  border: 1px solid rgba(136, 168, 209, 0.2);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.impact-list span {
+  color: #d5e4ff;
+  font-size: 13px;
+}
+
+.impact-list strong {
+  color: #deecff;
+  font-size: 12px;
+}
+
+.impact-list strong.up {
+  color: var(--green);
+}
+
+.impact-list strong.down {
+  color: var(--red);
+}
+
+@media (max-width: 1120px) {
+  .btc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .btc-future-list {
+    grid-template-columns: repeat(2, minmax(70px, 1fr));
+  }
+}

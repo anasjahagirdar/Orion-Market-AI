@@ -6,22 +6,16 @@ import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
 import ChatbotPage from './pages/ChatbotPage';
 import WatchlistPage from './pages/WatchlistPage';
+import BtcAnalysisPage from './pages/BtcAnalysisPage';
+import './layout.css';
 
 // Protected route wrapper
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();
-  if (loading) return <div style={loadingStyle}>Loading...</div>;
+  if (loading) {
+    return <div className="app-loading-screen">Loading market workspace...</div>;
+  }
   return user ? children : <Navigate to="/login" />;
-};
-
-const loadingStyle = {
-  height: '100vh',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  background: '#0a0a1a',
-  color: '#fff',
-  fontSize: '18px',
 };
 
 function App() {
@@ -32,9 +26,9 @@ function App() {
           position="top-right"
           toastOptions={{
             style: {
-              background: '#1a1a2e',
-              color: '#fff',
-              border: '1px solid rgba(255,255,255,0.1)',
+              background: 'rgba(18, 30, 49, 0.95)',
+              color: '#e8efff',
+              border: '1px solid rgba(136, 168, 209, 0.24)',
             },
           }}
         />
@@ -61,6 +55,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <WatchlistPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/btc-analysis"
+            element={
+              <ProtectedRoute>
+                <BtcAnalysisPage />
               </ProtectedRoute>
             }
           />
