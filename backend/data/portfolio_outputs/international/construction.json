@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Construction",
+  "generated_at_utc": "2026-03-25T10:19:30.554685+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "ABT",
+      "name": "Abbott Laboratories",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 665.17,
+        "pe_ratio": 16.11,
+        "volume": 104996800,
+        "discount_price": 565.39
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.15524,
+        "y": -0.680397
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APO",
+      "name": "Apollo Global Management",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 536.61,
+        "pe_ratio": 23.36,
+        "volume": 29637496,
+        "discount_price": 456.12
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.853161,
+        "y": 0.321415
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 1566.71,
+        "pe_ratio": 28.77,
+        "volume": 80419983,
+        "discount_price": 1331.7
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.308276,
+        "y": 0.506164
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CVS",
+      "name": "CVS Health",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 549.78,
+        "pe_ratio": 9.02,
+        "volume": 58099854,
+        "discount_price": 467.31
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.926524,
+        "y": -1.047326
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 2386.42,
+        "pe_ratio": 6.62,
+        "volume": 24237833,
+        "discount_price": 2028.46
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.165838,
+        "y": -1.120012
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 1793.36,
+        "pe_ratio": 45.0,
+        "volume": 15512194,
+        "discount_price": 1524.36
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.004913,
+        "y": 2.215031
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MAR",
+      "name": "Marriott International",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 108.59,
+        "pe_ratio": 30.79,
+        "volume": 128216032,
+        "discount_price": 92.3
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.302829,
+        "y": 0.468269
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NEM",
+      "name": "Newmont",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 1847.0,
+        "pe_ratio": 20.94,
+        "volume": 99450178,
+        "discount_price": 1569.95
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.661886,
+        "y": -0.264484
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PH",
+      "name": "Parker Hannifin",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 2438.81,
+        "pe_ratio": 9.86,
+        "volume": 116807692,
+        "discount_price": 2072.99
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.533106,
+        "y": -1.310839
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 2410.28,
+        "pe_ratio": 33.14,
+        "volume": 58091649,
+        "discount_price": 2048.74
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.734009,
+        "y": 0.97441
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UBER",
+      "name": "Uber",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction",
+      "features": {
+        "price": 529.95,
+        "pe_ratio": 28.9,
+        "volume": 199700042,
+        "discount_price": 450.46
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.170276,
+        "y": -0.062231
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ABT",
+      "price": 665.17,
+      "pe_ratio": 16.11,
+      "volume": 104996800,
+      "discount_price": 565.39
+    },
+    {
+      "symbol": "APO",
+      "price": 536.61,
+      "pe_ratio": 23.36,
+      "volume": 29637496,
+      "discount_price": 456.12
+    },
+    {
+      "symbol": "CDNS",
+      "price": 1566.71,
+      "pe_ratio": 28.77,
+      "volume": 80419983,
+      "discount_price": 1331.7
+    },
+    {
+      "symbol": "CVS",
+      "price": 549.78,
+      "pe_ratio": 9.02,
+      "volume": 58099854,
+      "discount_price": 467.31
+    },
+    {
+      "symbol": "FTNT",
+      "price": 2386.42,
+      "pe_ratio": 6.62,
+      "volume": 24237833,
+      "discount_price": 2028.46
+    },
+    {
+      "symbol": "INTC",
+      "price": 1793.36,
+      "pe_ratio": 45.0,
+      "volume": 15512194,
+      "discount_price": 1524.36
+    },
+    {
+      "symbol": "MAR",
+      "price": 108.59,
+      "pe_ratio": 30.79,
+      "volume": 128216032,
+      "discount_price": 92.3
+    },
+    {
+      "symbol": "NEM",
+      "price": 1847.0,
+      "pe_ratio": 20.94,
+      "volume": 99450178,
+      "discount_price": 1569.95
+    },
+    {
+      "symbol": "PH",
+      "price": 2438.81,
+      "pe_ratio": 9.86,
+      "volume": 116807692,
+      "discount_price": 2072.99
+    },
+    {
+      "symbol": "SNPS",
+      "price": 2410.28,
+      "pe_ratio": 33.14,
+      "volume": 58091649,
+      "discount_price": 2048.74
+    },
+    {
+      "symbol": "UBER",
+      "price": 529.95,
+      "pe_ratio": 28.9,
+      "volume": 199700042,
+      "discount_price": 450.46
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ABT": 1,
+      "APO": 1,
+      "CDNS": 0,
+      "CVS": 1,
+      "FTNT": 2,
+      "INTC": 0,
+      "MAR": 1,
+      "NEM": 2,
+      "PH": 2,
+      "SNPS": 0,
+      "UBER": 1
+    },
+    "value_cluster": {
+      "ABT": 1,
+      "APO": 1,
+      "CDNS": 0,
+      "CVS": 1,
+      "FTNT": 2,
+      "INTC": 0,
+      "MAR": 1,
+      "NEM": 2,
+      "PH": 2,
+      "SNPS": 0,
+      "UBER": 1
+    },
+    "valuation": {
+      "ABT": 1,
+      "APO": 1,
+      "CDNS": 0,
+      "CVS": 1,
+      "FTNT": 2,
+      "INTC": 0,
+      "MAR": 1,
+      "NEM": 2,
+      "PH": 2,
+      "SNPS": 0,
+      "UBER": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ABT",
+      "pc1": -1.15524,
+      "pc2": -0.680397
+    },
+    {
+      "symbol": "APO",
+      "pc1": -0.853161,
+      "pc2": 0.321415
+    },
+    {
+      "symbol": "CDNS",
+      "pc1": 0.308276,
+      "pc2": 0.506164
+    },
+    {
+      "symbol": "CVS",
+      "pc1": -0.926524,
+      "pc2": -1.047326
+    },
+    {
+      "symbol": "FTNT",
+      "pc1": 2.165838,
+      "pc2": -1.120012
+    },
+    {
+      "symbol": "INTC",
+      "pc1": 1.004913,
+      "pc2": 2.215031
+    },
+    {
+      "symbol": "MAR",
+      "pc1": -2.302829,
+      "pc2": 0.468269
+    },
+    {
+      "symbol": "NEM",
+      "pc1": 0.661886,
+      "pc2": -0.264484
+    },
+    {
+      "symbol": "PH",
+      "pc1": 1.533106,
+      "pc2": -1.310839
+    },
+    {
+      "symbol": "SNPS",
+      "pc1": 1.734009,
+      "pc2": 0.97441
+    },
+    {
+      "symbol": "UBER",
+      "pc1": -2.170276,
+      "pc2": -0.062231
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ABT",
+      "discount_price": 565.39
+    },
+    {
+      "symbol": "APO",
+      "discount_price": 456.12
+    },
+    {
+      "symbol": "CDNS",
+      "discount_price": 1331.7
+    },
+    {
+      "symbol": "CVS",
+      "discount_price": 467.31
+    },
+    {
+      "symbol": "FTNT",
+      "discount_price": 2028.46
+    },
+    {
+      "symbol": "INTC",
+      "discount_price": 1524.36
+    },
+    {
+      "symbol": "MAR",
+      "discount_price": 92.3
+    },
+    {
+      "symbol": "NEM",
+      "discount_price": 1569.95
+    },
+    {
+      "symbol": "PH",
+      "discount_price": 2072.99
+    },
+    {
+      "symbol": "SNPS",
+      "discount_price": 2048.74
+    },
+    {
+      "symbol": "UBER",
+      "discount_price": 450.46
+    }
+  ]
+}

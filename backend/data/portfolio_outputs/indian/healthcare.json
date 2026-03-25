@@ -1,0 +1,656 @@
+{
+  "market": "indian",
+  "sector": "Healthcare",
+  "generated_at_utc": "2026-03-25T10:19:29.899683+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 15
+  },
+  "stocks": [
+    {
+      "symbol": "ALKEM.NS",
+      "name": "Alkem Laboratories Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 496.4,
+        "pe_ratio": 10.44,
+        "volume": 9873763,
+        "discount_price": 421.94
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.418574,
+        "y": -2.004327
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APOLLOHOSP.NS",
+      "name": "Apollo Hospitals Enterprise Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 65.39,
+        "pe_ratio": 38.84,
+        "volume": 153747595,
+        "discount_price": 55.58
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.549263,
+        "y": 1.586517
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AUROPHARMA.NS",
+      "name": "Aurobindo Pharma Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 2292.46,
+        "pe_ratio": 7.07,
+        "volume": 122008552,
+        "discount_price": 1948.59
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.753125,
+        "y": -0.291274
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BIOCON.NS",
+      "name": "Biocon Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 2047.57,
+        "pe_ratio": 21.8,
+        "volume": 101820009,
+        "discount_price": 1740.43
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.138462,
+        "y": 0.239768
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CIPLA.NS",
+      "name": "Cipla Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 252.84,
+        "pe_ratio": 38.06,
+        "volume": 53965638,
+        "discount_price": 214.91
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.202076,
+        "y": 0.179498
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DIVISLAB.NS",
+      "name": "Divi's Laboratories Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1953.83,
+        "pe_ratio": 21.61,
+        "volume": 139191735,
+        "discount_price": 1660.76
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.973474,
+        "y": 0.734141
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DRREDDY.NS",
+      "name": "Dr. Reddy's Laboratories Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1215.1,
+        "pe_ratio": 18.0,
+        "volume": 26187385,
+        "discount_price": 1032.83
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.26071,
+        "y": -1.198514
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FORTIS.NS",
+      "name": "Fortis Healthcare Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 2396.59,
+        "pe_ratio": 33.02,
+        "volume": 36086574,
+        "discount_price": 2037.1
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.611188,
+        "y": 0.040646
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GLENMARK.NS",
+      "name": "Glenmark Pharmaceuticals Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1850.52,
+        "pe_ratio": 20.45,
+        "volume": 63063367,
+        "discount_price": 1572.94
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.815039,
+        "y": -0.418942
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "name": "Lupin Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1980.83,
+        "pe_ratio": 14.05,
+        "volume": 51374028,
+        "discount_price": 1683.71
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.125858,
+        "y": -0.931604
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MANKIND.NS",
+      "name": "Mankind Pharma Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 849.99,
+        "pe_ratio": 32.89,
+        "volume": 123140287,
+        "discount_price": 722.49
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.098773,
+        "y": 0.959106
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MAXHEALTH.NS",
+      "name": "Max Healthcare Institute Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1823.08,
+        "pe_ratio": 12.22,
+        "volume": 57961813,
+        "discount_price": 1549.62
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.87292,
+        "y": -0.976077
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "name": "Sun Pharmaceutical Industries Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 192.53,
+        "pe_ratio": 9.9,
+        "volume": 120202898,
+        "discount_price": 163.65
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.953367,
+        "y": -0.548751
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TORNTPHARM.NS",
+      "name": "Torrent Pharmaceuticals Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 2198.68,
+        "pe_ratio": 42.2,
+        "volume": 184403524,
+        "discount_price": 1868.88
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.133541,
+        "y": 2.615624
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ZYDUSLIFE.NS",
+      "name": "Zydus Lifesciences Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1539.61,
+        "pe_ratio": 37.31,
+        "volume": 27890621,
+        "discount_price": 1308.67
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.059157,
+        "y": 0.014189
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ALKEM.NS",
+      "price": 496.4,
+      "pe_ratio": 10.44,
+      "volume": 9873763,
+      "discount_price": 421.94
+    },
+    {
+      "symbol": "APOLLOHOSP.NS",
+      "price": 65.39,
+      "pe_ratio": 38.84,
+      "volume": 153747595,
+      "discount_price": 55.58
+    },
+    {
+      "symbol": "AUROPHARMA.NS",
+      "price": 2292.46,
+      "pe_ratio": 7.07,
+      "volume": 122008552,
+      "discount_price": 1948.59
+    },
+    {
+      "symbol": "BIOCON.NS",
+      "price": 2047.57,
+      "pe_ratio": 21.8,
+      "volume": 101820009,
+      "discount_price": 1740.43
+    },
+    {
+      "symbol": "CIPLA.NS",
+      "price": 252.84,
+      "pe_ratio": 38.06,
+      "volume": 53965638,
+      "discount_price": 214.91
+    },
+    {
+      "symbol": "DIVISLAB.NS",
+      "price": 1953.83,
+      "pe_ratio": 21.61,
+      "volume": 139191735,
+      "discount_price": 1660.76
+    },
+    {
+      "symbol": "DRREDDY.NS",
+      "price": 1215.1,
+      "pe_ratio": 18.0,
+      "volume": 26187385,
+      "discount_price": 1032.83
+    },
+    {
+      "symbol": "FORTIS.NS",
+      "price": 2396.59,
+      "pe_ratio": 33.02,
+      "volume": 36086574,
+      "discount_price": 2037.1
+    },
+    {
+      "symbol": "GLENMARK.NS",
+      "price": 1850.52,
+      "pe_ratio": 20.45,
+      "volume": 63063367,
+      "discount_price": 1572.94
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "price": 1980.83,
+      "pe_ratio": 14.05,
+      "volume": 51374028,
+      "discount_price": 1683.71
+    },
+    {
+      "symbol": "MANKIND.NS",
+      "price": 849.99,
+      "pe_ratio": 32.89,
+      "volume": 123140287,
+      "discount_price": 722.49
+    },
+    {
+      "symbol": "MAXHEALTH.NS",
+      "price": 1823.08,
+      "pe_ratio": 12.22,
+      "volume": 57961813,
+      "discount_price": 1549.62
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "price": 192.53,
+      "pe_ratio": 9.9,
+      "volume": 120202898,
+      "discount_price": 163.65
+    },
+    {
+      "symbol": "TORNTPHARM.NS",
+      "price": 2198.68,
+      "pe_ratio": 42.2,
+      "volume": 184403524,
+      "discount_price": 1868.88
+    },
+    {
+      "symbol": "ZYDUSLIFE.NS",
+      "price": 1539.61,
+      "pe_ratio": 37.31,
+      "volume": 27890621,
+      "discount_price": 1308.67
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ALKEM.NS": 1,
+      "APOLLOHOSP.NS": 1,
+      "AUROPHARMA.NS": 0,
+      "BIOCON.NS": 0,
+      "CIPLA.NS": 1,
+      "DIVISLAB.NS": 0,
+      "DRREDDY.NS": 2,
+      "FORTIS.NS": 2,
+      "GLENMARK.NS": 2,
+      "LUPIN.NS": 2,
+      "MANKIND.NS": 1,
+      "MAXHEALTH.NS": 2,
+      "SUNPHARMA.NS": 1,
+      "TORNTPHARM.NS": 0,
+      "ZYDUSLIFE.NS": 2
+    },
+    "value_cluster": {
+      "ALKEM.NS": 2,
+      "APOLLOHOSP.NS": 1,
+      "AUROPHARMA.NS": 0,
+      "BIOCON.NS": 0,
+      "CIPLA.NS": 1,
+      "DIVISLAB.NS": 0,
+      "DRREDDY.NS": 0,
+      "FORTIS.NS": 0,
+      "GLENMARK.NS": 0,
+      "LUPIN.NS": 0,
+      "MANKIND.NS": 1,
+      "MAXHEALTH.NS": 0,
+      "SUNPHARMA.NS": 2,
+      "TORNTPHARM.NS": 1,
+      "ZYDUSLIFE.NS": 1
+    },
+    "valuation": {
+      "ALKEM.NS": 2,
+      "APOLLOHOSP.NS": 1,
+      "AUROPHARMA.NS": 0,
+      "BIOCON.NS": 0,
+      "CIPLA.NS": 1,
+      "DIVISLAB.NS": 0,
+      "DRREDDY.NS": 0,
+      "FORTIS.NS": 0,
+      "GLENMARK.NS": 0,
+      "LUPIN.NS": 0,
+      "MANKIND.NS": 1,
+      "MAXHEALTH.NS": 0,
+      "SUNPHARMA.NS": 2,
+      "TORNTPHARM.NS": 1,
+      "ZYDUSLIFE.NS": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ALKEM.NS",
+      "pc1": -1.418574,
+      "pc2": -2.004327
+    },
+    {
+      "symbol": "APOLLOHOSP.NS",
+      "pc1": -2.549263,
+      "pc2": 1.586517
+    },
+    {
+      "symbol": "AUROPHARMA.NS",
+      "pc1": 1.753125,
+      "pc2": -0.291274
+    },
+    {
+      "symbol": "BIOCON.NS",
+      "pc1": 1.138462,
+      "pc2": 0.239768
+    },
+    {
+      "symbol": "CIPLA.NS",
+      "pc1": -2.202076,
+      "pc2": 0.179498
+    },
+    {
+      "symbol": "DIVISLAB.NS",
+      "pc1": 0.973474,
+      "pc2": 0.734141
+    },
+    {
+      "symbol": "DRREDDY.NS",
+      "pc1": -0.26071,
+      "pc2": -1.198514
+    },
+    {
+      "symbol": "FORTIS.NS",
+      "pc1": 1.611188,
+      "pc2": 0.040646
+    },
+    {
+      "symbol": "GLENMARK.NS",
+      "pc1": 0.815039,
+      "pc2": -0.418942
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "pc1": 1.125858,
+      "pc2": -0.931604
+    },
+    {
+      "symbol": "MANKIND.NS",
+      "pc1": -1.098773,
+      "pc2": 0.959106
+    },
+    {
+      "symbol": "MAXHEALTH.NS",
+      "pc1": 0.87292,
+      "pc2": -0.976077
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "pc1": -1.953367,
+      "pc2": -0.548751
+    },
+    {
+      "symbol": "TORNTPHARM.NS",
+      "pc1": 1.133541,
+      "pc2": 2.615624
+    },
+    {
+      "symbol": "ZYDUSLIFE.NS",
+      "pc1": 0.059157,
+      "pc2": 0.014189
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ALKEM.NS",
+      "discount_price": 421.94
+    },
+    {
+      "symbol": "APOLLOHOSP.NS",
+      "discount_price": 55.58
+    },
+    {
+      "symbol": "AUROPHARMA.NS",
+      "discount_price": 1948.59
+    },
+    {
+      "symbol": "BIOCON.NS",
+      "discount_price": 1740.43
+    },
+    {
+      "symbol": "CIPLA.NS",
+      "discount_price": 214.91
+    },
+    {
+      "symbol": "DIVISLAB.NS",
+      "discount_price": 1660.76
+    },
+    {
+      "symbol": "DRREDDY.NS",
+      "discount_price": 1032.83
+    },
+    {
+      "symbol": "FORTIS.NS",
+      "discount_price": 2037.1
+    },
+    {
+      "symbol": "GLENMARK.NS",
+      "discount_price": 1572.94
+    },
+    {
+      "symbol": "LUPIN.NS",
+      "discount_price": 1683.71
+    },
+    {
+      "symbol": "MANKIND.NS",
+      "discount_price": 722.49
+    },
+    {
+      "symbol": "MAXHEALTH.NS",
+      "discount_price": 1549.62
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "discount_price": 163.65
+    },
+    {
+      "symbol": "TORNTPHARM.NS",
+      "discount_price": 1868.88
+    },
+    {
+      "symbol": "ZYDUSLIFE.NS",
+      "discount_price": 1308.67
+    }
+  ]
+}

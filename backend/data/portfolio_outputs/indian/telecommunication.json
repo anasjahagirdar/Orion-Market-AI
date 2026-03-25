@@ -1,0 +1,236 @@
+{
+  "market": "indian",
+  "sector": "Telecommunication",
+  "generated_at_utc": "2026-03-25T10:19:30.299709+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 5
+  },
+  "stocks": [
+    {
+      "symbol": "BHARTIARTL.NS",
+      "name": "Bharti Airtel Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 2297.04,
+        "pe_ratio": 8.79,
+        "volume": 76052288,
+        "discount_price": 1952.48
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.030001,
+        "y": 1.751289
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BHARTIHEXA.NS",
+      "name": "Bharti Hexacom Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 908.97,
+        "pe_ratio": 8.31,
+        "volume": 66002197,
+        "discount_price": 772.62
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.633264,
+        "y": -0.712628
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IDEA.NS",
+      "name": "Vodafone Idea Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 1642.56,
+        "pe_ratio": 21.1,
+        "volume": 89285439,
+        "discount_price": 1396.18
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.838592,
+        "y": 0.121493
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INDUSTOWER.NS",
+      "name": "Indus Towers Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 2065.58,
+        "pe_ratio": 29.4,
+        "volume": 21286983,
+        "discount_price": 1755.74
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.525802,
+        "y": -1.014016
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TATACOMM.NS",
+      "name": "Tata Communications Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 2392.63,
+        "pe_ratio": 24.06,
+        "volume": 20217720,
+        "discount_price": 2033.74
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.916053,
+        "y": -0.146138
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "BHARTIARTL.NS",
+      "price": 2297.04,
+      "pe_ratio": 8.79,
+      "volume": 76052288,
+      "discount_price": 1952.48
+    },
+    {
+      "symbol": "BHARTIHEXA.NS",
+      "price": 908.97,
+      "pe_ratio": 8.31,
+      "volume": 66002197,
+      "discount_price": 772.62
+    },
+    {
+      "symbol": "IDEA.NS",
+      "price": 1642.56,
+      "pe_ratio": 21.1,
+      "volume": 89285439,
+      "discount_price": 1396.18
+    },
+    {
+      "symbol": "INDUSTOWER.NS",
+      "price": 2065.58,
+      "pe_ratio": 29.4,
+      "volume": 21286983,
+      "discount_price": 1755.74
+    },
+    {
+      "symbol": "TATACOMM.NS",
+      "price": 2392.63,
+      "pe_ratio": 24.06,
+      "volume": 20217720,
+      "discount_price": 2033.74
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "BHARTIARTL.NS": 2,
+      "BHARTIHEXA.NS": 0,
+      "IDEA.NS": 2,
+      "INDUSTOWER.NS": 1,
+      "TATACOMM.NS": 1
+    },
+    "value_cluster": {
+      "BHARTIARTL.NS": 2,
+      "BHARTIHEXA.NS": 0,
+      "IDEA.NS": 1,
+      "INDUSTOWER.NS": 1,
+      "TATACOMM.NS": 1
+    },
+    "valuation": {
+      "BHARTIARTL.NS": 2,
+      "BHARTIHEXA.NS": 0,
+      "IDEA.NS": 1,
+      "INDUSTOWER.NS": 1,
+      "TATACOMM.NS": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "BHARTIARTL.NS",
+      "pc1": 0.030001,
+      "pc2": 1.751289
+    },
+    {
+      "symbol": "BHARTIHEXA.NS",
+      "pc1": -2.633264,
+      "pc2": -0.712628
+    },
+    {
+      "symbol": "IDEA.NS",
+      "pc1": -0.838592,
+      "pc2": 0.121493
+    },
+    {
+      "symbol": "INDUSTOWER.NS",
+      "pc1": 1.525802,
+      "pc2": -1.014016
+    },
+    {
+      "symbol": "TATACOMM.NS",
+      "pc1": 1.916053,
+      "pc2": -0.146138
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "BHARTIARTL.NS",
+      "discount_price": 1952.48
+    },
+    {
+      "symbol": "BHARTIHEXA.NS",
+      "discount_price": 772.62
+    },
+    {
+      "symbol": "IDEA.NS",
+      "discount_price": 1396.18
+    },
+    {
+      "symbol": "INDUSTOWER.NS",
+      "discount_price": 1755.74
+    },
+    {
+      "symbol": "TATACOMM.NS",
+      "discount_price": 2033.74
+    }
+  ]
+}

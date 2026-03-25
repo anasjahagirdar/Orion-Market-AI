@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Power",
+  "generated_at_utc": "2026-03-25T10:19:31.156250+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 1364.07,
+        "pe_ratio": 9.25,
+        "volume": 64201703,
+        "discount_price": 1159.46
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.005995,
+        "y": -0.232668
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BLK",
+      "name": "BlackRock",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 1914.87,
+        "pe_ratio": 24.64,
+        "volume": 153670272,
+        "discount_price": 1627.64
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.228679,
+        "y": -0.662061
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COR",
+      "name": "Cencora",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 641.34,
+        "pe_ratio": 18.14,
+        "volume": 105342604,
+        "discount_price": 545.14
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.583434,
+        "y": -0.308613
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ELV",
+      "name": "Elevance Health",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 2485.83,
+        "pe_ratio": 38.33,
+        "volume": 138606641,
+        "discount_price": 2112.96
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.534996,
+        "y": 0.444962
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HCA",
+      "name": "HCA Healthcare",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 1477.3,
+        "pe_ratio": 9.89,
+        "volume": 109673204,
+        "discount_price": 1255.7
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.397247,
+        "y": -0.908086
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KO",
+      "name": "Coca-Cola Company (The)",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 1817.15,
+        "pe_ratio": 26.26,
+        "volume": 199174739,
+        "discount_price": 1544.58
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.510667,
+        "y": -1.274215
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 2277.28,
+        "pe_ratio": 38.12,
+        "volume": 116867195,
+        "discount_price": 1935.69
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.983579,
+        "y": 0.774919
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ORLY",
+      "name": "O'Reilly Auto Parts",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 310.76,
+        "pe_ratio": 7.89,
+        "volume": 76112750,
+        "discount_price": 264.15
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.746914,
+        "y": -0.500577
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ROST",
+      "name": "Ross Stores",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 530.0,
+        "pe_ratio": 39.35,
+        "volume": 40153294,
+        "discount_price": 450.5
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.622281,
+        "y": 2.071056
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TFC",
+      "name": "Truist Financial",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 1060.57,
+        "pe_ratio": 21.23,
+        "volume": 127803831,
+        "discount_price": 901.48
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.568901,
+        "y": -0.46745
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Power",
+      "features": {
+        "price": 1984.26,
+        "pe_ratio": 28.55,
+        "volume": 59892036,
+        "discount_price": 1686.62
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.666851,
+        "y": 1.062731
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "AMD",
+      "price": 1364.07,
+      "pe_ratio": 9.25,
+      "volume": 64201703,
+      "discount_price": 1159.46
+    },
+    {
+      "symbol": "BLK",
+      "price": 1914.87,
+      "pe_ratio": 24.64,
+      "volume": 153670272,
+      "discount_price": 1627.64
+    },
+    {
+      "symbol": "COR",
+      "price": 641.34,
+      "pe_ratio": 18.14,
+      "volume": 105342604,
+      "discount_price": 545.14
+    },
+    {
+      "symbol": "ELV",
+      "price": 2485.83,
+      "pe_ratio": 38.33,
+      "volume": 138606641,
+      "discount_price": 2112.96
+    },
+    {
+      "symbol": "HCA",
+      "price": 1477.3,
+      "pe_ratio": 9.89,
+      "volume": 109673204,
+      "discount_price": 1255.7
+    },
+    {
+      "symbol": "KO",
+      "price": 1817.15,
+      "pe_ratio": 26.26,
+      "volume": 199174739,
+      "discount_price": 1544.58
+    },
+    {
+      "symbol": "MPC",
+      "price": 2277.28,
+      "pe_ratio": 38.12,
+      "volume": 116867195,
+      "discount_price": 1935.69
+    },
+    {
+      "symbol": "ORLY",
+      "price": 310.76,
+      "pe_ratio": 7.89,
+      "volume": 76112750,
+      "discount_price": 264.15
+    },
+    {
+      "symbol": "ROST",
+      "price": 530.0,
+      "pe_ratio": 39.35,
+      "volume": 40153294,
+      "discount_price": 450.5
+    },
+    {
+      "symbol": "TFC",
+      "price": 1060.57,
+      "pe_ratio": 21.23,
+      "volume": 127803831,
+      "discount_price": 901.48
+    },
+    {
+      "symbol": "WDC",
+      "price": 1984.26,
+      "pe_ratio": 28.55,
+      "volume": 59892036,
+      "discount_price": 1686.62
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "AMD": 0,
+      "BLK": 1,
+      "COR": 0,
+      "ELV": 1,
+      "HCA": 0,
+      "KO": 1,
+      "MPC": 1,
+      "ORLY": 0,
+      "ROST": 2,
+      "TFC": 0,
+      "WDC": 1
+    },
+    "value_cluster": {
+      "AMD": 1,
+      "BLK": 0,
+      "COR": 1,
+      "ELV": 0,
+      "HCA": 1,
+      "KO": 0,
+      "MPC": 0,
+      "ORLY": 1,
+      "ROST": 2,
+      "TFC": 1,
+      "WDC": 0
+    },
+    "valuation": {
+      "AMD": 1,
+      "BLK": 0,
+      "COR": 1,
+      "ELV": 0,
+      "HCA": 1,
+      "KO": 0,
+      "MPC": 0,
+      "ORLY": 1,
+      "ROST": 2,
+      "TFC": 1,
+      "WDC": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "AMD",
+      "pc1": -1.005995,
+      "pc2": -0.232668
+    },
+    {
+      "symbol": "BLK",
+      "pc1": 1.228679,
+      "pc2": -0.662061
+    },
+    {
+      "symbol": "COR",
+      "pc1": -1.583434,
+      "pc2": -0.308613
+    },
+    {
+      "symbol": "ELV",
+      "pc1": 2.534996,
+      "pc2": 0.444962
+    },
+    {
+      "symbol": "HCA",
+      "pc1": -0.397247,
+      "pc2": -0.908086
+    },
+    {
+      "symbol": "KO",
+      "pc1": 1.510667,
+      "pc2": -1.274215
+    },
+    {
+      "symbol": "MPC",
+      "pc1": 1.983579,
+      "pc2": 0.774919
+    },
+    {
+      "symbol": "ORLY",
+      "pc1": -2.746914,
+      "pc2": -0.500577
+    },
+    {
+      "symbol": "ROST",
+      "pc1": -1.622281,
+      "pc2": 2.071056
+    },
+    {
+      "symbol": "TFC",
+      "pc1": -0.568901,
+      "pc2": -0.46745
+    },
+    {
+      "symbol": "WDC",
+      "pc1": 0.666851,
+      "pc2": 1.062731
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "AMD",
+      "discount_price": 1159.46
+    },
+    {
+      "symbol": "BLK",
+      "discount_price": 1627.64
+    },
+    {
+      "symbol": "COR",
+      "discount_price": 545.14
+    },
+    {
+      "symbol": "ELV",
+      "discount_price": 2112.96
+    },
+    {
+      "symbol": "HCA",
+      "discount_price": 1255.7
+    },
+    {
+      "symbol": "KO",
+      "discount_price": 1544.58
+    },
+    {
+      "symbol": "MPC",
+      "discount_price": 1935.69
+    },
+    {
+      "symbol": "ORLY",
+      "discount_price": 264.15
+    },
+    {
+      "symbol": "ROST",
+      "discount_price": 450.5
+    },
+    {
+      "symbol": "TFC",
+      "discount_price": 901.48
+    },
+    {
+      "symbol": "WDC",
+      "discount_price": 1686.62
+    }
+  ]
+}

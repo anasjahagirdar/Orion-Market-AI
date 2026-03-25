@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Consumer Durables",
+  "generated_at_utc": "2026-03-25T10:19:30.670079+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 1962.2,
+        "pe_ratio": 19.41,
+        "volume": 156722131,
+        "discount_price": 1667.87
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.47986,
+        "y": 1.056787
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 2392.75,
+        "pe_ratio": 40.79,
+        "volume": 6809457,
+        "discount_price": 2033.84
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.326619,
+        "y": -1.450622
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CI",
+      "name": "Cigna",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 1435.65,
+        "pe_ratio": 40.45,
+        "volume": 30950891,
+        "discount_price": 1220.3
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.647973,
+        "y": -1.817452
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 2436.44,
+        "pe_ratio": 26.98,
+        "volume": 73129597,
+        "discount_price": 2070.97
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.741251,
+        "y": 0.063552
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GE",
+      "name": "GE Aerospace",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 732.18,
+        "pe_ratio": 19.24,
+        "volume": 185793425,
+        "discount_price": 622.35
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.66329,
+        "y": 0.549589
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ISRG",
+      "name": "Intuitive Surgical",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 803.14,
+        "pe_ratio": 7.38,
+        "volume": 181407326,
+        "discount_price": 682.67
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.979705,
+        "y": 1.227858
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MCK",
+      "name": "McKesson Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 348.91,
+        "pe_ratio": 21.36,
+        "volume": 20662434,
+        "discount_price": 296.57
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.880686,
+        "y": -1.56252
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NKE",
+      "name": "Nike, Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 434.84,
+        "pe_ratio": 24.06,
+        "volume": 58247284,
+        "discount_price": 369.61
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.713881,
+        "y": -1.264305
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 2264.09,
+        "pe_ratio": 11.18,
+        "volume": 164965370,
+        "discount_price": 1924.48
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.662648,
+        "y": 1.814946
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SPG",
+      "name": "Simon Property Group",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 2086.17,
+        "pe_ratio": 20.47,
+        "volume": 128759019,
+        "discount_price": 1773.24
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.788023,
+        "y": 0.785383
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UNP",
+      "name": "Union Pacific Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 1780.93,
+        "pe_ratio": 32.8,
+        "volume": 197214756,
+        "discount_price": 1513.79
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.591188,
+        "y": 0.596785
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ADBE",
+      "price": 1962.2,
+      "pe_ratio": 19.41,
+      "volume": 156722131,
+      "discount_price": 1667.87
+    },
+    {
+      "symbol": "AVGO",
+      "price": 2392.75,
+      "pe_ratio": 40.79,
+      "volume": 6809457,
+      "discount_price": 2033.84
+    },
+    {
+      "symbol": "CI",
+      "price": 1435.65,
+      "pe_ratio": 40.45,
+      "volume": 30950891,
+      "discount_price": 1220.3
+    },
+    {
+      "symbol": "DASH",
+      "price": 2436.44,
+      "pe_ratio": 26.98,
+      "volume": 73129597,
+      "discount_price": 2070.97
+    },
+    {
+      "symbol": "GE",
+      "price": 732.18,
+      "pe_ratio": 19.24,
+      "volume": 185793425,
+      "discount_price": 622.35
+    },
+    {
+      "symbol": "ISRG",
+      "price": 803.14,
+      "pe_ratio": 7.38,
+      "volume": 181407326,
+      "discount_price": 682.67
+    },
+    {
+      "symbol": "MCK",
+      "price": 348.91,
+      "pe_ratio": 21.36,
+      "volume": 20662434,
+      "discount_price": 296.57
+    },
+    {
+      "symbol": "NKE",
+      "price": 434.84,
+      "pe_ratio": 24.06,
+      "volume": 58247284,
+      "discount_price": 369.61
+    },
+    {
+      "symbol": "PLTR",
+      "price": 2264.09,
+      "pe_ratio": 11.18,
+      "volume": 164965370,
+      "discount_price": 1924.48
+    },
+    {
+      "symbol": "SPG",
+      "price": 2086.17,
+      "pe_ratio": 20.47,
+      "volume": 128759019,
+      "discount_price": 1773.24
+    },
+    {
+      "symbol": "UNP",
+      "price": 1780.93,
+      "pe_ratio": 32.8,
+      "volume": 197214756,
+      "discount_price": 1513.79
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ADBE": 2,
+      "AVGO": 0,
+      "CI": 0,
+      "DASH": 2,
+      "GE": 1,
+      "ISRG": 1,
+      "MCK": 1,
+      "NKE": 1,
+      "PLTR": 2,
+      "SPG": 2,
+      "UNP": 2
+    },
+    "value_cluster": {
+      "ADBE": 1,
+      "AVGO": 2,
+      "CI": 2,
+      "DASH": 1,
+      "GE": 0,
+      "ISRG": 0,
+      "MCK": 0,
+      "NKE": 0,
+      "PLTR": 1,
+      "SPG": 1,
+      "UNP": 2
+    },
+    "valuation": {
+      "ADBE": 1,
+      "AVGO": 2,
+      "CI": 2,
+      "DASH": 1,
+      "GE": 0,
+      "ISRG": 0,
+      "MCK": 0,
+      "NKE": 0,
+      "PLTR": 1,
+      "SPG": 1,
+      "UNP": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ADBE",
+      "pc1": 0.47986,
+      "pc2": 1.056787
+    },
+    {
+      "symbol": "AVGO",
+      "pc1": 2.326619,
+      "pc2": -1.450622
+    },
+    {
+      "symbol": "CI",
+      "pc1": 0.647973,
+      "pc2": -1.817452
+    },
+    {
+      "symbol": "DASH",
+      "pc1": 1.741251,
+      "pc2": 0.063552
+    },
+    {
+      "symbol": "GE",
+      "pc1": -1.66329,
+      "pc2": 0.549589
+    },
+    {
+      "symbol": "ISRG",
+      "pc1": -1.979705,
+      "pc2": 1.227858
+    },
+    {
+      "symbol": "MCK",
+      "pc1": -1.880686,
+      "pc2": -1.56252
+    },
+    {
+      "symbol": "NKE",
+      "pc1": -1.713881,
+      "pc2": -1.264305
+    },
+    {
+      "symbol": "PLTR",
+      "pc1": 0.662648,
+      "pc2": 1.814946
+    },
+    {
+      "symbol": "SPG",
+      "pc1": 0.788023,
+      "pc2": 0.785383
+    },
+    {
+      "symbol": "UNP",
+      "pc1": 0.591188,
+      "pc2": 0.596785
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ADBE",
+      "discount_price": 1667.87
+    },
+    {
+      "symbol": "AVGO",
+      "discount_price": 2033.84
+    },
+    {
+      "symbol": "CI",
+      "discount_price": 1220.3
+    },
+    {
+      "symbol": "DASH",
+      "discount_price": 2070.97
+    },
+    {
+      "symbol": "GE",
+      "discount_price": 622.35
+    },
+    {
+      "symbol": "ISRG",
+      "discount_price": 682.67
+    },
+    {
+      "symbol": "MCK",
+      "discount_price": 296.57
+    },
+    {
+      "symbol": "NKE",
+      "discount_price": 369.61
+    },
+    {
+      "symbol": "PLTR",
+      "discount_price": 1924.48
+    },
+    {
+      "symbol": "SPG",
+      "discount_price": 1773.24
+    },
+    {
+      "symbol": "UNP",
+      "discount_price": 1513.79
+    }
+  ]
+}

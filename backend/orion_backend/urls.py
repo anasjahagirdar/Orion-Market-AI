@@ -11,6 +11,8 @@ urlpatterns = [
     path('api/chatbot/', include('chatbot.urls')),
     path('api/portfolios/', include('portfolio.urls')),
     path('api/portfolio/', include('portfolio.sector_urls')),
+    path('api/sectors/', include('portfolio.sectors_urls')),
+    path('api/recompute-portfolio/<str:market>/', portfolio_views.recompute_portfolio_market),
     path('api/recompute-portfolio/', portfolio_views.recompute_portfolio),
     path('api/btc-analysis/', include('btc_analysis.urls')),
 ]

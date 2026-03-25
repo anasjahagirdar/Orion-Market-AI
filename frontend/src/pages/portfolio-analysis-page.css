@@ -17,6 +17,28 @@
   color: var(--muted);
 }
 
+.portfolio-market-tabs {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.portfolio-market-tabs button {
+  border: 1px solid rgba(136, 168, 209, 0.34);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 6px 11px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.portfolio-market-tabs button.active {
+  border-color: rgba(245, 197, 66, 0.7);
+  background: rgba(245, 197, 66, 0.16);
+  color: #ffeebe;
+}
+
 .portfolio-select-wrap {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Construction Materials",
+  "generated_at_utc": "2026-03-25T10:19:30.614748+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 1464.27,
+        "pe_ratio": 21.01,
+        "volume": 18039334,
+        "discount_price": 1244.63
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.098302,
+        "y": -1.284156
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 1220.25,
+        "pe_ratio": 8.87,
+        "volume": 107968727,
+        "discount_price": 1037.21
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.088799,
+        "y": 0.988891
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 74.92,
+        "pe_ratio": 25.62,
+        "volume": 47431620,
+        "discount_price": 63.68
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.395154,
+        "y": 0.029304
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CVX",
+      "name": "Chevron Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 976.55,
+        "pe_ratio": 8.69,
+        "volume": 154911647,
+        "discount_price": 830.07
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.602709,
+        "y": 1.934139
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GD",
+      "name": "General Dynamics",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 813.76,
+        "pe_ratio": 22.48,
+        "volume": 133121213,
+        "discount_price": 691.7
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.284417,
+        "y": 0.971656
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 514.03,
+        "pe_ratio": 40.4,
+        "volume": 64721374,
+        "discount_price": 436.93
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.745379,
+        "y": -0.8438
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MCD",
+      "name": "McDonald's",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 539.06,
+        "pe_ratio": 26.99,
+        "volume": 156339776,
+        "discount_price": 458.2
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.04957,
+        "y": 1.312126
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 1971.88,
+        "pe_ratio": 30.39,
+        "volume": 69124407,
+        "discount_price": 1676.1
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 2.164765,
+        "y": -1.384292
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PLD",
+      "name": "Prologis",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 559.3,
+        "pe_ratio": 41.5,
+        "volume": 27299323,
+        "discount_price": 475.4
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.754393,
+        "y": -1.531364
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SO",
+      "name": "Southern Company",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 1140.21,
+        "pe_ratio": 11.31,
+        "volume": 47325498,
+        "discount_price": 969.18
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.67639,
+        "y": -0.039703
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Construction Materials",
+      "features": {
+        "price": 1644.56,
+        "pe_ratio": 26.32,
+        "volume": 116678399,
+        "discount_price": 1397.88
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.597949,
+        "y": -0.1528
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ACN",
+      "price": 1464.27,
+      "pe_ratio": 21.01,
+      "volume": 18039334,
+      "discount_price": 1244.63
+    },
+    {
+      "symbol": "APP",
+      "price": 1220.25,
+      "pe_ratio": 8.87,
+      "volume": 107968727,
+      "discount_price": 1037.21
+    },
+    {
+      "symbol": "CEG",
+      "price": 74.92,
+      "pe_ratio": 25.62,
+      "volume": 47431620,
+      "discount_price": 63.68
+    },
+    {
+      "symbol": "CVX",
+      "price": 976.55,
+      "pe_ratio": 8.69,
+      "volume": 154911647,
+      "discount_price": 830.07
+    },
+    {
+      "symbol": "GD",
+      "price": 813.76,
+      "pe_ratio": 22.48,
+      "volume": 133121213,
+      "discount_price": 691.7
+    },
+    {
+      "symbol": "INTU",
+      "price": 514.03,
+      "pe_ratio": 40.4,
+      "volume": 64721374,
+      "discount_price": 436.93
+    },
+    {
+      "symbol": "MCD",
+      "price": 539.06,
+      "pe_ratio": 26.99,
+      "volume": 156339776,
+      "discount_price": 458.2
+    },
+    {
+      "symbol": "NFLX",
+      "price": 1971.88,
+      "pe_ratio": 30.39,
+      "volume": 69124407,
+      "discount_price": 1676.1
+    },
+    {
+      "symbol": "PLD",
+      "price": 559.3,
+      "pe_ratio": 41.5,
+      "volume": 27299323,
+      "discount_price": 475.4
+    },
+    {
+      "symbol": "SO",
+      "price": 1140.21,
+      "pe_ratio": 11.31,
+      "volume": 47325498,
+      "discount_price": 969.18
+    },
+    {
+      "symbol": "UNH",
+      "price": 1644.56,
+      "pe_ratio": 26.32,
+      "volume": 116678399,
+      "discount_price": 1397.88
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ACN": 0,
+      "APP": 2,
+      "CEG": 1,
+      "CVX": 2,
+      "GD": 2,
+      "INTU": 1,
+      "MCD": 2,
+      "NFLX": 0,
+      "PLD": 1,
+      "SO": 0,
+      "UNH": 0
+    },
+    "value_cluster": {
+      "ACN": 1,
+      "APP": 2,
+      "CEG": 0,
+      "CVX": 2,
+      "GD": 0,
+      "INTU": 0,
+      "MCD": 0,
+      "NFLX": 1,
+      "PLD": 0,
+      "SO": 2,
+      "UNH": 1
+    },
+    "valuation": {
+      "ACN": 1,
+      "APP": 2,
+      "CEG": 0,
+      "CVX": 2,
+      "GD": 0,
+      "INTU": 0,
+      "MCD": 0,
+      "NFLX": 1,
+      "PLD": 0,
+      "SO": 2,
+      "UNH": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ACN",
+      "pc1": 1.098302,
+      "pc2": -1.284156
+    },
+    {
+      "symbol": "APP",
+      "pc1": 1.088799,
+      "pc2": 0.988891
+    },
+    {
+      "symbol": "CEG",
+      "pc1": -2.395154,
+      "pc2": 0.029304
+    },
+    {
+      "symbol": "CVX",
+      "pc1": 0.602709,
+      "pc2": 1.934139
+    },
+    {
+      "symbol": "GD",
+      "pc1": -0.284417,
+      "pc2": 0.971656
+    },
+    {
+      "symbol": "INTU",
+      "pc1": -1.745379,
+      "pc2": -0.8438
+    },
+    {
+      "symbol": "MCD",
+      "pc1": -1.04957,
+      "pc2": 1.312126
+    },
+    {
+      "symbol": "NFLX",
+      "pc1": 2.164765,
+      "pc2": -1.384292
+    },
+    {
+      "symbol": "PLD",
+      "pc1": -1.754393,
+      "pc2": -1.531364
+    },
+    {
+      "symbol": "SO",
+      "pc1": 0.67639,
+      "pc2": -0.039703
+    },
+    {
+      "symbol": "UNH",
+      "pc1": 1.597949,
+      "pc2": -0.1528
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ACN",
+      "discount_price": 1244.63
+    },
+    {
+      "symbol": "APP",
+      "discount_price": 1037.21
+    },
+    {
+      "symbol": "CEG",
+      "discount_price": 63.68
+    },
+    {
+      "symbol": "CVX",
+      "discount_price": 830.07
+    },
+    {
+      "symbol": "GD",
+      "discount_price": 691.7
+    },
+    {
+      "symbol": "INTU",
+      "discount_price": 436.93
+    },
+    {
+      "symbol": "MCD",
+      "discount_price": 458.2
+    },
+    {
+      "symbol": "NFLX",
+      "discount_price": 1676.1
+    },
+    {
+      "symbol": "PLD",
+      "discount_price": 475.4
+    },
+    {
+      "symbol": "SO",
+      "discount_price": 969.18
+    },
+    {
+      "symbol": "UNH",
+      "discount_price": 1397.88
+    }
+  ]
+}

@@ -174,14 +174,21 @@ export const btcAPI = {
 };
 
 export const portfolioAPI = {
-  getSector: (sector) =>
+  getSectors: (market) =>
     cachedGet({
-      key: cacheKeyFor(`/portfolio/${sector}`),
+      key: cacheKeyFor(`/sectors/${market}`),
       ttlMs: 10 * 60 * 1000,
-      requestFn: () => api.get(`/portfolio/${encodeURIComponent(sector)}/`),
+      requestFn: () => api.get(`/sectors/${encodeURIComponent(market)}/`),
     }),
-  getSectorFresh: (sector) => api.get(`/portfolio/${encodeURIComponent(sector)}/`),
-  recompute: () => api.post('/recompute-portfolio/'),
+  getSector: (market, sector) =>
+    cachedGet({
+      key: cacheKeyFor(`/portfolio/${market}/${sector}`),
+      ttlMs: 10 * 60 * 1000,
+      requestFn: () => api.get(`/portfolio/${encodeURIComponent(market)}/${encodeURIComponent(sector)}/`),
+    }),
+  getSectorFresh: (market, sector) =>
+    api.get(`/portfolio/${encodeURIComponent(market)}/${encodeURIComponent(sector)}/`),
+  recompute: (market = 'all') => api.post(`/recompute-portfolio/${encodeURIComponent(market)}/`),
 };
 
 export default api;

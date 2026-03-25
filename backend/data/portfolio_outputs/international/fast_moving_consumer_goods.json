@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Fast Moving Consumer Goods",
+  "generated_at_utc": "2026-03-25T10:19:30.793026+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "ADP",
+      "name": "Automatic Data Processing",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 374.13,
+        "pe_ratio": 19.21,
+        "volume": 9351344,
+        "discount_price": 318.01
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.711865,
+        "y": -0.380863
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AZO",
+      "name": "AutoZone",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 1141.06,
+        "pe_ratio": 15.54,
+        "volume": 150776133,
+        "discount_price": 969.9
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.66198,
+        "y": -0.470283
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CL",
+      "name": "Colgate-Palmolive",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 853.81,
+        "pe_ratio": 10.64,
+        "volume": 65912517,
+        "discount_price": 725.74
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.891293,
+        "y": -1.238537
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 49.67,
+        "pe_ratio": 17.2,
+        "volume": 38094609,
+        "discount_price": 42.22
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.140196,
+        "y": 0.199601
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GILD",
+      "name": "Gilead Sciences",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 2409.35,
+        "pe_ratio": 34.46,
+        "volume": 144554620,
+        "discount_price": 2047.95
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 3.953107,
+        "y": -0.858945
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JCI",
+      "name": "Johnson Controls",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 409.23,
+        "pe_ratio": 16.99,
+        "volume": 69056400,
+        "discount_price": 347.85
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.25169,
+        "y": -0.051697
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MDLZ",
+      "name": "Mondelez International",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 982.56,
+        "pe_ratio": 14.57,
+        "volume": 107063515,
+        "discount_price": 835.18
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.062482,
+        "y": -0.725968
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 1248.6,
+        "pe_ratio": 31.92,
+        "volume": 165917430,
+        "discount_price": 1061.31
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.974075,
+        "y": 0.828822
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PNC",
+      "name": "PNC Financial Services",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 358.2,
+        "pe_ratio": 17.54,
+        "volume": 68457656,
+        "discount_price": 304.47
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.312446,
+        "y": 0.061209
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SRE",
+      "name": "Sempra",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 817.71,
+        "pe_ratio": 27.24,
+        "volume": 146423561,
+        "discount_price": 695.05
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.768556,
+        "y": 0.899004
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "USB",
+      "name": "U.S. Bancorp",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 320.08,
+        "pe_ratio": 27.25,
+        "volume": 158460015,
+        "discount_price": 272.07
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.012253,
+        "y": 1.737657
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ADP",
+      "price": 374.13,
+      "pe_ratio": 19.21,
+      "volume": 9351344,
+      "discount_price": 318.01
+    },
+    {
+      "symbol": "AZO",
+      "price": 1141.06,
+      "pe_ratio": 15.54,
+      "volume": 150776133,
+      "discount_price": 969.9
+    },
+    {
+      "symbol": "CL",
+      "price": 853.81,
+      "pe_ratio": 10.64,
+      "volume": 65912517,
+      "discount_price": 725.74
+    },
+    {
+      "symbol": "DELL",
+      "price": 49.67,
+      "pe_ratio": 17.2,
+      "volume": 38094609,
+      "discount_price": 42.22
+    },
+    {
+      "symbol": "GILD",
+      "price": 2409.35,
+      "pe_ratio": 34.46,
+      "volume": 144554620,
+      "discount_price": 2047.95
+    },
+    {
+      "symbol": "JCI",
+      "price": 409.23,
+      "pe_ratio": 16.99,
+      "volume": 69056400,
+      "discount_price": 347.85
+    },
+    {
+      "symbol": "MDLZ",
+      "price": 982.56,
+      "pe_ratio": 14.57,
+      "volume": 107063515,
+      "discount_price": 835.18
+    },
+    {
+      "symbol": "NOW",
+      "price": 1248.6,
+      "pe_ratio": 31.92,
+      "volume": 165917430,
+      "discount_price": 1061.31
+    },
+    {
+      "symbol": "PNC",
+      "price": 358.2,
+      "pe_ratio": 17.54,
+      "volume": 68457656,
+      "discount_price": 304.47
+    },
+    {
+      "symbol": "SRE",
+      "price": 817.71,
+      "pe_ratio": 27.24,
+      "volume": 146423561,
+      "discount_price": 695.05
+    },
+    {
+      "symbol": "USB",
+      "price": 320.08,
+      "pe_ratio": 27.25,
+      "volume": 158460015,
+      "discount_price": 272.07
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ADP": 0,
+      "AZO": 2,
+      "CL": 0,
+      "DELL": 0,
+      "GILD": 1,
+      "JCI": 0,
+      "MDLZ": 0,
+      "NOW": 2,
+      "PNC": 0,
+      "SRE": 2,
+      "USB": 2
+    },
+    "value_cluster": {
+      "ADP": 0,
+      "AZO": 0,
+      "CL": 0,
+      "DELL": 0,
+      "GILD": 1,
+      "JCI": 0,
+      "MDLZ": 0,
+      "NOW": 2,
+      "PNC": 0,
+      "SRE": 2,
+      "USB": 2
+    },
+    "valuation": {
+      "ADP": 0,
+      "AZO": 0,
+      "CL": 0,
+      "DELL": 0,
+      "GILD": 1,
+      "JCI": 0,
+      "MDLZ": 0,
+      "NOW": 2,
+      "PNC": 0,
+      "SRE": 2,
+      "USB": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ADP",
+      "pc1": -1.711865,
+      "pc2": -0.380863
+    },
+    {
+      "symbol": "AZO",
+      "pc1": 0.66198,
+      "pc2": -0.470283
+    },
+    {
+      "symbol": "CL",
+      "pc1": -0.891293,
+      "pc2": -1.238537
+    },
+    {
+      "symbol": "DELL",
+      "pc1": -2.140196,
+      "pc2": 0.199601
+    },
+    {
+      "symbol": "GILD",
+      "pc1": 3.953107,
+      "pc2": -0.858945
+    },
+    {
+      "symbol": "JCI",
+      "pc1": -1.25169,
+      "pc2": -0.051697
+    },
+    {
+      "symbol": "MDLZ",
+      "pc1": -0.062482,
+      "pc2": -0.725968
+    },
+    {
+      "symbol": "NOW",
+      "pc1": 1.974075,
+      "pc2": 0.828822
+    },
+    {
+      "symbol": "PNC",
+      "pc1": -1.312446,
+      "pc2": 0.061209
+    },
+    {
+      "symbol": "SRE",
+      "pc1": 0.768556,
+      "pc2": 0.899004
+    },
+    {
+      "symbol": "USB",
+      "pc1": 0.012253,
+      "pc2": 1.737657
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ADP",
+      "discount_price": 318.01
+    },
+    {
+      "symbol": "AZO",
+      "discount_price": 969.9
+    },
+    {
+      "symbol": "CL",
+      "discount_price": 725.74
+    },
+    {
+      "symbol": "DELL",
+      "discount_price": 42.22
+    },
+    {
+      "symbol": "GILD",
+      "discount_price": 2047.95
+    },
+    {
+      "symbol": "JCI",
+      "discount_price": 347.85
+    },
+    {
+      "symbol": "MDLZ",
+      "discount_price": 835.18
+    },
+    {
+      "symbol": "NOW",
+      "discount_price": 1061.31
+    },
+    {
+      "symbol": "PNC",
+      "discount_price": 304.47
+    },
+    {
+      "symbol": "SRE",
+      "discount_price": 695.05
+    },
+    {
+      "symbol": "USB",
+      "discount_price": 272.07
+    }
+  ]
+}

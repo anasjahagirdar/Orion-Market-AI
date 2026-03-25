@@ -1,0 +1,278 @@
+{
+  "market": "indian",
+  "sector": "Chemicals",
+  "generated_at_utc": "2026-03-25T10:19:29.459036+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 6
+  },
+  "stocks": [
+    {
+      "symbol": "COROMANDEL.NS",
+      "name": "Coromandel International Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Chemicals",
+      "features": {
+        "price": 1950.62,
+        "pe_ratio": 36.95,
+        "volume": 104600950,
+        "discount_price": 1658.03
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.807382,
+        "y": 0.848629
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PIDILITIND.NS",
+      "name": "Pidilite Industries Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Chemicals",
+      "features": {
+        "price": 1722.14,
+        "pe_ratio": 25.88,
+        "volume": 161304528,
+        "discount_price": 1463.82
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.381545,
+        "y": -1.17793
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PIIND.NS",
+      "name": "PI Industries Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Chemicals",
+      "features": {
+        "price": 1112.71,
+        "pe_ratio": 36.83,
+        "volume": 58381596,
+        "discount_price": 945.8
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.991879,
+        "y": 2.359073
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SOLARINDS.NS",
+      "name": "Solar Industries India Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Chemicals",
+      "features": {
+        "price": 925.38,
+        "pe_ratio": 26.22,
+        "volume": 192221077,
+        "discount_price": 786.57
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.612499,
+        "y": -0.811365
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SRF.NS",
+      "name": "SRF Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Chemicals",
+      "features": {
+        "price": 1755.82,
+        "pe_ratio": 32.78,
+        "volume": 164019451,
+        "discount_price": 1492.45
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.703709,
+        "y": -0.38005
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UPL.NS",
+      "name": "UPL Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Chemicals",
+      "features": {
+        "price": 1774.87,
+        "pe_ratio": 23.28,
+        "volume": 113451958,
+        "discount_price": 1508.64
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.711742,
+        "y": -0.838357
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "COROMANDEL.NS",
+      "price": 1950.62,
+      "pe_ratio": 36.95,
+      "volume": 104600950,
+      "discount_price": 1658.03
+    },
+    {
+      "symbol": "PIDILITIND.NS",
+      "price": 1722.14,
+      "pe_ratio": 25.88,
+      "volume": 161304528,
+      "discount_price": 1463.82
+    },
+    {
+      "symbol": "PIIND.NS",
+      "price": 1112.71,
+      "pe_ratio": 36.83,
+      "volume": 58381596,
+      "discount_price": 945.8
+    },
+    {
+      "symbol": "SOLARINDS.NS",
+      "price": 925.38,
+      "pe_ratio": 26.22,
+      "volume": 192221077,
+      "discount_price": 786.57
+    },
+    {
+      "symbol": "SRF.NS",
+      "price": 1755.82,
+      "pe_ratio": 32.78,
+      "volume": 164019451,
+      "discount_price": 1492.45
+    },
+    {
+      "symbol": "UPL.NS",
+      "price": 1774.87,
+      "pe_ratio": 23.28,
+      "volume": 113451958,
+      "discount_price": 1508.64
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "COROMANDEL.NS": 0,
+      "PIDILITIND.NS": 0,
+      "PIIND.NS": 1,
+      "SOLARINDS.NS": 2,
+      "SRF.NS": 0,
+      "UPL.NS": 0
+    },
+    "value_cluster": {
+      "COROMANDEL.NS": 1,
+      "PIDILITIND.NS": 2,
+      "PIIND.NS": 0,
+      "SOLARINDS.NS": 0,
+      "SRF.NS": 1,
+      "UPL.NS": 2
+    },
+    "valuation": {
+      "COROMANDEL.NS": 1,
+      "PIDILITIND.NS": 2,
+      "PIIND.NS": 0,
+      "SOLARINDS.NS": 0,
+      "SRF.NS": 1,
+      "UPL.NS": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "COROMANDEL.NS",
+      "pc1": 1.807382,
+      "pc2": 0.848629
+    },
+    {
+      "symbol": "PIDILITIND.NS",
+      "pc1": 0.381545,
+      "pc2": -1.17793
+    },
+    {
+      "symbol": "PIIND.NS",
+      "pc1": -0.991879,
+      "pc2": 2.359073
+    },
+    {
+      "symbol": "SOLARINDS.NS",
+      "pc1": -2.612499,
+      "pc2": -0.811365
+    },
+    {
+      "symbol": "SRF.NS",
+      "pc1": 0.703709,
+      "pc2": -0.38005
+    },
+    {
+      "symbol": "UPL.NS",
+      "pc1": 0.711742,
+      "pc2": -0.838357
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "COROMANDEL.NS",
+      "discount_price": 1658.03
+    },
+    {
+      "symbol": "PIDILITIND.NS",
+      "discount_price": 1463.82
+    },
+    {
+      "symbol": "PIIND.NS",
+      "discount_price": 945.8
+    },
+    {
+      "symbol": "SOLARINDS.NS",
+      "discount_price": 786.57
+    },
+    {
+      "symbol": "SRF.NS",
+      "discount_price": 1492.45
+    },
+    {
+      "symbol": "UPL.NS",
+      "discount_price": 1508.64
+    }
+  ]
+}

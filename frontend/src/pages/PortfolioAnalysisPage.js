@@ -20,25 +20,29 @@ import { useAuth } from '../context/AuthContext';
 import { portfolioAPI } from '../services/api';
 import './portfolio-analysis-page.css';
 
-const SECTOR_OPTIONS = [
-  'General',
-  'Financial Services',
-  'Capital Goods',
-  'Healthcare',
+const SECTOR_FALLBACK = [
   'Automobile and Auto Components',
-  'Fast Moving Consumer Goods',
-  'Information Technology',
+  'Capital Goods',
+  'Chemicals',
+  'Construction',
+  'Construction Materials',
+  'Consumer Durables',
   'Consumer Services',
-  'Power',
+  'Fast Moving Consumer Goods',
+  'Financial Services',
+  'Healthcare',
+  'Information Technology',
   'Metals & Mining',
   'Oil Gas & Consumable Fuels',
-  'Consumer Durables',
-  'Chemicals',
+  'Power',
   'Realty',
-  'Construction',
-  'Telecommunication',
   'Services',
+  'Telecommunication',
   'Textiles',
+];
+const MARKET_OPTIONS = [
+  { key: 'indian', label: 'Indian Markets' },
+  { key: 'international', label: 'International Markets' },
 ];
 
 const CLUSTER_COLORS = ['#5A8BFF', '#2ECE86', '#F5C542', '#FF6B6B', '#A78BFA', '#22D3EE'];
@@ -79,19 +83,84 @@ const formatDateTime = (value) => {
 const PortfolioAnalysisPage = () => {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
-  const [selectedSector, setSelectedSector] = useState('General');
+  const [selectedMarket, setSelectedMarket] = useState('indian');
+  const [selectedSector, setSelectedSector] = useState('');
   const [loading, setLoading] = useState(true);
   const [recomputing, setRecomputing] = useState(false);
   const [payload, setPayload] = useState(null);
   const [error, setError] = useState('');
+  const [sectorOptionsByMarket, setSectorOptionsByMarket] = useState({
+    indian: [],
+    international: [],
+  });
+
+  const sectorsForMarket = useMemo(
+    () => sectorOptionsByMarket[selectedMarket] || [],
+    [selectedMarket, sectorOptionsByMarket]
+  );
 
   useEffect(() => {
+    if (!sectorsForMarket.includes(selectedSector)) {
+      setSelectedSector('');
+    }
+  }, [sectorsForMarket, selectedSector]);
+
+  useEffect(() => {
+    setSelectedSector('');
+    setPayload(null);
+    setError('');
+  }, [selectedMarket]);
+
+  useEffect(() => {
+    let active = true;
+
+    const fetchSectors = async () => {
+      try {
+        const response = await portfolioAPI.getSectors(selectedMarket);
+        if (!active) {
+          return;
+        }
+        const sectorList = Array.isArray(response?.data?.sectors)
+          ? response.data.sectors
+          : [];
+        setSectorOptionsByMarket((previous) => ({
+          ...previous,
+          [selectedMarket]: sectorList,
+        }));
+      } catch (requestError) {
+        if (!active) {
+          return;
+        }
+        setSectorOptionsByMarket((previous) => ({
+          ...previous,
+          [selectedMarket]: SECTOR_FALLBACK,
+        }));
+        const message =
+          requestError?.response?.data?.error ||
+          `Failed to load sectors for ${selectedMarket}`;
+        toast.error(message);
+      }
+    };
+
+    fetchSectors();
+    return () => {
+      active = false;
+    };
+  }, [selectedMarket]);
+
+  useEffect(() => {
+    if (!selectedSector) {
+      setLoading(false);
+      setPayload(null);
+      setError('');
+      return () => {};
+    }
     let active = true;
 
     const fetchSector = async () => {
       setLoading(true);
       try {
-        const response = await portfolioAPI.getSector(selectedSector);
+        const response = await portfolioAPI.getSector(selectedMarket, selectedSector);
         if (!active) {
           return;
         }
@@ -101,9 +170,11 @@ const PortfolioAnalysisPage = () => {
         if (!active) {
           return;
         }
+        const apiErrorData = requestError?.response?.data;
         const message =
-          requestError?.response?.data?.error ||
-          `Failed to load portfolio data for ${selectedSector}`;
+          (typeof apiErrorData?.message === 'string' && apiErrorData.message) ||
+          (typeof apiErrorData?.error === 'string' && apiErrorData.error) ||
+          `Failed to load portfolio data for ${selectedMarket}/${selectedSector}`;
         setError(message);
         setPayload(null);
         toast.error(message);
@@ -119,7 +190,7 @@ const PortfolioAnalysisPage = () => {
     return () => {
       active = false;
     };
-  }, [selectedSector]);
+  }, [selectedMarket, selectedSector]);
 
   const handleLogout = async () => {
     await logout();
@@ -129,18 +200,27 @@ const PortfolioAnalysisPage = () => {
   const handleRecompute = async () => {
     setRecomputing(true);
     try {
-      const response = await portfolioAPI.recompute();
+      const response = await portfolioAPI.recompute(selectedMarket);
       const count = response?.data?.sector_count;
       toast.success(
-        `Portfolio recomputed${Number.isFinite(count) ? ` (${count} sectors)` : ''}`
+        `${selectedMarket === 'indian' ? 'Indian' : 'International'} portfolio recomputed${
+          Number.isFinite(count) ? ` (${count} sectors)` : ''
+        }`
       );
-      setLoading(true);
-      const fresh = await portfolioAPI.getSectorFresh(selectedSector);
-      setPayload(fresh.data || null);
-      setError('');
+      if (selectedSector) {
+        setLoading(true);
+        const fresh = await portfolioAPI.getSectorFresh(selectedMarket, selectedSector);
+        setPayload(fresh.data || null);
+        setError('');
+      } else {
+        setPayload(null);
+        setError('');
+      }
     } catch (requestError) {
+      const apiErrorData = requestError?.response?.data;
       const message =
-        requestError?.response?.data?.error ||
+        (typeof apiErrorData?.message === 'string' && apiErrorData.message) ||
+        (typeof apiErrorData?.error === 'string' && apiErrorData.error) ||
         'Portfolio recompute failed';
       toast.error(message);
     } finally {
@@ -214,7 +294,8 @@ const PortfolioAnalysisPage = () => {
   }, [stocks]);
 
   const indicators = [
-    { label: 'Sector', value: selectedSector, tone: 'neutral' },
+    { label: 'Market', value: selectedMarket === 'indian' ? 'Indian' : 'International', tone: 'neutral' },
+    { label: 'Sector', value: selectedSector || 'Not selected', tone: 'neutral' },
     { label: 'Stocks', value: String(totalStocks), tone: 'positive' },
     { label: 'Clusters', value: String(clusterCount), tone: 'neutral' },
   ];
@@ -224,7 +305,7 @@ const PortfolioAnalysisPage = () => {
   return (
     <AppShell
       title="Portfolio Analysis"
-      subtitle="Persistent sector portfolio outputs"
+      subtitle="Persistent sector portfolio outputs by market"
       activePath="/portfolio-analysis"
       user={user}
       onLogout={handleLogout}
@@ -235,6 +316,18 @@ const PortfolioAnalysisPage = () => {
         <div>
           <h2>Sector Portfolio</h2>
           <p>Select a sector to load stored clustering and PCA output.</p>
+          <div className="portfolio-market-tabs">
+            {MARKET_OPTIONS.map((market) => (
+              <button
+                key={market.key}
+                type="button"
+                className={selectedMarket === market.key ? 'active' : ''}
+                onClick={() => setSelectedMarket(market.key)}
+              >
+                {market.label}
+              </button>
+            ))}
+          </div>
         </div>
         <div className="portfolio-select-wrap">
           <label htmlFor="portfolio-sector">Sector</label>
@@ -243,7 +336,8 @@ const PortfolioAnalysisPage = () => {
             value={selectedSector}
             onChange={(event) => setSelectedSector(event.target.value)}
           >
-            {SECTOR_OPTIONS.map((sector) => (
+            <option value="">-- Select a Sector --</option>
+            {sectorsForMarket.map((sector) => (
               <option key={sector} value={sector}>
                 {sector}
               </option>
@@ -262,13 +356,17 @@ const PortfolioAnalysisPage = () => {
       </section>
 
       <div className="kpi-grid">
-        <MetricCard label="Total Stocks" value={String(totalStocks)} subtitle={selectedSector} />
+        <MetricCard label="Total Stocks" value={String(totalStocks)} subtitle={selectedSector || 'No sector selected'} />
         <MetricCard label="Avg Price" value={avgPrice ? formatCurrency(avgPrice) : '--'} subtitle="Sector mean" />
         <MetricCard label="Avg Discount Price" value={avgDiscount ? formatCurrency(avgDiscount) : '--'} subtitle="Stored output" />
         <MetricCard label="Avg PE Ratio" value={Number.isFinite(avgPe) ? avgPe.toFixed(2) : '--'} subtitle="Valuation baseline" />
       </div>
 
-      {loading ? (
+      {!selectedSector ? (
+        <section className="glass-card portfolio-card">
+          <p className="portfolio-state">Select a sector to load portfolio output.</p>
+        </section>
+      ) : loading ? (
         <section className="glass-card portfolio-card">
           <p className="portfolio-state">Loading sector portfolio...</p>
         </section>

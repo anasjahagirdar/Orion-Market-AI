@@ -1,0 +1,656 @@
+{
+  "market": "indian",
+  "sector": "Automobile and Auto Components",
+  "generated_at_utc": "2026-03-25T10:19:29.339328+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 15
+  },
+  "stocks": [
+    {
+      "symbol": "BAJAJ-AUTO.NS",
+      "name": "Bajaj Auto Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 2119.6,
+        "pe_ratio": 6.35,
+        "volume": 150573787,
+        "discount_price": 1801.66
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.781778,
+        "y": -0.282917
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BHARATFORG.NS",
+      "name": "Bharat Forge Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 2499.74,
+        "pe_ratio": 34.35,
+        "volume": 75752190,
+        "discount_price": 2124.78
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.760908,
+        "y": 0.388528
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BOSCHLTD.NS",
+      "name": "Bosch Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 967.36,
+        "pe_ratio": 32.24,
+        "volume": 189993278,
+        "discount_price": 822.26
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.620695,
+        "y": 1.313987
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "EICHERMOT.NS",
+      "name": "Eicher Motors Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 2379.03,
+        "pe_ratio": 12.8,
+        "volume": 86292557,
+        "discount_price": 2022.18
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.982037,
+        "y": -0.612284
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "EXIDEIND.NS",
+      "name": "Exide Industries Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 37.12,
+        "pe_ratio": 21.32,
+        "volume": 21558404,
+        "discount_price": 31.55
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.345727,
+        "y": -1.173087
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HEROMOTOCO.NS",
+      "name": "Hero MotoCorp Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 1151.07,
+        "pe_ratio": 15.09,
+        "volume": 44921062,
+        "discount_price": 978.41
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.260313,
+        "y": -1.09725
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HYUNDAI.NS",
+      "name": "Hyundai Motor India Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 459.45,
+        "pe_ratio": 42.96,
+        "volume": 184129200,
+        "discount_price": 390.53
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.711751,
+        "y": 1.732651
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "M&M.NS",
+      "name": "Mahindra & Mahindra Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 1149.08,
+        "pe_ratio": 36.79,
+        "volume": 153221785,
+        "discount_price": 976.72
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.464991,
+        "y": 1.173694
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MARUTI.NS",
+      "name": "Maruti Suzuki India Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 608.44,
+        "pe_ratio": 40.68,
+        "volume": 38433887,
+        "discount_price": 517.17
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.69462,
+        "y": 0.068453
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MOTHERSON.NS",
+      "name": "Samvardhana Motherson International Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 247.24,
+        "pe_ratio": 13.53,
+        "volume": 19925013,
+        "discount_price": 210.15
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.838595,
+        "y": -1.561015
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MRF.NS",
+      "name": "MRF Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 1573.42,
+        "pe_ratio": 6.17,
+        "volume": 196764215,
+        "discount_price": 1337.41
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.932696,
+        "y": 0.134959
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SONACOMS.NS",
+      "name": "Sona BLW Precision Forgings Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 837.35,
+        "pe_ratio": 27.13,
+        "volume": 167108325,
+        "discount_price": 711.75
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.792512,
+        "y": 0.790716
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TIINDIA.NS",
+      "name": "Tube Investments of India Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 2191.94,
+        "pe_ratio": 8.14,
+        "volume": 60506763,
+        "discount_price": 1863.15
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.697567,
+        "y": -1.151097
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TMPV.NS",
+      "name": "Tata Motors Passenger Vehicles Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 1486.1,
+        "pe_ratio": 14.76,
+        "volume": 2986441,
+        "discount_price": 1263.18
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.242437,
+        "y": -1.522315
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TVSMOTOR.NS",
+      "name": "TVS Motor Company Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 2220.81,
+        "pe_ratio": 41.76,
+        "volume": 174890887,
+        "discount_price": 1887.69
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.33178,
+        "y": 1.796977
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "BAJAJ-AUTO.NS",
+      "price": 2119.6,
+      "pe_ratio": 6.35,
+      "volume": 150573787,
+      "discount_price": 1801.66
+    },
+    {
+      "symbol": "BHARATFORG.NS",
+      "price": 2499.74,
+      "pe_ratio": 34.35,
+      "volume": 75752190,
+      "discount_price": 2124.78
+    },
+    {
+      "symbol": "BOSCHLTD.NS",
+      "price": 967.36,
+      "pe_ratio": 32.24,
+      "volume": 189993278,
+      "discount_price": 822.26
+    },
+    {
+      "symbol": "EICHERMOT.NS",
+      "price": 2379.03,
+      "pe_ratio": 12.8,
+      "volume": 86292557,
+      "discount_price": 2022.18
+    },
+    {
+      "symbol": "EXIDEIND.NS",
+      "price": 37.12,
+      "pe_ratio": 21.32,
+      "volume": 21558404,
+      "discount_price": 31.55
+    },
+    {
+      "symbol": "HEROMOTOCO.NS",
+      "price": 1151.07,
+      "pe_ratio": 15.09,
+      "volume": 44921062,
+      "discount_price": 978.41
+    },
+    {
+      "symbol": "HYUNDAI.NS",
+      "price": 459.45,
+      "pe_ratio": 42.96,
+      "volume": 184129200,
+      "discount_price": 390.53
+    },
+    {
+      "symbol": "M&M.NS",
+      "price": 1149.08,
+      "pe_ratio": 36.79,
+      "volume": 153221785,
+      "discount_price": 976.72
+    },
+    {
+      "symbol": "MARUTI.NS",
+      "price": 608.44,
+      "pe_ratio": 40.68,
+      "volume": 38433887,
+      "discount_price": 517.17
+    },
+    {
+      "symbol": "MOTHERSON.NS",
+      "price": 247.24,
+      "pe_ratio": 13.53,
+      "volume": 19925013,
+      "discount_price": 210.15
+    },
+    {
+      "symbol": "MRF.NS",
+      "price": 1573.42,
+      "pe_ratio": 6.17,
+      "volume": 196764215,
+      "discount_price": 1337.41
+    },
+    {
+      "symbol": "SONACOMS.NS",
+      "price": 837.35,
+      "pe_ratio": 27.13,
+      "volume": 167108325,
+      "discount_price": 711.75
+    },
+    {
+      "symbol": "TIINDIA.NS",
+      "price": 2191.94,
+      "pe_ratio": 8.14,
+      "volume": 60506763,
+      "discount_price": 1863.15
+    },
+    {
+      "symbol": "TMPV.NS",
+      "price": 1486.1,
+      "pe_ratio": 14.76,
+      "volume": 2986441,
+      "discount_price": 1263.18
+    },
+    {
+      "symbol": "TVSMOTOR.NS",
+      "price": 2220.81,
+      "pe_ratio": 41.76,
+      "volume": 174890887,
+      "discount_price": 1887.69
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "BAJAJ-AUTO.NS": 0,
+      "BHARATFORG.NS": 0,
+      "BOSCHLTD.NS": 2,
+      "EICHERMOT.NS": 0,
+      "EXIDEIND.NS": 1,
+      "HEROMOTOCO.NS": 1,
+      "HYUNDAI.NS": 2,
+      "M&M.NS": 2,
+      "MARUTI.NS": 2,
+      "MOTHERSON.NS": 1,
+      "MRF.NS": 0,
+      "SONACOMS.NS": 2,
+      "TIINDIA.NS": 0,
+      "TMPV.NS": 1,
+      "TVSMOTOR.NS": 0
+    },
+    "value_cluster": {
+      "BAJAJ-AUTO.NS": 0,
+      "BHARATFORG.NS": 2,
+      "BOSCHLTD.NS": 1,
+      "EICHERMOT.NS": 0,
+      "EXIDEIND.NS": 1,
+      "HEROMOTOCO.NS": 0,
+      "HYUNDAI.NS": 1,
+      "M&M.NS": 1,
+      "MARUTI.NS": 1,
+      "MOTHERSON.NS": 1,
+      "MRF.NS": 0,
+      "SONACOMS.NS": 1,
+      "TIINDIA.NS": 0,
+      "TMPV.NS": 0,
+      "TVSMOTOR.NS": 2
+    },
+    "valuation": {
+      "BAJAJ-AUTO.NS": 0,
+      "BHARATFORG.NS": 2,
+      "BOSCHLTD.NS": 1,
+      "EICHERMOT.NS": 0,
+      "EXIDEIND.NS": 1,
+      "HEROMOTOCO.NS": 0,
+      "HYUNDAI.NS": 1,
+      "M&M.NS": 1,
+      "MARUTI.NS": 1,
+      "MOTHERSON.NS": 1,
+      "MRF.NS": 0,
+      "SONACOMS.NS": 1,
+      "TIINDIA.NS": 0,
+      "TMPV.NS": 0,
+      "TVSMOTOR.NS": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "BAJAJ-AUTO.NS",
+      "pc1": 1.781778,
+      "pc2": -0.282917
+    },
+    {
+      "symbol": "BHARATFORG.NS",
+      "pc1": 1.760908,
+      "pc2": 0.388528
+    },
+    {
+      "symbol": "BOSCHLTD.NS",
+      "pc1": -0.620695,
+      "pc2": 1.313987
+    },
+    {
+      "symbol": "EICHERMOT.NS",
+      "pc1": 1.982037,
+      "pc2": -0.612284
+    },
+    {
+      "symbol": "EXIDEIND.NS",
+      "pc1": -2.345727,
+      "pc2": -1.173087
+    },
+    {
+      "symbol": "HEROMOTOCO.NS",
+      "pc1": -0.260313,
+      "pc2": -1.09725
+    },
+    {
+      "symbol": "HYUNDAI.NS",
+      "pc1": -1.711751,
+      "pc2": 1.732651
+    },
+    {
+      "symbol": "M&M.NS",
+      "pc1": -0.464991,
+      "pc2": 1.173694
+    },
+    {
+      "symbol": "MARUTI.NS",
+      "pc1": -1.69462,
+      "pc2": 0.068453
+    },
+    {
+      "symbol": "MOTHERSON.NS",
+      "pc1": -1.838595,
+      "pc2": -1.561015
+    },
+    {
+      "symbol": "MRF.NS",
+      "pc1": 0.932696,
+      "pc2": 0.134959
+    },
+    {
+      "symbol": "SONACOMS.NS",
+      "pc1": -0.792512,
+      "pc2": 0.790716
+    },
+    {
+      "symbol": "TIINDIA.NS",
+      "pc1": 1.697567,
+      "pc2": -1.151097
+    },
+    {
+      "symbol": "TMPV.NS",
+      "pc1": 0.242437,
+      "pc2": -1.522315
+    },
+    {
+      "symbol": "TVSMOTOR.NS",
+      "pc1": 1.33178,
+      "pc2": 1.796977
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "BAJAJ-AUTO.NS",
+      "discount_price": 1801.66
+    },
+    {
+      "symbol": "BHARATFORG.NS",
+      "discount_price": 2124.78
+    },
+    {
+      "symbol": "BOSCHLTD.NS",
+      "discount_price": 822.26
+    },
+    {
+      "symbol": "EICHERMOT.NS",
+      "discount_price": 2022.18
+    },
+    {
+      "symbol": "EXIDEIND.NS",
+      "discount_price": 31.55
+    },
+    {
+      "symbol": "HEROMOTOCO.NS",
+      "discount_price": 978.41
+    },
+    {
+      "symbol": "HYUNDAI.NS",
+      "discount_price": 390.53
+    },
+    {
+      "symbol": "M&M.NS",
+      "discount_price": 976.72
+    },
+    {
+      "symbol": "MARUTI.NS",
+      "discount_price": 517.17
+    },
+    {
+      "symbol": "MOTHERSON.NS",
+      "discount_price": 210.15
+    },
+    {
+      "symbol": "MRF.NS",
+      "discount_price": 1337.41
+    },
+    {
+      "symbol": "SONACOMS.NS",
+      "discount_price": 711.75
+    },
+    {
+      "symbol": "TIINDIA.NS",
+      "discount_price": 1863.15
+    },
+    {
+      "symbol": "TMPV.NS",
+      "discount_price": 1263.18
+    },
+    {
+      "symbol": "TVSMOTOR.NS",
+      "discount_price": 1887.69
+    }
+  ]
+}

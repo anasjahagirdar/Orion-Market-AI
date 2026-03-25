@@ -36,12 +36,12 @@ export PORTFOLIO_OUTPUT_DIR="${OUTPUT_DIR}"
 
 if [[ -f "${PY_SCRIPT}" ]]; then
   echo "Running portfolio generator script..."
-  "${PYTHON_BIN}" "${PY_SCRIPT}" --mapping "${MAPPING_FILE}" --output "${OUTPUT_DIR}"
+  "${PYTHON_BIN}" "${PY_SCRIPT}" --mapping "${MAPPING_FILE}" --output "${OUTPUT_DIR}" "$@"
 elif [[ -f "${BACKEND_DIR}/manage.py" ]] && "${PYTHON_BIN}" "${BACKEND_DIR}/manage.py" help 2>/dev/null | grep -q "generate_portfolios"; then
   echo "Running Django management command..."
   (
     cd "${BACKEND_DIR}"
-    "${PYTHON_BIN}" manage.py generate_portfolios --mapping "${MAPPING_FILE}" --output "${OUTPUT_DIR}"
+    "${PYTHON_BIN}" manage.py generate_portfolios --mapping "${MAPPING_FILE}" --output "${OUTPUT_DIR}" "$@"
   )
 else
   echo "Error: No portfolio generator available."
