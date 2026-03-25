@@ -1,0 +1,258 @@
+{
+  "sector": "Realty",
+  "generated_at_utc": "2026-03-25T09:26:03.936696+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 6
+  },
+  "stocks": [
+    {
+      "symbol": "DLF.NS",
+      "name": "DLF Ltd.",
+      "market": "IN",
+      "sector": "Realty",
+      "features": {
+        "price": 1699.2,
+        "pe_ratio": 35.73,
+        "volume": 81760702,
+        "discount_price": 1310.68
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.895851,
+        "y": -0.104234
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GODREJPROP.NS",
+      "name": "Godrej Properties Ltd.",
+      "market": "IN",
+      "sector": "Realty",
+      "features": {
+        "price": 1668.05,
+        "pe_ratio": 15.64,
+        "volume": 187339430,
+        "discount_price": 1454.21
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.003168,
+        "y": 1.144196
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LODHA.NS",
+      "name": "Lodha Developers Ltd.",
+      "market": "IN",
+      "sector": "Realty",
+      "features": {
+        "price": 128.25,
+        "pe_ratio": 24.93,
+        "volume": 110039915,
+        "discount_price": 105.85
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.084824,
+        "y": 0.155318
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "OBEROIRLTY.NS",
+      "name": "Oberoi Realty Ltd.",
+      "market": "IN",
+      "sector": "Realty",
+      "features": {
+        "price": 626.64,
+        "pe_ratio": 43.76,
+        "volume": 62913980,
+        "discount_price": 458.2
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.769332,
+        "y": -0.140379
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PHOENIXLTD.NS",
+      "name": "Phoenix Mills Ltd.",
+      "market": "IN",
+      "sector": "Realty",
+      "features": {
+        "price": 1334.94,
+        "pe_ratio": 7.13,
+        "volume": 25138481,
+        "discount_price": 1220.6
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.050546,
+        "y": -1.940609
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PRESTIGE.NS",
+      "name": "Prestige Estates Projects Ltd.",
+      "market": "IN",
+      "sector": "Realty",
+      "features": {
+        "price": 1087.73,
+        "pe_ratio": 32.01,
+        "volume": 142654458,
+        "discount_price": 859.25
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -0.09541,
+        "y": 0.885709
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "DLF.NS",
+      "price": 1699.2,
+      "pe_ratio": 35.73,
+      "volume": 81760702,
+      "discount_price": 1310.68
+    },
+    {
+      "symbol": "GODREJPROP.NS",
+      "price": 1668.05,
+      "pe_ratio": 15.64,
+      "volume": 187339430,
+      "discount_price": 1454.21
+    },
+    {
+      "symbol": "LODHA.NS",
+      "price": 128.25,
+      "pe_ratio": 24.93,
+      "volume": 110039915,
+      "discount_price": 105.85
+    },
+    {
+      "symbol": "OBEROIRLTY.NS",
+      "price": 626.64,
+      "pe_ratio": 43.76,
+      "volume": 62913980,
+      "discount_price": 458.2
+    },
+    {
+      "symbol": "PHOENIXLTD.NS",
+      "price": 1334.94,
+      "pe_ratio": 7.13,
+      "volume": 25138481,
+      "discount_price": 1220.6
+    },
+    {
+      "symbol": "PRESTIGE.NS",
+      "price": 1087.73,
+      "pe_ratio": 32.01,
+      "volume": 142654458,
+      "discount_price": 859.25
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "DLF.NS": 0,
+      "GODREJPROP.NS": 2,
+      "LODHA.NS": 1,
+      "OBEROIRLTY.NS": 1,
+      "PHOENIXLTD.NS": 3,
+      "PRESTIGE.NS": 0
+    },
+    "valuation": {
+      "DLF.NS": 2,
+      "GODREJPROP.NS": 0,
+      "LODHA.NS": 1,
+      "OBEROIRLTY.NS": 1,
+      "PHOENIXLTD.NS": 0,
+      "PRESTIGE.NS": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "DLF.NS",
+      "pc1": 0.895851,
+      "pc2": -0.104234
+    },
+    {
+      "symbol": "GODREJPROP.NS",
+      "pc1": 2.003168,
+      "pc2": 1.144196
+    },
+    {
+      "symbol": "LODHA.NS",
+      "pc1": -2.084824,
+      "pc2": 0.155318
+    },
+    {
+      "symbol": "OBEROIRLTY.NS",
+      "pc1": -1.769332,
+      "pc2": -0.140379
+    },
+    {
+      "symbol": "PHOENIXLTD.NS",
+      "pc1": 1.050546,
+      "pc2": -1.940609
+    },
+    {
+      "symbol": "PRESTIGE.NS",
+      "pc1": -0.09541,
+      "pc2": 0.885709
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "DLF.NS",
+      "discount_price": 1310.68
+    },
+    {
+      "symbol": "GODREJPROP.NS",
+      "discount_price": 1454.21
+    },
+    {
+      "symbol": "LODHA.NS",
+      "discount_price": 105.85
+    },
+    {
+      "symbol": "OBEROIRLTY.NS",
+      "discount_price": 458.2
+    },
+    {
+      "symbol": "PHOENIXLTD.NS",
+      "discount_price": 1220.6
+    },
+    {
+      "symbol": "PRESTIGE.NS",
+      "discount_price": 859.25
+    }
+  ]
+}

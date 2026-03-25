@@ -1,0 +1,414 @@
+{
+  "sector": "Metals & Mining",
+  "generated_at_utc": "2026-03-25T09:26:03.562099+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 10
+  },
+  "stocks": [
+    {
+      "symbol": "ADANIENT.NS",
+      "name": "Adani Enterprises Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 712.7,
+        "pe_ratio": 36.93,
+        "volume": 90147485,
+        "discount_price": 545.46
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.528345,
+        "y": 0.211386
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HINDALCO.NS",
+      "name": "Hindalco Industries Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 700.81,
+        "pe_ratio": 12.16,
+        "volume": 18630009,
+        "discount_price": 623.16
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.741984,
+        "y": -1.591264
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HINDZINC.NS",
+      "name": "Hindustan Zinc Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 199.71,
+        "pe_ratio": 20.04,
+        "volume": 124302864,
+        "discount_price": 169.71
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.848332,
+        "y": 0.471075
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JINDALSTEL.NS",
+      "name": "Jindal Steel Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 1265.21,
+        "pe_ratio": 17.68,
+        "volume": 193092083,
+        "discount_price": 1090.1
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.642548,
+        "y": 1.481279
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JSWSTEEL.NS",
+      "name": "JSW Steel Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 255.07,
+        "pe_ratio": 30.79,
+        "volume": 34725996,
+        "discount_price": 203.05
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.342515,
+        "y": -0.836232
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NATIONALUM.NS",
+      "name": "National Aluminium Co. Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 1179.61,
+        "pe_ratio": 32.02,
+        "volume": 177603758,
+        "discount_price": 931.77
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.184268,
+        "y": 1.556928
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NMDC.NS",
+      "name": "NMDC Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 1303.86,
+        "pe_ratio": 6.74,
+        "volume": 152353561,
+        "discount_price": 1194.73
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.100268,
+        "y": 0.519014
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SAIL.NS",
+      "name": "Steel Authority of India Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 1915.41,
+        "pe_ratio": 29.42,
+        "volume": 87987152,
+        "discount_price": 1537.88
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.206745,
+        "y": -0.131086
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TATASTEEL.NS",
+      "name": "Tata Steel Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 1877.31,
+        "pe_ratio": 6.66,
+        "volume": 84786555,
+        "discount_price": 1720.93
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.187274,
+        "y": -0.718252
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "VEDL.NS",
+      "name": "Vedanta Ltd.",
+      "market": "IN",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 1902.61,
+        "pe_ratio": 20.6,
+        "volume": 51754596,
+        "discount_price": 1611.51
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.508608,
+        "y": -0.962847
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ADANIENT.NS",
+      "price": 712.7,
+      "pe_ratio": 36.93,
+      "volume": 90147485,
+      "discount_price": 545.46
+    },
+    {
+      "symbol": "HINDALCO.NS",
+      "price": 700.81,
+      "pe_ratio": 12.16,
+      "volume": 18630009,
+      "discount_price": 623.16
+    },
+    {
+      "symbol": "HINDZINC.NS",
+      "price": 199.71,
+      "pe_ratio": 20.04,
+      "volume": 124302864,
+      "discount_price": 169.71
+    },
+    {
+      "symbol": "JINDALSTEL.NS",
+      "price": 1265.21,
+      "pe_ratio": 17.68,
+      "volume": 193092083,
+      "discount_price": 1090.1
+    },
+    {
+      "symbol": "JSWSTEEL.NS",
+      "price": 255.07,
+      "pe_ratio": 30.79,
+      "volume": 34725996,
+      "discount_price": 203.05
+    },
+    {
+      "symbol": "NATIONALUM.NS",
+      "price": 1179.61,
+      "pe_ratio": 32.02,
+      "volume": 177603758,
+      "discount_price": 931.77
+    },
+    {
+      "symbol": "NMDC.NS",
+      "price": 1303.86,
+      "pe_ratio": 6.74,
+      "volume": 152353561,
+      "discount_price": 1194.73
+    },
+    {
+      "symbol": "SAIL.NS",
+      "price": 1915.41,
+      "pe_ratio": 29.42,
+      "volume": 87987152,
+      "discount_price": 1537.88
+    },
+    {
+      "symbol": "TATASTEEL.NS",
+      "price": 1877.31,
+      "pe_ratio": 6.66,
+      "volume": 84786555,
+      "discount_price": 1720.93
+    },
+    {
+      "symbol": "VEDL.NS",
+      "price": 1902.61,
+      "pe_ratio": 20.6,
+      "volume": 51754596,
+      "discount_price": 1611.51
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ADANIENT.NS": 1,
+      "HINDALCO.NS": 2,
+      "HINDZINC.NS": 1,
+      "JINDALSTEL.NS": 0,
+      "JSWSTEEL.NS": 1,
+      "NATIONALUM.NS": 0,
+      "NMDC.NS": 0,
+      "SAIL.NS": 3,
+      "TATASTEEL.NS": 3,
+      "VEDL.NS": 3
+    },
+    "valuation": {
+      "ADANIENT.NS": 1,
+      "HINDALCO.NS": 0,
+      "HINDZINC.NS": 1,
+      "JINDALSTEL.NS": 0,
+      "JSWSTEEL.NS": 1,
+      "NATIONALUM.NS": 1,
+      "NMDC.NS": 0,
+      "SAIL.NS": 2,
+      "TATASTEEL.NS": 0,
+      "VEDL.NS": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ADANIENT.NS",
+      "pc1": -1.528345,
+      "pc2": 0.211386
+    },
+    {
+      "symbol": "HINDALCO.NS",
+      "pc1": -0.741984,
+      "pc2": -1.591264
+    },
+    {
+      "symbol": "HINDZINC.NS",
+      "pc1": -1.848332,
+      "pc2": 0.471075
+    },
+    {
+      "symbol": "JINDALSTEL.NS",
+      "pc1": 0.642548,
+      "pc2": 1.481279
+    },
+    {
+      "symbol": "JSWSTEEL.NS",
+      "pc1": -2.342515,
+      "pc2": -0.836232
+    },
+    {
+      "symbol": "NATIONALUM.NS",
+      "pc1": -0.184268,
+      "pc2": 1.556928
+    },
+    {
+      "symbol": "NMDC.NS",
+      "pc1": 1.100268,
+      "pc2": 0.519014
+    },
+    {
+      "symbol": "SAIL.NS",
+      "pc1": 1.206745,
+      "pc2": -0.131086
+    },
+    {
+      "symbol": "TATASTEEL.NS",
+      "pc1": 2.187274,
+      "pc2": -0.718252
+    },
+    {
+      "symbol": "VEDL.NS",
+      "pc1": 1.508608,
+      "pc2": -0.962847
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ADANIENT.NS",
+      "discount_price": 545.46
+    },
+    {
+      "symbol": "HINDALCO.NS",
+      "discount_price": 623.16
+    },
+    {
+      "symbol": "HINDZINC.NS",
+      "discount_price": 169.71
+    },
+    {
+      "symbol": "JINDALSTEL.NS",
+      "discount_price": 1090.1
+    },
+    {
+      "symbol": "JSWSTEEL.NS",
+      "discount_price": 203.05
+    },
+    {
+      "symbol": "NATIONALUM.NS",
+      "discount_price": 931.77
+    },
+    {
+      "symbol": "NMDC.NS",
+      "discount_price": 1194.73
+    },
+    {
+      "symbol": "SAIL.NS",
+      "discount_price": 1537.88
+    },
+    {
+      "symbol": "TATASTEEL.NS",
+      "discount_price": 1720.93
+    },
+    {
+      "symbol": "VEDL.NS",
+      "discount_price": 1611.51
+    }
+  ]
+}

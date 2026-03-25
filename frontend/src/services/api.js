@@ -173,4 +173,15 @@ export const btcAPI = {
     api.get(`/btc-analysis/${refresh ? '?refresh=1' : ''}`),
 };
 
+export const portfolioAPI = {
+  getSector: (sector) =>
+    cachedGet({
+      key: cacheKeyFor(`/portfolio/${sector}`),
+      ttlMs: 10 * 60 * 1000,
+      requestFn: () => api.get(`/portfolio/${encodeURIComponent(sector)}/`),
+    }),
+  getSectorFresh: (sector) => api.get(`/portfolio/${encodeURIComponent(sector)}/`),
+  recompute: () => api.post('/recompute-portfolio/'),
+};
+
 export default api;

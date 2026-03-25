@@ -1,0 +1,531 @@
+{
+  "sector": "Fast Moving Consumer Goods",
+  "generated_at_utc": "2026-03-25T09:26:02.491432+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 13
+  },
+  "stocks": [
+    {
+      "symbol": "BRITANNIA.NS",
+      "name": "Britannia Industries Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 947.52,
+        "pe_ratio": 12.46,
+        "volume": 185428206,
+        "discount_price": 841.11
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.23446,
+        "y": 1.611745
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COLPAL.NS",
+      "name": "Colgate Palmolive (India) Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 1371.75,
+        "pe_ratio": 8.67,
+        "volume": 66586488,
+        "discount_price": 1243.7
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.781122,
+        "y": -0.347154
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DABUR.NS",
+      "name": "Dabur India Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 1539.28,
+        "pe_ratio": 20.64,
+        "volume": 74421472,
+        "discount_price": 1303.46
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.5232,
+        "y": -0.439572
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GODFRYPHLP.NS",
+      "name": "Godfrey Phillips India Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 443.14,
+        "pe_ratio": 42.19,
+        "volume": 183986345,
+        "discount_price": 327.5
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.26072,
+        "y": 1.071448
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GODREJCP.NS",
+      "name": "Godrej Consumer Products Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 1811.62,
+        "pe_ratio": 13.52,
+        "volume": 162149419,
+        "discount_price": 1598.57
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.209095,
+        "y": 1.159625
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HINDUNILVR.NS",
+      "name": "Hindustan Unilever Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 38.55,
+        "pe_ratio": 27.69,
+        "volume": 8961314,
+        "discount_price": 31.29
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.156903,
+        "y": -1.604777
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ITC.NS",
+      "name": "ITC Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 26.79,
+        "pe_ratio": 41.95,
+        "volume": 116599653,
+        "discount_price": 19.83
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.824259,
+        "y": -0.04376
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MARICO.NS",
+      "name": "Marico Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 2126.5,
+        "pe_ratio": 36.04,
+        "volume": 911011,
+        "discount_price": 1636.98
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.839512,
+        "y": -1.9882
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NESTLEIND.NS",
+      "name": "Nestle India Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 2260.7,
+        "pe_ratio": 13.78,
+        "volume": 111146925,
+        "discount_price": 1991.9
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.011789,
+        "y": 0.272498
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PATANJALI.NS",
+      "name": "Patanjali Foods Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 1727.41,
+        "pe_ratio": 15.08,
+        "volume": 55805894,
+        "discount_price": 1510.79
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.109811,
+        "y": -0.661884
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TATACONSUM.NS",
+      "name": "Tata Consumer Products Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 894.84,
+        "pe_ratio": 30.49,
+        "volume": 124639335,
+        "discount_price": 713.68
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.009343,
+        "y": 0.259936
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UNITDSPR.NS",
+      "name": "United Spirits Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 1801.69,
+        "pe_ratio": 25.6,
+        "volume": 150728522,
+        "discount_price": 1480.99
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.646695,
+        "y": 0.747883
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "VBL.NS",
+      "name": "Varun Beverages Ltd.",
+      "market": "IN",
+      "sector": "Fast Moving Consumer Goods",
+      "features": {
+        "price": 2464.05,
+        "pe_ratio": 33.73,
+        "volume": 114767044,
+        "discount_price": 1925.29
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.364461,
+        "y": -0.037788
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "BRITANNIA.NS",
+      "price": 947.52,
+      "pe_ratio": 12.46,
+      "volume": 185428206,
+      "discount_price": 841.11
+    },
+    {
+      "symbol": "COLPAL.NS",
+      "price": 1371.75,
+      "pe_ratio": 8.67,
+      "volume": 66586488,
+      "discount_price": 1243.7
+    },
+    {
+      "symbol": "DABUR.NS",
+      "price": 1539.28,
+      "pe_ratio": 20.64,
+      "volume": 74421472,
+      "discount_price": 1303.46
+    },
+    {
+      "symbol": "GODFRYPHLP.NS",
+      "price": 443.14,
+      "pe_ratio": 42.19,
+      "volume": 183986345,
+      "discount_price": 327.5
+    },
+    {
+      "symbol": "GODREJCP.NS",
+      "price": 1811.62,
+      "pe_ratio": 13.52,
+      "volume": 162149419,
+      "discount_price": 1598.57
+    },
+    {
+      "symbol": "HINDUNILVR.NS",
+      "price": 38.55,
+      "pe_ratio": 27.69,
+      "volume": 8961314,
+      "discount_price": 31.29
+    },
+    {
+      "symbol": "ITC.NS",
+      "price": 26.79,
+      "pe_ratio": 41.95,
+      "volume": 116599653,
+      "discount_price": 19.83
+    },
+    {
+      "symbol": "MARICO.NS",
+      "price": 2126.5,
+      "pe_ratio": 36.04,
+      "volume": 911011,
+      "discount_price": 1636.98
+    },
+    {
+      "symbol": "NESTLEIND.NS",
+      "price": 2260.7,
+      "pe_ratio": 13.78,
+      "volume": 111146925,
+      "discount_price": 1991.9
+    },
+    {
+      "symbol": "PATANJALI.NS",
+      "price": 1727.41,
+      "pe_ratio": 15.08,
+      "volume": 55805894,
+      "discount_price": 1510.79
+    },
+    {
+      "symbol": "TATACONSUM.NS",
+      "price": 894.84,
+      "pe_ratio": 30.49,
+      "volume": 124639335,
+      "discount_price": 713.68
+    },
+    {
+      "symbol": "UNITDSPR.NS",
+      "price": 1801.69,
+      "pe_ratio": 25.6,
+      "volume": 150728522,
+      "discount_price": 1480.99
+    },
+    {
+      "symbol": "VBL.NS",
+      "price": 2464.05,
+      "pe_ratio": 33.73,
+      "volume": 114767044,
+      "discount_price": 1925.29
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "BRITANNIA.NS": 0,
+      "COLPAL.NS": 2,
+      "DABUR.NS": 2,
+      "GODFRYPHLP.NS": 1,
+      "GODREJCP.NS": 0,
+      "HINDUNILVR.NS": 1,
+      "ITC.NS": 1,
+      "MARICO.NS": 3,
+      "NESTLEIND.NS": 0,
+      "PATANJALI.NS": 2,
+      "TATACONSUM.NS": 1,
+      "UNITDSPR.NS": 0,
+      "VBL.NS": 3
+    },
+    "valuation": {
+      "BRITANNIA.NS": 0,
+      "COLPAL.NS": 0,
+      "DABUR.NS": 0,
+      "GODFRYPHLP.NS": 1,
+      "GODREJCP.NS": 0,
+      "HINDUNILVR.NS": 1,
+      "ITC.NS": 1,
+      "MARICO.NS": 2,
+      "NESTLEIND.NS": 0,
+      "PATANJALI.NS": 0,
+      "TATACONSUM.NS": 1,
+      "UNITDSPR.NS": 2,
+      "VBL.NS": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "BRITANNIA.NS",
+      "pc1": -0.23446,
+      "pc2": 1.611745
+    },
+    {
+      "symbol": "COLPAL.NS",
+      "pc1": 0.781122,
+      "pc2": -0.347154
+    },
+    {
+      "symbol": "DABUR.NS",
+      "pc1": 0.5232,
+      "pc2": -0.439572
+    },
+    {
+      "symbol": "GODFRYPHLP.NS",
+      "pc1": -2.26072,
+      "pc2": 1.071448
+    },
+    {
+      "symbol": "GODREJCP.NS",
+      "pc1": 1.209095,
+      "pc2": 1.159625
+    },
+    {
+      "symbol": "HINDUNILVR.NS",
+      "pc1": -2.156903,
+      "pc2": -1.604777
+    },
+    {
+      "symbol": "ITC.NS",
+      "pc1": -2.824259,
+      "pc2": -0.04376
+    },
+    {
+      "symbol": "MARICO.NS",
+      "pc1": 0.839512,
+      "pc2": -1.9882
+    },
+    {
+      "symbol": "NESTLEIND.NS",
+      "pc1": 2.011789,
+      "pc2": 0.272498
+    },
+    {
+      "symbol": "PATANJALI.NS",
+      "pc1": 1.109811,
+      "pc2": -0.661884
+    },
+    {
+      "symbol": "TATACONSUM.NS",
+      "pc1": -1.009343,
+      "pc2": 0.259936
+    },
+    {
+      "symbol": "UNITDSPR.NS",
+      "pc1": 0.646695,
+      "pc2": 0.747883
+    },
+    {
+      "symbol": "VBL.NS",
+      "pc1": 1.364461,
+      "pc2": -0.037788
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "BRITANNIA.NS",
+      "discount_price": 841.11
+    },
+    {
+      "symbol": "COLPAL.NS",
+      "discount_price": 1243.7
+    },
+    {
+      "symbol": "DABUR.NS",
+      "discount_price": 1303.46
+    },
+    {
+      "symbol": "GODFRYPHLP.NS",
+      "discount_price": 327.5
+    },
+    {
+      "symbol": "GODREJCP.NS",
+      "discount_price": 1598.57
+    },
+    {
+      "symbol": "HINDUNILVR.NS",
+      "discount_price": 31.29
+    },
+    {
+      "symbol": "ITC.NS",
+      "discount_price": 19.83
+    },
+    {
+      "symbol": "MARICO.NS",
+      "discount_price": 1636.98
+    },
+    {
+      "symbol": "NESTLEIND.NS",
+      "discount_price": 1991.9
+    },
+    {
+      "symbol": "PATANJALI.NS",
+      "discount_price": 1510.79
+    },
+    {
+      "symbol": "TATACONSUM.NS",
+      "discount_price": 713.68
+    },
+    {
+      "symbol": "UNITDSPR.NS",
+      "discount_price": 1480.99
+    },
+    {
+      "symbol": "VBL.NS",
+      "discount_price": 1925.29
+    }
+  ]
+}

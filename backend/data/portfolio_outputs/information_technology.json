@@ -1,0 +1,531 @@
+{
+  "sector": "Information Technology",
+  "generated_at_utc": "2026-03-25T09:26:03.432650+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 13
+  },
+  "stocks": [
+    {
+      "symbol": "COFORGE.NS",
+      "name": "Coforge Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 1946.28,
+        "pe_ratio": 30.77,
+        "volume": 86119915,
+        "discount_price": 1549.53
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.429528,
+        "y": 0.924067
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HCLTECH.NS",
+      "name": "HCL Technologies Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 2359.77,
+        "pe_ratio": 8.72,
+        "volume": 193239026,
+        "discount_price": 2138.9
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.604209,
+        "y": 0.338389
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INFY.NS",
+      "name": "Infosys Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 2473.4,
+        "pe_ratio": 9.11,
+        "volume": 21303236,
+        "discount_price": 2237.07
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.873823,
+        "y": -1.37784
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KPITTECH.NS",
+      "name": "KPIT Technologies Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 537.74,
+        "pe_ratio": 12.46,
+        "volume": 35576966,
+        "discount_price": 477.35
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.619655,
+        "y": -1.29915
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LTM.NS",
+      "name": "LTIMindtree Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 1417.26,
+        "pe_ratio": 22.26,
+        "volume": 125323799,
+        "discount_price": 1188.66
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.304217,
+        "y": 0.558328
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MPHASIS.NS",
+      "name": "MphasiS Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 1774.12,
+        "pe_ratio": 25.53,
+        "volume": 182336535,
+        "discount_price": 1458.95
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.2107,
+        "y": 1.465905
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "OFSS.NS",
+      "name": "Oracle Financial Services Software Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 2165.87,
+        "pe_ratio": 23.69,
+        "volume": 73108000,
+        "discount_price": 1801.03
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.965906,
+        "y": 0.262956
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PERSISTENT.NS",
+      "name": "Persistent Systems Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 2459.3,
+        "pe_ratio": 12.63,
+        "volume": 9814101,
+        "discount_price": 2181.03
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.767034,
+        "y": -1.218166
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TATAELXSI.NS",
+      "name": "Tata Elxsi Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 752.22,
+        "pe_ratio": 15.4,
+        "volume": 37022134,
+        "discount_price": 656.69
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.290627,
+        "y": -1.011735
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TATATECH.NS",
+      "name": "Tata Technologies Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 874.6,
+        "pe_ratio": 18.61,
+        "volume": 180347555,
+        "discount_price": 749.49
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.195498,
+        "y": 0.739316
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TCS.NS",
+      "name": "Tata Consultancy Services Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 2427.85,
+        "pe_ratio": 24.75,
+        "volume": 36053276,
+        "discount_price": 2006.01
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.402581,
+        "y": 0.010968
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TECHM.NS",
+      "name": "Tech Mahindra Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 65.66,
+        "pe_ratio": 12.38,
+        "volume": 8559012,
+        "discount_price": 58.31
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.436699,
+        "y": -1.664866
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "name": "Wipro Ltd.",
+      "market": "IN",
+      "sector": "Information Technology",
+      "features": {
+        "price": 950.86,
+        "pe_ratio": 38.89,
+        "volume": 170255926,
+        "discount_price": 718.42
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.407086,
+        "y": 2.271826
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "COFORGE.NS",
+      "price": 1946.28,
+      "pe_ratio": 30.77,
+      "volume": 86119915,
+      "discount_price": 1549.53
+    },
+    {
+      "symbol": "HCLTECH.NS",
+      "price": 2359.77,
+      "pe_ratio": 8.72,
+      "volume": 193239026,
+      "discount_price": 2138.9
+    },
+    {
+      "symbol": "INFY.NS",
+      "price": 2473.4,
+      "pe_ratio": 9.11,
+      "volume": 21303236,
+      "discount_price": 2237.07
+    },
+    {
+      "symbol": "KPITTECH.NS",
+      "price": 537.74,
+      "pe_ratio": 12.46,
+      "volume": 35576966,
+      "discount_price": 477.35
+    },
+    {
+      "symbol": "LTM.NS",
+      "price": 1417.26,
+      "pe_ratio": 22.26,
+      "volume": 125323799,
+      "discount_price": 1188.66
+    },
+    {
+      "symbol": "MPHASIS.NS",
+      "price": 1774.12,
+      "pe_ratio": 25.53,
+      "volume": 182336535,
+      "discount_price": 1458.95
+    },
+    {
+      "symbol": "OFSS.NS",
+      "price": 2165.87,
+      "pe_ratio": 23.69,
+      "volume": 73108000,
+      "discount_price": 1801.03
+    },
+    {
+      "symbol": "PERSISTENT.NS",
+      "price": 2459.3,
+      "pe_ratio": 12.63,
+      "volume": 9814101,
+      "discount_price": 2181.03
+    },
+    {
+      "symbol": "TATAELXSI.NS",
+      "price": 752.22,
+      "pe_ratio": 15.4,
+      "volume": 37022134,
+      "discount_price": 656.69
+    },
+    {
+      "symbol": "TATATECH.NS",
+      "price": 874.6,
+      "pe_ratio": 18.61,
+      "volume": 180347555,
+      "discount_price": 749.49
+    },
+    {
+      "symbol": "TCS.NS",
+      "price": 2427.85,
+      "pe_ratio": 24.75,
+      "volume": 36053276,
+      "discount_price": 2006.01
+    },
+    {
+      "symbol": "TECHM.NS",
+      "price": 65.66,
+      "pe_ratio": 12.38,
+      "volume": 8559012,
+      "discount_price": 58.31
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "price": 950.86,
+      "pe_ratio": 38.89,
+      "volume": 170255926,
+      "discount_price": 718.42
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "COFORGE.NS": 2,
+      "HCLTECH.NS": 3,
+      "INFY.NS": 0,
+      "KPITTECH.NS": 1,
+      "LTM.NS": 2,
+      "MPHASIS.NS": 2,
+      "OFSS.NS": 0,
+      "PERSISTENT.NS": 0,
+      "TATAELXSI.NS": 1,
+      "TATATECH.NS": 2,
+      "TCS.NS": 0,
+      "TECHM.NS": 1,
+      "WIPRO.NS": 2
+    },
+    "valuation": {
+      "COFORGE.NS": 0,
+      "HCLTECH.NS": 2,
+      "INFY.NS": 2,
+      "KPITTECH.NS": 1,
+      "LTM.NS": 0,
+      "MPHASIS.NS": 0,
+      "OFSS.NS": 0,
+      "PERSISTENT.NS": 2,
+      "TATAELXSI.NS": 1,
+      "TATATECH.NS": 1,
+      "TCS.NS": 0,
+      "TECHM.NS": 1,
+      "WIPRO.NS": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "COFORGE.NS",
+      "pc1": 0.429528,
+      "pc2": 0.924067
+    },
+    {
+      "symbol": "HCLTECH.NS",
+      "pc1": 1.604209,
+      "pc2": 0.338389
+    },
+    {
+      "symbol": "INFY.NS",
+      "pc1": 1.873823,
+      "pc2": -1.37784
+    },
+    {
+      "symbol": "KPITTECH.NS",
+      "pc1": -1.619655,
+      "pc2": -1.29915
+    },
+    {
+      "symbol": "LTM.NS",
+      "pc1": -0.304217,
+      "pc2": 0.558328
+    },
+    {
+      "symbol": "MPHASIS.NS",
+      "pc1": 0.2107,
+      "pc2": 1.465905
+    },
+    {
+      "symbol": "OFSS.NS",
+      "pc1": 0.965906,
+      "pc2": 0.262956
+    },
+    {
+      "symbol": "PERSISTENT.NS",
+      "pc1": 1.767034,
+      "pc2": -1.218166
+    },
+    {
+      "symbol": "TATAELXSI.NS",
+      "pc1": -1.290627,
+      "pc2": -1.011735
+    },
+    {
+      "symbol": "TATATECH.NS",
+      "pc1": -1.195498,
+      "pc2": 0.739316
+    },
+    {
+      "symbol": "TCS.NS",
+      "pc1": 1.402581,
+      "pc2": 0.010968
+    },
+    {
+      "symbol": "TECHM.NS",
+      "pc1": -2.436699,
+      "pc2": -1.664866
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "pc1": -1.407086,
+      "pc2": 2.271826
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "COFORGE.NS",
+      "discount_price": 1549.53
+    },
+    {
+      "symbol": "HCLTECH.NS",
+      "discount_price": 2138.9
+    },
+    {
+      "symbol": "INFY.NS",
+      "discount_price": 2237.07
+    },
+    {
+      "symbol": "KPITTECH.NS",
+      "discount_price": 477.35
+    },
+    {
+      "symbol": "LTM.NS",
+      "discount_price": 1188.66
+    },
+    {
+      "symbol": "MPHASIS.NS",
+      "discount_price": 1458.95
+    },
+    {
+      "symbol": "OFSS.NS",
+      "discount_price": 1801.03
+    },
+    {
+      "symbol": "PERSISTENT.NS",
+      "discount_price": 2181.03
+    },
+    {
+      "symbol": "TATAELXSI.NS",
+      "discount_price": 656.69
+    },
+    {
+      "symbol": "TATATECH.NS",
+      "discount_price": 749.49
+    },
+    {
+      "symbol": "TCS.NS",
+      "discount_price": 2006.01
+    },
+    {
+      "symbol": "TECHM.NS",
+      "discount_price": 58.31
+    },
+    {
+      "symbol": "WIPRO.NS",
+      "discount_price": 718.42
+    }
+  ]
+}

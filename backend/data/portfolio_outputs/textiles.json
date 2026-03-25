@@ -1,0 +1,63 @@
+{
+  "sector": "Textiles",
+  "generated_at_utc": "2026-03-25T09:26:04.191789+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 1,
+    "valuation_clusters_used": 1,
+    "stock_count": 1
+  },
+  "stocks": [
+    {
+      "symbol": "PAGEIND.NS",
+      "name": "Page Industries Ltd.",
+      "market": "IN",
+      "sector": "Textiles",
+      "features": {
+        "price": 2132.03,
+        "pe_ratio": 41.48,
+        "volume": 16741086,
+        "discount_price": 1583.25
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "PAGEIND.NS",
+      "price": 2132.03,
+      "pe_ratio": 41.48,
+      "volume": 16741086,
+      "discount_price": 1583.25
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "PAGEIND.NS": 0
+    },
+    "valuation": {
+      "PAGEIND.NS": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "PAGEIND.NS",
+      "pc1": 0.0,
+      "pc2": 0.0
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "PAGEIND.NS",
+      "discount_price": 1583.25
+    }
+  ]
+}

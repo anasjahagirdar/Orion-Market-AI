@@ -1,0 +1,7824 @@
+{
+  "sector": "General",
+  "generated_at_utc": "2026-03-25T09:26:03.148493+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 200
+  },
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 141.71,
+        "pe_ratio": 25.51,
+        "volume": 141387157,
+        "discount_price": 116.55
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.056003,
+        "y": -0.727463
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ABBV",
+      "name": "AbbVie",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 308.54,
+        "pe_ratio": 22.9,
+        "volume": 141061635,
+        "discount_price": 257.79
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.71778,
+        "y": -0.852366
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ABNB",
+      "name": "Airbnb",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 936.69,
+        "pe_ratio": 14.13,
+        "volume": 57151869,
+        "discount_price": 823.68
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.558689,
+        "y": -0.200623
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ABT",
+      "name": "Abbott Laboratories",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 665.17,
+        "pe_ratio": 16.11,
+        "volume": 104996800,
+        "discount_price": 578.33
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.026463,
+        "y": -0.747018
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1464.27,
+        "pe_ratio": 21.01,
+        "volume": 18039334,
+        "discount_price": 1237.23
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.291186,
+        "y": 0.867946
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1962.2,
+        "pe_ratio": 19.41,
+        "volume": 156722131,
+        "discount_price": 1673.66
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.516242,
+        "y": -0.876517
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ADI",
+      "name": "Analog Devices",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 255.26,
+        "pe_ratio": 42.93,
+        "volume": 123674063,
+        "discount_price": 187.71
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.03084,
+        "y": 0.65376
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ADP",
+      "name": "Automatic Data Processing",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 374.13,
+        "pe_ratio": 19.21,
+        "volume": 9351344,
+        "discount_price": 319.49
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.788872,
+        "y": 0.59817
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AEP",
+      "name": "American Electric Power",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1285.32,
+        "pe_ratio": 42.08,
+        "volume": 119210710,
+        "discount_price": 950.62
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.187627,
+        "y": 0.895814
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AFL",
+      "name": "Aflac",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 699.43,
+        "pe_ratio": 10.51,
+        "volume": 115828111,
+        "discount_price": 627.7
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.876103,
+        "y": -1.238211
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AJG",
+      "name": "Arthur J. Gallagher & Co.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 905.94,
+        "pe_ratio": 38.91,
+        "volume": 98846099,
+        "discount_price": 684.39
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.86187,
+        "y": 0.861439
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ALL",
+      "name": "Allstate",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 834.26,
+        "pe_ratio": 15.24,
+        "volume": 64576460,
+        "discount_price": 728.98
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.759043,
+        "y": -0.248344
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1666.48,
+        "pe_ratio": 31.13,
+        "volume": 114682038,
+        "discount_price": 1323.77
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.674052,
+        "y": 0.338894
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1364.07,
+        "pe_ratio": 9.25,
+        "volume": 64201703,
+        "discount_price": 1232.78
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.362006,
+        "y": -0.499767
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AMGN",
+      "name": "Amgen",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1384.86,
+        "pe_ratio": 27.03,
+        "volume": 66612127,
+        "discount_price": 1128.45
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.131512,
+        "y": 0.618921
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AMT",
+      "name": "American Tower",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1926.93,
+        "pe_ratio": 21.75,
+        "volume": 136517307,
+        "discount_price": 1621.03
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.369464,
+        "y": -0.478242
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1886.71,
+        "pe_ratio": 33.44,
+        "volume": 194935841,
+        "discount_price": 1476.92
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.180603,
+        "y": -0.480353
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2375.53,
+        "pe_ratio": 21.94,
+        "volume": 146879408,
+        "discount_price": 1996.16
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.238645,
+        "y": -0.489417
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AON",
+      "name": "Aon",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2044.84,
+        "pe_ratio": 11.79,
+        "volume": 190006225,
+        "discount_price": 1822.05
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.880352,
+        "y": -1.767791
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APD",
+      "name": "Air Products",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1982.31,
+        "pe_ratio": 21.57,
+        "volume": 87526558,
+        "discount_price": 1669.4
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.392282,
+        "y": 0.14613
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2229.63,
+        "pe_ratio": 16.15,
+        "volume": 180559963,
+        "discount_price": 1938.11
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.137761,
+        "y": -1.323281
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APO",
+      "name": "Apollo Global Management",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 536.61,
+        "pe_ratio": 23.36,
+        "volume": 29637496,
+        "discount_price": 447.1
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.485422,
+        "y": 0.648266
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1220.25,
+        "pe_ratio": 8.87,
+        "volume": 107968727,
+        "discount_price": 1105.12
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.160102,
+        "y": -1.115858
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2392.75,
+        "pe_ratio": 40.79,
+        "volume": 6809457,
+        "discount_price": 1785.11
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.624039,
+        "y": 2.500108
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AXP",
+      "name": "American Express",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 715.94,
+        "pe_ratio": 32.86,
+        "volume": 90503888,
+        "discount_price": 562.51
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.1493,
+        "y": 0.531907
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AZO",
+      "name": "AutoZone",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1141.06,
+        "pe_ratio": 15.54,
+        "volume": 150776133,
+        "discount_price": 995.35
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.015568,
+        "y": -1.249473
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2497.85,
+        "pe_ratio": 33.47,
+        "volume": 161072963,
+        "discount_price": 1954.94
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.244297,
+        "y": 0.096619
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BAC",
+      "name": "Bank of America",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 93.59,
+        "pe_ratio": 6.27,
+        "volume": 48679871,
+        "discount_price": 85.98
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.153326,
+        "y": -0.809026
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BK",
+      "name": "BNY Mellon",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 772.3,
+        "pe_ratio": 44.85,
+        "volume": 23403448,
+        "discount_price": 560.5
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.307424,
+        "y": 2.172455
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BKNG",
+      "name": "Booking Holdings",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 477.82,
+        "pe_ratio": 38.98,
+        "volume": 187787930,
+        "discount_price": 360.8
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.480135,
+        "y": -0.364705
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BKR",
+      "name": "Baker Hughes",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2242.96,
+        "pe_ratio": 14.07,
+        "volume": 173283097,
+        "discount_price": 1973.02
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.193276,
+        "y": -1.360704
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BLK",
+      "name": "BlackRock",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1914.87,
+        "pe_ratio": 24.64,
+        "volume": 153670272,
+        "discount_price": 1583.21
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.323034,
+        "y": -0.513754
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BMY",
+      "name": "Bristol Myers Squibb",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2075.58,
+        "pe_ratio": 32.56,
+        "volume": 97688336,
+        "discount_price": 1633.9
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.374087,
+        "y": 0.743742
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BRK.B",
+      "name": "Berkshire Hathaway",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 106.58,
+        "pe_ratio": 32.95,
+        "volume": 75870883,
+        "discount_price": 83.69
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.298406,
+        "y": 0.579219
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BSX",
+      "name": "Boston Scientific",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2092.79,
+        "pe_ratio": 38.42,
+        "volume": 174616390,
+        "discount_price": 1586.13
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.426433,
+        "y": 0.145731
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BX",
+      "name": "Blackstone Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1441.62,
+        "pe_ratio": 32.94,
+        "volume": 140654019,
+        "discount_price": 1132.1
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.274549,
+        "y": 0.071832
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "C",
+      "name": "Citigroup",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1318.76,
+        "pe_ratio": 40.27,
+        "volume": 15224263,
+        "discount_price": 987.29
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.283212,
+        "y": 2.108475
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1795.09,
+        "pe_ratio": 19.78,
+        "volume": 105685502,
+        "discount_price": 1527.8
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.099167,
+        "y": -0.244749
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CB",
+      "name": "Chubb Limited",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1847.03,
+        "pe_ratio": 34.72,
+        "volume": 178138544,
+        "discount_price": 1434.03
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.054847,
+        "y": -0.19417
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1566.71,
+        "pe_ratio": 28.77,
+        "volume": 80419983,
+        "discount_price": 1263.0
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.468078,
+        "y": 0.598846
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 74.92,
+        "pe_ratio": 25.62,
+        "volume": 47431620,
+        "discount_price": 61.58
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.347932,
+        "y": 0.457559
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CI",
+      "name": "Cigna",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1435.65,
+        "pe_ratio": 40.45,
+        "volume": 30950891,
+        "discount_price": 1073.51
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.048009,
+        "y": 1.94758
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 914.0,
+        "pe_ratio": 25.92,
+        "volume": 134702610,
+        "discount_price": 749.85
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.617718,
+        "y": -0.430692
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CL",
+      "name": "Colgate-Palmolive",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 853.81,
+        "pe_ratio": 10.64,
+        "volume": 65912517,
+        "discount_price": 765.7
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.661319,
+        "y": -0.557548
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 445.2,
+        "pe_ratio": 14.89,
+        "volume": 109571521,
+        "discount_price": 389.79
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.432392,
+        "y": -0.937742
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CME",
+      "name": "CME Group",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 983.17,
+        "pe_ratio": 15.01,
+        "volume": 45051065,
+        "discount_price": 860.22
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.50099,
+        "y": 0.021283
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CMI",
+      "name": "Cummins",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 255.69,
+        "pe_ratio": 42.02,
+        "volume": 162172167,
+        "discount_price": 189.19
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.954147,
+        "y": 0.105684
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COF",
+      "name": "Capital One",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 615.98,
+        "pe_ratio": 11.57,
+        "volume": 74043622,
+        "discount_price": 549.55
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.125755,
+        "y": -0.659235
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COP",
+      "name": "ConocoPhillips",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2247.97,
+        "pe_ratio": 10.08,
+        "volume": 147502191,
+        "discount_price": 2022.27
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.239315,
+        "y": -1.287267
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COR",
+      "name": "Cencora",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 641.34,
+        "pe_ratio": 18.14,
+        "volume": 105342604,
+        "discount_price": 551.1
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.094901,
+        "y": -0.625982
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2040.83,
+        "pe_ratio": 17.36,
+        "volume": 132771811,
+        "discount_price": 1761.64
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.664536,
+        "y": -0.684497
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CRH",
+      "name": "CRH plc",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 387.87,
+        "pe_ratio": 16.49,
+        "volume": 22538236,
+        "discount_price": 336.5
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.712615,
+        "y": 0.257811
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 427.94,
+        "pe_ratio": 34.87,
+        "volume": 24818793,
+        "discount_price": 331.93
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.815554,
+        "y": 1.428421
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2300.19,
+        "pe_ratio": 21.78,
+        "volume": 20610219,
+        "discount_price": 1934.69
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.876448,
+        "y": 1.086689
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CSCO",
+      "name": "Cisco",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1761.27,
+        "pe_ratio": 13.18,
+        "volume": 19851783,
+        "discount_price": 1557.14
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.000024,
+        "y": 0.41403
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CSX",
+      "name": "CSX Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1317.49,
+        "pe_ratio": 10.76,
+        "volume": 102647599,
+        "discount_price": 1180.73
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.314642,
+        "y": -0.902578
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CTAS",
+      "name": "Cintas",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2469.49,
+        "pe_ratio": 8.12,
+        "volume": 162440410,
+        "discount_price": 2245.75
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.745132,
+        "y": -1.547839
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CVS",
+      "name": "CVS Health",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 549.78,
+        "pe_ratio": 9.02,
+        "volume": 58099854,
+        "discount_price": 497.5
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.256435,
+        "y": -0.637841
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CVX",
+      "name": "Chevron Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 976.55,
+        "pe_ratio": 8.69,
+        "volume": 154911647,
+        "discount_price": 885.29
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.237418,
+        "y": -1.784099
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2436.44,
+        "pe_ratio": 26.98,
+        "volume": 73129597,
+        "discount_price": 1985.94
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.116483,
+        "y": 0.784668
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DE",
+      "name": "Deere & Company",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2167.38,
+        "pe_ratio": 32.36,
+        "volume": 4630796,
+        "discount_price": 1708.33
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.383753,
+        "y": 1.935215
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 49.67,
+        "pe_ratio": 17.2,
+        "volume": 38094609,
+        "discount_price": 42.91
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.345616,
+        "y": 0.023807
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DHR",
+      "name": "Danaher Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2465.03,
+        "pe_ratio": 41.55,
+        "volume": 136181155,
+        "discount_price": 1829.67
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.9649,
+        "y": 0.921638
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DIS",
+      "name": "Walt Disney Company (The)",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 707.71,
+        "pe_ratio": 37.41,
+        "volume": 77732044,
+        "discount_price": 539.95
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.239871,
+        "y": 0.986287
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DLR",
+      "name": "Digital Realty",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 944.01,
+        "pe_ratio": 23.71,
+        "volume": 39899361,
+        "discount_price": 784.9
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.699211,
+        "y": 0.638586
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DUK",
+      "name": "Duke Energy",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 974.65,
+        "pe_ratio": 24.91,
+        "volume": 131064392,
+        "discount_price": 804.52
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.496681,
+        "y": -0.435076
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ECL",
+      "name": "Ecolab",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 387.89,
+        "pe_ratio": 44.2,
+        "volume": 130493229,
+        "discount_price": 282.77
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.79461,
+        "y": 0.680252
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ELV",
+      "name": "Elevance Health",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2485.83,
+        "pe_ratio": 38.33,
+        "volume": 138606641,
+        "discount_price": 1885.13
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.076687,
+        "y": 0.689875
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "EMR",
+      "name": "Emerson Electric",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1383.73,
+        "pe_ratio": 30.99,
+        "volume": 8849434,
+        "discount_price": 1100.13
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.033576,
+        "y": 1.607494
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "EOG",
+      "name": "EOG Resources",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1017.07,
+        "pe_ratio": 28.42,
+        "volume": 172052626,
+        "discount_price": 821.69
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.391598,
+        "y": -0.719338
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "EQIX",
+      "name": "Equinix",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 204.27,
+        "pe_ratio": 23.06,
+        "volume": 31421172,
+        "discount_price": 170.5
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.110003,
+        "y": 0.526099
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 751.3,
+        "pe_ratio": 25.61,
+        "volume": 195981703,
+        "discount_price": 617.53
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.812505,
+        "y": -1.268434
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FANG",
+      "name": "Diamondback Energy",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1463.35,
+        "pe_ratio": 42.69,
+        "volume": 117216840,
+        "discount_price": 1077.83
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.117732,
+        "y": 1.00194
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 568.97,
+        "pe_ratio": 8.6,
+        "volume": 164961327,
+        "discount_price": 516.06
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.026025,
+        "y": -2.018189
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FDX",
+      "name": "FedEx",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1389.83,
+        "pe_ratio": 41.94,
+        "volume": 85091652,
+        "discount_price": 1028.89
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.058408,
+        "y": 1.344758
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2386.42,
+        "pe_ratio": 6.62,
+        "volume": 24237833,
+        "discount_price": 2188.11
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.369217,
+        "y": 0.091892
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GD",
+      "name": "General Dynamics",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 813.76,
+        "pe_ratio": 22.48,
+        "volume": 133121213,
+        "discount_price": 681.61
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.767026,
+        "y": -0.656799
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GE",
+      "name": "GE Aerospace",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 732.18,
+        "pe_ratio": 19.24,
+        "volume": 185793425,
+        "discount_price": 625.14
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.791393,
+        "y": -1.555145
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2127.05,
+        "pe_ratio": 20.3,
+        "volume": 125669220,
+        "discount_price": 1804.8
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.760448,
+        "y": -0.384941
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GILD",
+      "name": "Gilead Sciences",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2409.35,
+        "pe_ratio": 34.46,
+        "volume": 144554620,
+        "discount_price": 1873.75
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.031356,
+        "y": 0.348865
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 358.51,
+        "pe_ratio": 7.67,
+        "volume": 180738819,
+        "discount_price": 326.84
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.406266,
+        "y": -2.330843
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GM",
+      "name": "General Motors",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 601.67,
+        "pe_ratio": 25.43,
+        "volume": 99045086,
+        "discount_price": 495.08
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.262831,
+        "y": -0.084185
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1315.48,
+        "pe_ratio": 18.04,
+        "volume": 40276049,
+        "discount_price": 1131.05
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.090978,
+        "y": 0.358189
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 886.26,
+        "pe_ratio": 12.67,
+        "volume": 34399810,
+        "discount_price": 785.8
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.678524,
+        "y": -0.018086
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GS",
+      "name": "Goldman Sachs",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2392.08,
+        "pe_ratio": 25.97,
+        "volume": 36453039,
+        "discount_price": 1961.86
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.990267,
+        "y": 1.175515
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HCA",
+      "name": "HCA Healthcare",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1477.3,
+        "pe_ratio": 9.89,
+        "volume": 109673204,
+        "discount_price": 1330.38
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.655583,
+        "y": -1.00851
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HD",
+      "name": "Home Depot (The)",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 923.52,
+        "pe_ratio": 31.7,
+        "volume": 193702366,
+        "discount_price": 730.97
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.570482,
+        "y": -0.80511
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HLT",
+      "name": "Hilton Worldwide",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1719.27,
+        "pe_ratio": 24.6,
+        "volume": 110776657,
+        "discount_price": 1421.84
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.878766,
+        "y": -0.018279
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HON",
+      "name": "Honeywell",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2032.89,
+        "pe_ratio": 21.57,
+        "volume": 109482179,
+        "discount_price": 1712.0
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.527341,
+        "y": -0.120645
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets, Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 49.44,
+        "pe_ratio": 44.21,
+        "volume": 12670539,
+        "discount_price": 36.04
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.60342,
+        "y": 2.099394
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HWM",
+      "name": "Howmet Aerospace",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1126.21,
+        "pe_ratio": 34.54,
+        "volume": 58875231,
+        "discount_price": 875.4
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.472632,
+        "y": 1.139376
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IBM",
+      "name": "IBM",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1603.21,
+        "pe_ratio": 21.89,
+        "volume": 74953788,
+        "discount_price": 1347.58
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.641903,
+        "y": 0.234872
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ICE",
+      "name": "Intercontinental Exchange",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2124.2,
+        "pe_ratio": 38.08,
+        "volume": 48033923,
+        "discount_price": 1613.54
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.26745,
+        "y": 1.739844
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1793.36,
+        "pe_ratio": 45.0,
+        "volume": 15512194,
+        "discount_price": 1300.19
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.487113,
+        "y": 2.51955
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 514.03,
+        "pe_ratio": 40.4,
+        "volume": 64721374,
+        "discount_price": 384.49
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.646025,
+        "y": 1.299504
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ISRG",
+      "name": "Intuitive Surgical",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 803.14,
+        "pe_ratio": 7.38,
+        "volume": 181407326,
+        "discount_price": 733.35
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.518324,
+        "y": -2.24818
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ITW",
+      "name": "Illinois Tool Works",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2052.55,
+        "pe_ratio": 8.53,
+        "volume": 144922465,
+        "discount_price": 1862.38
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.879252,
+        "y": -1.401928
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JCI",
+      "name": "Johnson Controls",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 409.23,
+        "pe_ratio": 16.99,
+        "volume": 69056400,
+        "discount_price": 354.0
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.594449,
+        "y": -0.295733
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1696.37,
+        "pe_ratio": 39.4,
+        "volume": 38394960,
+        "discount_price": 1277.37
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.452251,
+        "y": 1.846569
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1914.45,
+        "pe_ratio": 21.53,
+        "volume": 144442420,
+        "discount_price": 1612.64
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.363695,
+        "y": -0.596074
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KKR",
+      "name": "KKR",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1522.54,
+        "pe_ratio": 39.35,
+        "volume": 187571787,
+        "discount_price": 1146.85
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.401592,
+        "y": -0.093032
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1840.56,
+        "pe_ratio": 9.18,
+        "volume": 170891103,
+        "discount_price": 1664.05
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.493068,
+        "y": -1.742526
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KMI",
+      "name": "Kinder Morgan",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1882.53,
+        "pe_ratio": 14.38,
+        "volume": 193001913,
+        "discount_price": 1653.05
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.519475,
+        "y": -1.679545
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KO",
+      "name": "Coca-Cola Company (The)",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1817.15,
+        "pe_ratio": 26.26,
+        "volume": 199174739,
+        "discount_price": 1487.7
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.189276,
+        "y": -1.011508
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LHX",
+      "name": "L3Harris",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1291.75,
+        "pe_ratio": 20.19,
+        "volume": 45393130,
+        "discount_price": 1096.76
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.022034,
+        "y": 0.425837
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LIN",
+      "name": "Linde plc",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 445.57,
+        "pe_ratio": 42.72,
+        "volume": 172789887,
+        "discount_price": 328.12
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.602709,
+        "y": 0.060395
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Lilly (Eli)",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2381.5,
+        "pe_ratio": 14.57,
+        "volume": 30917949,
+        "discount_price": 2088.93
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.202489,
+        "y": 0.514229
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LMT",
+      "name": "Lockheed Martin",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1558.41,
+        "pe_ratio": 19.59,
+        "volume": 87547212,
+        "discount_price": 1327.84
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.616656,
+        "y": -0.083825
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LOW",
+      "name": "Lowe's",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 251.72,
+        "pe_ratio": 32.71,
+        "volume": 143559692,
+        "discount_price": 197.97
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.9099,
+        "y": -0.262067
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 625.69,
+        "pe_ratio": 18.86,
+        "volume": 103526033,
+        "discount_price": 535.4
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.136287,
+        "y": -0.560149
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2080.09,
+        "pe_ratio": 39.07,
+        "volume": 96640614,
+        "discount_price": 1569.74
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.253669,
+        "y": 1.175255
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MAR",
+      "name": "Marriott International",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 108.59,
+        "pe_ratio": 30.79,
+        "volume": 128216032,
+        "discount_price": 86.44
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.184935,
+        "y": -0.22557
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MCD",
+      "name": "McDonald's",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 539.06,
+        "pe_ratio": 26.99,
+        "volume": 156339776,
+        "discount_price": 439.36
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.296754,
+        "y": -0.726355
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MCK",
+      "name": "McKesson Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 348.91,
+        "pe_ratio": 21.36,
+        "volume": 20662434,
+        "discount_price": 294.2
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.838033,
+        "y": 0.587568
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MCO",
+      "name": "Moody's Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1919.55,
+        "pe_ratio": 30.56,
+        "volume": 76594100,
+        "discount_price": 1530.27
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.08642,
+        "y": 0.846502
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MDLZ",
+      "name": "Mondelez International",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 982.56,
+        "pe_ratio": 14.57,
+        "volume": 107063515,
+        "discount_price": 861.85
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.38733,
+        "y": -0.795259
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MDT",
+      "name": "Medtronic",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1142.63,
+        "pe_ratio": 19.94,
+        "volume": 192068222,
+        "discount_price": 971.58
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.002086,
+        "y": -1.490222
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 805.02,
+        "pe_ratio": 10.34,
+        "volume": 80567622,
+        "discount_price": 723.15
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.727986,
+        "y": -0.77515
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MMM",
+      "name": "3M",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 929.4,
+        "pe_ratio": 40.23,
+        "volume": 95805655,
+        "discount_price": 695.98
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.841843,
+        "y": 0.990766
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MNST",
+      "name": "Monster Beverage",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2232.98,
+        "pe_ratio": 14.85,
+        "volume": 82684156,
+        "discount_price": 1955.53
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.998637,
+        "y": -0.16195
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MO",
+      "name": "Altria",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1802.48,
+        "pe_ratio": 11.33,
+        "volume": 112073074,
+        "discount_price": 1610.25
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.275854,
+        "y": -0.866499
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2277.28,
+        "pe_ratio": 38.12,
+        "volume": 116867195,
+        "discount_price": 1729.37
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.665107,
+        "y": 0.903696
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MRK",
+      "name": "Merck & Co.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1528.51,
+        "pe_ratio": 18.3,
+        "volume": 100041502,
+        "discount_price": 1312.23
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.602349,
+        "y": -0.332781
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MRSH",
+      "name": "Marsh & McLennan Companies, Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 631.16,
+        "pe_ratio": 38.73,
+        "volume": 41723862,
+        "discount_price": 477.38
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.457005,
+        "y": 1.511185
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MS",
+      "name": "Morgan Stanley",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1084.1,
+        "pe_ratio": 15.63,
+        "volume": 46253236,
+        "discount_price": 945.17
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.311172,
+        "y": 0.070629
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 978.23,
+        "pe_ratio": 39.91,
+        "volume": 56973743,
+        "discount_price": 734.11
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.817997,
+        "y": 1.475001
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MSI",
+      "name": "Motorola Solutions",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2362.26,
+        "pe_ratio": 41.61,
+        "volume": 55994807,
+        "discount_price": 1752.68
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.638423,
+        "y": 1.920415
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 181.18,
+        "pe_ratio": 41.97,
+        "volume": 121889327,
+        "discount_price": 134.1
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.157914,
+        "y": 0.596933
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NEE",
+      "name": "NextEra Energy",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1432.39,
+        "pe_ratio": 28.31,
+        "volume": 132108343,
+        "discount_price": 1158.02
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.315622,
+        "y": -0.119629
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NEM",
+      "name": "Newmont",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1847.0,
+        "pe_ratio": 20.94,
+        "volume": 99450178,
+        "discount_price": 1561.27
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.166664,
+        "y": -0.078502
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1971.88,
+        "pe_ratio": 30.39,
+        "volume": 69124407,
+        "discount_price": 1573.66
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.173589,
+        "y": 0.942976
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NKE",
+      "name": "Nike, Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 434.84,
+        "pe_ratio": 24.06,
+        "volume": 58247284,
+        "discount_price": 360.79
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.635193,
+        "y": 0.305513
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NOC",
+      "name": "Northrop Grumman",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2003.11,
+        "pe_ratio": 7.53,
+        "volume": 21512875,
+        "discount_price": 1827.54
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.583363,
+        "y": 0.089961
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1248.6,
+        "pe_ratio": 31.92,
+        "volume": 165917430,
+        "discount_price": 986.89
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.021521,
+        "y": -0.360648
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NSC",
+      "name": "Norfolk Southern Railway",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2300.41,
+        "pe_ratio": 21.84,
+        "volume": 57237255,
+        "discount_price": 1934.18
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.940014,
+        "y": 0.625152
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1931.5,
+        "pe_ratio": 11.3,
+        "volume": 114151597,
+        "discount_price": 1725.8
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.533658,
+        "y": -0.863137
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "O",
+      "name": "Realty Income",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1907.08,
+        "pe_ratio": 18.92,
+        "volume": 112303721,
+        "discount_price": 1631.32
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.341424,
+        "y": -0.356876
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "OKE",
+      "name": "ONEOK",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1000.34,
+        "pe_ratio": 7.4,
+        "volume": 177810531,
+        "discount_price": 913.31
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.132863,
+        "y": -2.152424
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 306.26,
+        "pe_ratio": 42.38,
+        "volume": 119162031,
+        "discount_price": 226.05
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.94262,
+        "y": 0.687351
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ORLY",
+      "name": "O'Reilly Auto Parts",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 310.76,
+        "pe_ratio": 7.89,
+        "volume": 76112750,
+        "discount_price": 282.96
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.687141,
+        "y": -0.998883
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "OXY",
+      "name": "Occidental Petroleum",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 565.61,
+        "pe_ratio": 16.11,
+        "volume": 161458571,
+        "discount_price": 491.77
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.120153,
+        "y": -1.488762
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 370.31,
+        "pe_ratio": 31.25,
+        "volume": 31608012,
+        "discount_price": 293.93
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.873983,
+        "y": 1.094108
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PCAR",
+      "name": "Paccar",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 492.56,
+        "pe_ratio": 27.88,
+        "volume": 25919474,
+        "discount_price": 399.27
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.622551,
+        "y": 0.977386
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PEP",
+      "name": "PepsiCo",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 284.3,
+        "pe_ratio": 44.22,
+        "volume": 132709081,
+        "discount_price": 207.23
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.975018,
+        "y": 0.6293
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PFE",
+      "name": "Pfizer",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 313.86,
+        "pe_ratio": 7.15,
+        "volume": 143946761,
+        "discount_price": 286.95
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.554769,
+        "y": -1.908038
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PG",
+      "name": "Procter & Gamble",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 984.24,
+        "pe_ratio": 19.64,
+        "volume": 170577403,
+        "discount_price": 838.38
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.339416,
+        "y": -1.274855
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PGR",
+      "name": "Progressive Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2343.06,
+        "pe_ratio": 25.38,
+        "volume": 82699601,
+        "discount_price": 1928.57
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.991723,
+        "y": 0.538349
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PH",
+      "name": "Parker Hannifin",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2438.81,
+        "pe_ratio": 9.86,
+        "volume": 116807692,
+        "discount_price": 2196.64
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.566559,
+        "y": -0.864307
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PLD",
+      "name": "Prologis",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 559.3,
+        "pe_ratio": 41.5,
+        "volume": 27299323,
+        "discount_price": 415.28
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.642235,
+        "y": 1.856783
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2264.09,
+        "pe_ratio": 11.18,
+        "volume": 164965370,
+        "discount_price": 2024.32
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.279221,
+        "y": -1.434805
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PM",
+      "name": "Philip Morris International",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2488.64,
+        "pe_ratio": 23.31,
+        "volume": 198102038,
+        "discount_price": 2074.16
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.514252,
+        "y": -1.025446
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PNC",
+      "name": "PNC Financial Services",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 358.2,
+        "pe_ratio": 17.54,
+        "volume": 68457656,
+        "discount_price": 308.88
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.699442,
+        "y": -0.264926
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PSX",
+      "name": "Phillips 66",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2155.71,
+        "pe_ratio": 26.73,
+        "volume": 101104183,
+        "discount_price": 1759.81
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.644005,
+        "y": 0.345961
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1195.78,
+        "pe_ratio": 22.2,
+        "volume": 129880575,
+        "discount_price": 1003.26
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.042193,
+        "y": -0.541504
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1585.39,
+        "pe_ratio": 15.77,
+        "volume": 7513728,
+        "discount_price": 1381.11
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.591342,
+        "y": 0.694198
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 87.27,
+        "pe_ratio": 12.94,
+        "volume": 63866781,
+        "discount_price": 77.26
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.193194,
+        "y": -0.570887
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1480.33,
+        "pe_ratio": 23.44,
+        "volume": 146106336,
+        "discount_price": 1232.82
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.508011,
+        "y": -0.599265
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ROST",
+      "name": "Ross Stores",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 530.0,
+        "pe_ratio": 39.35,
+        "volume": 40153294,
+        "discount_price": 399.22
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.649331,
+        "y": 1.547506
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1845.74,
+        "pe_ratio": 41.04,
+        "volume": 147040691,
+        "discount_price": 1374.71
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.883104,
+        "y": 0.606241
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RTX",
+      "name": "RTX Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2434.05,
+        "pe_ratio": 11.42,
+        "volume": 121897004,
+        "discount_price": 2173.36
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.532537,
+        "y": -0.830414
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SBUX",
+      "name": "Starbucks",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1436.94,
+        "pe_ratio": 37.12,
+        "volume": 37977716,
+        "discount_price": 1098.4
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.019319,
+        "y": 1.644365
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SCHW",
+      "name": "Charles Schwab Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2203.11,
+        "pe_ratio": 23.5,
+        "volume": 63482203,
+        "discount_price": 1834.09
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.732083,
+        "y": 0.628583
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SHW",
+      "name": "Sherwin-Williams",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 675.61,
+        "pe_ratio": 19.83,
+        "volume": 119428576,
+        "discount_price": 574.84
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.023472,
+        "y": -0.687415
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SLB",
+      "name": "Schlumberger",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2380.47,
+        "pe_ratio": 38.05,
+        "volume": 72725870,
+        "discount_price": 1808.56
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.775981,
+        "y": 1.484382
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2259.24,
+        "pe_ratio": 27.7,
+        "volume": 126804814,
+        "discount_price": 1833.37
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.863659,
+        "y": 0.106259
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2410.28,
+        "pe_ratio": 33.14,
+        "volume": 58091649,
+        "discount_price": 1890.38
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.909263,
+        "y": 1.363387
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SO",
+      "name": "Southern Company",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1140.21,
+        "pe_ratio": 11.31,
+        "volume": 47325498,
+        "discount_price": 1018.72
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.139407,
+        "y": -0.207734
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SPG",
+      "name": "Simon Property Group",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2086.17,
+        "pe_ratio": 20.47,
+        "volume": 128759019,
+        "discount_price": 1768.34
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.684309,
+        "y": -0.423209
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 667.31,
+        "pe_ratio": 20.8,
+        "volume": 176053070,
+        "discount_price": 564.54
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.950893,
+        "y": -1.346268
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SRE",
+      "name": "Sempra",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 817.71,
+        "pe_ratio": 27.24,
+        "volume": 146423561,
+        "discount_price": 665.45
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.794534,
+        "y": -0.517485
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2027.49,
+        "pe_ratio": 19.8,
+        "volume": 28375641,
+        "discount_price": 1725.39
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.408403,
+        "y": 0.795241
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SYK",
+      "name": "Stryker Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 254.55,
+        "pe_ratio": 7.08,
+        "volume": 135285632,
+        "discount_price": 232.81
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.687362,
+        "y": -1.817186
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "T",
+      "name": "AT&T",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1065.86,
+        "pe_ratio": 42.89,
+        "volume": 58618678,
+        "discount_price": 783.99
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.697989,
+        "y": 1.666778
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TDG",
+      "name": "TransDigm Group",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1553.24,
+        "pe_ratio": 41.87,
+        "volume": 56751355,
+        "discount_price": 1150.41
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.185489,
+        "y": 1.738535
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TEL",
+      "name": "TE Connectivity",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2418.4,
+        "pe_ratio": 35.79,
+        "volume": 98702531,
+        "discount_price": 1864.71
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.938836,
+        "y": 1.0187
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TFC",
+      "name": "Truist Financial",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1060.57,
+        "pe_ratio": 21.23,
+        "volume": 127803831,
+        "discount_price": 894.96
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.289946,
+        "y": -0.610295
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TJX",
+      "name": "TJX Companies",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 987.8,
+        "pe_ratio": 34.28,
+        "volume": 161045412,
+        "discount_price": 769.1
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.543219,
+        "y": -0.208421
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 273.11,
+        "pe_ratio": 6.85,
+        "volume": 112676074,
+        "discount_price": 250.1
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.688076,
+        "y": -1.540193
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 373.56,
+        "pe_ratio": 19.86,
+        "volume": 128304016,
+        "discount_price": 317.79
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.587147,
+        "y": -0.871438
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TRV",
+      "name": "Travelers Companies (The)",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 967.02,
+        "pe_ratio": 14.75,
+        "volume": 141992607,
+        "discount_price": 847.35
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.358535,
+        "y": -1.231296
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1236.53,
+        "pe_ratio": 19.58,
+        "volume": 31755112,
+        "discount_price": 1053.65
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.098731,
+        "y": 0.546476
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TT",
+      "name": "Trane Technologies",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 204.38,
+        "pe_ratio": 40.02,
+        "volume": 94123364,
+        "discount_price": 153.26
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.148122,
+        "y": 0.828771
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 405.0,
+        "pe_ratio": 15.9,
+        "volume": 73489102,
+        "discount_price": 352.55
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.584031,
+        "y": -0.423661
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UBER",
+      "name": "Uber",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 529.95,
+        "pe_ratio": 28.9,
+        "volume": 199700042,
+        "discount_price": 426.87
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.257902,
+        "y": -1.155961
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1644.56,
+        "pe_ratio": 26.32,
+        "volume": 116678399,
+        "discount_price": 1345.91
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.71873,
+        "y": -0.000724
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UNP",
+      "name": "Union Pacific Corporation",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1780.93,
+        "pe_ratio": 32.8,
+        "volume": 197214756,
+        "discount_price": 1399.81
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.001453,
+        "y": -0.575452
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UPS",
+      "name": "United Parcel Service",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1037.13,
+        "pe_ratio": 8.82,
+        "volume": 154586244,
+        "discount_price": 939.54
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.119757,
+        "y": -1.756633
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "USB",
+      "name": "U.S. Bancorp",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 320.08,
+        "pe_ratio": 27.25,
+        "volume": 158460015,
+        "discount_price": 260.47
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.706258,
+        "y": -0.788885
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 81.79,
+        "pe_ratio": 27.03,
+        "volume": 51386021,
+        "discount_price": 66.65
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.339401,
+        "y": 0.50043
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "VLO",
+      "name": "Valero Energy",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1670.87,
+        "pe_ratio": 30.63,
+        "volume": 11934934,
+        "discount_price": 1331.43
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.510104,
+        "y": 1.613452
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1582.07,
+        "pe_ratio": 36.43,
+        "volume": 126732676,
+        "discount_price": 1214.79
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.450685,
+        "y": 0.506345
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "VZ",
+      "name": "Verizon",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 610.41,
+        "pe_ratio": 18.56,
+        "volume": 180728493,
+        "discount_price": 523.24
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.026601,
+        "y": -1.564287
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WBD",
+      "name": "Warner Bros. Discovery",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1766.71,
+        "pe_ratio": 40.0,
+        "volume": 2972338,
+        "discount_price": 1325.03
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.506303,
+        "y": 2.351706
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1984.26,
+        "pe_ratio": 28.55,
+        "volume": 59892036,
+        "discount_price": 1601.79
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.215189,
+        "y": 0.945272
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WELL",
+      "name": "Welltower",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 1880.14,
+        "pe_ratio": 33.27,
+        "volume": 55359520,
+        "discount_price": 1473.37
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.926231,
+        "y": 1.280815
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WFC",
+      "name": "Wells Fargo",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 725.25,
+        "pe_ratio": 25.44,
+        "volume": 142681300,
+        "discount_price": 596.74
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.953289,
+        "y": -0.608369
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WM",
+      "name": "Waste Management",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 2288.31,
+        "pe_ratio": 15.89,
+        "volume": 189267755,
+        "discount_price": 1992.09
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.272164,
+        "y": -1.436267
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WMB",
+      "name": "Williams Companies",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 211.22,
+        "pe_ratio": 36.99,
+        "volume": 124211554,
+        "discount_price": 161.59
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.056237,
+        "y": 0.251626
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WMT",
+      "name": "Walmart",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 586.11,
+        "pe_ratio": 24.47,
+        "volume": 45913943,
+        "discount_price": 485.09
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.375067,
+        "y": 0.525146
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "XOM",
+      "name": "ExxonMobil",
+      "market": "US",
+      "sector": "General",
+      "features": {
+        "price": 915.34,
+        "pe_ratio": 19.94,
+        "volume": 117160648,
+        "discount_price": 778.31
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.569338,
+        "y": -0.593413
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "AAPL",
+      "price": 141.71,
+      "pe_ratio": 25.51,
+      "volume": 141387157,
+      "discount_price": 116.55
+    },
+    {
+      "symbol": "ABBV",
+      "price": 308.54,
+      "pe_ratio": 22.9,
+      "volume": 141061635,
+      "discount_price": 257.79
+    },
+    {
+      "symbol": "ABNB",
+      "price": 936.69,
+      "pe_ratio": 14.13,
+      "volume": 57151869,
+      "discount_price": 823.68
+    },
+    {
+      "symbol": "ABT",
+      "price": 665.17,
+      "pe_ratio": 16.11,
+      "volume": 104996800,
+      "discount_price": 578.33
+    },
+    {
+      "symbol": "ACN",
+      "price": 1464.27,
+      "pe_ratio": 21.01,
+      "volume": 18039334,
+      "discount_price": 1237.23
+    },
+    {
+      "symbol": "ADBE",
+      "price": 1962.2,
+      "pe_ratio": 19.41,
+      "volume": 156722131,
+      "discount_price": 1673.66
+    },
+    {
+      "symbol": "ADI",
+      "price": 255.26,
+      "pe_ratio": 42.93,
+      "volume": 123674063,
+      "discount_price": 187.71
+    },
+    {
+      "symbol": "ADP",
+      "price": 374.13,
+      "pe_ratio": 19.21,
+      "volume": 9351344,
+      "discount_price": 319.49
+    },
+    {
+      "symbol": "AEP",
+      "price": 1285.32,
+      "pe_ratio": 42.08,
+      "volume": 119210710,
+      "discount_price": 950.62
+    },
+    {
+      "symbol": "AFL",
+      "price": 699.43,
+      "pe_ratio": 10.51,
+      "volume": 115828111,
+      "discount_price": 627.7
+    },
+    {
+      "symbol": "AJG",
+      "price": 905.94,
+      "pe_ratio": 38.91,
+      "volume": 98846099,
+      "discount_price": 684.39
+    },
+    {
+      "symbol": "ALL",
+      "price": 834.26,
+      "pe_ratio": 15.24,
+      "volume": 64576460,
+      "discount_price": 728.98
+    },
+    {
+      "symbol": "AMAT",
+      "price": 1666.48,
+      "pe_ratio": 31.13,
+      "volume": 114682038,
+      "discount_price": 1323.77
+    },
+    {
+      "symbol": "AMD",
+      "price": 1364.07,
+      "pe_ratio": 9.25,
+      "volume": 64201703,
+      "discount_price": 1232.78
+    },
+    {
+      "symbol": "AMGN",
+      "price": 1384.86,
+      "pe_ratio": 27.03,
+      "volume": 66612127,
+      "discount_price": 1128.45
+    },
+    {
+      "symbol": "AMT",
+      "price": 1926.93,
+      "pe_ratio": 21.75,
+      "volume": 136517307,
+      "discount_price": 1621.03
+    },
+    {
+      "symbol": "AMZN",
+      "price": 1886.71,
+      "pe_ratio": 33.44,
+      "volume": 194935841,
+      "discount_price": 1476.92
+    },
+    {
+      "symbol": "ANET",
+      "price": 2375.53,
+      "pe_ratio": 21.94,
+      "volume": 146879408,
+      "discount_price": 1996.16
+    },
+    {
+      "symbol": "AON",
+      "price": 2044.84,
+      "pe_ratio": 11.79,
+      "volume": 190006225,
+      "discount_price": 1822.05
+    },
+    {
+      "symbol": "APD",
+      "price": 1982.31,
+      "pe_ratio": 21.57,
+      "volume": 87526558,
+      "discount_price": 1669.4
+    },
+    {
+      "symbol": "APH",
+      "price": 2229.63,
+      "pe_ratio": 16.15,
+      "volume": 180559963,
+      "discount_price": 1938.11
+    },
+    {
+      "symbol": "APO",
+      "price": 536.61,
+      "pe_ratio": 23.36,
+      "volume": 29637496,
+      "discount_price": 447.1
+    },
+    {
+      "symbol": "APP",
+      "price": 1220.25,
+      "pe_ratio": 8.87,
+      "volume": 107968727,
+      "discount_price": 1105.12
+    },
+    {
+      "symbol": "AVGO",
+      "price": 2392.75,
+      "pe_ratio": 40.79,
+      "volume": 6809457,
+      "discount_price": 1785.11
+    },
+    {
+      "symbol": "AXP",
+      "price": 715.94,
+      "pe_ratio": 32.86,
+      "volume": 90503888,
+      "discount_price": 562.51
+    },
+    {
+      "symbol": "AZO",
+      "price": 1141.06,
+      "pe_ratio": 15.54,
+      "volume": 150776133,
+      "discount_price": 995.35
+    },
+    {
+      "symbol": "BA",
+      "price": 2497.85,
+      "pe_ratio": 33.47,
+      "volume": 161072963,
+      "discount_price": 1954.94
+    },
+    {
+      "symbol": "BAC",
+      "price": 93.59,
+      "pe_ratio": 6.27,
+      "volume": 48679871,
+      "discount_price": 85.98
+    },
+    {
+      "symbol": "BK",
+      "price": 772.3,
+      "pe_ratio": 44.85,
+      "volume": 23403448,
+      "discount_price": 560.5
+    },
+    {
+      "symbol": "BKNG",
+      "price": 477.82,
+      "pe_ratio": 38.98,
+      "volume": 187787930,
+      "discount_price": 360.8
+    },
+    {
+      "symbol": "BKR",
+      "price": 2242.96,
+      "pe_ratio": 14.07,
+      "volume": 173283097,
+      "discount_price": 1973.02
+    },
+    {
+      "symbol": "BLK",
+      "price": 1914.87,
+      "pe_ratio": 24.64,
+      "volume": 153670272,
+      "discount_price": 1583.21
+    },
+    {
+      "symbol": "BMY",
+      "price": 2075.58,
+      "pe_ratio": 32.56,
+      "volume": 97688336,
+      "discount_price": 1633.9
+    },
+    {
+      "symbol": "BRK.B",
+      "price": 106.58,
+      "pe_ratio": 32.95,
+      "volume": 75870883,
+      "discount_price": 83.69
+    },
+    {
+      "symbol": "BSX",
+      "price": 2092.79,
+      "pe_ratio": 38.42,
+      "volume": 174616390,
+      "discount_price": 1586.13
+    },
+    {
+      "symbol": "BX",
+      "price": 1441.62,
+      "pe_ratio": 32.94,
+      "volume": 140654019,
+      "discount_price": 1132.1
+    },
+    {
+      "symbol": "C",
+      "price": 1318.76,
+      "pe_ratio": 40.27,
+      "volume": 15224263,
+      "discount_price": 987.29
+    },
+    {
+      "symbol": "CAT",
+      "price": 1795.09,
+      "pe_ratio": 19.78,
+      "volume": 105685502,
+      "discount_price": 1527.8
+    },
+    {
+      "symbol": "CB",
+      "price": 1847.03,
+      "pe_ratio": 34.72,
+      "volume": 178138544,
+      "discount_price": 1434.03
+    },
+    {
+      "symbol": "CDNS",
+      "price": 1566.71,
+      "pe_ratio": 28.77,
+      "volume": 80419983,
+      "discount_price": 1263.0
+    },
+    {
+      "symbol": "CEG",
+      "price": 74.92,
+      "pe_ratio": 25.62,
+      "volume": 47431620,
+      "discount_price": 61.58
+    },
+    {
+      "symbol": "CI",
+      "price": 1435.65,
+      "pe_ratio": 40.45,
+      "volume": 30950891,
+      "discount_price": 1073.51
+    },
+    {
+      "symbol": "CIEN",
+      "price": 914.0,
+      "pe_ratio": 25.92,
+      "volume": 134702610,
+      "discount_price": 749.85
+    },
+    {
+      "symbol": "CL",
+      "price": 853.81,
+      "pe_ratio": 10.64,
+      "volume": 65912517,
+      "discount_price": 765.7
+    },
+    {
+      "symbol": "CMCSA",
+      "price": 445.2,
+      "pe_ratio": 14.89,
+      "volume": 109571521,
+      "discount_price": 389.79
+    },
+    {
+      "symbol": "CME",
+      "price": 983.17,
+      "pe_ratio": 15.01,
+      "volume": 45051065,
+      "discount_price": 860.22
+    },
+    {
+      "symbol": "CMI",
+      "price": 255.69,
+      "pe_ratio": 42.02,
+      "volume": 162172167,
+      "discount_price": 189.19
+    },
+    {
+      "symbol": "COF",
+      "price": 615.98,
+      "pe_ratio": 11.57,
+      "volume": 74043622,
+      "discount_price": 549.55
+    },
+    {
+      "symbol": "COP",
+      "price": 2247.97,
+      "pe_ratio": 10.08,
+      "volume": 147502191,
+      "discount_price": 2022.27
+    },
+    {
+      "symbol": "COR",
+      "price": 641.34,
+      "pe_ratio": 18.14,
+      "volume": 105342604,
+      "discount_price": 551.1
+    },
+    {
+      "symbol": "COST",
+      "price": 2040.83,
+      "pe_ratio": 17.36,
+      "volume": 132771811,
+      "discount_price": 1761.64
+    },
+    {
+      "symbol": "CRH",
+      "price": 387.87,
+      "pe_ratio": 16.49,
+      "volume": 22538236,
+      "discount_price": 336.5
+    },
+    {
+      "symbol": "CRM",
+      "price": 427.94,
+      "pe_ratio": 34.87,
+      "volume": 24818793,
+      "discount_price": 331.93
+    },
+    {
+      "symbol": "CRWD",
+      "price": 2300.19,
+      "pe_ratio": 21.78,
+      "volume": 20610219,
+      "discount_price": 1934.69
+    },
+    {
+      "symbol": "CSCO",
+      "price": 1761.27,
+      "pe_ratio": 13.18,
+      "volume": 19851783,
+      "discount_price": 1557.14
+    },
+    {
+      "symbol": "CSX",
+      "price": 1317.49,
+      "pe_ratio": 10.76,
+      "volume": 102647599,
+      "discount_price": 1180.73
+    },
+    {
+      "symbol": "CTAS",
+      "price": 2469.49,
+      "pe_ratio": 8.12,
+      "volume": 162440410,
+      "discount_price": 2245.75
+    },
+    {
+      "symbol": "CVS",
+      "price": 549.78,
+      "pe_ratio": 9.02,
+      "volume": 58099854,
+      "discount_price": 497.5
+    },
+    {
+      "symbol": "CVX",
+      "price": 976.55,
+      "pe_ratio": 8.69,
+      "volume": 154911647,
+      "discount_price": 885.29
+    },
+    {
+      "symbol": "DASH",
+      "price": 2436.44,
+      "pe_ratio": 26.98,
+      "volume": 73129597,
+      "discount_price": 1985.94
+    },
+    {
+      "symbol": "DE",
+      "price": 2167.38,
+      "pe_ratio": 32.36,
+      "volume": 4630796,
+      "discount_price": 1708.33
+    },
+    {
+      "symbol": "DELL",
+      "price": 49.67,
+      "pe_ratio": 17.2,
+      "volume": 38094609,
+      "discount_price": 42.91
+    },
+    {
+      "symbol": "DHR",
+      "price": 2465.03,
+      "pe_ratio": 41.55,
+      "volume": 136181155,
+      "discount_price": 1829.67
+    },
+    {
+      "symbol": "DIS",
+      "price": 707.71,
+      "pe_ratio": 37.41,
+      "volume": 77732044,
+      "discount_price": 539.95
+    },
+    {
+      "symbol": "DLR",
+      "price": 944.01,
+      "pe_ratio": 23.71,
+      "volume": 39899361,
+      "discount_price": 784.9
+    },
+    {
+      "symbol": "DUK",
+      "price": 974.65,
+      "pe_ratio": 24.91,
+      "volume": 131064392,
+      "discount_price": 804.52
+    },
+    {
+      "symbol": "ECL",
+      "price": 387.89,
+      "pe_ratio": 44.2,
+      "volume": 130493229,
+      "discount_price": 282.77
+    },
+    {
+      "symbol": "ELV",
+      "price": 2485.83,
+      "pe_ratio": 38.33,
+      "volume": 138606641,
+      "discount_price": 1885.13
+    },
+    {
+      "symbol": "EMR",
+      "price": 1383.73,
+      "pe_ratio": 30.99,
+      "volume": 8849434,
+      "discount_price": 1100.13
+    },
+    {
+      "symbol": "EOG",
+      "price": 1017.07,
+      "pe_ratio": 28.42,
+      "volume": 172052626,
+      "discount_price": 821.69
+    },
+    {
+      "symbol": "EQIX",
+      "price": 204.27,
+      "pe_ratio": 23.06,
+      "volume": 31421172,
+      "discount_price": 170.5
+    },
+    {
+      "symbol": "ETN",
+      "price": 751.3,
+      "pe_ratio": 25.61,
+      "volume": 195981703,
+      "discount_price": 617.53
+    },
+    {
+      "symbol": "FANG",
+      "price": 1463.35,
+      "pe_ratio": 42.69,
+      "volume": 117216840,
+      "discount_price": 1077.83
+    },
+    {
+      "symbol": "FCX",
+      "price": 568.97,
+      "pe_ratio": 8.6,
+      "volume": 164961327,
+      "discount_price": 516.06
+    },
+    {
+      "symbol": "FDX",
+      "price": 1389.83,
+      "pe_ratio": 41.94,
+      "volume": 85091652,
+      "discount_price": 1028.89
+    },
+    {
+      "symbol": "FTNT",
+      "price": 2386.42,
+      "pe_ratio": 6.62,
+      "volume": 24237833,
+      "discount_price": 2188.11
+    },
+    {
+      "symbol": "GD",
+      "price": 813.76,
+      "pe_ratio": 22.48,
+      "volume": 133121213,
+      "discount_price": 681.61
+    },
+    {
+      "symbol": "GE",
+      "price": 732.18,
+      "pe_ratio": 19.24,
+      "volume": 185793425,
+      "discount_price": 625.14
+    },
+    {
+      "symbol": "GEV",
+      "price": 2127.05,
+      "pe_ratio": 20.3,
+      "volume": 125669220,
+      "discount_price": 1804.8
+    },
+    {
+      "symbol": "GILD",
+      "price": 2409.35,
+      "pe_ratio": 34.46,
+      "volume": 144554620,
+      "discount_price": 1873.75
+    },
+    {
+      "symbol": "GLW",
+      "price": 358.51,
+      "pe_ratio": 7.67,
+      "volume": 180738819,
+      "discount_price": 326.84
+    },
+    {
+      "symbol": "GM",
+      "price": 601.67,
+      "pe_ratio": 25.43,
+      "volume": 99045086,
+      "discount_price": 495.08
+    },
+    {
+      "symbol": "GOOG",
+      "price": 1315.48,
+      "pe_ratio": 18.04,
+      "volume": 40276049,
+      "discount_price": 1131.05
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 886.26,
+      "pe_ratio": 12.67,
+      "volume": 34399810,
+      "discount_price": 785.8
+    },
+    {
+      "symbol": "GS",
+      "price": 2392.08,
+      "pe_ratio": 25.97,
+      "volume": 36453039,
+      "discount_price": 1961.86
+    },
+    {
+      "symbol": "HCA",
+      "price": 1477.3,
+      "pe_ratio": 9.89,
+      "volume": 109673204,
+      "discount_price": 1330.38
+    },
+    {
+      "symbol": "HD",
+      "price": 923.52,
+      "pe_ratio": 31.7,
+      "volume": 193702366,
+      "discount_price": 730.97
+    },
+    {
+      "symbol": "HLT",
+      "price": 1719.27,
+      "pe_ratio": 24.6,
+      "volume": 110776657,
+      "discount_price": 1421.84
+    },
+    {
+      "symbol": "HON",
+      "price": 2032.89,
+      "pe_ratio": 21.57,
+      "volume": 109482179,
+      "discount_price": 1712.0
+    },
+    {
+      "symbol": "HOOD",
+      "price": 49.44,
+      "pe_ratio": 44.21,
+      "volume": 12670539,
+      "discount_price": 36.04
+    },
+    {
+      "symbol": "HWM",
+      "price": 1126.21,
+      "pe_ratio": 34.54,
+      "volume": 58875231,
+      "discount_price": 875.4
+    },
+    {
+      "symbol": "IBM",
+      "price": 1603.21,
+      "pe_ratio": 21.89,
+      "volume": 74953788,
+      "discount_price": 1347.58
+    },
+    {
+      "symbol": "ICE",
+      "price": 2124.2,
+      "pe_ratio": 38.08,
+      "volume": 48033923,
+      "discount_price": 1613.54
+    },
+    {
+      "symbol": "INTC",
+      "price": 1793.36,
+      "pe_ratio": 45.0,
+      "volume": 15512194,
+      "discount_price": 1300.19
+    },
+    {
+      "symbol": "INTU",
+      "price": 514.03,
+      "pe_ratio": 40.4,
+      "volume": 64721374,
+      "discount_price": 384.49
+    },
+    {
+      "symbol": "ISRG",
+      "price": 803.14,
+      "pe_ratio": 7.38,
+      "volume": 181407326,
+      "discount_price": 733.35
+    },
+    {
+      "symbol": "ITW",
+      "price": 2052.55,
+      "pe_ratio": 8.53,
+      "volume": 144922465,
+      "discount_price": 1862.38
+    },
+    {
+      "symbol": "JCI",
+      "price": 409.23,
+      "pe_ratio": 16.99,
+      "volume": 69056400,
+      "discount_price": 354.0
+    },
+    {
+      "symbol": "JNJ",
+      "price": 1696.37,
+      "pe_ratio": 39.4,
+      "volume": 38394960,
+      "discount_price": 1277.37
+    },
+    {
+      "symbol": "JPM",
+      "price": 1914.45,
+      "pe_ratio": 21.53,
+      "volume": 144442420,
+      "discount_price": 1612.64
+    },
+    {
+      "symbol": "KKR",
+      "price": 1522.54,
+      "pe_ratio": 39.35,
+      "volume": 187571787,
+      "discount_price": 1146.85
+    },
+    {
+      "symbol": "KLAC",
+      "price": 1840.56,
+      "pe_ratio": 9.18,
+      "volume": 170891103,
+      "discount_price": 1664.05
+    },
+    {
+      "symbol": "KMI",
+      "price": 1882.53,
+      "pe_ratio": 14.38,
+      "volume": 193001913,
+      "discount_price": 1653.05
+    },
+    {
+      "symbol": "KO",
+      "price": 1817.15,
+      "pe_ratio": 26.26,
+      "volume": 199174739,
+      "discount_price": 1487.7
+    },
+    {
+      "symbol": "LHX",
+      "price": 1291.75,
+      "pe_ratio": 20.19,
+      "volume": 45393130,
+      "discount_price": 1096.76
+    },
+    {
+      "symbol": "LIN",
+      "price": 445.57,
+      "pe_ratio": 42.72,
+      "volume": 172789887,
+      "discount_price": 328.12
+    },
+    {
+      "symbol": "LLY",
+      "price": 2381.5,
+      "pe_ratio": 14.57,
+      "volume": 30917949,
+      "discount_price": 2088.93
+    },
+    {
+      "symbol": "LMT",
+      "price": 1558.41,
+      "pe_ratio": 19.59,
+      "volume": 87547212,
+      "discount_price": 1327.84
+    },
+    {
+      "symbol": "LOW",
+      "price": 251.72,
+      "pe_ratio": 32.71,
+      "volume": 143559692,
+      "discount_price": 197.97
+    },
+    {
+      "symbol": "LRCX",
+      "price": 625.69,
+      "pe_ratio": 18.86,
+      "volume": 103526033,
+      "discount_price": 535.4
+    },
+    {
+      "symbol": "MA",
+      "price": 2080.09,
+      "pe_ratio": 39.07,
+      "volume": 96640614,
+      "discount_price": 1569.74
+    },
+    {
+      "symbol": "MAR",
+      "price": 108.59,
+      "pe_ratio": 30.79,
+      "volume": 128216032,
+      "discount_price": 86.44
+    },
+    {
+      "symbol": "MCD",
+      "price": 539.06,
+      "pe_ratio": 26.99,
+      "volume": 156339776,
+      "discount_price": 439.36
+    },
+    {
+      "symbol": "MCK",
+      "price": 348.91,
+      "pe_ratio": 21.36,
+      "volume": 20662434,
+      "discount_price": 294.2
+    },
+    {
+      "symbol": "MCO",
+      "price": 1919.55,
+      "pe_ratio": 30.56,
+      "volume": 76594100,
+      "discount_price": 1530.27
+    },
+    {
+      "symbol": "MDLZ",
+      "price": 982.56,
+      "pe_ratio": 14.57,
+      "volume": 107063515,
+      "discount_price": 861.85
+    },
+    {
+      "symbol": "MDT",
+      "price": 1142.63,
+      "pe_ratio": 19.94,
+      "volume": 192068222,
+      "discount_price": 971.58
+    },
+    {
+      "symbol": "META",
+      "price": 805.02,
+      "pe_ratio": 10.34,
+      "volume": 80567622,
+      "discount_price": 723.15
+    },
+    {
+      "symbol": "MMM",
+      "price": 929.4,
+      "pe_ratio": 40.23,
+      "volume": 95805655,
+      "discount_price": 695.98
+    },
+    {
+      "symbol": "MNST",
+      "price": 2232.98,
+      "pe_ratio": 14.85,
+      "volume": 82684156,
+      "discount_price": 1955.53
+    },
+    {
+      "symbol": "MO",
+      "price": 1802.48,
+      "pe_ratio": 11.33,
+      "volume": 112073074,
+      "discount_price": 1610.25
+    },
+    {
+      "symbol": "MPC",
+      "price": 2277.28,
+      "pe_ratio": 38.12,
+      "volume": 116867195,
+      "discount_price": 1729.37
+    },
+    {
+      "symbol": "MRK",
+      "price": 1528.51,
+      "pe_ratio": 18.3,
+      "volume": 100041502,
+      "discount_price": 1312.23
+    },
+    {
+      "symbol": "MRSH",
+      "price": 631.16,
+      "pe_ratio": 38.73,
+      "volume": 41723862,
+      "discount_price": 477.38
+    },
+    {
+      "symbol": "MS",
+      "price": 1084.1,
+      "pe_ratio": 15.63,
+      "volume": 46253236,
+      "discount_price": 945.17
+    },
+    {
+      "symbol": "MSFT",
+      "price": 978.23,
+      "pe_ratio": 39.91,
+      "volume": 56973743,
+      "discount_price": 734.11
+    },
+    {
+      "symbol": "MSI",
+      "price": 2362.26,
+      "pe_ratio": 41.61,
+      "volume": 55994807,
+      "discount_price": 1752.68
+    },
+    {
+      "symbol": "MU",
+      "price": 181.18,
+      "pe_ratio": 41.97,
+      "volume": 121889327,
+      "discount_price": 134.1
+    },
+    {
+      "symbol": "NEE",
+      "price": 1432.39,
+      "pe_ratio": 28.31,
+      "volume": 132108343,
+      "discount_price": 1158.02
+    },
+    {
+      "symbol": "NEM",
+      "price": 1847.0,
+      "pe_ratio": 20.94,
+      "volume": 99450178,
+      "discount_price": 1561.27
+    },
+    {
+      "symbol": "NFLX",
+      "price": 1971.88,
+      "pe_ratio": 30.39,
+      "volume": 69124407,
+      "discount_price": 1573.66
+    },
+    {
+      "symbol": "NKE",
+      "price": 434.84,
+      "pe_ratio": 24.06,
+      "volume": 58247284,
+      "discount_price": 360.79
+    },
+    {
+      "symbol": "NOC",
+      "price": 2003.11,
+      "pe_ratio": 7.53,
+      "volume": 21512875,
+      "discount_price": 1827.54
+    },
+    {
+      "symbol": "NOW",
+      "price": 1248.6,
+      "pe_ratio": 31.92,
+      "volume": 165917430,
+      "discount_price": 986.89
+    },
+    {
+      "symbol": "NSC",
+      "price": 2300.41,
+      "pe_ratio": 21.84,
+      "volume": 57237255,
+      "discount_price": 1934.18
+    },
+    {
+      "symbol": "NVDA",
+      "price": 1931.5,
+      "pe_ratio": 11.3,
+      "volume": 114151597,
+      "discount_price": 1725.8
+    },
+    {
+      "symbol": "O",
+      "price": 1907.08,
+      "pe_ratio": 18.92,
+      "volume": 112303721,
+      "discount_price": 1631.32
+    },
+    {
+      "symbol": "OKE",
+      "price": 1000.34,
+      "pe_ratio": 7.4,
+      "volume": 177810531,
+      "discount_price": 913.31
+    },
+    {
+      "symbol": "ORCL",
+      "price": 306.26,
+      "pe_ratio": 42.38,
+      "volume": 119162031,
+      "discount_price": 226.05
+    },
+    {
+      "symbol": "ORLY",
+      "price": 310.76,
+      "pe_ratio": 7.89,
+      "volume": 76112750,
+      "discount_price": 282.96
+    },
+    {
+      "symbol": "OXY",
+      "price": 565.61,
+      "pe_ratio": 16.11,
+      "volume": 161458571,
+      "discount_price": 491.77
+    },
+    {
+      "symbol": "PANW",
+      "price": 370.31,
+      "pe_ratio": 31.25,
+      "volume": 31608012,
+      "discount_price": 293.93
+    },
+    {
+      "symbol": "PCAR",
+      "price": 492.56,
+      "pe_ratio": 27.88,
+      "volume": 25919474,
+      "discount_price": 399.27
+    },
+    {
+      "symbol": "PEP",
+      "price": 284.3,
+      "pe_ratio": 44.22,
+      "volume": 132709081,
+      "discount_price": 207.23
+    },
+    {
+      "symbol": "PFE",
+      "price": 313.86,
+      "pe_ratio": 7.15,
+      "volume": 143946761,
+      "discount_price": 286.95
+    },
+    {
+      "symbol": "PG",
+      "price": 984.24,
+      "pe_ratio": 19.64,
+      "volume": 170577403,
+      "discount_price": 838.38
+    },
+    {
+      "symbol": "PGR",
+      "price": 2343.06,
+      "pe_ratio": 25.38,
+      "volume": 82699601,
+      "discount_price": 1928.57
+    },
+    {
+      "symbol": "PH",
+      "price": 2438.81,
+      "pe_ratio": 9.86,
+      "volume": 116807692,
+      "discount_price": 2196.64
+    },
+    {
+      "symbol": "PLD",
+      "price": 559.3,
+      "pe_ratio": 41.5,
+      "volume": 27299323,
+      "discount_price": 415.28
+    },
+    {
+      "symbol": "PLTR",
+      "price": 2264.09,
+      "pe_ratio": 11.18,
+      "volume": 164965370,
+      "discount_price": 2024.32
+    },
+    {
+      "symbol": "PM",
+      "price": 2488.64,
+      "pe_ratio": 23.31,
+      "volume": 198102038,
+      "discount_price": 2074.16
+    },
+    {
+      "symbol": "PNC",
+      "price": 358.2,
+      "pe_ratio": 17.54,
+      "volume": 68457656,
+      "discount_price": 308.88
+    },
+    {
+      "symbol": "PSX",
+      "price": 2155.71,
+      "pe_ratio": 26.73,
+      "volume": 101104183,
+      "discount_price": 1759.81
+    },
+    {
+      "symbol": "PWR",
+      "price": 1195.78,
+      "pe_ratio": 22.2,
+      "volume": 129880575,
+      "discount_price": 1003.26
+    },
+    {
+      "symbol": "QCOM",
+      "price": 1585.39,
+      "pe_ratio": 15.77,
+      "volume": 7513728,
+      "discount_price": 1381.11
+    },
+    {
+      "symbol": "RCL",
+      "price": 87.27,
+      "pe_ratio": 12.94,
+      "volume": 63866781,
+      "discount_price": 77.26
+    },
+    {
+      "symbol": "REGN",
+      "price": 1480.33,
+      "pe_ratio": 23.44,
+      "volume": 146106336,
+      "discount_price": 1232.82
+    },
+    {
+      "symbol": "ROST",
+      "price": 530.0,
+      "pe_ratio": 39.35,
+      "volume": 40153294,
+      "discount_price": 399.22
+    },
+    {
+      "symbol": "RSG",
+      "price": 1845.74,
+      "pe_ratio": 41.04,
+      "volume": 147040691,
+      "discount_price": 1374.71
+    },
+    {
+      "symbol": "RTX",
+      "price": 2434.05,
+      "pe_ratio": 11.42,
+      "volume": 121897004,
+      "discount_price": 2173.36
+    },
+    {
+      "symbol": "SBUX",
+      "price": 1436.94,
+      "pe_ratio": 37.12,
+      "volume": 37977716,
+      "discount_price": 1098.4
+    },
+    {
+      "symbol": "SCHW",
+      "price": 2203.11,
+      "pe_ratio": 23.5,
+      "volume": 63482203,
+      "discount_price": 1834.09
+    },
+    {
+      "symbol": "SHW",
+      "price": 675.61,
+      "pe_ratio": 19.83,
+      "volume": 119428576,
+      "discount_price": 574.84
+    },
+    {
+      "symbol": "SLB",
+      "price": 2380.47,
+      "pe_ratio": 38.05,
+      "volume": 72725870,
+      "discount_price": 1808.56
+    },
+    {
+      "symbol": "SNDK",
+      "price": 2259.24,
+      "pe_ratio": 27.7,
+      "volume": 126804814,
+      "discount_price": 1833.37
+    },
+    {
+      "symbol": "SNPS",
+      "price": 2410.28,
+      "pe_ratio": 33.14,
+      "volume": 58091649,
+      "discount_price": 1890.38
+    },
+    {
+      "symbol": "SO",
+      "price": 1140.21,
+      "pe_ratio": 11.31,
+      "volume": 47325498,
+      "discount_price": 1018.72
+    },
+    {
+      "symbol": "SPG",
+      "price": 2086.17,
+      "pe_ratio": 20.47,
+      "volume": 128759019,
+      "discount_price": 1768.34
+    },
+    {
+      "symbol": "SPGI",
+      "price": 667.31,
+      "pe_ratio": 20.8,
+      "volume": 176053070,
+      "discount_price": 564.54
+    },
+    {
+      "symbol": "SRE",
+      "price": 817.71,
+      "pe_ratio": 27.24,
+      "volume": 146423561,
+      "discount_price": 665.45
+    },
+    {
+      "symbol": "STX",
+      "price": 2027.49,
+      "pe_ratio": 19.8,
+      "volume": 28375641,
+      "discount_price": 1725.39
+    },
+    {
+      "symbol": "SYK",
+      "price": 254.55,
+      "pe_ratio": 7.08,
+      "volume": 135285632,
+      "discount_price": 232.81
+    },
+    {
+      "symbol": "T",
+      "price": 1065.86,
+      "pe_ratio": 42.89,
+      "volume": 58618678,
+      "discount_price": 783.99
+    },
+    {
+      "symbol": "TDG",
+      "price": 1553.24,
+      "pe_ratio": 41.87,
+      "volume": 56751355,
+      "discount_price": 1150.41
+    },
+    {
+      "symbol": "TEL",
+      "price": 2418.4,
+      "pe_ratio": 35.79,
+      "volume": 98702531,
+      "discount_price": 1864.71
+    },
+    {
+      "symbol": "TFC",
+      "price": 1060.57,
+      "pe_ratio": 21.23,
+      "volume": 127803831,
+      "discount_price": 894.96
+    },
+    {
+      "symbol": "TJX",
+      "price": 987.8,
+      "pe_ratio": 34.28,
+      "volume": 161045412,
+      "discount_price": 769.1
+    },
+    {
+      "symbol": "TMO",
+      "price": 273.11,
+      "pe_ratio": 6.85,
+      "volume": 112676074,
+      "discount_price": 250.1
+    },
+    {
+      "symbol": "TMUS",
+      "price": 373.56,
+      "pe_ratio": 19.86,
+      "volume": 128304016,
+      "discount_price": 317.79
+    },
+    {
+      "symbol": "TRV",
+      "price": 967.02,
+      "pe_ratio": 14.75,
+      "volume": 141992607,
+      "discount_price": 847.35
+    },
+    {
+      "symbol": "TSLA",
+      "price": 1236.53,
+      "pe_ratio": 19.58,
+      "volume": 31755112,
+      "discount_price": 1053.65
+    },
+    {
+      "symbol": "TT",
+      "price": 204.38,
+      "pe_ratio": 40.02,
+      "volume": 94123364,
+      "discount_price": 153.26
+    },
+    {
+      "symbol": "TXN",
+      "price": 405.0,
+      "pe_ratio": 15.9,
+      "volume": 73489102,
+      "discount_price": 352.55
+    },
+    {
+      "symbol": "UBER",
+      "price": 529.95,
+      "pe_ratio": 28.9,
+      "volume": 199700042,
+      "discount_price": 426.87
+    },
+    {
+      "symbol": "UNH",
+      "price": 1644.56,
+      "pe_ratio": 26.32,
+      "volume": 116678399,
+      "discount_price": 1345.91
+    },
+    {
+      "symbol": "UNP",
+      "price": 1780.93,
+      "pe_ratio": 32.8,
+      "volume": 197214756,
+      "discount_price": 1399.81
+    },
+    {
+      "symbol": "UPS",
+      "price": 1037.13,
+      "pe_ratio": 8.82,
+      "volume": 154586244,
+      "discount_price": 939.54
+    },
+    {
+      "symbol": "USB",
+      "price": 320.08,
+      "pe_ratio": 27.25,
+      "volume": 158460015,
+      "discount_price": 260.47
+    },
+    {
+      "symbol": "V",
+      "price": 81.79,
+      "pe_ratio": 27.03,
+      "volume": 51386021,
+      "discount_price": 66.65
+    },
+    {
+      "symbol": "VLO",
+      "price": 1670.87,
+      "pe_ratio": 30.63,
+      "volume": 11934934,
+      "discount_price": 1331.43
+    },
+    {
+      "symbol": "VRTX",
+      "price": 1582.07,
+      "pe_ratio": 36.43,
+      "volume": 126732676,
+      "discount_price": 1214.79
+    },
+    {
+      "symbol": "VZ",
+      "price": 610.41,
+      "pe_ratio": 18.56,
+      "volume": 180728493,
+      "discount_price": 523.24
+    },
+    {
+      "symbol": "WBD",
+      "price": 1766.71,
+      "pe_ratio": 40.0,
+      "volume": 2972338,
+      "discount_price": 1325.03
+    },
+    {
+      "symbol": "WDC",
+      "price": 1984.26,
+      "pe_ratio": 28.55,
+      "volume": 59892036,
+      "discount_price": 1601.79
+    },
+    {
+      "symbol": "WELL",
+      "price": 1880.14,
+      "pe_ratio": 33.27,
+      "volume": 55359520,
+      "discount_price": 1473.37
+    },
+    {
+      "symbol": "WFC",
+      "price": 725.25,
+      "pe_ratio": 25.44,
+      "volume": 142681300,
+      "discount_price": 596.74
+    },
+    {
+      "symbol": "WM",
+      "price": 2288.31,
+      "pe_ratio": 15.89,
+      "volume": 189267755,
+      "discount_price": 1992.09
+    },
+    {
+      "symbol": "WMB",
+      "price": 211.22,
+      "pe_ratio": 36.99,
+      "volume": 124211554,
+      "discount_price": 161.59
+    },
+    {
+      "symbol": "WMT",
+      "price": 586.11,
+      "pe_ratio": 24.47,
+      "volume": 45913943,
+      "discount_price": 485.09
+    },
+    {
+      "symbol": "XOM",
+      "price": 915.34,
+      "pe_ratio": 19.94,
+      "volume": 117160648,
+      "discount_price": 778.31
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "AAPL": 1,
+      "ABBV": 1,
+      "ABNB": 1,
+      "ABT": 1,
+      "ACN": 3,
+      "ADBE": 2,
+      "ADI": 0,
+      "ADP": 1,
+      "AEP": 0,
+      "AFL": 1,
+      "AJG": 0,
+      "ALL": 1,
+      "AMAT": 2,
+      "AMD": 1,
+      "AMGN": 3,
+      "AMT": 2,
+      "AMZN": 2,
+      "ANET": 2,
+      "AON": 2,
+      "APD": 3,
+      "APH": 2,
+      "APO": 1,
+      "APP": 1,
+      "AVGO": 3,
+      "AXP": 0,
+      "AZO": 1,
+      "BA": 2,
+      "BAC": 1,
+      "BK": 0,
+      "BKNG": 0,
+      "BKR": 2,
+      "BLK": 2,
+      "BMY": 3,
+      "BRK.B": 0,
+      "BSX": 2,
+      "BX": 2,
+      "C": 3,
+      "CAT": 2,
+      "CB": 2,
+      "CDNS": 3,
+      "CEG": 0,
+      "CI": 3,
+      "CIEN": 1,
+      "CL": 1,
+      "CMCSA": 1,
+      "CME": 1,
+      "CMI": 0,
+      "COF": 1,
+      "COP": 2,
+      "COR": 1,
+      "COST": 2,
+      "CRH": 1,
+      "CRM": 0,
+      "CRWD": 3,
+      "CSCO": 3,
+      "CSX": 1,
+      "CTAS": 2,
+      "CVS": 1,
+      "CVX": 1,
+      "DASH": 3,
+      "DE": 3,
+      "DELL": 1,
+      "DHR": 2,
+      "DIS": 0,
+      "DLR": 1,
+      "DUK": 1,
+      "ECL": 0,
+      "ELV": 2,
+      "EMR": 3,
+      "EOG": 1,
+      "EQIX": 1,
+      "ETN": 1,
+      "FANG": 0,
+      "FCX": 1,
+      "FDX": 0,
+      "FTNT": 3,
+      "GD": 1,
+      "GE": 1,
+      "GEV": 2,
+      "GILD": 2,
+      "GLW": 1,
+      "GM": 1,
+      "GOOG": 3,
+      "GOOGL": 1,
+      "GS": 3,
+      "HCA": 2,
+      "HD": 0,
+      "HLT": 2,
+      "HON": 2,
+      "HOOD": 0,
+      "HWM": 0,
+      "IBM": 3,
+      "ICE": 3,
+      "INTC": 3,
+      "INTU": 0,
+      "ISRG": 1,
+      "ITW": 2,
+      "JCI": 1,
+      "JNJ": 3,
+      "JPM": 2,
+      "KKR": 2,
+      "KLAC": 2,
+      "KMI": 2,
+      "KO": 2,
+      "LHX": 3,
+      "LIN": 0,
+      "LLY": 3,
+      "LMT": 3,
+      "LOW": 0,
+      "LRCX": 1,
+      "MA": 3,
+      "MAR": 0,
+      "MCD": 1,
+      "MCK": 1,
+      "MCO": 3,
+      "MDLZ": 1,
+      "MDT": 1,
+      "META": 1,
+      "MMM": 0,
+      "MNST": 2,
+      "MO": 2,
+      "MPC": 2,
+      "MRK": 2,
+      "MRSH": 0,
+      "MS": 1,
+      "MSFT": 0,
+      "MSI": 3,
+      "MU": 0,
+      "NEE": 2,
+      "NEM": 2,
+      "NFLX": 3,
+      "NKE": 1,
+      "NOC": 3,
+      "NOW": 2,
+      "NSC": 3,
+      "NVDA": 2,
+      "O": 2,
+      "OKE": 1,
+      "ORCL": 0,
+      "ORLY": 1,
+      "OXY": 1,
+      "PANW": 0,
+      "PCAR": 0,
+      "PEP": 0,
+      "PFE": 1,
+      "PG": 1,
+      "PGR": 3,
+      "PH": 2,
+      "PLD": 0,
+      "PLTR": 2,
+      "PM": 2,
+      "PNC": 1,
+      "PSX": 2,
+      "PWR": 1,
+      "QCOM": 3,
+      "RCL": 1,
+      "REGN": 2,
+      "ROST": 0,
+      "RSG": 2,
+      "RTX": 2,
+      "SBUX": 3,
+      "SCHW": 3,
+      "SHW": 1,
+      "SLB": 3,
+      "SNDK": 2,
+      "SNPS": 3,
+      "SO": 1,
+      "SPG": 2,
+      "SPGI": 1,
+      "SRE": 1,
+      "STX": 3,
+      "SYK": 1,
+      "T": 0,
+      "TDG": 3,
+      "TEL": 3,
+      "TFC": 1,
+      "TJX": 0,
+      "TMO": 1,
+      "TMUS": 1,
+      "TRV": 1,
+      "TSLA": 3,
+      "TT": 0,
+      "TXN": 1,
+      "UBER": 1,
+      "UNH": 2,
+      "UNP": 2,
+      "UPS": 1,
+      "USB": 1,
+      "V": 0,
+      "VLO": 3,
+      "VRTX": 2,
+      "VZ": 1,
+      "WBD": 3,
+      "WDC": 3,
+      "WELL": 3,
+      "WFC": 1,
+      "WM": 2,
+      "WMB": 0,
+      "WMT": 1,
+      "XOM": 1
+    },
+    "valuation": {
+      "AAPL": 1,
+      "ABBV": 1,
+      "ABNB": 1,
+      "ABT": 1,
+      "ACN": 2,
+      "ADBE": 2,
+      "ADI": 0,
+      "ADP": 1,
+      "AEP": 0,
+      "AFL": 1,
+      "AJG": 0,
+      "ALL": 1,
+      "AMAT": 0,
+      "AMD": 2,
+      "AMGN": 0,
+      "AMT": 2,
+      "AMZN": 0,
+      "ANET": 2,
+      "AON": 2,
+      "APD": 2,
+      "APH": 2,
+      "APO": 1,
+      "APP": 1,
+      "AVGO": 0,
+      "AXP": 0,
+      "AZO": 1,
+      "BA": 2,
+      "BAC": 1,
+      "BK": 0,
+      "BKNG": 0,
+      "BKR": 2,
+      "BLK": 2,
+      "BMY": 2,
+      "BRK.B": 0,
+      "BSX": 0,
+      "BX": 0,
+      "C": 0,
+      "CAT": 2,
+      "CB": 0,
+      "CDNS": 0,
+      "CEG": 1,
+      "CI": 0,
+      "CIEN": 1,
+      "CL": 1,
+      "CMCSA": 1,
+      "CME": 1,
+      "CMI": 0,
+      "COF": 1,
+      "COP": 2,
+      "COR": 1,
+      "COST": 2,
+      "CRH": 1,
+      "CRM": 0,
+      "CRWD": 2,
+      "CSCO": 2,
+      "CSX": 1,
+      "CTAS": 2,
+      "CVS": 1,
+      "CVX": 1,
+      "DASH": 2,
+      "DE": 2,
+      "DELL": 1,
+      "DHR": 0,
+      "DIS": 0,
+      "DLR": 1,
+      "DUK": 1,
+      "ECL": 0,
+      "ELV": 0,
+      "EMR": 0,
+      "EOG": 0,
+      "EQIX": 1,
+      "ETN": 1,
+      "FANG": 0,
+      "FCX": 1,
+      "FDX": 0,
+      "FTNT": 2,
+      "GD": 1,
+      "GE": 1,
+      "GEV": 2,
+      "GILD": 2,
+      "GLW": 1,
+      "GM": 1,
+      "GOOG": 1,
+      "GOOGL": 1,
+      "GS": 2,
+      "HCA": 2,
+      "HD": 0,
+      "HLT": 2,
+      "HON": 2,
+      "HOOD": 0,
+      "HWM": 0,
+      "IBM": 2,
+      "ICE": 0,
+      "INTC": 0,
+      "INTU": 0,
+      "ISRG": 1,
+      "ITW": 2,
+      "JCI": 1,
+      "JNJ": 0,
+      "JPM": 2,
+      "KKR": 0,
+      "KLAC": 2,
+      "KMI": 2,
+      "KO": 2,
+      "LHX": 1,
+      "LIN": 0,
+      "LLY": 2,
+      "LMT": 2,
+      "LOW": 0,
+      "LRCX": 1,
+      "MA": 0,
+      "MAR": 1,
+      "MCD": 1,
+      "MCK": 1,
+      "MCO": 2,
+      "MDLZ": 1,
+      "MDT": 1,
+      "META": 1,
+      "MMM": 0,
+      "MNST": 2,
+      "MO": 2,
+      "MPC": 0,
+      "MRK": 2,
+      "MRSH": 0,
+      "MS": 1,
+      "MSFT": 0,
+      "MSI": 0,
+      "MU": 0,
+      "NEE": 0,
+      "NEM": 2,
+      "NFLX": 2,
+      "NKE": 1,
+      "NOC": 2,
+      "NOW": 0,
+      "NSC": 2,
+      "NVDA": 2,
+      "O": 2,
+      "OKE": 1,
+      "ORCL": 0,
+      "ORLY": 1,
+      "OXY": 1,
+      "PANW": 0,
+      "PCAR": 1,
+      "PEP": 0,
+      "PFE": 1,
+      "PG": 1,
+      "PGR": 2,
+      "PH": 2,
+      "PLD": 0,
+      "PLTR": 2,
+      "PM": 2,
+      "PNC": 1,
+      "PSX": 2,
+      "PWR": 1,
+      "QCOM": 2,
+      "RCL": 1,
+      "REGN": 2,
+      "ROST": 0,
+      "RSG": 0,
+      "RTX": 2,
+      "SBUX": 0,
+      "SCHW": 2,
+      "SHW": 1,
+      "SLB": 0,
+      "SNDK": 2,
+      "SNPS": 2,
+      "SO": 1,
+      "SPG": 2,
+      "SPGI": 1,
+      "SRE": 1,
+      "STX": 2,
+      "SYK": 1,
+      "T": 0,
+      "TDG": 0,
+      "TEL": 2,
+      "TFC": 1,
+      "TJX": 0,
+      "TMO": 1,
+      "TMUS": 1,
+      "TRV": 1,
+      "TSLA": 1,
+      "TT": 0,
+      "TXN": 1,
+      "UBER": 1,
+      "UNH": 2,
+      "UNP": 0,
+      "UPS": 1,
+      "USB": 1,
+      "V": 1,
+      "VLO": 0,
+      "VRTX": 0,
+      "VZ": 1,
+      "WBD": 0,
+      "WDC": 2,
+      "WELL": 0,
+      "WFC": 1,
+      "WM": 2,
+      "WMB": 0,
+      "WMT": 1,
+      "XOM": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "AAPL",
+      "pc1": -2.056003,
+      "pc2": -0.727463
+    },
+    {
+      "symbol": "ABBV",
+      "pc1": -1.71778,
+      "pc2": -0.852366
+    },
+    {
+      "symbol": "ABNB",
+      "pc1": -0.558689,
+      "pc2": -0.200623
+    },
+    {
+      "symbol": "ABT",
+      "pc1": -1.026463,
+      "pc2": -0.747018
+    },
+    {
+      "symbol": "ACN",
+      "pc1": 0.291186,
+      "pc2": 0.867946
+    },
+    {
+      "symbol": "ADBE",
+      "pc1": 1.516242,
+      "pc2": -0.876517
+    },
+    {
+      "symbol": "ADI",
+      "pc1": -2.03084,
+      "pc2": 0.65376
+    },
+    {
+      "symbol": "ADP",
+      "pc1": -1.788872,
+      "pc2": 0.59817
+    },
+    {
+      "symbol": "AEP",
+      "pc1": -0.187627,
+      "pc2": 0.895814
+    },
+    {
+      "symbol": "AFL",
+      "pc1": -0.876103,
+      "pc2": -1.238211
+    },
+    {
+      "symbol": "AJG",
+      "pc1": -0.86187,
+      "pc2": 0.861439
+    },
+    {
+      "symbol": "ALL",
+      "pc1": -0.759043,
+      "pc2": -0.248344
+    },
+    {
+      "symbol": "AMAT",
+      "pc1": 0.674052,
+      "pc2": 0.338894
+    },
+    {
+      "symbol": "AMD",
+      "pc1": 0.362006,
+      "pc2": -0.499767
+    },
+    {
+      "symbol": "AMGN",
+      "pc1": 0.131512,
+      "pc2": 0.618921
+    },
+    {
+      "symbol": "AMT",
+      "pc1": 1.369464,
+      "pc2": -0.478242
+    },
+    {
+      "symbol": "AMZN",
+      "pc1": 1.180603,
+      "pc2": -0.480353
+    },
+    {
+      "symbol": "ANET",
+      "pc1": 2.238645,
+      "pc2": -0.489417
+    },
+    {
+      "symbol": "AON",
+      "pc1": 1.880352,
+      "pc2": -1.767791
+    },
+    {
+      "symbol": "APD",
+      "pc1": 1.392282,
+      "pc2": 0.14613
+    },
+    {
+      "symbol": "APH",
+      "pc1": 2.137761,
+      "pc2": -1.323281
+    },
+    {
+      "symbol": "APO",
+      "pc1": -1.485422,
+      "pc2": 0.648266
+    },
+    {
+      "symbol": "APP",
+      "pc1": 0.160102,
+      "pc2": -1.115858
+    },
+    {
+      "symbol": "AVGO",
+      "pc1": 1.624039,
+      "pc2": 2.500108
+    },
+    {
+      "symbol": "AXP",
+      "pc1": -1.1493,
+      "pc2": 0.531907
+    },
+    {
+      "symbol": "AZO",
+      "pc1": -0.015568,
+      "pc2": -1.249473
+    },
+    {
+      "symbol": "BA",
+      "pc1": 2.244297,
+      "pc2": 0.096619
+    },
+    {
+      "symbol": "BAC",
+      "pc1": -2.153326,
+      "pc2": -0.809026
+    },
+    {
+      "symbol": "BK",
+      "pc1": -1.307424,
+      "pc2": 2.172455
+    },
+    {
+      "symbol": "BKNG",
+      "pc1": -1.480135,
+      "pc2": -0.364705
+    },
+    {
+      "symbol": "BKR",
+      "pc1": 2.193276,
+      "pc2": -1.360704
+    },
+    {
+      "symbol": "BLK",
+      "pc1": 1.323034,
+      "pc2": -0.513754
+    },
+    {
+      "symbol": "BMY",
+      "pc1": 1.374087,
+      "pc2": 0.743742
+    },
+    {
+      "symbol": "BRK.B",
+      "pc1": -2.298406,
+      "pc2": 0.579219
+    },
+    {
+      "symbol": "BSX",
+      "pc1": 1.426433,
+      "pc2": 0.145731
+    },
+    {
+      "symbol": "BX",
+      "pc1": 0.274549,
+      "pc2": 0.071832
+    },
+    {
+      "symbol": "C",
+      "pc1": -0.283212,
+      "pc2": 2.108475
+    },
+    {
+      "symbol": "CAT",
+      "pc1": 1.099167,
+      "pc2": -0.244749
+    },
+    {
+      "symbol": "CB",
+      "pc1": 1.054847,
+      "pc2": -0.19417
+    },
+    {
+      "symbol": "CDNS",
+      "pc1": 0.468078,
+      "pc2": 0.598846
+    },
+    {
+      "symbol": "CEG",
+      "pc1": -2.347932,
+      "pc2": 0.457559
+    },
+    {
+      "symbol": "CI",
+      "pc1": -0.048009,
+      "pc2": 1.94758
+    },
+    {
+      "symbol": "CIEN",
+      "pc1": -0.617718,
+      "pc2": -0.430692
+    },
+    {
+      "symbol": "CL",
+      "pc1": -0.661319,
+      "pc2": -0.557548
+    },
+    {
+      "symbol": "CMCSA",
+      "pc1": -1.432392,
+      "pc2": -0.937742
+    },
+    {
+      "symbol": "CME",
+      "pc1": -0.50099,
+      "pc2": 0.021283
+    },
+    {
+      "symbol": "CMI",
+      "pc1": -1.954147,
+      "pc2": 0.105684
+    },
+    {
+      "symbol": "COF",
+      "pc1": -1.125755,
+      "pc2": -0.659235
+    },
+    {
+      "symbol": "COP",
+      "pc1": 2.239315,
+      "pc2": -1.287267
+    },
+    {
+      "symbol": "COR",
+      "pc1": -1.094901,
+      "pc2": -0.625982
+    },
+    {
+      "symbol": "COST",
+      "pc1": 1.664536,
+      "pc2": -0.684497
+    },
+    {
+      "symbol": "CRH",
+      "pc1": -1.712615,
+      "pc2": 0.257811
+    },
+    {
+      "symbol": "CRM",
+      "pc1": -1.815554,
+      "pc2": 1.428421
+    },
+    {
+      "symbol": "CRWD",
+      "pc1": 1.876448,
+      "pc2": 1.086689
+    },
+    {
+      "symbol": "CSCO",
+      "pc1": 1.000024,
+      "pc2": 0.41403
+    },
+    {
+      "symbol": "CSX",
+      "pc1": 0.314642,
+      "pc2": -0.902578
+    },
+    {
+      "symbol": "CTAS",
+      "pc1": 2.745132,
+      "pc2": -1.547839
+    },
+    {
+      "symbol": "CVS",
+      "pc1": -1.256435,
+      "pc2": -0.637841
+    },
+    {
+      "symbol": "CVX",
+      "pc1": -0.237418,
+      "pc2": -1.784099
+    },
+    {
+      "symbol": "DASH",
+      "pc1": 2.116483,
+      "pc2": 0.784668
+    },
+    {
+      "symbol": "DE",
+      "pc1": 1.383753,
+      "pc2": 1.935215
+    },
+    {
+      "symbol": "DELL",
+      "pc1": -2.345616,
+      "pc2": 0.023807
+    },
+    {
+      "symbol": "DHR",
+      "pc1": 1.9649,
+      "pc2": 0.921638
+    },
+    {
+      "symbol": "DIS",
+      "pc1": -1.239871,
+      "pc2": 0.986287
+    },
+    {
+      "symbol": "DLR",
+      "pc1": -0.699211,
+      "pc2": 0.638586
+    },
+    {
+      "symbol": "DUK",
+      "pc1": -0.496681,
+      "pc2": -0.435076
+    },
+    {
+      "symbol": "ECL",
+      "pc1": -1.79461,
+      "pc2": 0.680252
+    },
+    {
+      "symbol": "ELV",
+      "pc1": 2.076687,
+      "pc2": 0.689875
+    },
+    {
+      "symbol": "EMR",
+      "pc1": -0.033576,
+      "pc2": 1.607494
+    },
+    {
+      "symbol": "EOG",
+      "pc1": -0.391598,
+      "pc2": -0.719338
+    },
+    {
+      "symbol": "EQIX",
+      "pc1": -2.110003,
+      "pc2": 0.526099
+    },
+    {
+      "symbol": "ETN",
+      "pc1": -0.812505,
+      "pc2": -1.268434
+    },
+    {
+      "symbol": "FANG",
+      "pc1": 0.117732,
+      "pc2": 1.00194
+    },
+    {
+      "symbol": "FCX",
+      "pc1": -1.026025,
+      "pc2": -2.018189
+    },
+    {
+      "symbol": "FDX",
+      "pc1": -0.058408,
+      "pc2": 1.344758
+    },
+    {
+      "symbol": "FTNT",
+      "pc1": 2.369217,
+      "pc2": 0.091892
+    },
+    {
+      "symbol": "GD",
+      "pc1": -0.767026,
+      "pc2": -0.656799
+    },
+    {
+      "symbol": "GE",
+      "pc1": -0.791393,
+      "pc2": -1.555145
+    },
+    {
+      "symbol": "GEV",
+      "pc1": 1.760448,
+      "pc2": -0.384941
+    },
+    {
+      "symbol": "GILD",
+      "pc1": 2.031356,
+      "pc2": 0.348865
+    },
+    {
+      "symbol": "GLW",
+      "pc1": -1.406266,
+      "pc2": -2.330843
+    },
+    {
+      "symbol": "GM",
+      "pc1": -1.262831,
+      "pc2": -0.084185
+    },
+    {
+      "symbol": "GOOG",
+      "pc1": 0.090978,
+      "pc2": 0.358189
+    },
+    {
+      "symbol": "GOOGL",
+      "pc1": -0.678524,
+      "pc2": -0.018086
+    },
+    {
+      "symbol": "GS",
+      "pc1": 1.990267,
+      "pc2": 1.175515
+    },
+    {
+      "symbol": "HCA",
+      "pc1": 0.655583,
+      "pc2": -1.00851
+    },
+    {
+      "symbol": "HD",
+      "pc1": -0.570482,
+      "pc2": -0.80511
+    },
+    {
+      "symbol": "HLT",
+      "pc1": 0.878766,
+      "pc2": -0.018279
+    },
+    {
+      "symbol": "HON",
+      "pc1": 1.527341,
+      "pc2": -0.120645
+    },
+    {
+      "symbol": "HOOD",
+      "pc1": -2.60342,
+      "pc2": 2.099394
+    },
+    {
+      "symbol": "HWM",
+      "pc1": -0.472632,
+      "pc2": 1.139376
+    },
+    {
+      "symbol": "IBM",
+      "pc1": 0.641903,
+      "pc2": 0.234872
+    },
+    {
+      "symbol": "ICE",
+      "pc1": 1.26745,
+      "pc2": 1.739844
+    },
+    {
+      "symbol": "INTC",
+      "pc1": 0.487113,
+      "pc2": 2.51955
+    },
+    {
+      "symbol": "INTU",
+      "pc1": -1.646025,
+      "pc2": 1.299504
+    },
+    {
+      "symbol": "ISRG",
+      "pc1": -0.518324,
+      "pc2": -2.24818
+    },
+    {
+      "symbol": "ITW",
+      "pc1": 1.879252,
+      "pc2": -1.401928
+    },
+    {
+      "symbol": "JCI",
+      "pc1": -1.594449,
+      "pc2": -0.295733
+    },
+    {
+      "symbol": "JNJ",
+      "pc1": 0.452251,
+      "pc2": 1.846569
+    },
+    {
+      "symbol": "JPM",
+      "pc1": 1.363695,
+      "pc2": -0.596074
+    },
+    {
+      "symbol": "KKR",
+      "pc1": 0.401592,
+      "pc2": -0.093032
+    },
+    {
+      "symbol": "KLAC",
+      "pc1": 1.493068,
+      "pc2": -1.742526
+    },
+    {
+      "symbol": "KMI",
+      "pc1": 1.519475,
+      "pc2": -1.679545
+    },
+    {
+      "symbol": "KO",
+      "pc1": 1.189276,
+      "pc2": -1.011508
+    },
+    {
+      "symbol": "LHX",
+      "pc1": 0.022034,
+      "pc2": 0.425837
+    },
+    {
+      "symbol": "LIN",
+      "pc1": -1.602709,
+      "pc2": 0.060395
+    },
+    {
+      "symbol": "LLY",
+      "pc1": 2.202489,
+      "pc2": 0.514229
+    },
+    {
+      "symbol": "LMT",
+      "pc1": 0.616656,
+      "pc2": -0.083825
+    },
+    {
+      "symbol": "LOW",
+      "pc1": -1.9099,
+      "pc2": -0.262067
+    },
+    {
+      "symbol": "LRCX",
+      "pc1": -1.136287,
+      "pc2": -0.560149
+    },
+    {
+      "symbol": "MA",
+      "pc1": 1.253669,
+      "pc2": 1.175255
+    },
+    {
+      "symbol": "MAR",
+      "pc1": -2.184935,
+      "pc2": -0.22557
+    },
+    {
+      "symbol": "MCD",
+      "pc1": -1.296754,
+      "pc2": -0.726355
+    },
+    {
+      "symbol": "MCK",
+      "pc1": -1.838033,
+      "pc2": 0.587568
+    },
+    {
+      "symbol": "MCO",
+      "pc1": 1.08642,
+      "pc2": 0.846502
+    },
+    {
+      "symbol": "MDLZ",
+      "pc1": -0.38733,
+      "pc2": -0.795259
+    },
+    {
+      "symbol": "MDT",
+      "pc1": -0.002086,
+      "pc2": -1.490222
+    },
+    {
+      "symbol": "META",
+      "pc1": -0.727986,
+      "pc2": -0.77515
+    },
+    {
+      "symbol": "MMM",
+      "pc1": -0.841843,
+      "pc2": 0.990766
+    },
+    {
+      "symbol": "MNST",
+      "pc1": 1.998637,
+      "pc2": -0.16195
+    },
+    {
+      "symbol": "MO",
+      "pc1": 1.275854,
+      "pc2": -0.866499
+    },
+    {
+      "symbol": "MPC",
+      "pc1": 1.665107,
+      "pc2": 0.903696
+    },
+    {
+      "symbol": "MRK",
+      "pc1": 0.602349,
+      "pc2": -0.332781
+    },
+    {
+      "symbol": "MRSH",
+      "pc1": -1.457005,
+      "pc2": 1.511185
+    },
+    {
+      "symbol": "MS",
+      "pc1": -0.311172,
+      "pc2": 0.070629
+    },
+    {
+      "symbol": "MSFT",
+      "pc1": -0.817997,
+      "pc2": 1.475001
+    },
+    {
+      "symbol": "MSI",
+      "pc1": 1.638423,
+      "pc2": 1.920415
+    },
+    {
+      "symbol": "MU",
+      "pc1": -2.157914,
+      "pc2": 0.596933
+    },
+    {
+      "symbol": "NEE",
+      "pc1": 0.315622,
+      "pc2": -0.119629
+    },
+    {
+      "symbol": "NEM",
+      "pc1": 1.166664,
+      "pc2": -0.078502
+    },
+    {
+      "symbol": "NFLX",
+      "pc1": 1.173589,
+      "pc2": 0.942976
+    },
+    {
+      "symbol": "NKE",
+      "pc1": -1.635193,
+      "pc2": 0.305513
+    },
+    {
+      "symbol": "NOC",
+      "pc1": 1.583363,
+      "pc2": 0.089961
+    },
+    {
+      "symbol": "NOW",
+      "pc1": -0.021521,
+      "pc2": -0.360648
+    },
+    {
+      "symbol": "NSC",
+      "pc1": 1.940014,
+      "pc2": 0.625152
+    },
+    {
+      "symbol": "NVDA",
+      "pc1": 1.533658,
+      "pc2": -0.863137
+    },
+    {
+      "symbol": "O",
+      "pc1": 1.341424,
+      "pc2": -0.356876
+    },
+    {
+      "symbol": "OKE",
+      "pc1": -0.132863,
+      "pc2": -2.152424
+    },
+    {
+      "symbol": "ORCL",
+      "pc1": -1.94262,
+      "pc2": 0.687351
+    },
+    {
+      "symbol": "ORLY",
+      "pc1": -1.687141,
+      "pc2": -0.998883
+    },
+    {
+      "symbol": "OXY",
+      "pc1": -1.120153,
+      "pc2": -1.488762
+    },
+    {
+      "symbol": "PANW",
+      "pc1": -1.873983,
+      "pc2": 1.094108
+    },
+    {
+      "symbol": "PCAR",
+      "pc1": -1.622551,
+      "pc2": 0.977386
+    },
+    {
+      "symbol": "PEP",
+      "pc1": -1.975018,
+      "pc2": 0.6293
+    },
+    {
+      "symbol": "PFE",
+      "pc1": -1.554769,
+      "pc2": -1.908038
+    },
+    {
+      "symbol": "PG",
+      "pc1": -0.339416,
+      "pc2": -1.274855
+    },
+    {
+      "symbol": "PGR",
+      "pc1": 1.991723,
+      "pc2": 0.538349
+    },
+    {
+      "symbol": "PH",
+      "pc1": 2.566559,
+      "pc2": -0.864307
+    },
+    {
+      "symbol": "PLD",
+      "pc1": -1.642235,
+      "pc2": 1.856783
+    },
+    {
+      "symbol": "PLTR",
+      "pc1": 2.279221,
+      "pc2": -1.434805
+    },
+    {
+      "symbol": "PM",
+      "pc1": 2.514252,
+      "pc2": -1.025446
+    },
+    {
+      "symbol": "PNC",
+      "pc1": -1.699442,
+      "pc2": -0.264926
+    },
+    {
+      "symbol": "PSX",
+      "pc1": 1.644005,
+      "pc2": 0.345961
+    },
+    {
+      "symbol": "PWR",
+      "pc1": -0.042193,
+      "pc2": -0.541504
+    },
+    {
+      "symbol": "QCOM",
+      "pc1": 0.591342,
+      "pc2": 0.694198
+    },
+    {
+      "symbol": "RCL",
+      "pc1": -2.193194,
+      "pc2": -0.570887
+    },
+    {
+      "symbol": "REGN",
+      "pc1": 0.508011,
+      "pc2": -0.599265
+    },
+    {
+      "symbol": "ROST",
+      "pc1": -1.649331,
+      "pc2": 1.547506
+    },
+    {
+      "symbol": "RSG",
+      "pc1": 0.883104,
+      "pc2": 0.606241
+    },
+    {
+      "symbol": "RTX",
+      "pc1": 2.532537,
+      "pc2": -0.830414
+    },
+    {
+      "symbol": "SBUX",
+      "pc1": 0.019319,
+      "pc2": 1.644365
+    },
+    {
+      "symbol": "SCHW",
+      "pc1": 1.732083,
+      "pc2": 0.628583
+    },
+    {
+      "symbol": "SHW",
+      "pc1": -1.023472,
+      "pc2": -0.687415
+    },
+    {
+      "symbol": "SLB",
+      "pc1": 1.775981,
+      "pc2": 1.484382
+    },
+    {
+      "symbol": "SNDK",
+      "pc1": 1.863659,
+      "pc2": 0.106259
+    },
+    {
+      "symbol": "SNPS",
+      "pc1": 1.909263,
+      "pc2": 1.363387
+    },
+    {
+      "symbol": "SO",
+      "pc1": -0.139407,
+      "pc2": -0.207734
+    },
+    {
+      "symbol": "SPG",
+      "pc1": 1.684309,
+      "pc2": -0.423209
+    },
+    {
+      "symbol": "SPGI",
+      "pc1": -0.950893,
+      "pc2": -1.346268
+    },
+    {
+      "symbol": "SRE",
+      "pc1": -0.794534,
+      "pc2": -0.517485
+    },
+    {
+      "symbol": "STX",
+      "pc1": 1.408403,
+      "pc2": 0.795241
+    },
+    {
+      "symbol": "SYK",
+      "pc1": -1.687362,
+      "pc2": -1.817186
+    },
+    {
+      "symbol": "T",
+      "pc1": -0.697989,
+      "pc2": 1.666778
+    },
+    {
+      "symbol": "TDG",
+      "pc1": 0.185489,
+      "pc2": 1.738535
+    },
+    {
+      "symbol": "TEL",
+      "pc1": 1.938836,
+      "pc2": 1.0187
+    },
+    {
+      "symbol": "TFC",
+      "pc1": -0.289946,
+      "pc2": -0.610295
+    },
+    {
+      "symbol": "TJX",
+      "pc1": -0.543219,
+      "pc2": -0.208421
+    },
+    {
+      "symbol": "TMO",
+      "pc1": -1.688076,
+      "pc2": -1.540193
+    },
+    {
+      "symbol": "TMUS",
+      "pc1": -1.587147,
+      "pc2": -0.871438
+    },
+    {
+      "symbol": "TRV",
+      "pc1": -0.358535,
+      "pc2": -1.231296
+    },
+    {
+      "symbol": "TSLA",
+      "pc1": -0.098731,
+      "pc2": 0.546476
+    },
+    {
+      "symbol": "TT",
+      "pc1": -2.148122,
+      "pc2": 0.828771
+    },
+    {
+      "symbol": "TXN",
+      "pc1": -1.584031,
+      "pc2": -0.423661
+    },
+    {
+      "symbol": "UBER",
+      "pc1": -1.257902,
+      "pc2": -1.155961
+    },
+    {
+      "symbol": "UNH",
+      "pc1": 0.71873,
+      "pc2": -0.000724
+    },
+    {
+      "symbol": "UNP",
+      "pc1": 1.001453,
+      "pc2": -0.575452
+    },
+    {
+      "symbol": "UPS",
+      "pc1": -0.119757,
+      "pc2": -1.756633
+    },
+    {
+      "symbol": "USB",
+      "pc1": -1.706258,
+      "pc2": -0.788885
+    },
+    {
+      "symbol": "V",
+      "pc1": -2.339401,
+      "pc2": 0.50043
+    },
+    {
+      "symbol": "VLO",
+      "pc1": 0.510104,
+      "pc2": 1.613452
+    },
+    {
+      "symbol": "VRTX",
+      "pc1": 0.450685,
+      "pc2": 0.506345
+    },
+    {
+      "symbol": "VZ",
+      "pc1": -1.026601,
+      "pc2": -1.564287
+    },
+    {
+      "symbol": "WBD",
+      "pc1": 0.506303,
+      "pc2": 2.351706
+    },
+    {
+      "symbol": "WDC",
+      "pc1": 1.215189,
+      "pc2": 0.945272
+    },
+    {
+      "symbol": "WELL",
+      "pc1": 0.926231,
+      "pc2": 1.280815
+    },
+    {
+      "symbol": "WFC",
+      "pc1": -0.953289,
+      "pc2": -0.608369
+    },
+    {
+      "symbol": "WM",
+      "pc1": 2.272164,
+      "pc2": -1.436267
+    },
+    {
+      "symbol": "WMB",
+      "pc1": -2.056237,
+      "pc2": 0.251626
+    },
+    {
+      "symbol": "WMT",
+      "pc1": -1.375067,
+      "pc2": 0.525146
+    },
+    {
+      "symbol": "XOM",
+      "pc1": -0.569338,
+      "pc2": -0.593413
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "AAPL",
+      "discount_price": 116.55
+    },
+    {
+      "symbol": "ABBV",
+      "discount_price": 257.79
+    },
+    {
+      "symbol": "ABNB",
+      "discount_price": 823.68
+    },
+    {
+      "symbol": "ABT",
+      "discount_price": 578.33
+    },
+    {
+      "symbol": "ACN",
+      "discount_price": 1237.23
+    },
+    {
+      "symbol": "ADBE",
+      "discount_price": 1673.66
+    },
+    {
+      "symbol": "ADI",
+      "discount_price": 187.71
+    },
+    {
+      "symbol": "ADP",
+      "discount_price": 319.49
+    },
+    {
+      "symbol": "AEP",
+      "discount_price": 950.62
+    },
+    {
+      "symbol": "AFL",
+      "discount_price": 627.7
+    },
+    {
+      "symbol": "AJG",
+      "discount_price": 684.39
+    },
+    {
+      "symbol": "ALL",
+      "discount_price": 728.98
+    },
+    {
+      "symbol": "AMAT",
+      "discount_price": 1323.77
+    },
+    {
+      "symbol": "AMD",
+      "discount_price": 1232.78
+    },
+    {
+      "symbol": "AMGN",
+      "discount_price": 1128.45
+    },
+    {
+      "symbol": "AMT",
+      "discount_price": 1621.03
+    },
+    {
+      "symbol": "AMZN",
+      "discount_price": 1476.92
+    },
+    {
+      "symbol": "ANET",
+      "discount_price": 1996.16
+    },
+    {
+      "symbol": "AON",
+      "discount_price": 1822.05
+    },
+    {
+      "symbol": "APD",
+      "discount_price": 1669.4
+    },
+    {
+      "symbol": "APH",
+      "discount_price": 1938.11
+    },
+    {
+      "symbol": "APO",
+      "discount_price": 447.1
+    },
+    {
+      "symbol": "APP",
+      "discount_price": 1105.12
+    },
+    {
+      "symbol": "AVGO",
+      "discount_price": 1785.11
+    },
+    {
+      "symbol": "AXP",
+      "discount_price": 562.51
+    },
+    {
+      "symbol": "AZO",
+      "discount_price": 995.35
+    },
+    {
+      "symbol": "BA",
+      "discount_price": 1954.94
+    },
+    {
+      "symbol": "BAC",
+      "discount_price": 85.98
+    },
+    {
+      "symbol": "BK",
+      "discount_price": 560.5
+    },
+    {
+      "symbol": "BKNG",
+      "discount_price": 360.8
+    },
+    {
+      "symbol": "BKR",
+      "discount_price": 1973.02
+    },
+    {
+      "symbol": "BLK",
+      "discount_price": 1583.21
+    },
+    {
+      "symbol": "BMY",
+      "discount_price": 1633.9
+    },
+    {
+      "symbol": "BRK.B",
+      "discount_price": 83.69
+    },
+    {
+      "symbol": "BSX",
+      "discount_price": 1586.13
+    },
+    {
+      "symbol": "BX",
+      "discount_price": 1132.1
+    },
+    {
+      "symbol": "C",
+      "discount_price": 987.29
+    },
+    {
+      "symbol": "CAT",
+      "discount_price": 1527.8
+    },
+    {
+      "symbol": "CB",
+      "discount_price": 1434.03
+    },
+    {
+      "symbol": "CDNS",
+      "discount_price": 1263.0
+    },
+    {
+      "symbol": "CEG",
+      "discount_price": 61.58
+    },
+    {
+      "symbol": "CI",
+      "discount_price": 1073.51
+    },
+    {
+      "symbol": "CIEN",
+      "discount_price": 749.85
+    },
+    {
+      "symbol": "CL",
+      "discount_price": 765.7
+    },
+    {
+      "symbol": "CMCSA",
+      "discount_price": 389.79
+    },
+    {
+      "symbol": "CME",
+      "discount_price": 860.22
+    },
+    {
+      "symbol": "CMI",
+      "discount_price": 189.19
+    },
+    {
+      "symbol": "COF",
+      "discount_price": 549.55
+    },
+    {
+      "symbol": "COP",
+      "discount_price": 2022.27
+    },
+    {
+      "symbol": "COR",
+      "discount_price": 551.1
+    },
+    {
+      "symbol": "COST",
+      "discount_price": 1761.64
+    },
+    {
+      "symbol": "CRH",
+      "discount_price": 336.5
+    },
+    {
+      "symbol": "CRM",
+      "discount_price": 331.93
+    },
+    {
+      "symbol": "CRWD",
+      "discount_price": 1934.69
+    },
+    {
+      "symbol": "CSCO",
+      "discount_price": 1557.14
+    },
+    {
+      "symbol": "CSX",
+      "discount_price": 1180.73
+    },
+    {
+      "symbol": "CTAS",
+      "discount_price": 2245.75
+    },
+    {
+      "symbol": "CVS",
+      "discount_price": 497.5
+    },
+    {
+      "symbol": "CVX",
+      "discount_price": 885.29
+    },
+    {
+      "symbol": "DASH",
+      "discount_price": 1985.94
+    },
+    {
+      "symbol": "DE",
+      "discount_price": 1708.33
+    },
+    {
+      "symbol": "DELL",
+      "discount_price": 42.91
+    },
+    {
+      "symbol": "DHR",
+      "discount_price": 1829.67
+    },
+    {
+      "symbol": "DIS",
+      "discount_price": 539.95
+    },
+    {
+      "symbol": "DLR",
+      "discount_price": 784.9
+    },
+    {
+      "symbol": "DUK",
+      "discount_price": 804.52
+    },
+    {
+      "symbol": "ECL",
+      "discount_price": 282.77
+    },
+    {
+      "symbol": "ELV",
+      "discount_price": 1885.13
+    },
+    {
+      "symbol": "EMR",
+      "discount_price": 1100.13
+    },
+    {
+      "symbol": "EOG",
+      "discount_price": 821.69
+    },
+    {
+      "symbol": "EQIX",
+      "discount_price": 170.5
+    },
+    {
+      "symbol": "ETN",
+      "discount_price": 617.53
+    },
+    {
+      "symbol": "FANG",
+      "discount_price": 1077.83
+    },
+    {
+      "symbol": "FCX",
+      "discount_price": 516.06
+    },
+    {
+      "symbol": "FDX",
+      "discount_price": 1028.89
+    },
+    {
+      "symbol": "FTNT",
+      "discount_price": 2188.11
+    },
+    {
+      "symbol": "GD",
+      "discount_price": 681.61
+    },
+    {
+      "symbol": "GE",
+      "discount_price": 625.14
+    },
+    {
+      "symbol": "GEV",
+      "discount_price": 1804.8
+    },
+    {
+      "symbol": "GILD",
+      "discount_price": 1873.75
+    },
+    {
+      "symbol": "GLW",
+      "discount_price": 326.84
+    },
+    {
+      "symbol": "GM",
+      "discount_price": 495.08
+    },
+    {
+      "symbol": "GOOG",
+      "discount_price": 1131.05
+    },
+    {
+      "symbol": "GOOGL",
+      "discount_price": 785.8
+    },
+    {
+      "symbol": "GS",
+      "discount_price": 1961.86
+    },
+    {
+      "symbol": "HCA",
+      "discount_price": 1330.38
+    },
+    {
+      "symbol": "HD",
+      "discount_price": 730.97
+    },
+    {
+      "symbol": "HLT",
+      "discount_price": 1421.84
+    },
+    {
+      "symbol": "HON",
+      "discount_price": 1712.0
+    },
+    {
+      "symbol": "HOOD",
+      "discount_price": 36.04
+    },
+    {
+      "symbol": "HWM",
+      "discount_price": 875.4
+    },
+    {
+      "symbol": "IBM",
+      "discount_price": 1347.58
+    },
+    {
+      "symbol": "ICE",
+      "discount_price": 1613.54
+    },
+    {
+      "symbol": "INTC",
+      "discount_price": 1300.19
+    },
+    {
+      "symbol": "INTU",
+      "discount_price": 384.49
+    },
+    {
+      "symbol": "ISRG",
+      "discount_price": 733.35
+    },
+    {
+      "symbol": "ITW",
+      "discount_price": 1862.38
+    },
+    {
+      "symbol": "JCI",
+      "discount_price": 354.0
+    },
+    {
+      "symbol": "JNJ",
+      "discount_price": 1277.37
+    },
+    {
+      "symbol": "JPM",
+      "discount_price": 1612.64
+    },
+    {
+      "symbol": "KKR",
+      "discount_price": 1146.85
+    },
+    {
+      "symbol": "KLAC",
+      "discount_price": 1664.05
+    },
+    {
+      "symbol": "KMI",
+      "discount_price": 1653.05
+    },
+    {
+      "symbol": "KO",
+      "discount_price": 1487.7
+    },
+    {
+      "symbol": "LHX",
+      "discount_price": 1096.76
+    },
+    {
+      "symbol": "LIN",
+      "discount_price": 328.12
+    },
+    {
+      "symbol": "LLY",
+      "discount_price": 2088.93
+    },
+    {
+      "symbol": "LMT",
+      "discount_price": 1327.84
+    },
+    {
+      "symbol": "LOW",
+      "discount_price": 197.97
+    },
+    {
+      "symbol": "LRCX",
+      "discount_price": 535.4
+    },
+    {
+      "symbol": "MA",
+      "discount_price": 1569.74
+    },
+    {
+      "symbol": "MAR",
+      "discount_price": 86.44
+    },
+    {
+      "symbol": "MCD",
+      "discount_price": 439.36
+    },
+    {
+      "symbol": "MCK",
+      "discount_price": 294.2
+    },
+    {
+      "symbol": "MCO",
+      "discount_price": 1530.27
+    },
+    {
+      "symbol": "MDLZ",
+      "discount_price": 861.85
+    },
+    {
+      "symbol": "MDT",
+      "discount_price": 971.58
+    },
+    {
+      "symbol": "META",
+      "discount_price": 723.15
+    },
+    {
+      "symbol": "MMM",
+      "discount_price": 695.98
+    },
+    {
+      "symbol": "MNST",
+      "discount_price": 1955.53
+    },
+    {
+      "symbol": "MO",
+      "discount_price": 1610.25
+    },
+    {
+      "symbol": "MPC",
+      "discount_price": 1729.37
+    },
+    {
+      "symbol": "MRK",
+      "discount_price": 1312.23
+    },
+    {
+      "symbol": "MRSH",
+      "discount_price": 477.38
+    },
+    {
+      "symbol": "MS",
+      "discount_price": 945.17
+    },
+    {
+      "symbol": "MSFT",
+      "discount_price": 734.11
+    },
+    {
+      "symbol": "MSI",
+      "discount_price": 1752.68
+    },
+    {
+      "symbol": "MU",
+      "discount_price": 134.1
+    },
+    {
+      "symbol": "NEE",
+      "discount_price": 1158.02
+    },
+    {
+      "symbol": "NEM",
+      "discount_price": 1561.27
+    },
+    {
+      "symbol": "NFLX",
+      "discount_price": 1573.66
+    },
+    {
+      "symbol": "NKE",
+      "discount_price": 360.79
+    },
+    {
+      "symbol": "NOC",
+      "discount_price": 1827.54
+    },
+    {
+      "symbol": "NOW",
+      "discount_price": 986.89
+    },
+    {
+      "symbol": "NSC",
+      "discount_price": 1934.18
+    },
+    {
+      "symbol": "NVDA",
+      "discount_price": 1725.8
+    },
+    {
+      "symbol": "O",
+      "discount_price": 1631.32
+    },
+    {
+      "symbol": "OKE",
+      "discount_price": 913.31
+    },
+    {
+      "symbol": "ORCL",
+      "discount_price": 226.05
+    },
+    {
+      "symbol": "ORLY",
+      "discount_price": 282.96
+    },
+    {
+      "symbol": "OXY",
+      "discount_price": 491.77
+    },
+    {
+      "symbol": "PANW",
+      "discount_price": 293.93
+    },
+    {
+      "symbol": "PCAR",
+      "discount_price": 399.27
+    },
+    {
+      "symbol": "PEP",
+      "discount_price": 207.23
+    },
+    {
+      "symbol": "PFE",
+      "discount_price": 286.95
+    },
+    {
+      "symbol": "PG",
+      "discount_price": 838.38
+    },
+    {
+      "symbol": "PGR",
+      "discount_price": 1928.57
+    },
+    {
+      "symbol": "PH",
+      "discount_price": 2196.64
+    },
+    {
+      "symbol": "PLD",
+      "discount_price": 415.28
+    },
+    {
+      "symbol": "PLTR",
+      "discount_price": 2024.32
+    },
+    {
+      "symbol": "PM",
+      "discount_price": 2074.16
+    },
+    {
+      "symbol": "PNC",
+      "discount_price": 308.88
+    },
+    {
+      "symbol": "PSX",
+      "discount_price": 1759.81
+    },
+    {
+      "symbol": "PWR",
+      "discount_price": 1003.26
+    },
+    {
+      "symbol": "QCOM",
+      "discount_price": 1381.11
+    },
+    {
+      "symbol": "RCL",
+      "discount_price": 77.26
+    },
+    {
+      "symbol": "REGN",
+      "discount_price": 1232.82
+    },
+    {
+      "symbol": "ROST",
+      "discount_price": 399.22
+    },
+    {
+      "symbol": "RSG",
+      "discount_price": 1374.71
+    },
+    {
+      "symbol": "RTX",
+      "discount_price": 2173.36
+    },
+    {
+      "symbol": "SBUX",
+      "discount_price": 1098.4
+    },
+    {
+      "symbol": "SCHW",
+      "discount_price": 1834.09
+    },
+    {
+      "symbol": "SHW",
+      "discount_price": 574.84
+    },
+    {
+      "symbol": "SLB",
+      "discount_price": 1808.56
+    },
+    {
+      "symbol": "SNDK",
+      "discount_price": 1833.37
+    },
+    {
+      "symbol": "SNPS",
+      "discount_price": 1890.38
+    },
+    {
+      "symbol": "SO",
+      "discount_price": 1018.72
+    },
+    {
+      "symbol": "SPG",
+      "discount_price": 1768.34
+    },
+    {
+      "symbol": "SPGI",
+      "discount_price": 564.54
+    },
+    {
+      "symbol": "SRE",
+      "discount_price": 665.45
+    },
+    {
+      "symbol": "STX",
+      "discount_price": 1725.39
+    },
+    {
+      "symbol": "SYK",
+      "discount_price": 232.81
+    },
+    {
+      "symbol": "T",
+      "discount_price": 783.99
+    },
+    {
+      "symbol": "TDG",
+      "discount_price": 1150.41
+    },
+    {
+      "symbol": "TEL",
+      "discount_price": 1864.71
+    },
+    {
+      "symbol": "TFC",
+      "discount_price": 894.96
+    },
+    {
+      "symbol": "TJX",
+      "discount_price": 769.1
+    },
+    {
+      "symbol": "TMO",
+      "discount_price": 250.1
+    },
+    {
+      "symbol": "TMUS",
+      "discount_price": 317.79
+    },
+    {
+      "symbol": "TRV",
+      "discount_price": 847.35
+    },
+    {
+      "symbol": "TSLA",
+      "discount_price": 1053.65
+    },
+    {
+      "symbol": "TT",
+      "discount_price": 153.26
+    },
+    {
+      "symbol": "TXN",
+      "discount_price": 352.55
+    },
+    {
+      "symbol": "UBER",
+      "discount_price": 426.87
+    },
+    {
+      "symbol": "UNH",
+      "discount_price": 1345.91
+    },
+    {
+      "symbol": "UNP",
+      "discount_price": 1399.81
+    },
+    {
+      "symbol": "UPS",
+      "discount_price": 939.54
+    },
+    {
+      "symbol": "USB",
+      "discount_price": 260.47
+    },
+    {
+      "symbol": "V",
+      "discount_price": 66.65
+    },
+    {
+      "symbol": "VLO",
+      "discount_price": 1331.43
+    },
+    {
+      "symbol": "VRTX",
+      "discount_price": 1214.79
+    },
+    {
+      "symbol": "VZ",
+      "discount_price": 523.24
+    },
+    {
+      "symbol": "WBD",
+      "discount_price": 1325.03
+    },
+    {
+      "symbol": "WDC",
+      "discount_price": 1601.79
+    },
+    {
+      "symbol": "WELL",
+      "discount_price": 1473.37
+    },
+    {
+      "symbol": "WFC",
+      "discount_price": 596.74
+    },
+    {
+      "symbol": "WM",
+      "discount_price": 1992.09
+    },
+    {
+      "symbol": "WMB",
+      "discount_price": 161.59
+    },
+    {
+      "symbol": "WMT",
+      "discount_price": 485.09
+    },
+    {
+      "symbol": "XOM",
+      "discount_price": 778.31
+    }
+  ]
+}

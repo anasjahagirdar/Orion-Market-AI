@@ -1,0 +1,453 @@
+{
+  "sector": "Consumer Services",
+  "generated_at_utc": "2026-03-25T09:26:02.363777+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "DMART.NS",
+      "name": "Avenue Supermarts Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 1698.06,
+        "pe_ratio": 24.61,
+        "volume": 184330881,
+        "discount_price": 1404.21
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.182452,
+        "y": 1.31311
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ETERNAL.NS",
+      "name": "Eternal Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 2238.04,
+        "pe_ratio": 26.01,
+        "volume": 64654963,
+        "discount_price": 1835.08
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.577951,
+        "y": 0.378558
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INDHOTEL.NS",
+      "name": "Indian Hotels Co. Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 1466.46,
+        "pe_ratio": 18.94,
+        "volume": 148279963,
+        "discount_price": 1254.26
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.203145,
+        "y": 0.340172
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IRCTC.NS",
+      "name": "Indian Railway Catering And Tourism Corporation Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 1300.98,
+        "pe_ratio": 9.42,
+        "volume": 133293760,
+        "discount_price": 1174.65
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.444537,
+        "y": -0.521755
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ITCHOTELS.NS",
+      "name": "ITC Hotels Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 184.82,
+        "pe_ratio": 17.85,
+        "volume": 16464580,
+        "discount_price": 159.08
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.583366,
+        "y": -2.575204
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JUBLFOOD.NS",
+      "name": "Jubilant Foodworks Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 951.45,
+        "pe_ratio": 41.36,
+        "volume": 194873626,
+        "discount_price": 707.12
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.045424,
+        "y": 1.686865
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NAUKRI.NS",
+      "name": "Info Edge (India) Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 1752.28,
+        "pe_ratio": 6.37,
+        "volume": 61042541,
+        "discount_price": 1608.86
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.764209,
+        "y": -1.161038
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NYKAA.NS",
+      "name": "FSN E-Commerce Ventures Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 29.48,
+        "pe_ratio": 29.31,
+        "volume": 157446138,
+        "discount_price": 23.69
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.955469,
+        "y": -0.288033
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SWIGGY.NS",
+      "name": "Swiggy Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 1870.02,
+        "pe_ratio": 24.09,
+        "volume": 174936917,
+        "discount_price": 1551.28
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.562523,
+        "y": 1.325522
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TRENT.NS",
+      "name": "Trent Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 1887.74,
+        "pe_ratio": 13.0,
+        "volume": 72810890,
+        "discount_price": 1670.65
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.616061,
+        "y": -0.530529
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "VMM.NS",
+      "name": "Vishal Mega Mart Ltd.",
+      "market": "IN",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 1532.05,
+        "pe_ratio": 25.02,
+        "volume": 92812269,
+        "discount_price": 1263.79
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.233381,
+        "y": 0.032334
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "DMART.NS",
+      "price": 1698.06,
+      "pe_ratio": 24.61,
+      "volume": 184330881,
+      "discount_price": 1404.21
+    },
+    {
+      "symbol": "ETERNAL.NS",
+      "price": 2238.04,
+      "pe_ratio": 26.01,
+      "volume": 64654963,
+      "discount_price": 1835.08
+    },
+    {
+      "symbol": "INDHOTEL.NS",
+      "price": 1466.46,
+      "pe_ratio": 18.94,
+      "volume": 148279963,
+      "discount_price": 1254.26
+    },
+    {
+      "symbol": "IRCTC.NS",
+      "price": 1300.98,
+      "pe_ratio": 9.42,
+      "volume": 133293760,
+      "discount_price": 1174.65
+    },
+    {
+      "symbol": "ITCHOTELS.NS",
+      "price": 184.82,
+      "pe_ratio": 17.85,
+      "volume": 16464580,
+      "discount_price": 159.08
+    },
+    {
+      "symbol": "JUBLFOOD.NS",
+      "price": 951.45,
+      "pe_ratio": 41.36,
+      "volume": 194873626,
+      "discount_price": 707.12
+    },
+    {
+      "symbol": "NAUKRI.NS",
+      "price": 1752.28,
+      "pe_ratio": 6.37,
+      "volume": 61042541,
+      "discount_price": 1608.86
+    },
+    {
+      "symbol": "NYKAA.NS",
+      "price": 29.48,
+      "pe_ratio": 29.31,
+      "volume": 157446138,
+      "discount_price": 23.69
+    },
+    {
+      "symbol": "SWIGGY.NS",
+      "price": 1870.02,
+      "pe_ratio": 24.09,
+      "volume": 174936917,
+      "discount_price": 1551.28
+    },
+    {
+      "symbol": "TRENT.NS",
+      "price": 1887.74,
+      "pe_ratio": 13.0,
+      "volume": 72810890,
+      "discount_price": 1670.65
+    },
+    {
+      "symbol": "VMM.NS",
+      "price": 1532.05,
+      "pe_ratio": 25.02,
+      "volume": 92812269,
+      "discount_price": 1263.79
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "DMART.NS": 1,
+      "ETERNAL.NS": 0,
+      "INDHOTEL.NS": 1,
+      "IRCTC.NS": 1,
+      "ITCHOTELS.NS": 3,
+      "JUBLFOOD.NS": 2,
+      "NAUKRI.NS": 0,
+      "NYKAA.NS": 2,
+      "SWIGGY.NS": 1,
+      "TRENT.NS": 0,
+      "VMM.NS": 1
+    },
+    "valuation": {
+      "DMART.NS": 2,
+      "ETERNAL.NS": 2,
+      "INDHOTEL.NS": 2,
+      "IRCTC.NS": 0,
+      "ITCHOTELS.NS": 1,
+      "JUBLFOOD.NS": 1,
+      "NAUKRI.NS": 0,
+      "NYKAA.NS": 1,
+      "SWIGGY.NS": 2,
+      "TRENT.NS": 0,
+      "VMM.NS": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "DMART.NS",
+      "pc1": 0.182452,
+      "pc2": 1.31311
+    },
+    {
+      "symbol": "ETERNAL.NS",
+      "pc1": 1.577951,
+      "pc2": 0.378558
+    },
+    {
+      "symbol": "INDHOTEL.NS",
+      "pc1": 0.203145,
+      "pc2": 0.340172
+    },
+    {
+      "symbol": "IRCTC.NS",
+      "pc1": 0.444537,
+      "pc2": -0.521755
+    },
+    {
+      "symbol": "ITCHOTELS.NS",
+      "pc1": -1.583366,
+      "pc2": -2.575204
+    },
+    {
+      "symbol": "JUBLFOOD.NS",
+      "pc1": -2.045424,
+      "pc2": 1.686865
+    },
+    {
+      "symbol": "NAUKRI.NS",
+      "pc1": 1.764209,
+      "pc2": -1.161038
+    },
+    {
+      "symbol": "NYKAA.NS",
+      "pc1": -2.955469,
+      "pc2": -0.288033
+    },
+    {
+      "symbol": "SWIGGY.NS",
+      "pc1": 0.562523,
+      "pc2": 1.325522
+    },
+    {
+      "symbol": "TRENT.NS",
+      "pc1": 1.616061,
+      "pc2": -0.530529
+    },
+    {
+      "symbol": "VMM.NS",
+      "pc1": 0.233381,
+      "pc2": 0.032334
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "DMART.NS",
+      "discount_price": 1404.21
+    },
+    {
+      "symbol": "ETERNAL.NS",
+      "discount_price": 1835.08
+    },
+    {
+      "symbol": "INDHOTEL.NS",
+      "discount_price": 1254.26
+    },
+    {
+      "symbol": "IRCTC.NS",
+      "discount_price": 1174.65
+    },
+    {
+      "symbol": "ITCHOTELS.NS",
+      "discount_price": 159.08
+    },
+    {
+      "symbol": "JUBLFOOD.NS",
+      "discount_price": 707.12
+    },
+    {
+      "symbol": "NAUKRI.NS",
+      "discount_price": 1608.86
+    },
+    {
+      "symbol": "NYKAA.NS",
+      "discount_price": 23.69
+    },
+    {
+      "symbol": "SWIGGY.NS",
+      "discount_price": 1551.28
+    },
+    {
+      "symbol": "TRENT.NS",
+      "discount_price": 1670.65
+    },
+    {
+      "symbol": "VMM.NS",
+      "discount_price": 1263.79
+    }
+  ]
+}

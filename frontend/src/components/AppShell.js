@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const NAV_ITEMS = [
   { key: '/dashboard', label: 'Dashboard', short: 'DB' },
   { key: '/watchlist', label: 'Watchlist', short: 'WL' },
+  { key: '/portfolio-analysis', label: 'Portfolio Analysis', short: 'PF' },
   { key: '/btc-analysis', label: 'BTC/USD Analysis', short: 'BT' },
   { key: '/chatbot', label: 'AI Analysis', short: 'AI' },
 ];

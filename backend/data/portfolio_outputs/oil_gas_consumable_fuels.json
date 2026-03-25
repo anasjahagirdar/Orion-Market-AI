@@ -1,0 +1,414 @@
+{
+  "sector": "Oil Gas & Consumable Fuels",
+  "generated_at_utc": "2026-03-25T09:26:03.693959+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 10
+  },
+  "stocks": [
+    {
+      "symbol": "ATGL.NS",
+      "name": "Adani Total Gas Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 767.01,
+        "pe_ratio": 35.38,
+        "volume": 7625769,
+        "discount_price": 592.98
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.324955,
+        "y": 1.351283
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BPCL.NS",
+      "name": "Bharat Petroleum Corporation Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 2254.77,
+        "pe_ratio": 17.58,
+        "volume": 19127030,
+        "discount_price": 1943.84
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 3.234344,
+        "y": -0.647607
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COALINDIA.NS",
+      "name": "Coal India Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 1130.39,
+        "pe_ratio": 16.37,
+        "volume": 82244948,
+        "discount_price": 981.35
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.436084,
+        "y": -1.210358
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GAIL.NS",
+      "name": "GAIL (India) Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 228.68,
+        "pe_ratio": 22.11,
+        "volume": 86397009,
+        "discount_price": 191.97
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.702945,
+        "y": -0.576604
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HINDPETRO.NS",
+      "name": "Hindustan Petroleum Corporation Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 1371.6,
+        "pe_ratio": 28.46,
+        "volume": 141084271,
+        "discount_price": 1107.84
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.66808,
+        "y": -0.730455
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IGL.NS",
+      "name": "Indraprastha Gas Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 805.83,
+        "pe_ratio": 39.21,
+        "volume": 18611314,
+        "discount_price": 607.56
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.305204,
+        "y": 1.585911
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IOC.NS",
+      "name": "Indian Oil Corporation Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 1533.45,
+        "pe_ratio": 40.55,
+        "volume": 148012333,
+        "discount_price": 1145.87
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.851994,
+        "y": 0.291588
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "OIL.NS",
+      "name": "Oil India Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 329.89,
+        "pe_ratio": 29.44,
+        "volume": 140905459,
+        "discount_price": 264.84
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.678447,
+        "y": -0.47469
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ONGC.NS",
+      "name": "Oil & Natural Gas Corporation Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 1108.08,
+        "pe_ratio": 37.74,
+        "volume": 20382927,
+        "discount_price": 843.58
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.361592,
+        "y": 1.387649
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "name": "Reliance Industries Ltd.",
+      "market": "IN",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 269.99,
+        "pe_ratio": 16.33,
+        "volume": 73077318,
+        "discount_price": 234.45
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.540543,
+        "y": -0.976717
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ATGL.NS",
+      "price": 767.01,
+      "pe_ratio": 35.38,
+      "volume": 7625769,
+      "discount_price": 592.98
+    },
+    {
+      "symbol": "BPCL.NS",
+      "price": 2254.77,
+      "pe_ratio": 17.58,
+      "volume": 19127030,
+      "discount_price": 1943.84
+    },
+    {
+      "symbol": "COALINDIA.NS",
+      "price": 1130.39,
+      "pe_ratio": 16.37,
+      "volume": 82244948,
+      "discount_price": 981.35
+    },
+    {
+      "symbol": "GAIL.NS",
+      "price": 228.68,
+      "pe_ratio": 22.11,
+      "volume": 86397009,
+      "discount_price": 191.97
+    },
+    {
+      "symbol": "HINDPETRO.NS",
+      "price": 1371.6,
+      "pe_ratio": 28.46,
+      "volume": 141084271,
+      "discount_price": 1107.84
+    },
+    {
+      "symbol": "IGL.NS",
+      "price": 805.83,
+      "pe_ratio": 39.21,
+      "volume": 18611314,
+      "discount_price": 607.56
+    },
+    {
+      "symbol": "IOC.NS",
+      "price": 1533.45,
+      "pe_ratio": 40.55,
+      "volume": 148012333,
+      "discount_price": 1145.87
+    },
+    {
+      "symbol": "OIL.NS",
+      "price": 329.89,
+      "pe_ratio": 29.44,
+      "volume": 140905459,
+      "discount_price": 264.84
+    },
+    {
+      "symbol": "ONGC.NS",
+      "price": 1108.08,
+      "pe_ratio": 37.74,
+      "volume": 20382927,
+      "discount_price": 843.58
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "price": 269.99,
+      "pe_ratio": 16.33,
+      "volume": 73077318,
+      "discount_price": 234.45
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ATGL.NS": 1,
+      "BPCL.NS": 2,
+      "COALINDIA.NS": 0,
+      "GAIL.NS": 0,
+      "HINDPETRO.NS": 3,
+      "IGL.NS": 1,
+      "IOC.NS": 3,
+      "OIL.NS": 0,
+      "ONGC.NS": 1,
+      "RELIANCE.NS": 0
+    },
+    "valuation": {
+      "ATGL.NS": 0,
+      "BPCL.NS": 1,
+      "COALINDIA.NS": 1,
+      "GAIL.NS": 2,
+      "HINDPETRO.NS": 1,
+      "IGL.NS": 0,
+      "IOC.NS": 0,
+      "OIL.NS": 2,
+      "ONGC.NS": 0,
+      "RELIANCE.NS": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ATGL.NS",
+      "pc1": -0.324955,
+      "pc2": 1.351283
+    },
+    {
+      "symbol": "BPCL.NS",
+      "pc1": 3.234344,
+      "pc2": -0.647607
+    },
+    {
+      "symbol": "COALINDIA.NS",
+      "pc1": 0.436084,
+      "pc2": -1.210358
+    },
+    {
+      "symbol": "GAIL.NS",
+      "pc1": -1.702945,
+      "pc2": -0.576604
+    },
+    {
+      "symbol": "HINDPETRO.NS",
+      "pc1": 0.66808,
+      "pc2": -0.730455
+    },
+    {
+      "symbol": "IGL.NS",
+      "pc1": -0.305204,
+      "pc2": 1.585911
+    },
+    {
+      "symbol": "IOC.NS",
+      "pc1": 0.851994,
+      "pc2": 0.291588
+    },
+    {
+      "symbol": "OIL.NS",
+      "pc1": -1.678447,
+      "pc2": -0.47469
+    },
+    {
+      "symbol": "ONGC.NS",
+      "pc1": 0.361592,
+      "pc2": 1.387649
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "pc1": -1.540543,
+      "pc2": -0.976717
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ATGL.NS",
+      "discount_price": 592.98
+    },
+    {
+      "symbol": "BPCL.NS",
+      "discount_price": 1943.84
+    },
+    {
+      "symbol": "COALINDIA.NS",
+      "discount_price": 981.35
+    },
+    {
+      "symbol": "GAIL.NS",
+      "discount_price": 191.97
+    },
+    {
+      "symbol": "HINDPETRO.NS",
+      "discount_price": 1107.84
+    },
+    {
+      "symbol": "IGL.NS",
+      "discount_price": 607.56
+    },
+    {
+      "symbol": "IOC.NS",
+      "discount_price": 1145.87
+    },
+    {
+      "symbol": "OIL.NS",
+      "discount_price": 264.84
+    },
+    {
+      "symbol": "ONGC.NS",
+      "discount_price": 843.58
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "discount_price": 234.45
+    }
+  ]
+}

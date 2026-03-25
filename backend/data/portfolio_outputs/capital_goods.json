@@ -1,0 +1,843 @@
+{
+  "sector": "Capital Goods",
+  "generated_at_utc": "2026-03-25T09:26:01.847351+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 21
+  },
+  "stocks": [
+    {
+      "symbol": "ABB.NS",
+      "name": "ABB India Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 2000.97,
+        "pe_ratio": 8.64,
+        "volume": 189262895,
+        "discount_price": 1814.48
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.743614,
+        "y": 2.221605
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APLAPOLLO.NS",
+      "name": "APL Apollo Tubes Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 482.21,
+        "pe_ratio": 19.06,
+        "volume": 161514864,
+        "discount_price": 412.14
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.327528,
+        "y": 0.967382
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ASHOKLEY.NS",
+      "name": "Ashok Leyland Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1847.96,
+        "pe_ratio": 28.47,
+        "volume": 16582262,
+        "discount_price": 1492.5
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.40519,
+        "y": -1.496092
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ASTRAL.NS",
+      "name": "Astral Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 441.75,
+        "pe_ratio": 22.41,
+        "volume": 47893900,
+        "discount_price": 370.16
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.486366,
+        "y": -0.847043
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BDL.NS",
+      "name": "Bharat Dynamics Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 456.46,
+        "pe_ratio": 23.88,
+        "volume": 173616437,
+        "discount_price": 379.14
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.277006,
+        "y": 0.830846
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BEL.NS",
+      "name": "Bharat Electronics Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1185.96,
+        "pe_ratio": 30.56,
+        "volume": 144235084,
+        "discount_price": 945.45
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.262711,
+        "y": 0.085609
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BHEL.NS",
+      "name": "Bharat Heavy Electricals Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 654.47,
+        "pe_ratio": 28.86,
+        "volume": 199558274,
+        "discount_price": 527.31
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.757507,
+        "y": 0.90655
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CGPOWER.NS",
+      "name": "CG Power and Industrial Solutions Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 2099.43,
+        "pe_ratio": 38.64,
+        "volume": 51071077,
+        "discount_price": 1588.85
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.035421,
+        "y": -1.631928
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COCHINSHIP.NS",
+      "name": "Cochin Shipyard Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 968.58,
+        "pe_ratio": 19.31,
+        "volume": 73193980,
+        "discount_price": 826.63
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -0.428069,
+        "y": -0.227889
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CUMMINSIND.NS",
+      "name": "Cummins India Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 635.67,
+        "pe_ratio": 6.56,
+        "volume": 169246685,
+        "discount_price": 583.04
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.218673,
+        "y": 1.884507
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ENRIN.NS",
+      "name": "Siemens Energy India Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1794.02,
+        "pe_ratio": 22.6,
+        "volume": 138521047,
+        "discount_price": 1501.59
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.384827,
+        "y": 0.587632
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HAL.NS",
+      "name": "Hindustan Aeronautics Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 548.73,
+        "pe_ratio": 40.75,
+        "volume": 116566430,
+        "discount_price": 409.49
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.85693,
+        "y": -1.023167
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KEI.NS",
+      "name": "KEI Industries Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1298.49,
+        "pe_ratio": 19.47,
+        "volume": 36819506,
+        "discount_price": 1107.16
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.209564,
+        "y": -0.707077
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MAZDOCK.NS",
+      "name": "Mazagoan Dock Shipbuilders Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 2285.73,
+        "pe_ratio": 33.49,
+        "volume": 104857953,
+        "discount_price": 1788.7
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.425108,
+        "y": -0.522932
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "POLYCAB.NS",
+      "name": "Polycab India Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 2172.94,
+        "pe_ratio": 29.4,
+        "volume": 170133116,
+        "discount_price": 1744.87
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.249457,
+        "y": 0.644219
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "POWERINDIA.NS",
+      "name": "Hitachi Energy India Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 572.83,
+        "pe_ratio": 33.69,
+        "volume": 137928136,
+        "discount_price": 447.7
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.909815,
+        "y": -0.274884
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PREMIERENE.NS",
+      "name": "Premier Energies Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1598.84,
+        "pe_ratio": 27.11,
+        "volume": 183192197,
+        "discount_price": 1302.18
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.092321,
+        "y": 0.903718
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SIEMENS.NS",
+      "name": "Siemens Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 427.43,
+        "pe_ratio": 26.13,
+        "volume": 114076302,
+        "discount_price": 350.21
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.366158,
+        "y": -0.151978
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SUPREMEIND.NS",
+      "name": "Supreme Industries Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 80.21,
+        "pe_ratio": 25.19,
+        "volume": 77827678,
+        "discount_price": 66.1
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -2.130159,
+        "y": -0.646212
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SUZLON.NS",
+      "name": "Suzlon Energy Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1347.84,
+        "pe_ratio": 42.8,
+        "volume": 143309472,
+        "discount_price": 992.01
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.74242,
+        "y": -0.685923
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WAAREEENER.NS",
+      "name": "Waaree Energies Ltd.",
+      "market": "IN",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 390.38,
+        "pe_ratio": 13.99,
+        "volume": 12844384,
+        "discount_price": 343.55
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.792422,
+        "y": -0.81694
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ABB.NS",
+      "price": 2000.97,
+      "pe_ratio": 8.64,
+      "volume": 189262895,
+      "discount_price": 1814.48
+    },
+    {
+      "symbol": "APLAPOLLO.NS",
+      "price": 482.21,
+      "pe_ratio": 19.06,
+      "volume": 161514864,
+      "discount_price": 412.14
+    },
+    {
+      "symbol": "ASHOKLEY.NS",
+      "price": 1847.96,
+      "pe_ratio": 28.47,
+      "volume": 16582262,
+      "discount_price": 1492.5
+    },
+    {
+      "symbol": "ASTRAL.NS",
+      "price": 441.75,
+      "pe_ratio": 22.41,
+      "volume": 47893900,
+      "discount_price": 370.16
+    },
+    {
+      "symbol": "BDL.NS",
+      "price": 456.46,
+      "pe_ratio": 23.88,
+      "volume": 173616437,
+      "discount_price": 379.14
+    },
+    {
+      "symbol": "BEL.NS",
+      "price": 1185.96,
+      "pe_ratio": 30.56,
+      "volume": 144235084,
+      "discount_price": 945.45
+    },
+    {
+      "symbol": "BHEL.NS",
+      "price": 654.47,
+      "pe_ratio": 28.86,
+      "volume": 199558274,
+      "discount_price": 527.31
+    },
+    {
+      "symbol": "CGPOWER.NS",
+      "price": 2099.43,
+      "pe_ratio": 38.64,
+      "volume": 51071077,
+      "discount_price": 1588.85
+    },
+    {
+      "symbol": "COCHINSHIP.NS",
+      "price": 968.58,
+      "pe_ratio": 19.31,
+      "volume": 73193980,
+      "discount_price": 826.63
+    },
+    {
+      "symbol": "CUMMINSIND.NS",
+      "price": 635.67,
+      "pe_ratio": 6.56,
+      "volume": 169246685,
+      "discount_price": 583.04
+    },
+    {
+      "symbol": "ENRIN.NS",
+      "price": 1794.02,
+      "pe_ratio": 22.6,
+      "volume": 138521047,
+      "discount_price": 1501.59
+    },
+    {
+      "symbol": "HAL.NS",
+      "price": 548.73,
+      "pe_ratio": 40.75,
+      "volume": 116566430,
+      "discount_price": 409.49
+    },
+    {
+      "symbol": "KEI.NS",
+      "price": 1298.49,
+      "pe_ratio": 19.47,
+      "volume": 36819506,
+      "discount_price": 1107.16
+    },
+    {
+      "symbol": "MAZDOCK.NS",
+      "price": 2285.73,
+      "pe_ratio": 33.49,
+      "volume": 104857953,
+      "discount_price": 1788.7
+    },
+    {
+      "symbol": "POLYCAB.NS",
+      "price": 2172.94,
+      "pe_ratio": 29.4,
+      "volume": 170133116,
+      "discount_price": 1744.87
+    },
+    {
+      "symbol": "POWERINDIA.NS",
+      "price": 572.83,
+      "pe_ratio": 33.69,
+      "volume": 137928136,
+      "discount_price": 447.7
+    },
+    {
+      "symbol": "PREMIERENE.NS",
+      "price": 1598.84,
+      "pe_ratio": 27.11,
+      "volume": 183192197,
+      "discount_price": 1302.18
+    },
+    {
+      "symbol": "SIEMENS.NS",
+      "price": 427.43,
+      "pe_ratio": 26.13,
+      "volume": 114076302,
+      "discount_price": 350.21
+    },
+    {
+      "symbol": "SUPREMEIND.NS",
+      "price": 80.21,
+      "pe_ratio": 25.19,
+      "volume": 77827678,
+      "discount_price": 66.1
+    },
+    {
+      "symbol": "SUZLON.NS",
+      "price": 1347.84,
+      "pe_ratio": 42.8,
+      "volume": 143309472,
+      "discount_price": 992.01
+    },
+    {
+      "symbol": "WAAREEENER.NS",
+      "price": 390.38,
+      "pe_ratio": 13.99,
+      "volume": 12844384,
+      "discount_price": 343.55
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ABB.NS": 3,
+      "APLAPOLLO.NS": 2,
+      "ASHOKLEY.NS": 0,
+      "ASTRAL.NS": 2,
+      "BDL.NS": 2,
+      "BEL.NS": 1,
+      "BHEL.NS": 1,
+      "CGPOWER.NS": 0,
+      "COCHINSHIP.NS": 2,
+      "CUMMINSIND.NS": 2,
+      "ENRIN.NS": 3,
+      "HAL.NS": 1,
+      "KEI.NS": 0,
+      "MAZDOCK.NS": 0,
+      "POLYCAB.NS": 3,
+      "POWERINDIA.NS": 1,
+      "PREMIERENE.NS": 3,
+      "SIEMENS.NS": 2,
+      "SUPREMEIND.NS": 2,
+      "SUZLON.NS": 1,
+      "WAAREEENER.NS": 2
+    },
+    "valuation": {
+      "ABB.NS": 0,
+      "APLAPOLLO.NS": 2,
+      "ASHOKLEY.NS": 0,
+      "ASTRAL.NS": 2,
+      "BDL.NS": 2,
+      "BEL.NS": 1,
+      "BHEL.NS": 1,
+      "CGPOWER.NS": 0,
+      "COCHINSHIP.NS": 2,
+      "CUMMINSIND.NS": 2,
+      "ENRIN.NS": 0,
+      "HAL.NS": 1,
+      "KEI.NS": 0,
+      "MAZDOCK.NS": 0,
+      "POLYCAB.NS": 0,
+      "POWERINDIA.NS": 1,
+      "PREMIERENE.NS": 0,
+      "SIEMENS.NS": 2,
+      "SUPREMEIND.NS": 2,
+      "SUZLON.NS": 1,
+      "WAAREEENER.NS": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ABB.NS",
+      "pc1": 1.743614,
+      "pc2": 2.221605
+    },
+    {
+      "symbol": "APLAPOLLO.NS",
+      "pc1": -1.327528,
+      "pc2": 0.967382
+    },
+    {
+      "symbol": "ASHOKLEY.NS",
+      "pc1": 1.40519,
+      "pc2": -1.496092
+    },
+    {
+      "symbol": "ASTRAL.NS",
+      "pc1": -1.486366,
+      "pc2": -0.847043
+    },
+    {
+      "symbol": "BDL.NS",
+      "pc1": -1.277006,
+      "pc2": 0.830846
+    },
+    {
+      "symbol": "BEL.NS",
+      "pc1": 0.262711,
+      "pc2": 0.085609
+    },
+    {
+      "symbol": "BHEL.NS",
+      "pc1": -0.757507,
+      "pc2": 0.90655
+    },
+    {
+      "symbol": "CGPOWER.NS",
+      "pc1": 2.035421,
+      "pc2": -1.631928
+    },
+    {
+      "symbol": "COCHINSHIP.NS",
+      "pc1": -0.428069,
+      "pc2": -0.227889
+    },
+    {
+      "symbol": "CUMMINSIND.NS",
+      "pc1": -1.218673,
+      "pc2": 1.884507
+    },
+    {
+      "symbol": "ENRIN.NS",
+      "pc1": 1.384827,
+      "pc2": 0.587632
+    },
+    {
+      "symbol": "HAL.NS",
+      "pc1": -0.85693,
+      "pc2": -1.023167
+    },
+    {
+      "symbol": "KEI.NS",
+      "pc1": 0.209564,
+      "pc2": -0.707077
+    },
+    {
+      "symbol": "MAZDOCK.NS",
+      "pc1": 2.425108,
+      "pc2": -0.522932
+    },
+    {
+      "symbol": "POLYCAB.NS",
+      "pc1": 2.249457,
+      "pc2": 0.644219
+    },
+    {
+      "symbol": "POWERINDIA.NS",
+      "pc1": -0.909815,
+      "pc2": -0.274884
+    },
+    {
+      "symbol": "PREMIERENE.NS",
+      "pc1": 1.092321,
+      "pc2": 0.903718
+    },
+    {
+      "symbol": "SIEMENS.NS",
+      "pc1": -1.366158,
+      "pc2": -0.151978
+    },
+    {
+      "symbol": "SUPREMEIND.NS",
+      "pc1": -2.130159,
+      "pc2": -0.646212
+    },
+    {
+      "symbol": "SUZLON.NS",
+      "pc1": 0.74242,
+      "pc2": -0.685923
+    },
+    {
+      "symbol": "WAAREEENER.NS",
+      "pc1": -1.792422,
+      "pc2": -0.81694
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ABB.NS",
+      "discount_price": 1814.48
+    },
+    {
+      "symbol": "APLAPOLLO.NS",
+      "discount_price": 412.14
+    },
+    {
+      "symbol": "ASHOKLEY.NS",
+      "discount_price": 1492.5
+    },
+    {
+      "symbol": "ASTRAL.NS",
+      "discount_price": 370.16
+    },
+    {
+      "symbol": "BDL.NS",
+      "discount_price": 379.14
+    },
+    {
+      "symbol": "BEL.NS",
+      "discount_price": 945.45
+    },
+    {
+      "symbol": "BHEL.NS",
+      "discount_price": 527.31
+    },
+    {
+      "symbol": "CGPOWER.NS",
+      "discount_price": 1588.85
+    },
+    {
+      "symbol": "COCHINSHIP.NS",
+      "discount_price": 826.63
+    },
+    {
+      "symbol": "CUMMINSIND.NS",
+      "discount_price": 583.04
+    },
+    {
+      "symbol": "ENRIN.NS",
+      "discount_price": 1501.59
+    },
+    {
+      "symbol": "HAL.NS",
+      "discount_price": 409.49
+    },
+    {
+      "symbol": "KEI.NS",
+      "discount_price": 1107.16
+    },
+    {
+      "symbol": "MAZDOCK.NS",
+      "discount_price": 1788.7
+    },
+    {
+      "symbol": "POLYCAB.NS",
+      "discount_price": 1744.87
+    },
+    {
+      "symbol": "POWERINDIA.NS",
+      "discount_price": 447.7
+    },
+    {
+      "symbol": "PREMIERENE.NS",
+      "discount_price": 1302.18
+    },
+    {
+      "symbol": "SIEMENS.NS",
+      "discount_price": 350.21
+    },
+    {
+      "symbol": "SUPREMEIND.NS",
+      "discount_price": 66.1
+    },
+    {
+      "symbol": "SUZLON.NS",
+      "discount_price": 992.01
+    },
+    {
+      "symbol": "WAAREEENER.NS",
+      "discount_price": 343.55
+    }
+  ]
+}

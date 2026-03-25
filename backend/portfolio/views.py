@@ -3,6 +3,14 @@ portfolio/views.py
 API endpoints for sector-based portfolio data.
 """
 
+import json
+import re
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+from django.conf import settings
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
@@ -10,15 +18,89 @@ from rest_framework import status
 from .portfolio_service import (
     build_portfolio,
     get_portfolio_by_country,
-    get_portfolio_by_sector,
     get_portfolio_stats,
     get_top_sectors,
-    get_all_sectors,
     invalidate_cache,
 )
 import logging
 
 logger = logging.getLogger(__name__)
+
+
+PORTFOLIO_OUTPUT_DIR = Path(settings.BASE_DIR) / 'data' / 'portfolio_outputs'
+PORTFOLIO_MAPPING_FILE = Path(settings.BASE_DIR) / 'data' / 'sector_mapping.json'
+PROJECT_ROOT_DIR = Path(settings.BASE_DIR).parent
+PORTFOLIO_SCRIPT_SH = PROJECT_ROOT_DIR / 'scripts' / 'generate_portfolios.sh'
+PORTFOLIO_SCRIPT_PY = PROJECT_ROOT_DIR / 'scripts' / 'generate_portfolios.py'
+
+
+def _slugify_sector_name(value):
+    return re.sub(r'[^a-z0-9]+', '_', value.lower()).strip('_')
+
+
+def _available_sector_files():
+    if not PORTFOLIO_OUTPUT_DIR.exists():
+        return []
+    return sorted(
+        [
+            item.stem
+            for item in PORTFOLIO_OUTPUT_DIR.glob('*.json')
+            if item.is_file()
+        ]
+    )
+
+
+def _resolve_sector_file(sector):
+    slug = _slugify_sector_name(sector)
+    candidate = PORTFOLIO_OUTPUT_DIR / f'{slug}.json'
+    if candidate.exists():
+        return candidate
+    return None
+
+
+def _run_portfolio_recompute():
+    if not PORTFOLIO_MAPPING_FILE.exists():
+        raise FileNotFoundError(f'Mapping file not found: {PORTFOLIO_MAPPING_FILE}')
+
+    PORTFOLIO_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    bash_bin = shutil.which('bash')
+    if bash_bin and PORTFOLIO_SCRIPT_SH.exists():
+        command = [bash_bin, str(PORTFOLIO_SCRIPT_SH)]
+        runner = 'bash'
+    elif PORTFOLIO_SCRIPT_PY.exists():
+        command = [
+            sys.executable,
+            str(PORTFOLIO_SCRIPT_PY),
+            '--mapping',
+            str(PORTFOLIO_MAPPING_FILE),
+            '--output',
+            str(PORTFOLIO_OUTPUT_DIR),
+        ]
+        runner = 'python'
+    else:
+        raise FileNotFoundError(
+            f'No generator script found at {PORTFOLIO_SCRIPT_SH} or {PORTFOLIO_SCRIPT_PY}'
+        )
+
+    completed = subprocess.run(
+        command,
+        cwd=str(PROJECT_ROOT_DIR),
+        capture_output=True,
+        text=True,
+        timeout=600,
+    )
+
+    if completed.returncode != 0:
+        raise RuntimeError(
+            f'Portfolio recompute failed ({runner}): {completed.stderr.strip() or completed.stdout.strip()}'
+        )
+
+    return {
+        'runner': runner,
+        'stdout': completed.stdout.strip(),
+        'stderr': completed.stderr.strip(),
+    }
 
 
 @api_view(['GET'])
@@ -98,26 +180,25 @@ def get_country_portfolio(request, country):
 def get_sector_portfolio(request, sector):
     """
     GET /api/portfolio/<sector>/
-    Returns all stocks in a specific sector across all countries.
+    Returns stored ML portfolio JSON for a sector.
     """
     try:
-        country = request.query_params.get('country', None)
-        data = get_portfolio_by_sector(sector, country=country)
+        sector_file = _resolve_sector_file(sector)
+        if not sector_file:
+            available_files = _available_sector_files()
+            return Response(
+                {
+                    'error': f'Sector "{sector}" not found',
+                    'available_sectors': available_files,
+                    'output_directory': str(PORTFOLIO_OUTPUT_DIR),
+                },
+                status=status.HTTP_404_NOT_FOUND,
+            )
 
-        if not data:
-            available = get_all_sectors()
-            return Response({
-                'error': f'Sector "{sector}" not found',
-                'available_sectors': available,
-            }, status=status.HTTP_404_NOT_FOUND)
-
-        total_stocks = sum(len(s) for s in data.values())
-
-        return Response({
-            'sector': sector,
-            'total_stocks': total_stocks,
-            'countries': data,
-        })
+        payload = json.loads(sector_file.read_text(encoding='utf-8'))
+        payload.setdefault('source', 'stored_portfolio_file')
+        payload.setdefault('file', sector_file.name)
+        return Response(payload)
 
     except Exception as e:
         logger.error(f"get_sector_portfolio error: {e}")
@@ -174,4 +255,43 @@ def refresh_portfolio(request):
         return Response(
             {'error': str(e)},
             status=status.HTTP_500_INTERNAL_SERVER_ERROR
+        )
+
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def recompute_portfolio(request):
+    """
+    POST /api/recompute-portfolio/
+    Regenerates persisted sector portfolio output files.
+    """
+    try:
+        result = _run_portfolio_recompute()
+        files = _available_sector_files()
+        return Response(
+            {
+                'message': 'Portfolio recomputed successfully',
+                'runner': result['runner'],
+                'output_directory': str(PORTFOLIO_OUTPUT_DIR),
+                'sector_files': files,
+                'sector_count': len(files),
+            }
+        )
+    except FileNotFoundError as exc:
+        logger.error(f'recompute_portfolio missing dependency: {exc}')
+        return Response(
+            {'error': str(exc)},
+            status=status.HTTP_400_BAD_REQUEST,
+        )
+    except subprocess.TimeoutExpired:
+        logger.error('recompute_portfolio timed out')
+        return Response(
+            {'error': 'Portfolio recompute timed out'},
+            status=status.HTTP_504_GATEWAY_TIMEOUT,
+        )
+    except Exception as exc:
+        logger.error(f'recompute_portfolio error: {exc}')
+        return Response(
+            {'error': str(exc)},
+            status=status.HTTP_500_INTERNAL_SERVER_ERROR,
         )
