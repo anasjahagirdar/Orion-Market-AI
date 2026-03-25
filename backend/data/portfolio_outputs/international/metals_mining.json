@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Metals & Mining",
+  "generated_at_utc": "2026-03-25T10:19:31.040355+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "ALL",
+      "name": "Allstate",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 834.26,
+        "pe_ratio": 15.24,
+        "volume": 64576460,
+        "discount_price": 709.12
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.375156,
+        "y": -0.841807
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BKNG",
+      "name": "Booking Holdings",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 477.82,
+        "pe_ratio": 38.98,
+        "volume": 187787930,
+        "discount_price": 406.15
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.350414,
+        "y": 2.186002
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COF",
+      "name": "Capital One",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 615.98,
+        "pe_ratio": 11.57,
+        "volume": 74043622,
+        "discount_price": 523.58
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.884354,
+        "y": -0.98011
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DUK",
+      "name": "Duke Energy",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 974.65,
+        "pe_ratio": 24.91,
+        "volume": 131064392,
+        "discount_price": 828.45
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.111589,
+        "y": 0.626636
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 886.26,
+        "pe_ratio": 12.67,
+        "volume": 34399810,
+        "discount_price": 753.32
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.227623,
+        "y": -1.379936
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 1840.56,
+        "pe_ratio": 9.18,
+        "volume": 170891103,
+        "discount_price": 1564.48
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.938779,
+        "y": 0.214473
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MNST",
+      "name": "Monster Beverage",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 2232.98,
+        "pe_ratio": 14.85,
+        "volume": 82684156,
+        "discount_price": 1898.03
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.900739,
+        "y": -0.491415
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "OKE",
+      "name": "ONEOK",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 1000.34,
+        "pe_ratio": 7.4,
+        "volume": 177810531,
+        "discount_price": 850.29
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.034902,
+        "y": 0.099195
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 87.27,
+        "pe_ratio": 12.94,
+        "volume": 63866781,
+        "discount_price": 74.18
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.123721,
+        "y": -1.076399
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TDG",
+      "name": "TransDigm Group",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 1553.24,
+        "pe_ratio": 41.87,
+        "volume": 56751355,
+        "discount_price": 1320.25
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.249926,
+        "y": 0.836016
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "VZ",
+      "name": "Verizon",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Metals & Mining",
+      "features": {
+        "price": 610.41,
+        "pe_ratio": 18.56,
+        "volume": 180728493,
+        "discount_price": 518.85
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.981686,
+        "y": 0.807346
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ALL",
+      "price": 834.26,
+      "pe_ratio": 15.24,
+      "volume": 64576460,
+      "discount_price": 709.12
+    },
+    {
+      "symbol": "BKNG",
+      "price": 477.82,
+      "pe_ratio": 38.98,
+      "volume": 187787930,
+      "discount_price": 406.15
+    },
+    {
+      "symbol": "COF",
+      "price": 615.98,
+      "pe_ratio": 11.57,
+      "volume": 74043622,
+      "discount_price": 523.58
+    },
+    {
+      "symbol": "DUK",
+      "price": 974.65,
+      "pe_ratio": 24.91,
+      "volume": 131064392,
+      "discount_price": 828.45
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 886.26,
+      "pe_ratio": 12.67,
+      "volume": 34399810,
+      "discount_price": 753.32
+    },
+    {
+      "symbol": "KLAC",
+      "price": 1840.56,
+      "pe_ratio": 9.18,
+      "volume": 170891103,
+      "discount_price": 1564.48
+    },
+    {
+      "symbol": "MNST",
+      "price": 2232.98,
+      "pe_ratio": 14.85,
+      "volume": 82684156,
+      "discount_price": 1898.03
+    },
+    {
+      "symbol": "OKE",
+      "price": 1000.34,
+      "pe_ratio": 7.4,
+      "volume": 177810531,
+      "discount_price": 850.29
+    },
+    {
+      "symbol": "RCL",
+      "price": 87.27,
+      "pe_ratio": 12.94,
+      "volume": 63866781,
+      "discount_price": 74.18
+    },
+    {
+      "symbol": "TDG",
+      "price": 1553.24,
+      "pe_ratio": 41.87,
+      "volume": 56751355,
+      "discount_price": 1320.25
+    },
+    {
+      "symbol": "VZ",
+      "price": 610.41,
+      "pe_ratio": 18.56,
+      "volume": 180728493,
+      "discount_price": 518.85
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ALL": 0,
+      "BKNG": 1,
+      "COF": 0,
+      "DUK": 1,
+      "GOOGL": 0,
+      "KLAC": 2,
+      "MNST": 2,
+      "OKE": 1,
+      "RCL": 0,
+      "TDG": 2,
+      "VZ": 1
+    },
+    "value_cluster": {
+      "ALL": 1,
+      "BKNG": 0,
+      "COF": 1,
+      "DUK": 1,
+      "GOOGL": 1,
+      "KLAC": 2,
+      "MNST": 2,
+      "OKE": 1,
+      "RCL": 1,
+      "TDG": 0,
+      "VZ": 1
+    },
+    "valuation": {
+      "ALL": 1,
+      "BKNG": 0,
+      "COF": 1,
+      "DUK": 1,
+      "GOOGL": 1,
+      "KLAC": 2,
+      "MNST": 2,
+      "OKE": 1,
+      "RCL": 1,
+      "TDG": 0,
+      "VZ": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ALL",
+      "pc1": -0.375156,
+      "pc2": -0.841807
+    },
+    {
+      "symbol": "BKNG",
+      "pc1": -1.350414,
+      "pc2": 2.186002
+    },
+    {
+      "symbol": "COF",
+      "pc1": -0.884354,
+      "pc2": -0.98011
+    },
+    {
+      "symbol": "DUK",
+      "pc1": -0.111589,
+      "pc2": 0.626636
+    },
+    {
+      "symbol": "GOOGL",
+      "pc1": -0.227623,
+      "pc2": -1.379936
+    },
+    {
+      "symbol": "KLAC",
+      "pc1": 1.938779,
+      "pc2": 0.214473
+    },
+    {
+      "symbol": "MNST",
+      "pc1": 2.900739,
+      "pc2": -0.491415
+    },
+    {
+      "symbol": "OKE",
+      "pc1": -0.034902,
+      "pc2": 0.099195
+    },
+    {
+      "symbol": "RCL",
+      "pc1": -2.123721,
+      "pc2": -1.076399
+    },
+    {
+      "symbol": "TDG",
+      "pc1": 1.249926,
+      "pc2": 0.836016
+    },
+    {
+      "symbol": "VZ",
+      "pc1": -0.981686,
+      "pc2": 0.807346
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ALL",
+      "discount_price": 709.12
+    },
+    {
+      "symbol": "BKNG",
+      "discount_price": 406.15
+    },
+    {
+      "symbol": "COF",
+      "discount_price": 523.58
+    },
+    {
+      "symbol": "DUK",
+      "discount_price": 828.45
+    },
+    {
+      "symbol": "GOOGL",
+      "discount_price": 753.32
+    },
+    {
+      "symbol": "KLAC",
+      "discount_price": 1564.48
+    },
+    {
+      "symbol": "MNST",
+      "discount_price": 1898.03
+    },
+    {
+      "symbol": "OKE",
+      "discount_price": 850.29
+    },
+    {
+      "symbol": "RCL",
+      "discount_price": 74.18
+    },
+    {
+      "symbol": "TDG",
+      "discount_price": 1320.25
+    },
+    {
+      "symbol": "VZ",
+      "discount_price": 518.85
+    }
+  ]
+}

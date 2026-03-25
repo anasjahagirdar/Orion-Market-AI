@@ -7,6 +7,7 @@ import DashboardPage from './pages/DashboardPage';
 import ChatbotPage from './pages/ChatbotPage';
 import WatchlistPage from './pages/WatchlistPage';
 import BtcAnalysisPage from './pages/BtcAnalysisPage';
+import PortfolioAnalysisPage from './pages/PortfolioAnalysisPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import './layout.css';
 
@@ -65,6 +66,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <BtcAnalysisPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/portfolio-analysis"
+            element={
+              <ProtectedRoute>
+                <PortfolioAnalysisPage />
               </ProtectedRoute>
             }
           />

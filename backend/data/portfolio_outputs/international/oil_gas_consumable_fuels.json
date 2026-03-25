@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Oil Gas & Consumable Fuels",
+  "generated_at_utc": "2026-03-25T10:19:31.099986+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 1666.48,
+        "pe_ratio": 31.13,
+        "volume": 114682038,
+        "discount_price": 1416.51
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.23188,
+        "y": -0.156619
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BKR",
+      "name": "Baker Hughes",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 2242.96,
+        "pe_ratio": 14.07,
+        "volume": 173283097,
+        "discount_price": 1906.52
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.571958,
+        "y": 0.966875
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COP",
+      "name": "ConocoPhillips",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 2247.97,
+        "pe_ratio": 10.08,
+        "volume": 147502191,
+        "discount_price": 1910.77
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.706331,
+        "y": 0.688794
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ECL",
+      "name": "Ecolab",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 387.89,
+        "pe_ratio": 44.2,
+        "volume": 130493229,
+        "discount_price": 329.71
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.965562,
+        "y": 0.521121
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GS",
+      "name": "Goldman Sachs",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 2392.08,
+        "pe_ratio": 25.97,
+        "volume": 36453039,
+        "discount_price": 2033.27
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.114927,
+        "y": -1.722226
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KMI",
+      "name": "Kinder Morgan",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 1882.53,
+        "pe_ratio": 14.38,
+        "volume": 193001913,
+        "discount_price": 1600.15
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.966646,
+        "y": 1.516433
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MO",
+      "name": "Altria",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 1802.48,
+        "pe_ratio": 11.33,
+        "volume": 112073074,
+        "discount_price": 1532.11
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.826774,
+        "y": 0.385235
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 306.26,
+        "pe_ratio": 42.38,
+        "volume": 119162031,
+        "discount_price": 260.32
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -3.048807,
+        "y": 0.458343
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 1480.33,
+        "pe_ratio": 23.44,
+        "volume": 146106336,
+        "discount_price": 1258.28
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.182637,
+        "y": 0.733858
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TEL",
+      "name": "TE Connectivity",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 2418.4,
+        "pe_ratio": 35.79,
+        "volume": 98702531,
+        "discount_price": 2055.64
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.849166,
+        "y": -1.083325
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WBD",
+      "name": "Warner Bros. Discovery",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Oil Gas & Consumable Fuels",
+      "features": {
+        "price": 1766.71,
+        "pe_ratio": 40.0,
+        "volume": 2972338,
+        "discount_price": 1501.7
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.606914,
+        "y": -2.30849
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "AMAT",
+      "price": 1666.48,
+      "pe_ratio": 31.13,
+      "volume": 114682038,
+      "discount_price": 1416.51
+    },
+    {
+      "symbol": "BKR",
+      "price": 2242.96,
+      "pe_ratio": 14.07,
+      "volume": 173283097,
+      "discount_price": 1906.52
+    },
+    {
+      "symbol": "COP",
+      "price": 2247.97,
+      "pe_ratio": 10.08,
+      "volume": 147502191,
+      "discount_price": 1910.77
+    },
+    {
+      "symbol": "ECL",
+      "price": 387.89,
+      "pe_ratio": 44.2,
+      "volume": 130493229,
+      "discount_price": 329.71
+    },
+    {
+      "symbol": "GS",
+      "price": 2392.08,
+      "pe_ratio": 25.97,
+      "volume": 36453039,
+      "discount_price": 2033.27
+    },
+    {
+      "symbol": "KMI",
+      "price": 1882.53,
+      "pe_ratio": 14.38,
+      "volume": 193001913,
+      "discount_price": 1600.15
+    },
+    {
+      "symbol": "MO",
+      "price": 1802.48,
+      "pe_ratio": 11.33,
+      "volume": 112073074,
+      "discount_price": 1532.11
+    },
+    {
+      "symbol": "ORCL",
+      "price": 306.26,
+      "pe_ratio": 42.38,
+      "volume": 119162031,
+      "discount_price": 260.32
+    },
+    {
+      "symbol": "REGN",
+      "price": 1480.33,
+      "pe_ratio": 23.44,
+      "volume": 146106336,
+      "discount_price": 1258.28
+    },
+    {
+      "symbol": "TEL",
+      "price": 2418.4,
+      "pe_ratio": 35.79,
+      "volume": 98702531,
+      "discount_price": 2055.64
+    },
+    {
+      "symbol": "WBD",
+      "price": 1766.71,
+      "pe_ratio": 40.0,
+      "volume": 2972338,
+      "discount_price": 1501.7
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "AMAT": 0,
+      "BKR": 2,
+      "COP": 2,
+      "ECL": 1,
+      "GS": 0,
+      "KMI": 2,
+      "MO": 2,
+      "ORCL": 1,
+      "REGN": 2,
+      "TEL": 0,
+      "WBD": 0
+    },
+    "value_cluster": {
+      "AMAT": 0,
+      "BKR": 2,
+      "COP": 2,
+      "ECL": 1,
+      "GS": 0,
+      "KMI": 2,
+      "MO": 2,
+      "ORCL": 1,
+      "REGN": 0,
+      "TEL": 0,
+      "WBD": 0
+    },
+    "valuation": {
+      "AMAT": 0,
+      "BKR": 2,
+      "COP": 2,
+      "ECL": 1,
+      "GS": 0,
+      "KMI": 2,
+      "MO": 2,
+      "ORCL": 1,
+      "REGN": 0,
+      "TEL": 0,
+      "WBD": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "AMAT",
+      "pc1": -0.23188,
+      "pc2": -0.156619
+    },
+    {
+      "symbol": "BKR",
+      "pc1": 1.571958,
+      "pc2": 0.966875
+    },
+    {
+      "symbol": "COP",
+      "pc1": 1.706331,
+      "pc2": 0.688794
+    },
+    {
+      "symbol": "ECL",
+      "pc1": -2.965562,
+      "pc2": 0.521121
+    },
+    {
+      "symbol": "GS",
+      "pc1": 1.114927,
+      "pc2": -1.722226
+    },
+    {
+      "symbol": "KMI",
+      "pc1": 0.966646,
+      "pc2": 1.516433
+    },
+    {
+      "symbol": "MO",
+      "pc1": 0.826774,
+      "pc2": 0.385235
+    },
+    {
+      "symbol": "ORCL",
+      "pc1": -3.048807,
+      "pc2": 0.458343
+    },
+    {
+      "symbol": "REGN",
+      "pc1": -0.182637,
+      "pc2": 0.733858
+    },
+    {
+      "symbol": "TEL",
+      "pc1": 0.849166,
+      "pc2": -1.083325
+    },
+    {
+      "symbol": "WBD",
+      "pc1": -0.606914,
+      "pc2": -2.30849
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "AMAT",
+      "discount_price": 1416.51
+    },
+    {
+      "symbol": "BKR",
+      "discount_price": 1906.52
+    },
+    {
+      "symbol": "COP",
+      "discount_price": 1910.77
+    },
+    {
+      "symbol": "ECL",
+      "discount_price": 329.71
+    },
+    {
+      "symbol": "GS",
+      "discount_price": 2033.27
+    },
+    {
+      "symbol": "KMI",
+      "discount_price": 1600.15
+    },
+    {
+      "symbol": "MO",
+      "discount_price": 1532.11
+    },
+    {
+      "symbol": "ORCL",
+      "discount_price": 260.32
+    },
+    {
+      "symbol": "REGN",
+      "discount_price": 1258.28
+    },
+    {
+      "symbol": "TEL",
+      "discount_price": 2055.64
+    },
+    {
+      "symbol": "WBD",
+      "discount_price": 1501.7
+    }
+  ]
+}

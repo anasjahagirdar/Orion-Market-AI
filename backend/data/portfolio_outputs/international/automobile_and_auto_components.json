@@ -1,0 +1,530 @@
+{
+  "market": "international",
+  "sector": "Automobile and Auto Components",
+  "generated_at_utc": "2026-03-25T10:19:30.366007+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 12
+  },
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 141.71,
+        "pe_ratio": 25.51,
+        "volume": 141387157,
+        "discount_price": 120.45
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -2.083546,
+        "y": 0.343455
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AON",
+      "name": "Aon",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 2044.84,
+        "pe_ratio": 11.79,
+        "volume": 190006225,
+        "discount_price": 1738.11
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.711699,
+        "y": -2.680833
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "C",
+      "name": "Citigroup",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 1318.76,
+        "pe_ratio": 40.27,
+        "volume": 15224263,
+        "discount_price": 1120.95
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.203312,
+        "y": 1.392519
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CSCO",
+      "name": "Cisco",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 1761.27,
+        "pe_ratio": 13.18,
+        "volume": 19851783,
+        "discount_price": 1497.08
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.318713,
+        "y": -0.69862
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FANG",
+      "name": "Diamondback Energy",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 1463.35,
+        "pe_ratio": 42.69,
+        "volume": 117216840,
+        "discount_price": 1243.85
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.872178,
+        "y": 0.42501
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HWM",
+      "name": "Howmet Aerospace",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 1126.21,
+        "pe_ratio": 34.54,
+        "volume": 58875231,
+        "discount_price": 957.28
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.438751,
+        "y": 0.797467
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LOW",
+      "name": "Lowe's",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 251.72,
+        "pe_ratio": 32.71,
+        "volume": 143559692,
+        "discount_price": 213.96
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.724879,
+        "y": 0.660512
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MSI",
+      "name": "Motorola Solutions",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 2362.26,
+        "pe_ratio": 41.61,
+        "volume": 55994807,
+        "discount_price": 2007.92
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 2.859947,
+        "y": 0.136735
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PFE",
+      "name": "Pfizer",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 313.86,
+        "pe_ratio": 7.15,
+        "volume": 143946761,
+        "discount_price": 266.78
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -2.232357,
+        "y": -0.952666
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SHW",
+      "name": "Sherwin-Williams",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 675.61,
+        "pe_ratio": 19.83,
+        "volume": 119428576,
+        "discount_price": 574.27
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.116482,
+        "y": -0.272881
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 1236.53,
+        "pe_ratio": 19.58,
+        "volume": 31755112,
+        "discount_price": 1051.05
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.449729,
+        "y": 0.050168
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WMT",
+      "name": "Walmart",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Automobile and Auto Components",
+      "features": {
+        "price": 586.11,
+        "pe_ratio": 24.47,
+        "volume": 45913943,
+        "discount_price": 498.19
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -0.697066,
+        "y": 0.799134
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "AAPL",
+      "price": 141.71,
+      "pe_ratio": 25.51,
+      "volume": 141387157,
+      "discount_price": 120.45
+    },
+    {
+      "symbol": "AON",
+      "price": 2044.84,
+      "pe_ratio": 11.79,
+      "volume": 190006225,
+      "discount_price": 1738.11
+    },
+    {
+      "symbol": "C",
+      "price": 1318.76,
+      "pe_ratio": 40.27,
+      "volume": 15224263,
+      "discount_price": 1120.95
+    },
+    {
+      "symbol": "CSCO",
+      "price": 1761.27,
+      "pe_ratio": 13.18,
+      "volume": 19851783,
+      "discount_price": 1497.08
+    },
+    {
+      "symbol": "FANG",
+      "price": 1463.35,
+      "pe_ratio": 42.69,
+      "volume": 117216840,
+      "discount_price": 1243.85
+    },
+    {
+      "symbol": "HWM",
+      "price": 1126.21,
+      "pe_ratio": 34.54,
+      "volume": 58875231,
+      "discount_price": 957.28
+    },
+    {
+      "symbol": "LOW",
+      "price": 251.72,
+      "pe_ratio": 32.71,
+      "volume": 143559692,
+      "discount_price": 213.96
+    },
+    {
+      "symbol": "MSI",
+      "price": 2362.26,
+      "pe_ratio": 41.61,
+      "volume": 55994807,
+      "discount_price": 2007.92
+    },
+    {
+      "symbol": "PFE",
+      "price": 313.86,
+      "pe_ratio": 7.15,
+      "volume": 143946761,
+      "discount_price": 266.78
+    },
+    {
+      "symbol": "SHW",
+      "price": 675.61,
+      "pe_ratio": 19.83,
+      "volume": 119428576,
+      "discount_price": 574.27
+    },
+    {
+      "symbol": "TSLA",
+      "price": 1236.53,
+      "pe_ratio": 19.58,
+      "volume": 31755112,
+      "discount_price": 1051.05
+    },
+    {
+      "symbol": "WMT",
+      "price": 586.11,
+      "pe_ratio": 24.47,
+      "volume": 45913943,
+      "discount_price": 498.19
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "AAPL": 1,
+      "AON": 2,
+      "C": 0,
+      "CSCO": 0,
+      "FANG": 0,
+      "HWM": 0,
+      "LOW": 1,
+      "MSI": 0,
+      "PFE": 1,
+      "SHW": 1,
+      "TSLA": 0,
+      "WMT": 1
+    },
+    "value_cluster": {
+      "AAPL": 2,
+      "AON": 0,
+      "C": 1,
+      "CSCO": 0,
+      "FANG": 1,
+      "HWM": 1,
+      "LOW": 2,
+      "MSI": 1,
+      "PFE": 2,
+      "SHW": 2,
+      "TSLA": 0,
+      "WMT": 2
+    },
+    "valuation": {
+      "AAPL": 2,
+      "AON": 0,
+      "C": 1,
+      "CSCO": 0,
+      "FANG": 1,
+      "HWM": 1,
+      "LOW": 2,
+      "MSI": 1,
+      "PFE": 2,
+      "SHW": 2,
+      "TSLA": 0,
+      "WMT": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "AAPL",
+      "pc1": -2.083546,
+      "pc2": 0.343455
+    },
+    {
+      "symbol": "AON",
+      "pc1": 0.711699,
+      "pc2": -2.680833
+    },
+    {
+      "symbol": "C",
+      "pc1": 1.203312,
+      "pc2": 1.392519
+    },
+    {
+      "symbol": "CSCO",
+      "pc1": 1.318713,
+      "pc2": -0.69862
+    },
+    {
+      "symbol": "FANG",
+      "pc1": 0.872178,
+      "pc2": 0.42501
+    },
+    {
+      "symbol": "HWM",
+      "pc1": 0.438751,
+      "pc2": 0.797467
+    },
+    {
+      "symbol": "LOW",
+      "pc1": -1.724879,
+      "pc2": 0.660512
+    },
+    {
+      "symbol": "MSI",
+      "pc1": 2.859947,
+      "pc2": 0.136735
+    },
+    {
+      "symbol": "PFE",
+      "pc1": -2.232357,
+      "pc2": -0.952666
+    },
+    {
+      "symbol": "SHW",
+      "pc1": -1.116482,
+      "pc2": -0.272881
+    },
+    {
+      "symbol": "TSLA",
+      "pc1": 0.449729,
+      "pc2": 0.050168
+    },
+    {
+      "symbol": "WMT",
+      "pc1": -0.697066,
+      "pc2": 0.799134
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "AAPL",
+      "discount_price": 120.45
+    },
+    {
+      "symbol": "AON",
+      "discount_price": 1738.11
+    },
+    {
+      "symbol": "C",
+      "discount_price": 1120.95
+    },
+    {
+      "symbol": "CSCO",
+      "discount_price": 1497.08
+    },
+    {
+      "symbol": "FANG",
+      "discount_price": 1243.85
+    },
+    {
+      "symbol": "HWM",
+      "discount_price": 957.28
+    },
+    {
+      "symbol": "LOW",
+      "discount_price": 213.96
+    },
+    {
+      "symbol": "MSI",
+      "discount_price": 2007.92
+    },
+    {
+      "symbol": "PFE",
+      "discount_price": 266.78
+    },
+    {
+      "symbol": "SHW",
+      "discount_price": 574.27
+    },
+    {
+      "symbol": "TSLA",
+      "discount_price": 1051.05
+    },
+    {
+      "symbol": "WMT",
+      "discount_price": 498.19
+    }
+  ]
+}

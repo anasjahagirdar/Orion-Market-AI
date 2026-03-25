@@ -173,4 +173,22 @@ export const btcAPI = {
     api.get(`/btc-analysis/${refresh ? '?refresh=1' : ''}`),
 };
 
+export const portfolioAPI = {
+  getSectors: (market) =>
+    cachedGet({
+      key: cacheKeyFor(`/sectors/${market}`),
+      ttlMs: 10 * 60 * 1000,
+      requestFn: () => api.get(`/sectors/${encodeURIComponent(market)}/`),
+    }),
+  getSector: (market, sector) =>
+    cachedGet({
+      key: cacheKeyFor(`/portfolio/${market}/${sector}`),
+      ttlMs: 10 * 60 * 1000,
+      requestFn: () => api.get(`/portfolio/${encodeURIComponent(market)}/${encodeURIComponent(sector)}/`),
+    }),
+  getSectorFresh: (market, sector) =>
+    api.get(`/portfolio/${encodeURIComponent(market)}/${encodeURIComponent(sector)}/`),
+  recompute: (market = 'all') => api.post(`/recompute-portfolio/${encodeURIComponent(market)}/`),
+};
+
 export default api;

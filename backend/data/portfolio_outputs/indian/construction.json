@@ -1,0 +1,152 @@
+{
+  "market": "indian",
+  "sector": "Construction",
+  "generated_at_utc": "2026-03-25T10:19:29.511217+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 3
+  },
+  "stocks": [
+    {
+      "symbol": "IRB.NS",
+      "name": "IRB Infrastructure Developers Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Construction",
+      "features": {
+        "price": 2085.53,
+        "pe_ratio": 10.82,
+        "volume": 17725884,
+        "discount_price": 1772.7
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.613206,
+        "y": -0.163663
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LT.NS",
+      "name": "Larsen & Toubro Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Construction",
+      "features": {
+        "price": 2026.77,
+        "pe_ratio": 12.71,
+        "volume": 20882950,
+        "discount_price": 1722.75
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.197974,
+        "y": 0.180614
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RVNL.NS",
+      "name": "Rail Vikas Nigam Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Construction",
+      "features": {
+        "price": 1208.23,
+        "pe_ratio": 19.68,
+        "volume": 176711185,
+        "discount_price": 1027.0
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.81118,
+        "y": -0.016951
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "IRB.NS",
+      "price": 2085.53,
+      "pe_ratio": 10.82,
+      "volume": 17725884,
+      "discount_price": 1772.7
+    },
+    {
+      "symbol": "LT.NS",
+      "price": 2026.77,
+      "pe_ratio": 12.71,
+      "volume": 20882950,
+      "discount_price": 1722.75
+    },
+    {
+      "symbol": "RVNL.NS",
+      "price": 1208.23,
+      "pe_ratio": 19.68,
+      "volume": 176711185,
+      "discount_price": 1027.0
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "IRB.NS": 2,
+      "LT.NS": 0,
+      "RVNL.NS": 1
+    },
+    "value_cluster": {
+      "IRB.NS": 2,
+      "LT.NS": 0,
+      "RVNL.NS": 1
+    },
+    "valuation": {
+      "IRB.NS": 2,
+      "LT.NS": 0,
+      "RVNL.NS": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "IRB.NS",
+      "pc1": 1.613206,
+      "pc2": -0.163663
+    },
+    {
+      "symbol": "LT.NS",
+      "pc1": 1.197974,
+      "pc2": 0.180614
+    },
+    {
+      "symbol": "RVNL.NS",
+      "pc1": -2.81118,
+      "pc2": -0.016951
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "IRB.NS",
+      "discount_price": 1772.7
+    },
+    {
+      "symbol": "LT.NS",
+      "discount_price": 1722.75
+    },
+    {
+      "symbol": "RVNL.NS",
+      "discount_price": 1027.0
+    }
+  ]
+}

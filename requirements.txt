@@ -1,0 +1,24 @@
+# Orion Market AI - runtime dependencies
+
+# Django backend + API
+Django==6.0.3
+djangorestframework==3.17.0
+django-cors-headers==4.9.0
+requests==2.32.5
+
+# Market data + numeric processing
+yfinance==1.2.0
+numpy==2.4.3
+pandas==3.0.1
+scikit-learn==1.8.0
+
+# ML explainability + NLP sentiment
+shap==0.51.0
+lime==0.2.0.1
+transformers==5.3.0
+torch==2.10.0
+
+# RAG + embeddings + LLM client
+chromadb==1.5.5
+sentence-transformers==5.3.0
+groq==1.1.1

@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Services",
+  "generated_at_utc": "2026-03-25T10:19:31.287901+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "AMT",
+      "name": "American Tower",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 1926.93,
+        "pe_ratio": 21.75,
+        "volume": 136517307,
+        "discount_price": 1637.89
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.056499,
+        "y": 0.188083
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BRK.B",
+      "name": "Berkshire Hathaway",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 106.58,
+        "pe_ratio": 32.95,
+        "volume": 75870883,
+        "discount_price": 90.59
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.780538,
+        "y": 0.129543
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CRH",
+      "name": "CRH plc",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 387.87,
+        "pe_ratio": 16.49,
+        "volume": 22538236,
+        "discount_price": 329.69
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.141427,
+        "y": -1.720604
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "EOG",
+      "name": "EOG Resources",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 1017.07,
+        "pe_ratio": 28.42,
+        "volume": 172052626,
+        "discount_price": 864.51
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.527215,
+        "y": 1.128536
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HLT",
+      "name": "Hilton Worldwide",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 1719.27,
+        "pe_ratio": 24.6,
+        "volume": 110776657,
+        "discount_price": 1461.38
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.450672,
+        "y": 0.032465
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LIN",
+      "name": "Linde plc",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 445.57,
+        "pe_ratio": 42.72,
+        "volume": 172789887,
+        "discount_price": 378.73
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.878354,
+        "y": 2.115556
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MRSH",
+      "name": "Marsh & McLennan Companies, Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 631.16,
+        "pe_ratio": 38.73,
+        "volume": 41723862,
+        "discount_price": 536.49
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.278416,
+        "y": 0.058418
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 370.31,
+        "pe_ratio": 31.25,
+        "volume": 31608012,
+        "discount_price": 314.76
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.561547,
+        "y": -0.589537
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RTX",
+      "name": "RTX Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 2434.05,
+        "pe_ratio": 11.42,
+        "volume": 121897004,
+        "discount_price": 2068.94
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 3.142782,
+        "y": -0.716863
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 273.11,
+        "pe_ratio": 6.85,
+        "volume": 112676074,
+        "discount_price": 232.14
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -0.468309,
+        "y": -1.151235
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WFC",
+      "name": "Wells Fargo",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Services",
+      "features": {
+        "price": 725.25,
+        "pe_ratio": 25.44,
+        "volume": 142681300,
+        "discount_price": 616.46
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.068575,
+        "y": 0.525638
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "AMT",
+      "price": 1926.93,
+      "pe_ratio": 21.75,
+      "volume": 136517307,
+      "discount_price": 1637.89
+    },
+    {
+      "symbol": "BRK.B",
+      "price": 106.58,
+      "pe_ratio": 32.95,
+      "volume": 75870883,
+      "discount_price": 90.59
+    },
+    {
+      "symbol": "CRH",
+      "price": 387.87,
+      "pe_ratio": 16.49,
+      "volume": 22538236,
+      "discount_price": 329.69
+    },
+    {
+      "symbol": "EOG",
+      "price": 1017.07,
+      "pe_ratio": 28.42,
+      "volume": 172052626,
+      "discount_price": 864.51
+    },
+    {
+      "symbol": "HLT",
+      "price": 1719.27,
+      "pe_ratio": 24.6,
+      "volume": 110776657,
+      "discount_price": 1461.38
+    },
+    {
+      "symbol": "LIN",
+      "price": 445.57,
+      "pe_ratio": 42.72,
+      "volume": 172789887,
+      "discount_price": 378.73
+    },
+    {
+      "symbol": "MRSH",
+      "price": 631.16,
+      "pe_ratio": 38.73,
+      "volume": 41723862,
+      "discount_price": 536.49
+    },
+    {
+      "symbol": "PANW",
+      "price": 370.31,
+      "pe_ratio": 31.25,
+      "volume": 31608012,
+      "discount_price": 314.76
+    },
+    {
+      "symbol": "RTX",
+      "price": 2434.05,
+      "pe_ratio": 11.42,
+      "volume": 121897004,
+      "discount_price": 2068.94
+    },
+    {
+      "symbol": "TMO",
+      "price": 273.11,
+      "pe_ratio": 6.85,
+      "volume": 112676074,
+      "discount_price": 232.14
+    },
+    {
+      "symbol": "WFC",
+      "price": 725.25,
+      "pe_ratio": 25.44,
+      "volume": 142681300,
+      "discount_price": 616.46
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "AMT": 2,
+      "BRK.B": 0,
+      "CRH": 0,
+      "EOG": 1,
+      "HLT": 2,
+      "LIN": 1,
+      "MRSH": 0,
+      "PANW": 0,
+      "RTX": 2,
+      "TMO": 0,
+      "WFC": 1
+    },
+    "value_cluster": {
+      "AMT": 0,
+      "BRK.B": 1,
+      "CRH": 2,
+      "EOG": 1,
+      "HLT": 0,
+      "LIN": 1,
+      "MRSH": 1,
+      "PANW": 1,
+      "RTX": 0,
+      "TMO": 2,
+      "WFC": 1
+    },
+    "valuation": {
+      "AMT": 0,
+      "BRK.B": 1,
+      "CRH": 2,
+      "EOG": 1,
+      "HLT": 0,
+      "LIN": 1,
+      "MRSH": 1,
+      "PANW": 1,
+      "RTX": 0,
+      "TMO": 2,
+      "WFC": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "AMT",
+      "pc1": 2.056499,
+      "pc2": 0.188083
+    },
+    {
+      "symbol": "BRK.B",
+      "pc1": -1.780538,
+      "pc2": 0.129543
+    },
+    {
+      "symbol": "CRH",
+      "pc1": -1.141427,
+      "pc2": -1.720604
+    },
+    {
+      "symbol": "EOG",
+      "pc1": 0.527215,
+      "pc2": 1.128536
+    },
+    {
+      "symbol": "HLT",
+      "pc1": 1.450672,
+      "pc2": 0.032465
+    },
+    {
+      "symbol": "LIN",
+      "pc1": -0.878354,
+      "pc2": 2.115556
+    },
+    {
+      "symbol": "MRSH",
+      "pc1": -1.278416,
+      "pc2": 0.058418
+    },
+    {
+      "symbol": "PANW",
+      "pc1": -1.561547,
+      "pc2": -0.589537
+    },
+    {
+      "symbol": "RTX",
+      "pc1": 3.142782,
+      "pc2": -0.716863
+    },
+    {
+      "symbol": "TMO",
+      "pc1": -0.468309,
+      "pc2": -1.151235
+    },
+    {
+      "symbol": "WFC",
+      "pc1": -0.068575,
+      "pc2": 0.525638
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "AMT",
+      "discount_price": 1637.89
+    },
+    {
+      "symbol": "BRK.B",
+      "discount_price": 90.59
+    },
+    {
+      "symbol": "CRH",
+      "discount_price": 329.69
+    },
+    {
+      "symbol": "EOG",
+      "discount_price": 864.51
+    },
+    {
+      "symbol": "HLT",
+      "discount_price": 1461.38
+    },
+    {
+      "symbol": "LIN",
+      "discount_price": 378.73
+    },
+    {
+      "symbol": "MRSH",
+      "discount_price": 536.49
+    },
+    {
+      "symbol": "PANW",
+      "discount_price": 314.76
+    },
+    {
+      "symbol": "RTX",
+      "discount_price": 2068.94
+    },
+    {
+      "symbol": "TMO",
+      "discount_price": 232.14
+    },
+    {
+      "symbol": "WFC",
+      "discount_price": 616.46
+    }
+  ]
+}

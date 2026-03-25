@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Textiles",
+  "generated_at_utc": "2026-03-25T10:19:31.420259+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 2375.53,
+        "pe_ratio": 21.94,
+        "volume": 146879408,
+        "discount_price": 2019.2
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.144216,
+        "y": 0.643065
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BX",
+      "name": "Blackstone Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 1441.62,
+        "pe_ratio": 32.94,
+        "volume": 140654019,
+        "discount_price": 1225.38
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.181845,
+        "y": 0.463021
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 2300.19,
+        "pe_ratio": 21.78,
+        "volume": 20610219,
+        "discount_price": 1955.16
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.088962,
+        "y": -1.451136
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 751.3,
+        "pe_ratio": 25.61,
+        "volume": 195981703,
+        "discount_price": 638.6
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.487932,
+        "y": 1.839136
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets, Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 49.44,
+        "pe_ratio": 44.21,
+        "volume": 12670539,
+        "discount_price": 42.02
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.430984,
+        "y": -1.633847
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LMT",
+      "name": "Lockheed Martin",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 1558.41,
+        "pe_ratio": 19.59,
+        "volume": 87547212,
+        "discount_price": 1324.65
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.070698,
+        "y": -0.03128
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 978.23,
+        "pe_ratio": 39.91,
+        "volume": 56973743,
+        "discount_price": 831.5
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.839329,
+        "y": -1.029855
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PEP",
+      "name": "PepsiCo",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 284.3,
+        "pe_ratio": 44.22,
+        "volume": 132709081,
+        "discount_price": 241.66
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.127611,
+        "y": 0.312384
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SCHW",
+      "name": "Charles Schwab Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 2203.11,
+        "pe_ratio": 23.5,
+        "volume": 63482203,
+        "discount_price": 1872.64
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.838178,
+        "y": -0.757173
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TRV",
+      "name": "Travelers Companies (The)",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 967.02,
+        "pe_ratio": 14.75,
+        "volume": 141992607,
+        "discount_price": 821.97
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.41934,
+        "y": 1.219312
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WMB",
+      "name": "Williams Companies",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Textiles",
+      "features": {
+        "price": 211.22,
+        "pe_ratio": 36.99,
+        "volume": 124211554,
+        "discount_price": 179.54
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.857383,
+        "y": 0.426372
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ANET",
+      "price": 2375.53,
+      "pe_ratio": 21.94,
+      "volume": 146879408,
+      "discount_price": 2019.2
+    },
+    {
+      "symbol": "BX",
+      "price": 1441.62,
+      "pe_ratio": 32.94,
+      "volume": 140654019,
+      "discount_price": 1225.38
+    },
+    {
+      "symbol": "CRWD",
+      "price": 2300.19,
+      "pe_ratio": 21.78,
+      "volume": 20610219,
+      "discount_price": 1955.16
+    },
+    {
+      "symbol": "ETN",
+      "price": 751.3,
+      "pe_ratio": 25.61,
+      "volume": 195981703,
+      "discount_price": 638.6
+    },
+    {
+      "symbol": "HOOD",
+      "price": 49.44,
+      "pe_ratio": 44.21,
+      "volume": 12670539,
+      "discount_price": 42.02
+    },
+    {
+      "symbol": "LMT",
+      "price": 1558.41,
+      "pe_ratio": 19.59,
+      "volume": 87547212,
+      "discount_price": 1324.65
+    },
+    {
+      "symbol": "MSFT",
+      "price": 978.23,
+      "pe_ratio": 39.91,
+      "volume": 56973743,
+      "discount_price": 831.5
+    },
+    {
+      "symbol": "PEP",
+      "price": 284.3,
+      "pe_ratio": 44.22,
+      "volume": 132709081,
+      "discount_price": 241.66
+    },
+    {
+      "symbol": "SCHW",
+      "price": 2203.11,
+      "pe_ratio": 23.5,
+      "volume": 63482203,
+      "discount_price": 1872.64
+    },
+    {
+      "symbol": "TRV",
+      "price": 967.02,
+      "pe_ratio": 14.75,
+      "volume": 141992607,
+      "discount_price": 821.97
+    },
+    {
+      "symbol": "WMB",
+      "price": 211.22,
+      "pe_ratio": 36.99,
+      "volume": 124211554,
+      "discount_price": 179.54
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ANET": 1,
+      "BX": 2,
+      "CRWD": 1,
+      "ETN": 2,
+      "HOOD": 0,
+      "LMT": 1,
+      "MSFT": 0,
+      "PEP": 0,
+      "SCHW": 1,
+      "TRV": 2,
+      "WMB": 0
+    },
+    "value_cluster": {
+      "ANET": 2,
+      "BX": 1,
+      "CRWD": 2,
+      "ETN": 1,
+      "HOOD": 0,
+      "LMT": 1,
+      "MSFT": 0,
+      "PEP": 0,
+      "SCHW": 2,
+      "TRV": 1,
+      "WMB": 0
+    },
+    "valuation": {
+      "ANET": 2,
+      "BX": 1,
+      "CRWD": 2,
+      "ETN": 1,
+      "HOOD": 0,
+      "LMT": 1,
+      "MSFT": 0,
+      "PEP": 0,
+      "SCHW": 2,
+      "TRV": 1,
+      "WMB": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ANET",
+      "pc1": 2.144216,
+      "pc2": 0.643065
+    },
+    {
+      "symbol": "BX",
+      "pc1": 0.181845,
+      "pc2": 0.463021
+    },
+    {
+      "symbol": "CRWD",
+      "pc1": 2.088962,
+      "pc2": -1.451136
+    },
+    {
+      "symbol": "ETN",
+      "pc1": -0.487932,
+      "pc2": 1.839136
+    },
+    {
+      "symbol": "HOOD",
+      "pc1": -2.430984,
+      "pc2": -1.633847
+    },
+    {
+      "symbol": "LMT",
+      "pc1": 1.070698,
+      "pc2": -0.03128
+    },
+    {
+      "symbol": "MSFT",
+      "pc1": -0.839329,
+      "pc2": -1.029855
+    },
+    {
+      "symbol": "PEP",
+      "pc1": -2.127611,
+      "pc2": 0.312384
+    },
+    {
+      "symbol": "SCHW",
+      "pc1": 1.838178,
+      "pc2": -0.757173
+    },
+    {
+      "symbol": "TRV",
+      "pc1": 0.41934,
+      "pc2": 1.219312
+    },
+    {
+      "symbol": "WMB",
+      "pc1": -1.857383,
+      "pc2": 0.426372
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ANET",
+      "discount_price": 2019.2
+    },
+    {
+      "symbol": "BX",
+      "discount_price": 1225.38
+    },
+    {
+      "symbol": "CRWD",
+      "discount_price": 1955.16
+    },
+    {
+      "symbol": "ETN",
+      "discount_price": 638.6
+    },
+    {
+      "symbol": "HOOD",
+      "discount_price": 42.02
+    },
+    {
+      "symbol": "LMT",
+      "discount_price": 1324.65
+    },
+    {
+      "symbol": "MSFT",
+      "discount_price": 831.5
+    },
+    {
+      "symbol": "PEP",
+      "discount_price": 241.66
+    },
+    {
+      "symbol": "SCHW",
+      "discount_price": 1872.64
+    },
+    {
+      "symbol": "TRV",
+      "discount_price": 821.97
+    },
+    {
+      "symbol": "WMB",
+      "discount_price": 179.54
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "sector": "Construction",
+  "generated_at_utc": "2026-03-25T09:26:02.107721+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 8
+  },
+  "stocks": [
+    {
+      "symbol": "ACC.NS",
+      "name": "ACC Ltd.",
+      "market": "IN",
+      "sector": "Construction",
+      "features": {
+        "price": 1401.23,
+        "pe_ratio": 24.23,
+        "volume": 69465628,
+        "discount_price": 1161.41
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.916581,
+        "y": 0.423324
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AMBUJACEM.NS",
+      "name": "Ambuja Cements Ltd.",
+      "market": "IN",
+      "sector": "Construction",
+      "features": {
+        "price": 1457.1,
+        "pe_ratio": 28.44,
+        "volume": 9282639,
+        "discount_price": 1177.05
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.327194,
+        "y": 1.129907
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GRASIM.NS",
+      "name": "Grasim Industries Ltd.",
+      "market": "IN",
+      "sector": "Construction",
+      "features": {
+        "price": 1346.97,
+        "pe_ratio": 27.56,
+        "volume": 49511737,
+        "discount_price": 1094.01
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.974546,
+        "y": 0.912152
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IRB.NS",
+      "name": "IRB Infrastructure Developers Ltd.",
+      "market": "IN",
+      "sector": "Construction",
+      "features": {
+        "price": 2085.53,
+        "pe_ratio": 10.82,
+        "volume": 17725884,
+        "discount_price": 1868.43
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.917889,
+        "y": -1.263712
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LT.NS",
+      "name": "Larsen & Toubro Ltd.",
+      "market": "IN",
+      "sector": "Construction",
+      "features": {
+        "price": 2026.77,
+        "pe_ratio": 12.71,
+        "volume": 20882950,
+        "discount_price": 1796.63
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.665856,
+        "y": -1.034297
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RVNL.NS",
+      "name": "Rail Vikas Nigam Ltd.",
+      "market": "IN",
+      "sector": "Construction",
+      "features": {
+        "price": 1208.23,
+        "pe_ratio": 19.68,
+        "volume": 176711185,
+        "discount_price": 1028.93
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.312127,
+        "y": -0.455753
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SHREECEM.NS",
+      "name": "Shree Cement Ltd.",
+      "market": "IN",
+      "sector": "Construction",
+      "features": {
+        "price": 2281.52,
+        "pe_ratio": 41.88,
+        "volume": 21112244,
+        "discount_price": 1689.69
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.007302,
+        "y": 1.644573
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ULTRACEMCO.NS",
+      "name": "UltraTech Cement Ltd.",
+      "market": "IN",
+      "sector": "Construction",
+      "features": {
+        "price": 1564.47,
+        "pe_ratio": 13.92,
+        "volume": 175484136,
+        "discount_price": 1377.36
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.060598,
+        "y": -1.356194
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ACC.NS",
+      "price": 1401.23,
+      "pe_ratio": 24.23,
+      "volume": 69465628,
+      "discount_price": 1161.41
+    },
+    {
+      "symbol": "AMBUJACEM.NS",
+      "price": 1457.1,
+      "pe_ratio": 28.44,
+      "volume": 9282639,
+      "discount_price": 1177.05
+    },
+    {
+      "symbol": "GRASIM.NS",
+      "price": 1346.97,
+      "pe_ratio": 27.56,
+      "volume": 49511737,
+      "discount_price": 1094.01
+    },
+    {
+      "symbol": "IRB.NS",
+      "price": 2085.53,
+      "pe_ratio": 10.82,
+      "volume": 17725884,
+      "discount_price": 1868.43
+    },
+    {
+      "symbol": "LT.NS",
+      "price": 2026.77,
+      "pe_ratio": 12.71,
+      "volume": 20882950,
+      "discount_price": 1796.63
+    },
+    {
+      "symbol": "RVNL.NS",
+      "price": 1208.23,
+      "pe_ratio": 19.68,
+      "volume": 176711185,
+      "discount_price": 1028.93
+    },
+    {
+      "symbol": "SHREECEM.NS",
+      "price": 2281.52,
+      "pe_ratio": 41.88,
+      "volume": 21112244,
+      "discount_price": 1689.69
+    },
+    {
+      "symbol": "ULTRACEMCO.NS",
+      "price": 1564.47,
+      "pe_ratio": 13.92,
+      "volume": 175484136,
+      "discount_price": 1377.36
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ACC.NS": 0,
+      "AMBUJACEM.NS": 0,
+      "GRASIM.NS": 0,
+      "IRB.NS": 2,
+      "LT.NS": 2,
+      "RVNL.NS": 3,
+      "SHREECEM.NS": 1,
+      "ULTRACEMCO.NS": 3
+    },
+    "valuation": {
+      "ACC.NS": 0,
+      "AMBUJACEM.NS": 0,
+      "GRASIM.NS": 0,
+      "IRB.NS": 1,
+      "LT.NS": 1,
+      "RVNL.NS": 0,
+      "SHREECEM.NS": 2,
+      "ULTRACEMCO.NS": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ACC.NS",
+      "pc1": -0.916581,
+      "pc2": 0.423324
+    },
+    {
+      "symbol": "AMBUJACEM.NS",
+      "pc1": -0.327194,
+      "pc2": 1.129907
+    },
+    {
+      "symbol": "GRASIM.NS",
+      "pc1": -0.974546,
+      "pc2": 0.912152
+    },
+    {
+      "symbol": "IRB.NS",
+      "pc1": 1.917889,
+      "pc2": -1.263712
+    },
+    {
+      "symbol": "LT.NS",
+      "pc1": 1.665856,
+      "pc2": -1.034297
+    },
+    {
+      "symbol": "RVNL.NS",
+      "pc1": -2.312127,
+      "pc2": -0.455753
+    },
+    {
+      "symbol": "SHREECEM.NS",
+      "pc1": 2.007302,
+      "pc2": 1.644573
+    },
+    {
+      "symbol": "ULTRACEMCO.NS",
+      "pc1": -1.060598,
+      "pc2": -1.356194
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ACC.NS",
+      "discount_price": 1161.41
+    },
+    {
+      "symbol": "AMBUJACEM.NS",
+      "discount_price": 1177.05
+    },
+    {
+      "symbol": "GRASIM.NS",
+      "discount_price": 1094.01
+    },
+    {
+      "symbol": "IRB.NS",
+      "discount_price": 1868.43
+    },
+    {
+      "symbol": "LT.NS",
+      "discount_price": 1796.63
+    },
+    {
+      "symbol": "RVNL.NS",
+      "discount_price": 1028.93
+    },
+    {
+      "symbol": "SHREECEM.NS",
+      "discount_price": 1689.69
+    },
+    {
+      "symbol": "ULTRACEMCO.NS",
+      "discount_price": 1377.36
+    }
+  ]
+}

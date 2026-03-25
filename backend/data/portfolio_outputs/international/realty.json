@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Realty",
+  "generated_at_utc": "2026-03-25T10:19:31.220375+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "AMGN",
+      "name": "Amgen",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 1384.86,
+        "pe_ratio": 27.03,
+        "volume": 66612127,
+        "discount_price": 1177.13
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.060084,
+        "y": -0.492225
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BMY",
+      "name": "Bristol Myers Squibb",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 2075.58,
+        "pe_ratio": 32.56,
+        "volume": 97688336,
+        "discount_price": 1764.24
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.940401,
+        "y": 0.449389
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 2040.83,
+        "pe_ratio": 17.36,
+        "volume": 132771811,
+        "discount_price": 1734.71
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.176089,
+        "y": -0.689746
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "EMR",
+      "name": "Emerson Electric",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 1383.73,
+        "pe_ratio": 30.99,
+        "volume": 8849434,
+        "discount_price": 1176.17
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.529899,
+        "y": -0.732062
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HD",
+      "name": "Home Depot (The)",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 923.52,
+        "pe_ratio": 31.7,
+        "volume": 193702366,
+        "discount_price": 784.99
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.855202,
+        "y": 1.346864
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LHX",
+      "name": "L3Harris",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 1291.75,
+        "pe_ratio": 20.19,
+        "volume": 45393130,
+        "discount_price": 1097.99
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.270286,
+        "y": -1.417769
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MRK",
+      "name": "Merck & Co.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 1528.51,
+        "pe_ratio": 18.3,
+        "volume": 100041502,
+        "discount_price": 1299.23
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.008911,
+        "y": -0.9895
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "OXY",
+      "name": "Occidental Petroleum",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 565.61,
+        "pe_ratio": 16.11,
+        "volume": 161458571,
+        "discount_price": 480.77
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -3.109397,
+        "y": -0.594435
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 1845.74,
+        "pe_ratio": 41.04,
+        "volume": 147040691,
+        "discount_price": 1568.88
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.255335,
+        "y": 1.828499
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TJX",
+      "name": "TJX Companies",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 987.8,
+        "pe_ratio": 34.28,
+        "volume": 161045412,
+        "discount_price": 839.63
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.400228,
+        "y": 1.249672
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WELL",
+      "name": "Welltower",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Realty",
+      "features": {
+        "price": 1880.14,
+        "pe_ratio": 33.27,
+        "volume": 55359520,
+        "discount_price": 1598.12
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.682218,
+        "y": 0.041314
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "AMGN",
+      "price": 1384.86,
+      "pe_ratio": 27.03,
+      "volume": 66612127,
+      "discount_price": 1177.13
+    },
+    {
+      "symbol": "BMY",
+      "price": 2075.58,
+      "pe_ratio": 32.56,
+      "volume": 97688336,
+      "discount_price": 1764.24
+    },
+    {
+      "symbol": "COST",
+      "price": 2040.83,
+      "pe_ratio": 17.36,
+      "volume": 132771811,
+      "discount_price": 1734.71
+    },
+    {
+      "symbol": "EMR",
+      "price": 1383.73,
+      "pe_ratio": 30.99,
+      "volume": 8849434,
+      "discount_price": 1176.17
+    },
+    {
+      "symbol": "HD",
+      "price": 923.52,
+      "pe_ratio": 31.7,
+      "volume": 193702366,
+      "discount_price": 784.99
+    },
+    {
+      "symbol": "LHX",
+      "price": 1291.75,
+      "pe_ratio": 20.19,
+      "volume": 45393130,
+      "discount_price": 1097.99
+    },
+    {
+      "symbol": "MRK",
+      "price": 1528.51,
+      "pe_ratio": 18.3,
+      "volume": 100041502,
+      "discount_price": 1299.23
+    },
+    {
+      "symbol": "OXY",
+      "price": 565.61,
+      "pe_ratio": 16.11,
+      "volume": 161458571,
+      "discount_price": 480.77
+    },
+    {
+      "symbol": "RSG",
+      "price": 1845.74,
+      "pe_ratio": 41.04,
+      "volume": 147040691,
+      "discount_price": 1568.88
+    },
+    {
+      "symbol": "TJX",
+      "price": 987.8,
+      "pe_ratio": 34.28,
+      "volume": 161045412,
+      "discount_price": 839.63
+    },
+    {
+      "symbol": "WELL",
+      "price": 1880.14,
+      "pe_ratio": 33.27,
+      "volume": 55359520,
+      "discount_price": 1598.12
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "AMGN": 2,
+      "BMY": 1,
+      "COST": 1,
+      "EMR": 2,
+      "HD": 0,
+      "LHX": 2,
+      "MRK": 2,
+      "OXY": 0,
+      "RSG": 1,
+      "TJX": 0,
+      "WELL": 1
+    },
+    "value_cluster": {
+      "AMGN": 0,
+      "BMY": 2,
+      "COST": 1,
+      "EMR": 0,
+      "HD": 0,
+      "LHX": 1,
+      "MRK": 1,
+      "OXY": 1,
+      "RSG": 2,
+      "TJX": 0,
+      "WELL": 2
+    },
+    "valuation": {
+      "AMGN": 0,
+      "BMY": 2,
+      "COST": 1,
+      "EMR": 0,
+      "HD": 0,
+      "LHX": 1,
+      "MRK": 1,
+      "OXY": 1,
+      "RSG": 2,
+      "TJX": 0,
+      "WELL": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "AMGN",
+      "pc1": 0.060084,
+      "pc2": -0.492225
+    },
+    {
+      "symbol": "BMY",
+      "pc1": 1.940401,
+      "pc2": 0.449389
+    },
+    {
+      "symbol": "COST",
+      "pc1": 1.176089,
+      "pc2": -0.689746
+    },
+    {
+      "symbol": "EMR",
+      "pc1": 0.529899,
+      "pc2": -0.732062
+    },
+    {
+      "symbol": "HD",
+      "pc1": -1.855202,
+      "pc2": 1.346864
+    },
+    {
+      "symbol": "LHX",
+      "pc1": -0.270286,
+      "pc2": -1.417769
+    },
+    {
+      "symbol": "MRK",
+      "pc1": -0.008911,
+      "pc2": -0.9895
+    },
+    {
+      "symbol": "OXY",
+      "pc1": -3.109397,
+      "pc2": -0.594435
+    },
+    {
+      "symbol": "RSG",
+      "pc1": 1.255335,
+      "pc2": 1.828499
+    },
+    {
+      "symbol": "TJX",
+      "pc1": -1.400228,
+      "pc2": 1.249672
+    },
+    {
+      "symbol": "WELL",
+      "pc1": 1.682218,
+      "pc2": 0.041314
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "AMGN",
+      "discount_price": 1177.13
+    },
+    {
+      "symbol": "BMY",
+      "discount_price": 1764.24
+    },
+    {
+      "symbol": "COST",
+      "discount_price": 1734.71
+    },
+    {
+      "symbol": "EMR",
+      "discount_price": 1176.17
+    },
+    {
+      "symbol": "HD",
+      "discount_price": 784.99
+    },
+    {
+      "symbol": "LHX",
+      "discount_price": 1097.99
+    },
+    {
+      "symbol": "MRK",
+      "discount_price": 1299.23
+    },
+    {
+      "symbol": "OXY",
+      "discount_price": 480.77
+    },
+    {
+      "symbol": "RSG",
+      "discount_price": 1568.88
+    },
+    {
+      "symbol": "TJX",
+      "discount_price": 839.63
+    },
+    {
+      "symbol": "WELL",
+      "discount_price": 1598.12
+    }
+  ]
+}

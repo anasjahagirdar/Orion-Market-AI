@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Healthcare",
+  "generated_at_utc": "2026-03-25T10:19:30.922346+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "AFL",
+      "name": "Aflac",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 699.43,
+        "pe_ratio": 10.51,
+        "volume": 115828111,
+        "discount_price": 594.52
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.873413,
+        "y": 0.810494
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BAC",
+      "name": "Bank of America",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 93.59,
+        "pe_ratio": 6.27,
+        "volume": 48679871,
+        "discount_price": 79.55
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.442993,
+        "y": -0.52811
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CME",
+      "name": "CME Group",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 983.17,
+        "pe_ratio": 15.01,
+        "volume": 45051065,
+        "discount_price": 835.69
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.167476,
+        "y": -0.751913
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DIS",
+      "name": "Walt Disney Company (The)",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 707.71,
+        "pe_ratio": 37.41,
+        "volume": 77732044,
+        "discount_price": 601.55
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.057299,
+        "y": -1.50277
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GM",
+      "name": "General Motors",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 601.67,
+        "pe_ratio": 25.43,
+        "volume": 99045086,
+        "discount_price": 511.42
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -0.578694,
+        "y": -0.426357
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1914.45,
+        "pe_ratio": 21.53,
+        "volume": 144442420,
+        "discount_price": 1627.28
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 2.240874,
+        "y": 1.229091
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 805.02,
+        "pe_ratio": 10.34,
+        "volume": 80567622,
+        "discount_price": 684.27
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.686648,
+        "y": 0.157293
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1931.5,
+        "pe_ratio": 11.3,
+        "volume": 114151597,
+        "discount_price": 1641.77
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.879695,
+        "y": 1.2215
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1195.78,
+        "pe_ratio": 22.2,
+        "volume": 129880575,
+        "discount_price": 1016.41
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.657161,
+        "y": 0.613268
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SYK",
+      "name": "Stryker Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 254.55,
+        "pe_ratio": 7.08,
+        "volume": 135285632,
+        "discount_price": 216.37
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.957487,
+        "y": 1.220803
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "VLO",
+      "name": "Valero Energy",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Healthcare",
+      "features": {
+        "price": 1670.87,
+        "pe_ratio": 30.63,
+        "volume": 11934934,
+        "discount_price": 1420.24
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.871683,
+        "y": -2.043301
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "AFL",
+      "price": 699.43,
+      "pe_ratio": 10.51,
+      "volume": 115828111,
+      "discount_price": 594.52
+    },
+    {
+      "symbol": "BAC",
+      "price": 93.59,
+      "pe_ratio": 6.27,
+      "volume": 48679871,
+      "discount_price": 79.55
+    },
+    {
+      "symbol": "CME",
+      "price": 983.17,
+      "pe_ratio": 15.01,
+      "volume": 45051065,
+      "discount_price": 835.69
+    },
+    {
+      "symbol": "DIS",
+      "price": 707.71,
+      "pe_ratio": 37.41,
+      "volume": 77732044,
+      "discount_price": 601.55
+    },
+    {
+      "symbol": "GM",
+      "price": 601.67,
+      "pe_ratio": 25.43,
+      "volume": 99045086,
+      "discount_price": 511.42
+    },
+    {
+      "symbol": "JPM",
+      "price": 1914.45,
+      "pe_ratio": 21.53,
+      "volume": 144442420,
+      "discount_price": 1627.28
+    },
+    {
+      "symbol": "META",
+      "price": 805.02,
+      "pe_ratio": 10.34,
+      "volume": 80567622,
+      "discount_price": 684.27
+    },
+    {
+      "symbol": "NVDA",
+      "price": 1931.5,
+      "pe_ratio": 11.3,
+      "volume": 114151597,
+      "discount_price": 1641.77
+    },
+    {
+      "symbol": "PWR",
+      "price": 1195.78,
+      "pe_ratio": 22.2,
+      "volume": 129880575,
+      "discount_price": 1016.41
+    },
+    {
+      "symbol": "SYK",
+      "price": 254.55,
+      "pe_ratio": 7.08,
+      "volume": 135285632,
+      "discount_price": 216.37
+    },
+    {
+      "symbol": "VLO",
+      "price": 1670.87,
+      "pe_ratio": 30.63,
+      "volume": 11934934,
+      "discount_price": 1420.24
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "AFL": 0,
+      "BAC": 0,
+      "CME": 0,
+      "DIS": 1,
+      "GM": 0,
+      "JPM": 2,
+      "META": 0,
+      "NVDA": 2,
+      "PWR": 2,
+      "SYK": 0,
+      "VLO": 1
+    },
+    "value_cluster": {
+      "AFL": 0,
+      "BAC": 0,
+      "CME": 0,
+      "DIS": 2,
+      "GM": 2,
+      "JPM": 1,
+      "META": 0,
+      "NVDA": 1,
+      "PWR": 1,
+      "SYK": 0,
+      "VLO": 1
+    },
+    "valuation": {
+      "AFL": 0,
+      "BAC": 0,
+      "CME": 0,
+      "DIS": 2,
+      "GM": 2,
+      "JPM": 1,
+      "META": 0,
+      "NVDA": 1,
+      "PWR": 1,
+      "SYK": 0,
+      "VLO": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "AFL",
+      "pc1": -0.873413,
+      "pc2": 0.810494
+    },
+    {
+      "symbol": "BAC",
+      "pc1": -2.442993,
+      "pc2": -0.52811
+    },
+    {
+      "symbol": "CME",
+      "pc1": -0.167476,
+      "pc2": -0.751913
+    },
+    {
+      "symbol": "DIS",
+      "pc1": 0.057299,
+      "pc2": -1.50277
+    },
+    {
+      "symbol": "GM",
+      "pc1": -0.578694,
+      "pc2": -0.426357
+    },
+    {
+      "symbol": "JPM",
+      "pc1": 2.240874,
+      "pc2": 1.229091
+    },
+    {
+      "symbol": "META",
+      "pc1": -0.686648,
+      "pc2": 0.157293
+    },
+    {
+      "symbol": "NVDA",
+      "pc1": 1.879695,
+      "pc2": 1.2215
+    },
+    {
+      "symbol": "PWR",
+      "pc1": 0.657161,
+      "pc2": 0.613268
+    },
+    {
+      "symbol": "SYK",
+      "pc1": -1.957487,
+      "pc2": 1.220803
+    },
+    {
+      "symbol": "VLO",
+      "pc1": 1.871683,
+      "pc2": -2.043301
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "AFL",
+      "discount_price": 594.52
+    },
+    {
+      "symbol": "BAC",
+      "discount_price": 79.55
+    },
+    {
+      "symbol": "CME",
+      "discount_price": 835.69
+    },
+    {
+      "symbol": "DIS",
+      "discount_price": 601.55
+    },
+    {
+      "symbol": "GM",
+      "discount_price": 511.42
+    },
+    {
+      "symbol": "JPM",
+      "discount_price": 1627.28
+    },
+    {
+      "symbol": "META",
+      "discount_price": 684.27
+    },
+    {
+      "symbol": "NVDA",
+      "discount_price": 1641.77
+    },
+    {
+      "symbol": "PWR",
+      "discount_price": 1016.41
+    },
+    {
+      "symbol": "SYK",
+      "discount_price": 216.37
+    },
+    {
+      "symbol": "VLO",
+      "discount_price": 1420.24
+    }
+  ]
+}

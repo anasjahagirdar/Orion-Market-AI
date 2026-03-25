@@ -1,0 +1,297 @@
+{
+  "sector": "Consumer Durables",
+  "generated_at_utc": "2026-03-25T09:26:02.239157+00:00",
+  "meta": {
+    "random_state": 42,
+    "primary_clusters_used": 4,
+    "valuation_clusters_used": 3,
+    "stock_count": 7
+  },
+  "stocks": [
+    {
+      "symbol": "ASIANPAINT.NS",
+      "name": "Asian Paints Ltd.",
+      "market": "IN",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 116.38,
+        "pe_ratio": 34.44,
+        "volume": 115390862,
+        "discount_price": 90.52
+      },
+      "cluster": {
+        "primary": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.035669,
+        "y": 0.745797
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BLUESTARCO.NS",
+      "name": "Blue Star Ltd.",
+      "market": "IN",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 1554.95,
+        "pe_ratio": 35.43,
+        "volume": 198017928,
+        "discount_price": 1201.74
+      },
+      "cluster": {
+        "primary": 3,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.865992,
+        "y": 1.567346
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DIXON.NS",
+      "name": "Dixon Technologies (India) Ltd.",
+      "market": "IN",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 1771.61,
+        "pe_ratio": 14.92,
+        "volume": 154382435,
+        "discount_price": 1550.87
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.855441,
+        "y": -0.634892
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HAVELLS.NS",
+      "name": "Havells India Ltd.",
+      "market": "IN",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 2155.13,
+        "pe_ratio": 18.3,
+        "volume": 178548885,
+        "discount_price": 1850.18
+      },
+      "cluster": {
+        "primary": 1,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.54032,
+        "y": -0.104344
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KALYANKJIL.NS",
+      "name": "Kalyan Jewellers India Ltd.",
+      "market": "IN",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 903.34,
+        "pe_ratio": 22.05,
+        "volume": 20323302,
+        "discount_price": 758.58
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.78193,
+        "y": -0.922238
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TITAN.NS",
+      "name": "Titan Company Ltd.",
+      "market": "IN",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 523.79,
+        "pe_ratio": 18.37,
+        "volume": 29212424,
+        "discount_price": 449.49
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.26769,
+        "y": -1.273375
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "VOLTAS.NS",
+      "name": "Voltas Ltd.",
+      "market": "IN",
+      "sector": "Consumer Durables",
+      "features": {
+        "price": 1120.66,
+        "pe_ratio": 39.07,
+        "volume": 2133542,
+        "discount_price": 845.71
+      },
+      "cluster": {
+        "primary": 2,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.176464,
+        "y": 0.621706
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ASIANPAINT.NS",
+      "price": 116.38,
+      "pe_ratio": 34.44,
+      "volume": 115390862,
+      "discount_price": 90.52
+    },
+    {
+      "symbol": "BLUESTARCO.NS",
+      "price": 1554.95,
+      "pe_ratio": 35.43,
+      "volume": 198017928,
+      "discount_price": 1201.74
+    },
+    {
+      "symbol": "DIXON.NS",
+      "price": 1771.61,
+      "pe_ratio": 14.92,
+      "volume": 154382435,
+      "discount_price": 1550.87
+    },
+    {
+      "symbol": "HAVELLS.NS",
+      "price": 2155.13,
+      "pe_ratio": 18.3,
+      "volume": 178548885,
+      "discount_price": 1850.18
+    },
+    {
+      "symbol": "KALYANKJIL.NS",
+      "price": 903.34,
+      "pe_ratio": 22.05,
+      "volume": 20323302,
+      "discount_price": 758.58
+    },
+    {
+      "symbol": "TITAN.NS",
+      "price": 523.79,
+      "pe_ratio": 18.37,
+      "volume": 29212424,
+      "discount_price": 449.49
+    },
+    {
+      "symbol": "VOLTAS.NS",
+      "price": 1120.66,
+      "pe_ratio": 39.07,
+      "volume": 2133542,
+      "discount_price": 845.71
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ASIANPAINT.NS": 0,
+      "BLUESTARCO.NS": 3,
+      "DIXON.NS": 1,
+      "HAVELLS.NS": 1,
+      "KALYANKJIL.NS": 2,
+      "TITAN.NS": 2,
+      "VOLTAS.NS": 2
+    },
+    "valuation": {
+      "ASIANPAINT.NS": 0,
+      "BLUESTARCO.NS": 0,
+      "DIXON.NS": 2,
+      "HAVELLS.NS": 2,
+      "KALYANKJIL.NS": 1,
+      "TITAN.NS": 1,
+      "VOLTAS.NS": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ASIANPAINT.NS",
+      "pc1": -2.035669,
+      "pc2": 0.745797
+    },
+    {
+      "symbol": "BLUESTARCO.NS",
+      "pc1": 0.865992,
+      "pc2": 1.567346
+    },
+    {
+      "symbol": "DIXON.NS",
+      "pc1": 1.855441,
+      "pc2": -0.634892
+    },
+    {
+      "symbol": "HAVELLS.NS",
+      "pc1": 2.54032,
+      "pc2": -0.104344
+    },
+    {
+      "symbol": "KALYANKJIL.NS",
+      "pc1": -0.78193,
+      "pc2": -0.922238
+    },
+    {
+      "symbol": "TITAN.NS",
+      "pc1": -1.26769,
+      "pc2": -1.273375
+    },
+    {
+      "symbol": "VOLTAS.NS",
+      "pc1": -1.176464,
+      "pc2": 0.621706
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ASIANPAINT.NS",
+      "discount_price": 90.52
+    },
+    {
+      "symbol": "BLUESTARCO.NS",
+      "discount_price": 1201.74
+    },
+    {
+      "symbol": "DIXON.NS",
+      "discount_price": 1550.87
+    },
+    {
+      "symbol": "HAVELLS.NS",
+      "discount_price": 1850.18
+    },
+    {
+      "symbol": "KALYANKJIL.NS",
+      "discount_price": 758.58
+    },
+    {
+      "symbol": "TITAN.NS",
+      "discount_price": 449.49
+    },
+    {
+      "symbol": "VOLTAS.NS",
+      "discount_price": 845.71
+    }
+  ]
+}

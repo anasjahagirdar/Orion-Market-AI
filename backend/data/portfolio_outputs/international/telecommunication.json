@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Telecommunication",
+  "generated_at_utc": "2026-03-25T10:19:31.356872+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 1886.71,
+        "pe_ratio": 33.44,
+        "volume": 194935841,
+        "discount_price": 1603.7
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.518229,
+        "y": 1.232665
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BSX",
+      "name": "Boston Scientific",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 2092.79,
+        "pe_ratio": 38.42,
+        "volume": 174616390,
+        "discount_price": 1778.87
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.659378,
+        "y": 1.658099
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 427.94,
+        "pe_ratio": 34.87,
+        "volume": 24818793,
+        "discount_price": 363.75
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.924971,
+        "y": 0.865011
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "EQIX",
+      "name": "Equinix",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 204.27,
+        "pe_ratio": 23.06,
+        "volume": 31421172,
+        "discount_price": 173.63
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.138575,
+        "y": -0.369919
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HON",
+      "name": "Honeywell",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 2032.89,
+        "pe_ratio": 21.57,
+        "volume": 109482179,
+        "discount_price": 1727.96
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.238184,
+        "y": -0.475124
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LLY",
+      "name": "Lilly (Eli)",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 2381.5,
+        "pe_ratio": 14.57,
+        "volume": 30917949,
+        "discount_price": 2024.27
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.283068,
+        "y": -1.648374
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MS",
+      "name": "Morgan Stanley",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 1084.1,
+        "pe_ratio": 15.63,
+        "volume": 46253236,
+        "discount_price": 921.48
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.622471,
+        "y": -1.25988
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PCAR",
+      "name": "Paccar",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 492.56,
+        "pe_ratio": 27.88,
+        "volume": 25919474,
+        "discount_price": 418.68
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.766539,
+        "y": 0.090687
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SBUX",
+      "name": "Starbucks",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 1436.94,
+        "pe_ratio": 37.12,
+        "volume": 37977716,
+        "discount_price": 1221.4
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -0.291527,
+        "y": 1.012339
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 373.56,
+        "pe_ratio": 19.86,
+        "volume": 128304016,
+        "discount_price": 317.53
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.182063,
+        "y": -0.319055
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "WM",
+      "name": "Waste Management",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Telecommunication",
+      "features": {
+        "price": 2288.31,
+        "pe_ratio": 15.89,
+        "volume": 189267755,
+        "discount_price": 1945.06
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.227289,
+        "y": -0.786448
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "AMZN",
+      "price": 1886.71,
+      "pe_ratio": 33.44,
+      "volume": 194935841,
+      "discount_price": 1603.7
+    },
+    {
+      "symbol": "BSX",
+      "price": 2092.79,
+      "pe_ratio": 38.42,
+      "volume": 174616390,
+      "discount_price": 1778.87
+    },
+    {
+      "symbol": "CRM",
+      "price": 427.94,
+      "pe_ratio": 34.87,
+      "volume": 24818793,
+      "discount_price": 363.75
+    },
+    {
+      "symbol": "EQIX",
+      "price": 204.27,
+      "pe_ratio": 23.06,
+      "volume": 31421172,
+      "discount_price": 173.63
+    },
+    {
+      "symbol": "HON",
+      "price": 2032.89,
+      "pe_ratio": 21.57,
+      "volume": 109482179,
+      "discount_price": 1727.96
+    },
+    {
+      "symbol": "LLY",
+      "price": 2381.5,
+      "pe_ratio": 14.57,
+      "volume": 30917949,
+      "discount_price": 2024.27
+    },
+    {
+      "symbol": "MS",
+      "price": 1084.1,
+      "pe_ratio": 15.63,
+      "volume": 46253236,
+      "discount_price": 921.48
+    },
+    {
+      "symbol": "PCAR",
+      "price": 492.56,
+      "pe_ratio": 27.88,
+      "volume": 25919474,
+      "discount_price": 418.68
+    },
+    {
+      "symbol": "SBUX",
+      "price": 1436.94,
+      "pe_ratio": 37.12,
+      "volume": 37977716,
+      "discount_price": 1221.4
+    },
+    {
+      "symbol": "TMUS",
+      "price": 373.56,
+      "pe_ratio": 19.86,
+      "volume": 128304016,
+      "discount_price": 317.53
+    },
+    {
+      "symbol": "WM",
+      "price": 2288.31,
+      "pe_ratio": 15.89,
+      "volume": 189267755,
+      "discount_price": 1945.06
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "AMZN": 0,
+      "BSX": 0,
+      "CRM": 1,
+      "EQIX": 1,
+      "HON": 2,
+      "LLY": 2,
+      "MS": 1,
+      "PCAR": 1,
+      "SBUX": 0,
+      "TMUS": 1,
+      "WM": 2
+    },
+    "value_cluster": {
+      "AMZN": 2,
+      "BSX": 2,
+      "CRM": 1,
+      "EQIX": 1,
+      "HON": 0,
+      "LLY": 0,
+      "MS": 0,
+      "PCAR": 1,
+      "SBUX": 2,
+      "TMUS": 1,
+      "WM": 0
+    },
+    "valuation": {
+      "AMZN": 2,
+      "BSX": 2,
+      "CRM": 1,
+      "EQIX": 1,
+      "HON": 0,
+      "LLY": 0,
+      "MS": 0,
+      "PCAR": 1,
+      "SBUX": 2,
+      "TMUS": 1,
+      "WM": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "AMZN",
+      "pc1": 1.518229,
+      "pc2": 1.232665
+    },
+    {
+      "symbol": "BSX",
+      "pc1": 1.659378,
+      "pc2": 1.658099
+    },
+    {
+      "symbol": "CRM",
+      "pc1": -1.924971,
+      "pc2": 0.865011
+    },
+    {
+      "symbol": "EQIX",
+      "pc1": -2.138575,
+      "pc2": -0.369919
+    },
+    {
+      "symbol": "HON",
+      "pc1": 1.238184,
+      "pc2": -0.475124
+    },
+    {
+      "symbol": "LLY",
+      "pc1": 1.283068,
+      "pc2": -1.648374
+    },
+    {
+      "symbol": "MS",
+      "pc1": -0.622471,
+      "pc2": -1.25988
+    },
+    {
+      "symbol": "PCAR",
+      "pc1": -1.766539,
+      "pc2": 0.090687
+    },
+    {
+      "symbol": "SBUX",
+      "pc1": -0.291527,
+      "pc2": 1.012339
+    },
+    {
+      "symbol": "TMUS",
+      "pc1": -1.182063,
+      "pc2": -0.319055
+    },
+    {
+      "symbol": "WM",
+      "pc1": 2.227289,
+      "pc2": -0.786448
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "AMZN",
+      "discount_price": 1603.7
+    },
+    {
+      "symbol": "BSX",
+      "discount_price": 1778.87
+    },
+    {
+      "symbol": "CRM",
+      "discount_price": 363.75
+    },
+    {
+      "symbol": "EQIX",
+      "discount_price": 173.63
+    },
+    {
+      "symbol": "HON",
+      "discount_price": 1727.96
+    },
+    {
+      "symbol": "LLY",
+      "discount_price": 2024.27
+    },
+    {
+      "symbol": "MS",
+      "discount_price": 921.48
+    },
+    {
+      "symbol": "PCAR",
+      "discount_price": 418.68
+    },
+    {
+      "symbol": "SBUX",
+      "discount_price": 1221.4
+    },
+    {
+      "symbol": "TMUS",
+      "discount_price": 317.53
+    },
+    {
+      "symbol": "WM",
+      "discount_price": 1945.06
+    }
+  ]
+}

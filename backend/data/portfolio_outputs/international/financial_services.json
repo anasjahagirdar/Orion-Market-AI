@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Financial Services",
+  "generated_at_utc": "2026-03-25T10:19:30.859828+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "AEP",
+      "name": "American Electric Power",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1285.32,
+        "pe_ratio": 42.08,
+        "volume": 119210710,
+        "discount_price": 1092.52
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.300944,
+        "y": -0.068322
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2497.85,
+        "pe_ratio": 33.47,
+        "volume": 161072963,
+        "discount_price": 2123.17
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.590885,
+        "y": 1.270493
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 445.2,
+        "pe_ratio": 14.89,
+        "volume": 109571521,
+        "discount_price": 378.42
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -2.043462,
+        "y": -0.227528
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DHR",
+      "name": "Danaher Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2465.03,
+        "pe_ratio": 41.55,
+        "volume": 136181155,
+        "discount_price": 2095.28
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.954366,
+        "y": 0.717012
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 358.51,
+        "pe_ratio": 7.67,
+        "volume": 180738819,
+        "discount_price": 304.73
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -2.678331,
+        "y": 1.07539
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1696.37,
+        "pe_ratio": 39.4,
+        "volume": 38394960,
+        "discount_price": 1441.91
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.0211,
+        "y": -1.279263
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MDT",
+      "name": "Medtronic",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1142.63,
+        "pe_ratio": 19.94,
+        "volume": 192068222,
+        "discount_price": 971.24
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.048397,
+        "y": 1.434662
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NSC",
+      "name": "Norfolk Southern Railway",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2300.41,
+        "pe_ratio": 21.84,
+        "volume": 57237255,
+        "discount_price": 1955.35
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.111109,
+        "y": -0.475511
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PSX",
+      "name": "Phillips 66",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2155.71,
+        "pe_ratio": 26.73,
+        "volume": 101104183,
+        "discount_price": 1832.35
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.979373,
+        "y": 0.169283
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2027.49,
+        "pe_ratio": 19.8,
+        "volume": 28375641,
+        "discount_price": 1723.37
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.709212,
+        "y": -1.065297
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Financial Services",
+      "features": {
+        "price": 81.79,
+        "pe_ratio": 27.03,
+        "volume": 51386021,
+        "discount_price": 69.52
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -1.896799,
+        "y": -1.550919
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "AEP",
+      "price": 1285.32,
+      "pe_ratio": 42.08,
+      "volume": 119210710,
+      "discount_price": 1092.52
+    },
+    {
+      "symbol": "BA",
+      "price": 2497.85,
+      "pe_ratio": 33.47,
+      "volume": 161072963,
+      "discount_price": 2123.17
+    },
+    {
+      "symbol": "CMCSA",
+      "price": 445.2,
+      "pe_ratio": 14.89,
+      "volume": 109571521,
+      "discount_price": 378.42
+    },
+    {
+      "symbol": "DHR",
+      "price": 2465.03,
+      "pe_ratio": 41.55,
+      "volume": 136181155,
+      "discount_price": 2095.28
+    },
+    {
+      "symbol": "GLW",
+      "price": 358.51,
+      "pe_ratio": 7.67,
+      "volume": 180738819,
+      "discount_price": 304.73
+    },
+    {
+      "symbol": "JNJ",
+      "price": 1696.37,
+      "pe_ratio": 39.4,
+      "volume": 38394960,
+      "discount_price": 1441.91
+    },
+    {
+      "symbol": "MDT",
+      "price": 1142.63,
+      "pe_ratio": 19.94,
+      "volume": 192068222,
+      "discount_price": 971.24
+    },
+    {
+      "symbol": "NSC",
+      "price": 2300.41,
+      "pe_ratio": 21.84,
+      "volume": 57237255,
+      "discount_price": 1955.35
+    },
+    {
+      "symbol": "PSX",
+      "price": 2155.71,
+      "pe_ratio": 26.73,
+      "volume": 101104183,
+      "discount_price": 1832.35
+    },
+    {
+      "symbol": "STX",
+      "price": 2027.49,
+      "pe_ratio": 19.8,
+      "volume": 28375641,
+      "discount_price": 1723.37
+    },
+    {
+      "symbol": "V",
+      "price": 81.79,
+      "pe_ratio": 27.03,
+      "volume": 51386021,
+      "discount_price": 69.52
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "AEP": 0,
+      "BA": 0,
+      "CMCSA": 1,
+      "DHR": 0,
+      "GLW": 1,
+      "JNJ": 2,
+      "MDT": 1,
+      "NSC": 2,
+      "PSX": 2,
+      "STX": 2,
+      "V": 1
+    },
+    "value_cluster": {
+      "AEP": 1,
+      "BA": 1,
+      "CMCSA": 2,
+      "DHR": 1,
+      "GLW": 2,
+      "JNJ": 1,
+      "MDT": 2,
+      "NSC": 0,
+      "PSX": 0,
+      "STX": 0,
+      "V": 2
+    },
+    "valuation": {
+      "AEP": 1,
+      "BA": 1,
+      "CMCSA": 2,
+      "DHR": 1,
+      "GLW": 2,
+      "JNJ": 1,
+      "MDT": 2,
+      "NSC": 0,
+      "PSX": 0,
+      "STX": 0,
+      "V": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "AEP",
+      "pc1": 0.300944,
+      "pc2": -0.068322
+    },
+    {
+      "symbol": "BA",
+      "pc1": 1.590885,
+      "pc2": 1.270493
+    },
+    {
+      "symbol": "CMCSA",
+      "pc1": -2.043462,
+      "pc2": -0.227528
+    },
+    {
+      "symbol": "DHR",
+      "pc1": 1.954366,
+      "pc2": 0.717012
+    },
+    {
+      "symbol": "GLW",
+      "pc1": -2.678331,
+      "pc2": 1.07539
+    },
+    {
+      "symbol": "JNJ",
+      "pc1": 1.0211,
+      "pc2": -1.279263
+    },
+    {
+      "symbol": "MDT",
+      "pc1": -1.048397,
+      "pc2": 1.434662
+    },
+    {
+      "symbol": "NSC",
+      "pc1": 1.111109,
+      "pc2": -0.475511
+    },
+    {
+      "symbol": "PSX",
+      "pc1": 0.979373,
+      "pc2": 0.169283
+    },
+    {
+      "symbol": "STX",
+      "pc1": 0.709212,
+      "pc2": -1.065297
+    },
+    {
+      "symbol": "V",
+      "pc1": -1.896799,
+      "pc2": -1.550919
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "AEP",
+      "discount_price": 1092.52
+    },
+    {
+      "symbol": "BA",
+      "discount_price": 2123.17
+    },
+    {
+      "symbol": "CMCSA",
+      "discount_price": 378.42
+    },
+    {
+      "symbol": "DHR",
+      "discount_price": 2095.28
+    },
+    {
+      "symbol": "GLW",
+      "discount_price": 304.73
+    },
+    {
+      "symbol": "JNJ",
+      "discount_price": 1441.91
+    },
+    {
+      "symbol": "MDT",
+      "discount_price": 971.24
+    },
+    {
+      "symbol": "NSC",
+      "discount_price": 1955.35
+    },
+    {
+      "symbol": "PSX",
+      "discount_price": 1832.35
+    },
+    {
+      "symbol": "STX",
+      "discount_price": 1723.37
+    },
+    {
+      "symbol": "V",
+      "discount_price": 69.52
+    }
+  ]
+}

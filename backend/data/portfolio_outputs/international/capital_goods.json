@@ -1,0 +1,530 @@
+{
+  "market": "international",
+  "sector": "Capital Goods",
+  "generated_at_utc": "2026-03-25T10:19:30.423457+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 12
+  },
+  "stocks": [
+    {
+      "symbol": "ABBV",
+      "name": "AbbVie",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 308.54,
+        "pe_ratio": 22.9,
+        "volume": 141061635,
+        "discount_price": 262.26
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.779238,
+        "y": -0.030559
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APD",
+      "name": "Air Products",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1982.31,
+        "pe_ratio": 21.57,
+        "volume": 87526558,
+        "discount_price": 1684.96
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.983926,
+        "y": -0.323598
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1795.09,
+        "pe_ratio": 19.78,
+        "volume": 105685502,
+        "discount_price": 1525.83
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.361181,
+        "y": -0.624159
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CSX",
+      "name": "CSX Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1317.49,
+        "pe_ratio": 10.76,
+        "volume": 102647599,
+        "discount_price": 1119.87
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.543923,
+        "y": -1.059724
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 568.97,
+        "pe_ratio": 8.6,
+        "volume": 164961327,
+        "discount_price": 483.62
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.762454,
+        "y": -1.701347
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IBM",
+      "name": "IBM",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 1603.21,
+        "pe_ratio": 21.89,
+        "volume": 74953788,
+        "discount_price": 1362.73
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.526161,
+        "y": 0.094708
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 625.69,
+        "pe_ratio": 18.86,
+        "volume": 103526033,
+        "discount_price": 531.84
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.643163,
+        "y": -0.011427
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 181.18,
+        "pe_ratio": 41.97,
+        "volume": 121889327,
+        "discount_price": 154.0
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.621674,
+        "y": 1.893569
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PG",
+      "name": "Procter & Gamble",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 984.24,
+        "pe_ratio": 19.64,
+        "volume": 170577403,
+        "discount_price": 836.6
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.087127,
+        "y": -1.099859
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SLB",
+      "name": "Schlumberger",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 2380.47,
+        "pe_ratio": 38.05,
+        "volume": 72725870,
+        "discount_price": 2023.4
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.976412,
+        "y": 1.028008
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TT",
+      "name": "Trane Technologies",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 204.38,
+        "pe_ratio": 40.02,
+        "volume": 94123364,
+        "discount_price": 173.72
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.145263,
+        "y": 2.112801
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "XOM",
+      "name": "ExxonMobil",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Capital Goods",
+      "features": {
+        "price": 915.34,
+        "pe_ratio": 19.94,
+        "volume": 117160648,
+        "discount_price": 778.04
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.352683,
+        "y": -0.278413
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ABBV",
+      "price": 308.54,
+      "pe_ratio": 22.9,
+      "volume": 141061635,
+      "discount_price": 262.26
+    },
+    {
+      "symbol": "APD",
+      "price": 1982.31,
+      "pe_ratio": 21.57,
+      "volume": 87526558,
+      "discount_price": 1684.96
+    },
+    {
+      "symbol": "CAT",
+      "price": 1795.09,
+      "pe_ratio": 19.78,
+      "volume": 105685502,
+      "discount_price": 1525.83
+    },
+    {
+      "symbol": "CSX",
+      "price": 1317.49,
+      "pe_ratio": 10.76,
+      "volume": 102647599,
+      "discount_price": 1119.87
+    },
+    {
+      "symbol": "FCX",
+      "price": 568.97,
+      "pe_ratio": 8.6,
+      "volume": 164961327,
+      "discount_price": 483.62
+    },
+    {
+      "symbol": "IBM",
+      "price": 1603.21,
+      "pe_ratio": 21.89,
+      "volume": 74953788,
+      "discount_price": 1362.73
+    },
+    {
+      "symbol": "LRCX",
+      "price": 625.69,
+      "pe_ratio": 18.86,
+      "volume": 103526033,
+      "discount_price": 531.84
+    },
+    {
+      "symbol": "MU",
+      "price": 181.18,
+      "pe_ratio": 41.97,
+      "volume": 121889327,
+      "discount_price": 154.0
+    },
+    {
+      "symbol": "PG",
+      "price": 984.24,
+      "pe_ratio": 19.64,
+      "volume": 170577403,
+      "discount_price": 836.6
+    },
+    {
+      "symbol": "SLB",
+      "price": 2380.47,
+      "pe_ratio": 38.05,
+      "volume": 72725870,
+      "discount_price": 2023.4
+    },
+    {
+      "symbol": "TT",
+      "price": 204.38,
+      "pe_ratio": 40.02,
+      "volume": 94123364,
+      "discount_price": 173.72
+    },
+    {
+      "symbol": "XOM",
+      "price": 915.34,
+      "pe_ratio": 19.94,
+      "volume": 117160648,
+      "discount_price": 778.04
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ABBV": 2,
+      "APD": 1,
+      "CAT": 1,
+      "CSX": 2,
+      "FCX": 2,
+      "IBM": 1,
+      "LRCX": 2,
+      "MU": 0,
+      "PG": 2,
+      "SLB": 1,
+      "TT": 0,
+      "XOM": 2
+    },
+    "value_cluster": {
+      "ABBV": 0,
+      "APD": 2,
+      "CAT": 2,
+      "CSX": 0,
+      "FCX": 0,
+      "IBM": 2,
+      "LRCX": 0,
+      "MU": 1,
+      "PG": 0,
+      "SLB": 2,
+      "TT": 1,
+      "XOM": 0
+    },
+    "valuation": {
+      "ABBV": 0,
+      "APD": 2,
+      "CAT": 2,
+      "CSX": 0,
+      "FCX": 0,
+      "IBM": 2,
+      "LRCX": 0,
+      "MU": 1,
+      "PG": 0,
+      "SLB": 2,
+      "TT": 1,
+      "XOM": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ABBV",
+      "pc1": -1.779238,
+      "pc2": -0.030559
+    },
+    {
+      "symbol": "APD",
+      "pc1": 1.983926,
+      "pc2": -0.323598
+    },
+    {
+      "symbol": "CAT",
+      "pc1": 1.361181,
+      "pc2": -0.624159
+    },
+    {
+      "symbol": "CSX",
+      "pc1": 0.543923,
+      "pc2": -1.059724
+    },
+    {
+      "symbol": "FCX",
+      "pc1": -1.762454,
+      "pc2": -1.701347
+    },
+    {
+      "symbol": "IBM",
+      "pc1": 1.526161,
+      "pc2": 0.094708
+    },
+    {
+      "symbol": "LRCX",
+      "pc1": -0.643163,
+      "pc2": -0.011427
+    },
+    {
+      "symbol": "MU",
+      "pc1": -1.621674,
+      "pc2": 1.893569
+    },
+    {
+      "symbol": "PG",
+      "pc1": -1.087127,
+      "pc2": -1.099859
+    },
+    {
+      "symbol": "SLB",
+      "pc1": 2.976412,
+      "pc2": 1.028008
+    },
+    {
+      "symbol": "TT",
+      "pc1": -1.145263,
+      "pc2": 2.112801
+    },
+    {
+      "symbol": "XOM",
+      "pc1": -0.352683,
+      "pc2": -0.278413
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ABBV",
+      "discount_price": 262.26
+    },
+    {
+      "symbol": "APD",
+      "discount_price": 1684.96
+    },
+    {
+      "symbol": "CAT",
+      "discount_price": 1525.83
+    },
+    {
+      "symbol": "CSX",
+      "discount_price": 1119.87
+    },
+    {
+      "symbol": "FCX",
+      "discount_price": 483.62
+    },
+    {
+      "symbol": "IBM",
+      "discount_price": 1362.73
+    },
+    {
+      "symbol": "LRCX",
+      "discount_price": 531.84
+    },
+    {
+      "symbol": "MU",
+      "discount_price": 154.0
+    },
+    {
+      "symbol": "PG",
+      "discount_price": 836.6
+    },
+    {
+      "symbol": "SLB",
+      "discount_price": 2023.4
+    },
+    {
+      "symbol": "TT",
+      "discount_price": 173.72
+    },
+    {
+      "symbol": "XOM",
+      "discount_price": 778.04
+    }
+  ]
+}

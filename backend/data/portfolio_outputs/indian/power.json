@@ -1,0 +1,446 @@
+{
+  "market": "indian",
+  "sector": "Power",
+  "generated_at_utc": "2026-03-25T10:19:30.135999+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 10
+  },
+  "stocks": [
+    {
+      "symbol": "ADANIENSOL.NS",
+      "name": "Adani Energy Solutions Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 1571.08,
+        "pe_ratio": 10.31,
+        "volume": 17869699,
+        "discount_price": 1335.42
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.759081,
+        "y": -1.30233
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ADANIGREEN.NS",
+      "name": "Adani Green Energy Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 1536.29,
+        "pe_ratio": 38.9,
+        "volume": 140533918,
+        "discount_price": 1305.85
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.190001,
+        "y": 1.473864
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ADANIPOWER.NS",
+      "name": "Adani Power Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 600.29,
+        "pe_ratio": 36.64,
+        "volume": 57477150,
+        "discount_price": 510.25
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.93752,
+        "y": -0.764967
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JSWENERGY.NS",
+      "name": "JSW Energy Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 1483.25,
+        "pe_ratio": 16.33,
+        "volume": 109897426,
+        "discount_price": 1260.76
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.125098,
+        "y": 0.271062
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NHPC.NS",
+      "name": "NHPC Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 652.81,
+        "pe_ratio": 21.16,
+        "volume": 861877,
+        "discount_price": 554.89
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.018087,
+        "y": -2.080761
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NTPC.NS",
+      "name": "NTPC Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 1531.61,
+        "pe_ratio": 21.55,
+        "volume": 57915509,
+        "discount_price": 1301.87
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.089737,
+        "y": -0.365166
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NTPCGREEN.NS",
+      "name": "NTPC Green Energy Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 1765.93,
+        "pe_ratio": 10.09,
+        "volume": 158290949,
+        "discount_price": 1501.04
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 2.045542,
+        "y": 1.117185
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "POWERGRID.NS",
+      "name": "Power Grid Corporation of India Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 1560.94,
+        "pe_ratio": 22.59,
+        "volume": 81705287,
+        "discount_price": 1326.8
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 1.080224,
+        "y": 0.07313
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TATAPOWER.NS",
+      "name": "Tata Power Co. Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 459.7,
+        "pe_ratio": 42.74,
+        "volume": 174859150,
+        "discount_price": 390.75
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.746592,
+        "y": 1.169804
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TORNTPOWER.NS",
+      "name": "Torrent Power Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Power",
+      "features": {
+        "price": 800.31,
+        "pe_ratio": 38.03,
+        "volume": 116900444,
+        "discount_price": 680.26
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.587482,
+        "y": 0.408179
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ADANIENSOL.NS",
+      "price": 1571.08,
+      "pe_ratio": 10.31,
+      "volume": 17869699,
+      "discount_price": 1335.42
+    },
+    {
+      "symbol": "ADANIGREEN.NS",
+      "price": 1536.29,
+      "pe_ratio": 38.9,
+      "volume": 140533918,
+      "discount_price": 1305.85
+    },
+    {
+      "symbol": "ADANIPOWER.NS",
+      "price": 600.29,
+      "pe_ratio": 36.64,
+      "volume": 57477150,
+      "discount_price": 510.25
+    },
+    {
+      "symbol": "JSWENERGY.NS",
+      "price": 1483.25,
+      "pe_ratio": 16.33,
+      "volume": 109897426,
+      "discount_price": 1260.76
+    },
+    {
+      "symbol": "NHPC.NS",
+      "price": 652.81,
+      "pe_ratio": 21.16,
+      "volume": 861877,
+      "discount_price": 554.89
+    },
+    {
+      "symbol": "NTPC.NS",
+      "price": 1531.61,
+      "pe_ratio": 21.55,
+      "volume": 57915509,
+      "discount_price": 1301.87
+    },
+    {
+      "symbol": "NTPCGREEN.NS",
+      "price": 1765.93,
+      "pe_ratio": 10.09,
+      "volume": 158290949,
+      "discount_price": 1501.04
+    },
+    {
+      "symbol": "POWERGRID.NS",
+      "price": 1560.94,
+      "pe_ratio": 22.59,
+      "volume": 81705287,
+      "discount_price": 1326.8
+    },
+    {
+      "symbol": "TATAPOWER.NS",
+      "price": 459.7,
+      "pe_ratio": 42.74,
+      "volume": 174859150,
+      "discount_price": 390.75
+    },
+    {
+      "symbol": "TORNTPOWER.NS",
+      "price": 800.31,
+      "pe_ratio": 38.03,
+      "volume": 116900444,
+      "discount_price": 680.26
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ADANIENSOL.NS": 0,
+      "ADANIGREEN.NS": 0,
+      "ADANIPOWER.NS": 1,
+      "JSWENERGY.NS": 0,
+      "NHPC.NS": 1,
+      "NTPC.NS": 0,
+      "NTPCGREEN.NS": 0,
+      "POWERGRID.NS": 0,
+      "TATAPOWER.NS": 2,
+      "TORNTPOWER.NS": 2
+    },
+    "value_cluster": {
+      "ADANIENSOL.NS": 0,
+      "ADANIGREEN.NS": 2,
+      "ADANIPOWER.NS": 1,
+      "JSWENERGY.NS": 0,
+      "NHPC.NS": 1,
+      "NTPC.NS": 0,
+      "NTPCGREEN.NS": 0,
+      "POWERGRID.NS": 0,
+      "TATAPOWER.NS": 1,
+      "TORNTPOWER.NS": 1
+    },
+    "valuation": {
+      "ADANIENSOL.NS": 0,
+      "ADANIGREEN.NS": 2,
+      "ADANIPOWER.NS": 1,
+      "JSWENERGY.NS": 0,
+      "NHPC.NS": 1,
+      "NTPC.NS": 0,
+      "NTPCGREEN.NS": 0,
+      "POWERGRID.NS": 0,
+      "TATAPOWER.NS": 1,
+      "TORNTPOWER.NS": 1
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ADANIENSOL.NS",
+      "pc1": 1.759081,
+      "pc2": -1.30233
+    },
+    {
+      "symbol": "ADANIGREEN.NS",
+      "pc1": 0.190001,
+      "pc2": 1.473864
+    },
+    {
+      "symbol": "ADANIPOWER.NS",
+      "pc1": -1.93752,
+      "pc2": -0.764967
+    },
+    {
+      "symbol": "JSWENERGY.NS",
+      "pc1": 1.125098,
+      "pc2": 0.271062
+    },
+    {
+      "symbol": "NHPC.NS",
+      "pc1": -1.018087,
+      "pc2": -2.080761
+    },
+    {
+      "symbol": "NTPC.NS",
+      "pc1": 1.089737,
+      "pc2": -0.365166
+    },
+    {
+      "symbol": "NTPCGREEN.NS",
+      "pc1": 2.045542,
+      "pc2": 1.117185
+    },
+    {
+      "symbol": "POWERGRID.NS",
+      "pc1": 1.080224,
+      "pc2": 0.07313
+    },
+    {
+      "symbol": "TATAPOWER.NS",
+      "pc1": -2.746592,
+      "pc2": 1.169804
+    },
+    {
+      "symbol": "TORNTPOWER.NS",
+      "pc1": -1.587482,
+      "pc2": 0.408179
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ADANIENSOL.NS",
+      "discount_price": 1335.42
+    },
+    {
+      "symbol": "ADANIGREEN.NS",
+      "discount_price": 1305.85
+    },
+    {
+      "symbol": "ADANIPOWER.NS",
+      "discount_price": 510.25
+    },
+    {
+      "symbol": "JSWENERGY.NS",
+      "discount_price": 1260.76
+    },
+    {
+      "symbol": "NHPC.NS",
+      "discount_price": 554.89
+    },
+    {
+      "symbol": "NTPC.NS",
+      "discount_price": 1301.87
+    },
+    {
+      "symbol": "NTPCGREEN.NS",
+      "discount_price": 1501.04
+    },
+    {
+      "symbol": "POWERGRID.NS",
+      "discount_price": 1326.8
+    },
+    {
+      "symbol": "TATAPOWER.NS",
+      "discount_price": 390.75
+    },
+    {
+      "symbol": "TORNTPOWER.NS",
+      "discount_price": 680.26
+    }
+  ]
+}

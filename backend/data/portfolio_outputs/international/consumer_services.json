@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Consumer Services",
+  "generated_at_utc": "2026-03-25T10:19:30.728860+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "ADI",
+      "name": "Analog Devices",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 255.26,
+        "pe_ratio": 42.93,
+        "volume": 123674063,
+        "discount_price": 216.97
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.852242,
+        "y": -0.758902
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AXP",
+      "name": "American Express",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 715.94,
+        "pe_ratio": 32.86,
+        "volume": 90503888,
+        "discount_price": 608.55
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.603386,
+        "y": -0.743649
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 914.0,
+        "pe_ratio": 25.92,
+        "volume": 134702610,
+        "discount_price": 776.9
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.16487,
+        "y": 0.219651
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "DE",
+      "name": "Deere & Company",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 2167.38,
+        "pe_ratio": 32.36,
+        "volume": 4630796,
+        "discount_price": 1842.27
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.232079,
+        "y": -2.117294
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 2127.05,
+        "pe_ratio": 20.3,
+        "volume": 125669220,
+        "discount_price": 1807.99
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.179248,
+        "y": 0.227634
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ITW",
+      "name": "Illinois Tool Works",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 2052.55,
+        "pe_ratio": 8.53,
+        "volume": 144922465,
+        "discount_price": 1744.67
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.379546,
+        "y": 1.140695
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MCO",
+      "name": "Moody's Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 1919.55,
+        "pe_ratio": 30.56,
+        "volume": 76594100,
+        "discount_price": 1631.62
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.62905,
+        "y": -0.981244
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NOC",
+      "name": "Northrop Grumman",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 2003.11,
+        "pe_ratio": 7.53,
+        "volume": 21512875,
+        "discount_price": 1702.64
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.717406,
+        "y": -0.521462
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PM",
+      "name": "Philip Morris International",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 2488.64,
+        "pe_ratio": 23.31,
+        "volume": 198102038,
+        "discount_price": 2115.34
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.483726,
+        "y": 1.026479
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 667.31,
+        "pe_ratio": 20.8,
+        "volume": 176053070,
+        "discount_price": 567.21
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.558257,
+        "y": 1.106977
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UPS",
+      "name": "United Parcel Service",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Consumer Services",
+      "features": {
+        "price": 1037.13,
+        "pe_ratio": 8.82,
+        "volume": 154586244,
+        "discount_price": 881.56
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -0.4423,
+        "y": 1.401115
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ADI",
+      "price": 255.26,
+      "pe_ratio": 42.93,
+      "volume": 123674063,
+      "discount_price": 216.97
+    },
+    {
+      "symbol": "AXP",
+      "price": 715.94,
+      "pe_ratio": 32.86,
+      "volume": 90503888,
+      "discount_price": 608.55
+    },
+    {
+      "symbol": "CIEN",
+      "price": 914.0,
+      "pe_ratio": 25.92,
+      "volume": 134702610,
+      "discount_price": 776.9
+    },
+    {
+      "symbol": "DE",
+      "price": 2167.38,
+      "pe_ratio": 32.36,
+      "volume": 4630796,
+      "discount_price": 1842.27
+    },
+    {
+      "symbol": "GEV",
+      "price": 2127.05,
+      "pe_ratio": 20.3,
+      "volume": 125669220,
+      "discount_price": 1807.99
+    },
+    {
+      "symbol": "ITW",
+      "price": 2052.55,
+      "pe_ratio": 8.53,
+      "volume": 144922465,
+      "discount_price": 1744.67
+    },
+    {
+      "symbol": "MCO",
+      "price": 1919.55,
+      "pe_ratio": 30.56,
+      "volume": 76594100,
+      "discount_price": 1631.62
+    },
+    {
+      "symbol": "NOC",
+      "price": 2003.11,
+      "pe_ratio": 7.53,
+      "volume": 21512875,
+      "discount_price": 1702.64
+    },
+    {
+      "symbol": "PM",
+      "price": 2488.64,
+      "pe_ratio": 23.31,
+      "volume": 198102038,
+      "discount_price": 2115.34
+    },
+    {
+      "symbol": "SPGI",
+      "price": 667.31,
+      "pe_ratio": 20.8,
+      "volume": 176053070,
+      "discount_price": 567.21
+    },
+    {
+      "symbol": "UPS",
+      "price": 1037.13,
+      "pe_ratio": 8.82,
+      "volume": 154586244,
+      "discount_price": 881.56
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ADI": 0,
+      "AXP": 0,
+      "CIEN": 0,
+      "DE": 1,
+      "GEV": 2,
+      "ITW": 2,
+      "MCO": 1,
+      "NOC": 1,
+      "PM": 2,
+      "SPGI": 0,
+      "UPS": 0
+    },
+    "value_cluster": {
+      "ADI": 0,
+      "AXP": 0,
+      "CIEN": 0,
+      "DE": 1,
+      "GEV": 1,
+      "ITW": 2,
+      "MCO": 1,
+      "NOC": 2,
+      "PM": 1,
+      "SPGI": 0,
+      "UPS": 2
+    },
+    "valuation": {
+      "ADI": 0,
+      "AXP": 0,
+      "CIEN": 0,
+      "DE": 1,
+      "GEV": 1,
+      "ITW": 2,
+      "MCO": 1,
+      "NOC": 2,
+      "PM": 1,
+      "SPGI": 0,
+      "UPS": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ADI",
+      "pc1": -2.852242,
+      "pc2": -0.758902
+    },
+    {
+      "symbol": "AXP",
+      "pc1": -1.603386,
+      "pc2": -0.743649
+    },
+    {
+      "symbol": "CIEN",
+      "pc1": -1.16487,
+      "pc2": 0.219651
+    },
+    {
+      "symbol": "DE",
+      "pc1": 1.232079,
+      "pc2": -2.117294
+    },
+    {
+      "symbol": "GEV",
+      "pc1": 1.179248,
+      "pc2": 0.227634
+    },
+    {
+      "symbol": "ITW",
+      "pc1": 1.379546,
+      "pc2": 1.140695
+    },
+    {
+      "symbol": "MCO",
+      "pc1": 0.62905,
+      "pc2": -0.981244
+    },
+    {
+      "symbol": "NOC",
+      "pc1": 1.717406,
+      "pc2": -0.521462
+    },
+    {
+      "symbol": "PM",
+      "pc1": 1.483726,
+      "pc2": 1.026479
+    },
+    {
+      "symbol": "SPGI",
+      "pc1": -1.558257,
+      "pc2": 1.106977
+    },
+    {
+      "symbol": "UPS",
+      "pc1": -0.4423,
+      "pc2": 1.401115
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ADI",
+      "discount_price": 216.97
+    },
+    {
+      "symbol": "AXP",
+      "discount_price": 608.55
+    },
+    {
+      "symbol": "CIEN",
+      "discount_price": 776.9
+    },
+    {
+      "symbol": "DE",
+      "discount_price": 1842.27
+    },
+    {
+      "symbol": "GEV",
+      "discount_price": 1807.99
+    },
+    {
+      "symbol": "ITW",
+      "discount_price": 1744.67
+    },
+    {
+      "symbol": "MCO",
+      "discount_price": 1631.62
+    },
+    {
+      "symbol": "NOC",
+      "discount_price": 1702.64
+    },
+    {
+      "symbol": "PM",
+      "discount_price": 2115.34
+    },
+    {
+      "symbol": "SPGI",
+      "discount_price": 567.21
+    },
+    {
+      "symbol": "UPS",
+      "discount_price": 881.56
+    }
+  ]
+}

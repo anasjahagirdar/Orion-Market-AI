@@ -1,0 +1,488 @@
+{
+  "market": "international",
+  "sector": "Chemicals",
+  "generated_at_utc": "2026-03-25T10:19:30.490786+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 11
+  },
+  "stocks": [
+    {
+      "symbol": "ABNB",
+      "name": "Airbnb",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 936.69,
+        "pe_ratio": 14.13,
+        "volume": 57151869,
+        "discount_price": 796.19
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -2.266827,
+        "y": -0.719829
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 2229.63,
+        "pe_ratio": 16.15,
+        "volume": 180559963,
+        "discount_price": 1895.19
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.535536,
+        "y": -1.349287
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CB",
+      "name": "Chubb Limited",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 1847.03,
+        "pe_ratio": 34.72,
+        "volume": 178138544,
+        "discount_price": 1569.98
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.808167,
+        "y": -0.035066
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CTAS",
+      "name": "Cintas",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 2469.49,
+        "pe_ratio": 8.12,
+        "volume": 162440410,
+        "discount_price": 2099.07
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.823394,
+        "y": -1.679956
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FDX",
+      "name": "FedEx",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 1389.83,
+        "pe_ratio": 41.94,
+        "volume": 85091652,
+        "discount_price": 1181.36
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.964244,
+        "y": 1.338557
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ICE",
+      "name": "Intercontinental Exchange",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 2124.2,
+        "pe_ratio": 38.08,
+        "volume": 48033923,
+        "discount_price": 1805.57
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.17512,
+        "y": 1.744457
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 2080.09,
+        "pe_ratio": 39.07,
+        "volume": 96640614,
+        "discount_price": 1768.08
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.542469,
+        "y": 1.279697
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "NEE",
+      "name": "NextEra Energy",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 1432.39,
+        "pe_ratio": 28.31,
+        "volume": 132108343,
+        "discount_price": 1217.53
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.495417,
+        "y": -0.213175
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PGR",
+      "name": "Progressive Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 2343.06,
+        "pe_ratio": 25.38,
+        "volume": 82699601,
+        "discount_price": 1991.6
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.892984,
+        "y": 0.472206
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 2259.24,
+        "pe_ratio": 27.7,
+        "volume": 126804814,
+        "discount_price": 1920.35
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.142701,
+        "y": 0.143022
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "market_code": "US",
+      "market": "international",
+      "sector": "Chemicals",
+      "features": {
+        "price": 405.0,
+        "pe_ratio": 15.9,
+        "volume": 73489102,
+        "discount_price": 344.25
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -3.193883,
+        "y": -0.980627
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ABNB",
+      "price": 936.69,
+      "pe_ratio": 14.13,
+      "volume": 57151869,
+      "discount_price": 796.19
+    },
+    {
+      "symbol": "APH",
+      "price": 2229.63,
+      "pe_ratio": 16.15,
+      "volume": 180559963,
+      "discount_price": 1895.19
+    },
+    {
+      "symbol": "CB",
+      "price": 1847.03,
+      "pe_ratio": 34.72,
+      "volume": 178138544,
+      "discount_price": 1569.98
+    },
+    {
+      "symbol": "CTAS",
+      "price": 2469.49,
+      "pe_ratio": 8.12,
+      "volume": 162440410,
+      "discount_price": 2099.07
+    },
+    {
+      "symbol": "FDX",
+      "price": 1389.83,
+      "pe_ratio": 41.94,
+      "volume": 85091652,
+      "discount_price": 1181.36
+    },
+    {
+      "symbol": "ICE",
+      "price": 2124.2,
+      "pe_ratio": 38.08,
+      "volume": 48033923,
+      "discount_price": 1805.57
+    },
+    {
+      "symbol": "MA",
+      "price": 2080.09,
+      "pe_ratio": 39.07,
+      "volume": 96640614,
+      "discount_price": 1768.08
+    },
+    {
+      "symbol": "NEE",
+      "price": 1432.39,
+      "pe_ratio": 28.31,
+      "volume": 132108343,
+      "discount_price": 1217.53
+    },
+    {
+      "symbol": "PGR",
+      "price": 2343.06,
+      "pe_ratio": 25.38,
+      "volume": 82699601,
+      "discount_price": 1991.6
+    },
+    {
+      "symbol": "SNDK",
+      "price": 2259.24,
+      "pe_ratio": 27.7,
+      "volume": 126804814,
+      "discount_price": 1920.35
+    },
+    {
+      "symbol": "TXN",
+      "price": 405.0,
+      "pe_ratio": 15.9,
+      "volume": 73489102,
+      "discount_price": 344.25
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ABNB": 2,
+      "APH": 0,
+      "CB": 1,
+      "CTAS": 0,
+      "FDX": 1,
+      "ICE": 1,
+      "MA": 1,
+      "NEE": 1,
+      "PGR": 0,
+      "SNDK": 0,
+      "TXN": 2
+    },
+    "value_cluster": {
+      "ABNB": 2,
+      "APH": 1,
+      "CB": 0,
+      "CTAS": 1,
+      "FDX": 0,
+      "ICE": 0,
+      "MA": 0,
+      "NEE": 0,
+      "PGR": 1,
+      "SNDK": 1,
+      "TXN": 2
+    },
+    "valuation": {
+      "ABNB": 2,
+      "APH": 1,
+      "CB": 0,
+      "CTAS": 1,
+      "FDX": 0,
+      "ICE": 0,
+      "MA": 0,
+      "NEE": 0,
+      "PGR": 1,
+      "SNDK": 1,
+      "TXN": 2
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ABNB",
+      "pc1": -2.266827,
+      "pc2": -0.719829
+    },
+    {
+      "symbol": "APH",
+      "pc1": 1.535536,
+      "pc2": -1.349287
+    },
+    {
+      "symbol": "CB",
+      "pc1": 0.808167,
+      "pc2": -0.035066
+    },
+    {
+      "symbol": "CTAS",
+      "pc1": 1.823394,
+      "pc2": -1.679956
+    },
+    {
+      "symbol": "FDX",
+      "pc1": -0.964244,
+      "pc2": 1.338557
+    },
+    {
+      "symbol": "ICE",
+      "pc1": 0.17512,
+      "pc2": 1.744457
+    },
+    {
+      "symbol": "MA",
+      "pc1": 0.542469,
+      "pc2": 1.279697
+    },
+    {
+      "symbol": "NEE",
+      "pc1": -0.495417,
+      "pc2": -0.213175
+    },
+    {
+      "symbol": "PGR",
+      "pc1": 0.892984,
+      "pc2": 0.472206
+    },
+    {
+      "symbol": "SNDK",
+      "pc1": 1.142701,
+      "pc2": 0.143022
+    },
+    {
+      "symbol": "TXN",
+      "pc1": -3.193883,
+      "pc2": -0.980627
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ABNB",
+      "discount_price": 796.19
+    },
+    {
+      "symbol": "APH",
+      "discount_price": 1895.19
+    },
+    {
+      "symbol": "CB",
+      "discount_price": 1569.98
+    },
+    {
+      "symbol": "CTAS",
+      "discount_price": 2099.07
+    },
+    {
+      "symbol": "FDX",
+      "discount_price": 1181.36
+    },
+    {
+      "symbol": "ICE",
+      "discount_price": 1805.57
+    },
+    {
+      "symbol": "MA",
+      "discount_price": 1768.08
+    },
+    {
+      "symbol": "NEE",
+      "discount_price": 1217.53
+    },
+    {
+      "symbol": "PGR",
+      "discount_price": 1991.6
+    },
+    {
+      "symbol": "SNDK",
+      "discount_price": 1920.35
+    },
+    {
+      "symbol": "TXN",
+      "discount_price": 344.25
+    }
+  ]
+}

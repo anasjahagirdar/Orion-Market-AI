@@ -1,0 +1,1916 @@
+{
+  "market": "indian",
+  "sector": "Financial Services",
+  "generated_at_utc": "2026-03-25T10:19:29.839056+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 45
+  },
+  "stocks": [
+    {
+      "symbol": "360ONE.NS",
+      "name": "360 ONE WAM Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2185.78,
+        "pe_ratio": 14.86,
+        "volume": 147498767,
+        "discount_price": 1857.91
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.019306,
+        "y": 1.035401
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ABCAPITAL.NS",
+      "name": "Aditya Birla Capital Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 921.81,
+        "pe_ratio": 18.67,
+        "volume": 141127936,
+        "discount_price": 783.54
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.000062,
+        "y": 1.087036
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AUBANK.NS",
+      "name": "AU Small Finance Bank Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 918.04,
+        "pe_ratio": 7.14,
+        "volume": 37944549,
+        "discount_price": 780.33
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.95701,
+        "y": 0.630559
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "name": "Axis Bank Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2466.93,
+        "pe_ratio": 22.81,
+        "volume": 168624820,
+        "discount_price": 2096.89
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.604047,
+        "y": 0.692556
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BAJAJFINSV.NS",
+      "name": "Bajaj Finserv Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1384.01,
+        "pe_ratio": 21.97,
+        "volume": 80719259,
+        "discount_price": 1176.41
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": -0.000959,
+        "y": 0.046805
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BAJAJHFL.NS",
+      "name": "Bajaj Housing Finance Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 627.17,
+        "pe_ratio": 41.0,
+        "volume": 186174064,
+        "discount_price": 533.09
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.916849,
+        "y": 0.27411
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BAJAJHLDNG.NS",
+      "name": "Bajaj Holdings & Investment Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 637.18,
+        "pe_ratio": 21.3,
+        "volume": 34290605,
+        "discount_price": 541.6
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.785072,
+        "y": -0.229111
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BAJFINANCE.NS",
+      "name": "Bajaj Finance Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2067.69,
+        "pe_ratio": 6.25,
+        "volume": 122793555,
+        "discount_price": 1757.54
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.822537,
+        "y": 1.331538
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BANKBARODA.NS",
+      "name": "Bank of Baroda",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 789.17,
+        "pe_ratio": 43.49,
+        "volume": 40067397,
+        "discount_price": 670.79
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.682264,
+        "y": -1.615594
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BANKINDIA.NS",
+      "name": "Bank of India",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1455.6,
+        "pe_ratio": 19.67,
+        "volume": 31746080,
+        "discount_price": 1237.26
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.154869,
+        "y": -0.392588
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "BSE.NS",
+      "name": "BSE Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1789.21,
+        "pe_ratio": 37.9,
+        "volume": 150172815,
+        "discount_price": 1520.83
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.820826,
+        "y": -0.281548
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CANBK.NS",
+      "name": "Canara Bank",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1508.05,
+        "pe_ratio": 42.29,
+        "volume": 10615608,
+        "discount_price": 1281.84
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.002766,
+        "y": -2.087703
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CHOLAFIN.NS",
+      "name": "Cholamandalam Investment and Finance Company Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1088.1,
+        "pe_ratio": 42.71,
+        "volume": 70354965,
+        "discount_price": 924.88
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.946546,
+        "y": -1.303659
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "FEDERALBNK.NS",
+      "name": "Federal Bank Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1986.1,
+        "pe_ratio": 21.23,
+        "volume": 140510715,
+        "discount_price": 1688.18
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.470211,
+        "y": 0.608346
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HDFCAMC.NS",
+      "name": "HDFC Asset Management Company Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1708.94,
+        "pe_ratio": 35.28,
+        "volume": 134760927,
+        "discount_price": 1452.6
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.650455,
+        "y": -0.269578
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "name": "HDFC Bank Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1375.68,
+        "pe_ratio": 15.69,
+        "volume": 53972785,
+        "discount_price": 1169.33
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.031332,
+        "y": 0.139595
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HDFCLIFE.NS",
+      "name": "HDFC Life Insurance Company Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 639.37,
+        "pe_ratio": 33.79,
+        "volume": 98858480,
+        "discount_price": 543.46
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.873969,
+        "y": -0.278353
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "HUDCO.NS",
+      "name": "Housing & Urban Development Corporation Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1566.72,
+        "pe_ratio": 21.01,
+        "volume": 43455797,
+        "discount_price": 1331.71
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.409694,
+        "y": -0.374926
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "name": "ICICI Bank Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1398.82,
+        "pe_ratio": 42.7,
+        "volume": 770146,
+        "discount_price": 1189.0
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.272073,
+        "y": -2.195536
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "ICICIGI.NS",
+      "name": "ICICI Lombard General Insurance Company Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1864.02,
+        "pe_ratio": 6.73,
+        "volume": 185208989,
+        "discount_price": 1584.42
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.388373,
+        "y": 2.079828
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IDFCFIRSTB.NS",
+      "name": "IDFC First Bank Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 232.88,
+        "pe_ratio": 20.61,
+        "volume": 199577264,
+        "discount_price": 197.95
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.594601,
+        "y": 1.837794
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INDIANB.NS",
+      "name": "Indian Bank",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1083.02,
+        "pe_ratio": 36.88,
+        "volume": 59281683,
+        "discount_price": 920.57
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.899309,
+        "y": -1.05968
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INDUSINDBK.NS",
+      "name": "IndusInd Bank Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1873.35,
+        "pe_ratio": 40.35,
+        "volume": 197692591,
+        "discount_price": 1592.35
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.027985,
+        "y": 0.086345
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IREDA.NS",
+      "name": "Indian Renewable Energy Development Agency Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1169.98,
+        "pe_ratio": 14.47,
+        "volume": 146971611,
+        "discount_price": 994.48
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.363282,
+        "y": 1.349033
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "IRFC.NS",
+      "name": "Indian Railway Finance Corporation Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1785.1,
+        "pe_ratio": 17.71,
+        "volume": 76202120,
+        "discount_price": 1517.33
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 0.987522,
+        "y": 0.148754
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "JIOFIN.NS",
+      "name": "Jio Financial Services Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2053.99,
+        "pe_ratio": 40.47,
+        "volume": 20661200,
+        "discount_price": 1745.89
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.309253,
+        "y": -2.014839
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "name": "Kotak Mahindra Bank Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2171.69,
+        "pe_ratio": 25.35,
+        "volume": 137056005,
+        "discount_price": 1845.94
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.855442,
+        "y": 0.253025
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LICHSGFIN.NS",
+      "name": "LIC Housing Finance Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1816.31,
+        "pe_ratio": 17.17,
+        "volume": 74916877,
+        "discount_price": 1543.86
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.066127,
+        "y": 0.15916
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LICI.NS",
+      "name": "Life Insurance Corporation of India",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1663.56,
+        "pe_ratio": 38.16,
+        "volume": 129516705,
+        "discount_price": 1414.03
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 0.506029,
+        "y": -0.499732
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "LTF.NS",
+      "name": "L&T Finance Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1993.84,
+        "pe_ratio": 19.43,
+        "volume": 180418442,
+        "discount_price": 1694.76
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.541358,
+        "y": 1.180513
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "M&MFIN.NS",
+      "name": "Mahindra & Mahindra Financial Services Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1999.06,
+        "pe_ratio": 24.76,
+        "volume": 130366372,
+        "discount_price": 1699.2
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.451353,
+        "y": 0.263484
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MFSL.NS",
+      "name": "Max Financial Services Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 669.04,
+        "pe_ratio": 15.5,
+        "volume": 147627776,
+        "discount_price": 568.68
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.551782,
+        "y": 1.436651
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MOTILALOFS.NS",
+      "name": "Motilal Oswal Financial Services Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1167.4,
+        "pe_ratio": 34.64,
+        "volume": 68939139,
+        "discount_price": 992.29
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.667183,
+        "y": -0.830604
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "MUTHOOTFIN.NS",
+      "name": "Muthoot Finance Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2200.01,
+        "pe_ratio": 22.09,
+        "volume": 155810695,
+        "discount_price": 1870.01
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.975037,
+        "y": 0.668032
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PAYTM.NS",
+      "name": "One 97 Communications Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 585.98,
+        "pe_ratio": 26.6,
+        "volume": 1758246,
+        "discount_price": 498.08
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.993265,
+        "y": -0.925856
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PFC.NS",
+      "name": "Power Finance Corporation Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1296.23,
+        "pe_ratio": 24.62,
+        "volume": 180046953,
+        "discount_price": 1101.8
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.158589,
+        "y": 1.049247
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "PNB.NS",
+      "name": "Punjab National Bank",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 807.17,
+        "pe_ratio": 27.38,
+        "volume": 191545334,
+        "discount_price": 686.09
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.330692,
+        "y": 1.148578
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "POLICYBZR.NS",
+      "name": "PB Fintech Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 607.25,
+        "pe_ratio": 38.18,
+        "volume": 113272166,
+        "discount_price": 516.16
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -1.989119,
+        "y": -0.381586
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "RECLTD.NS",
+      "name": "REC Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2077.5,
+        "pe_ratio": 29.17,
+        "volume": 56047460,
+        "discount_price": 1765.88
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.524694,
+        "y": -0.89618
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SBICARD.NS",
+      "name": "SBI Cards and Payment Services Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 867.1,
+        "pe_ratio": 7.13,
+        "volume": 13014784,
+        "discount_price": 737.03
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -1.096546,
+        "y": 0.358553
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SBILIFE.NS",
+      "name": "SBI Life Insurance Company Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1953.78,
+        "pe_ratio": 26.56,
+        "volume": 8790992,
+        "discount_price": 1660.71
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 1.226606,
+        "y": -1.239385
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SBIN.NS",
+      "name": "State Bank of India",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 180.5,
+        "pe_ratio": 30.66,
+        "volume": 160332146,
+        "discount_price": 153.42
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -2.866379,
+        "y": 0.762395
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "SHRIRAMFIN.NS",
+      "name": "Shriram Finance Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 2255.58,
+        "pe_ratio": 39.87,
+        "volume": 21329463,
+        "discount_price": 1917.24
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": 1.790442,
+        "y": -2.02757
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "UNIONBANK.NS",
+      "name": "Union Bank of India",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1093.11,
+        "pe_ratio": 31.33,
+        "volume": 179609005,
+        "discount_price": 929.14
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -0.714498,
+        "y": 0.677124
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "YESBANK.NS",
+      "name": "Yes Bank Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Financial Services",
+      "features": {
+        "price": 1004.24,
+        "pe_ratio": 27.3,
+        "volume": 61717772,
+        "discount_price": 853.6
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.970682,
+        "y": -0.400434
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "360ONE.NS",
+      "price": 2185.78,
+      "pe_ratio": 14.86,
+      "volume": 147498767,
+      "discount_price": 1857.91
+    },
+    {
+      "symbol": "ABCAPITAL.NS",
+      "price": 921.81,
+      "pe_ratio": 18.67,
+      "volume": 141127936,
+      "discount_price": 783.54
+    },
+    {
+      "symbol": "AUBANK.NS",
+      "price": 918.04,
+      "pe_ratio": 7.14,
+      "volume": 37944549,
+      "discount_price": 780.33
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "price": 2466.93,
+      "pe_ratio": 22.81,
+      "volume": 168624820,
+      "discount_price": 2096.89
+    },
+    {
+      "symbol": "BAJAJFINSV.NS",
+      "price": 1384.01,
+      "pe_ratio": 21.97,
+      "volume": 80719259,
+      "discount_price": 1176.41
+    },
+    {
+      "symbol": "BAJAJHFL.NS",
+      "price": 627.17,
+      "pe_ratio": 41.0,
+      "volume": 186174064,
+      "discount_price": 533.09
+    },
+    {
+      "symbol": "BAJAJHLDNG.NS",
+      "price": 637.18,
+      "pe_ratio": 21.3,
+      "volume": 34290605,
+      "discount_price": 541.6
+    },
+    {
+      "symbol": "BAJFINANCE.NS",
+      "price": 2067.69,
+      "pe_ratio": 6.25,
+      "volume": 122793555,
+      "discount_price": 1757.54
+    },
+    {
+      "symbol": "BANKBARODA.NS",
+      "price": 789.17,
+      "pe_ratio": 43.49,
+      "volume": 40067397,
+      "discount_price": 670.79
+    },
+    {
+      "symbol": "BANKINDIA.NS",
+      "price": 1455.6,
+      "pe_ratio": 19.67,
+      "volume": 31746080,
+      "discount_price": 1237.26
+    },
+    {
+      "symbol": "BSE.NS",
+      "price": 1789.21,
+      "pe_ratio": 37.9,
+      "volume": 150172815,
+      "discount_price": 1520.83
+    },
+    {
+      "symbol": "CANBK.NS",
+      "price": 1508.05,
+      "pe_ratio": 42.29,
+      "volume": 10615608,
+      "discount_price": 1281.84
+    },
+    {
+      "symbol": "CHOLAFIN.NS",
+      "price": 1088.1,
+      "pe_ratio": 42.71,
+      "volume": 70354965,
+      "discount_price": 924.88
+    },
+    {
+      "symbol": "FEDERALBNK.NS",
+      "price": 1986.1,
+      "pe_ratio": 21.23,
+      "volume": 140510715,
+      "discount_price": 1688.18
+    },
+    {
+      "symbol": "HDFCAMC.NS",
+      "price": 1708.94,
+      "pe_ratio": 35.28,
+      "volume": 134760927,
+      "discount_price": 1452.6
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "price": 1375.68,
+      "pe_ratio": 15.69,
+      "volume": 53972785,
+      "discount_price": 1169.33
+    },
+    {
+      "symbol": "HDFCLIFE.NS",
+      "price": 639.37,
+      "pe_ratio": 33.79,
+      "volume": 98858480,
+      "discount_price": 543.46
+    },
+    {
+      "symbol": "HUDCO.NS",
+      "price": 1566.72,
+      "pe_ratio": 21.01,
+      "volume": 43455797,
+      "discount_price": 1331.71
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "price": 1398.82,
+      "pe_ratio": 42.7,
+      "volume": 770146,
+      "discount_price": 1189.0
+    },
+    {
+      "symbol": "ICICIGI.NS",
+      "price": 1864.02,
+      "pe_ratio": 6.73,
+      "volume": 185208989,
+      "discount_price": 1584.42
+    },
+    {
+      "symbol": "IDFCFIRSTB.NS",
+      "price": 232.88,
+      "pe_ratio": 20.61,
+      "volume": 199577264,
+      "discount_price": 197.95
+    },
+    {
+      "symbol": "INDIANB.NS",
+      "price": 1083.02,
+      "pe_ratio": 36.88,
+      "volume": 59281683,
+      "discount_price": 920.57
+    },
+    {
+      "symbol": "INDUSINDBK.NS",
+      "price": 1873.35,
+      "pe_ratio": 40.35,
+      "volume": 197692591,
+      "discount_price": 1592.35
+    },
+    {
+      "symbol": "IREDA.NS",
+      "price": 1169.98,
+      "pe_ratio": 14.47,
+      "volume": 146971611,
+      "discount_price": 994.48
+    },
+    {
+      "symbol": "IRFC.NS",
+      "price": 1785.1,
+      "pe_ratio": 17.71,
+      "volume": 76202120,
+      "discount_price": 1517.33
+    },
+    {
+      "symbol": "JIOFIN.NS",
+      "price": 2053.99,
+      "pe_ratio": 40.47,
+      "volume": 20661200,
+      "discount_price": 1745.89
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "price": 2171.69,
+      "pe_ratio": 25.35,
+      "volume": 137056005,
+      "discount_price": 1845.94
+    },
+    {
+      "symbol": "LICHSGFIN.NS",
+      "price": 1816.31,
+      "pe_ratio": 17.17,
+      "volume": 74916877,
+      "discount_price": 1543.86
+    },
+    {
+      "symbol": "LICI.NS",
+      "price": 1663.56,
+      "pe_ratio": 38.16,
+      "volume": 129516705,
+      "discount_price": 1414.03
+    },
+    {
+      "symbol": "LTF.NS",
+      "price": 1993.84,
+      "pe_ratio": 19.43,
+      "volume": 180418442,
+      "discount_price": 1694.76
+    },
+    {
+      "symbol": "M&MFIN.NS",
+      "price": 1999.06,
+      "pe_ratio": 24.76,
+      "volume": 130366372,
+      "discount_price": 1699.2
+    },
+    {
+      "symbol": "MFSL.NS",
+      "price": 669.04,
+      "pe_ratio": 15.5,
+      "volume": 147627776,
+      "discount_price": 568.68
+    },
+    {
+      "symbol": "MOTILALOFS.NS",
+      "price": 1167.4,
+      "pe_ratio": 34.64,
+      "volume": 68939139,
+      "discount_price": 992.29
+    },
+    {
+      "symbol": "MUTHOOTFIN.NS",
+      "price": 2200.01,
+      "pe_ratio": 22.09,
+      "volume": 155810695,
+      "discount_price": 1870.01
+    },
+    {
+      "symbol": "PAYTM.NS",
+      "price": 585.98,
+      "pe_ratio": 26.6,
+      "volume": 1758246,
+      "discount_price": 498.08
+    },
+    {
+      "symbol": "PFC.NS",
+      "price": 1296.23,
+      "pe_ratio": 24.62,
+      "volume": 180046953,
+      "discount_price": 1101.8
+    },
+    {
+      "symbol": "PNB.NS",
+      "price": 807.17,
+      "pe_ratio": 27.38,
+      "volume": 191545334,
+      "discount_price": 686.09
+    },
+    {
+      "symbol": "POLICYBZR.NS",
+      "price": 607.25,
+      "pe_ratio": 38.18,
+      "volume": 113272166,
+      "discount_price": 516.16
+    },
+    {
+      "symbol": "RECLTD.NS",
+      "price": 2077.5,
+      "pe_ratio": 29.17,
+      "volume": 56047460,
+      "discount_price": 1765.88
+    },
+    {
+      "symbol": "SBICARD.NS",
+      "price": 867.1,
+      "pe_ratio": 7.13,
+      "volume": 13014784,
+      "discount_price": 737.03
+    },
+    {
+      "symbol": "SBILIFE.NS",
+      "price": 1953.78,
+      "pe_ratio": 26.56,
+      "volume": 8790992,
+      "discount_price": 1660.71
+    },
+    {
+      "symbol": "SBIN.NS",
+      "price": 180.5,
+      "pe_ratio": 30.66,
+      "volume": 160332146,
+      "discount_price": 153.42
+    },
+    {
+      "symbol": "SHRIRAMFIN.NS",
+      "price": 2255.58,
+      "pe_ratio": 39.87,
+      "volume": 21329463,
+      "discount_price": 1917.24
+    },
+    {
+      "symbol": "UNIONBANK.NS",
+      "price": 1093.11,
+      "pe_ratio": 31.33,
+      "volume": 179609005,
+      "discount_price": 929.14
+    },
+    {
+      "symbol": "YESBANK.NS",
+      "price": 1004.24,
+      "pe_ratio": 27.3,
+      "volume": 61717772,
+      "discount_price": 853.6
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "360ONE.NS": 0,
+      "ABCAPITAL.NS": 1,
+      "AUBANK.NS": 2,
+      "AXISBANK.NS": 0,
+      "BAJAJFINSV.NS": 2,
+      "BAJAJHFL.NS": 1,
+      "BAJAJHLDNG.NS": 2,
+      "BAJFINANCE.NS": 0,
+      "BANKBARODA.NS": 2,
+      "BANKINDIA.NS": 2,
+      "BSE.NS": 0,
+      "CANBK.NS": 2,
+      "CHOLAFIN.NS": 2,
+      "FEDERALBNK.NS": 0,
+      "HDFCAMC.NS": 0,
+      "HDFCBANK.NS": 2,
+      "HDFCLIFE.NS": 1,
+      "HUDCO.NS": 2,
+      "ICICIBANK.NS": 2,
+      "ICICIGI.NS": 0,
+      "IDFCFIRSTB.NS": 1,
+      "INDIANB.NS": 2,
+      "INDUSINDBK.NS": 0,
+      "IREDA.NS": 1,
+      "IRFC.NS": 0,
+      "JIOFIN.NS": 0,
+      "KOTAKBANK.NS": 0,
+      "LICHSGFIN.NS": 0,
+      "LICI.NS": 0,
+      "LTF.NS": 0,
+      "M&MFIN.NS": 0,
+      "MFSL.NS": 1,
+      "MOTILALOFS.NS": 2,
+      "MUTHOOTFIN.NS": 0,
+      "PAYTM.NS": 2,
+      "PFC.NS": 1,
+      "PNB.NS": 1,
+      "POLICYBZR.NS": 1,
+      "RECLTD.NS": 0,
+      "SBICARD.NS": 2,
+      "SBILIFE.NS": 0,
+      "SBIN.NS": 1,
+      "SHRIRAMFIN.NS": 0,
+      "UNIONBANK.NS": 1,
+      "YESBANK.NS": 2
+    },
+    "value_cluster": {
+      "360ONE.NS": 2,
+      "ABCAPITAL.NS": 0,
+      "AUBANK.NS": 0,
+      "AXISBANK.NS": 2,
+      "BAJAJFINSV.NS": 2,
+      "BAJAJHFL.NS": 1,
+      "BAJAJHLDNG.NS": 0,
+      "BAJFINANCE.NS": 2,
+      "BANKBARODA.NS": 1,
+      "BANKINDIA.NS": 2,
+      "BSE.NS": 1,
+      "CANBK.NS": 1,
+      "CHOLAFIN.NS": 1,
+      "FEDERALBNK.NS": 2,
+      "HDFCAMC.NS": 1,
+      "HDFCBANK.NS": 2,
+      "HDFCLIFE.NS": 0,
+      "HUDCO.NS": 2,
+      "ICICIBANK.NS": 1,
+      "ICICIGI.NS": 2,
+      "IDFCFIRSTB.NS": 0,
+      "INDIANB.NS": 1,
+      "INDUSINDBK.NS": 1,
+      "IREDA.NS": 0,
+      "IRFC.NS": 2,
+      "JIOFIN.NS": 1,
+      "KOTAKBANK.NS": 2,
+      "LICHSGFIN.NS": 2,
+      "LICI.NS": 1,
+      "LTF.NS": 2,
+      "M&MFIN.NS": 2,
+      "MFSL.NS": 0,
+      "MOTILALOFS.NS": 1,
+      "MUTHOOTFIN.NS": 2,
+      "PAYTM.NS": 0,
+      "PFC.NS": 0,
+      "PNB.NS": 0,
+      "POLICYBZR.NS": 1,
+      "RECLTD.NS": 2,
+      "SBICARD.NS": 0,
+      "SBILIFE.NS": 2,
+      "SBIN.NS": 0,
+      "SHRIRAMFIN.NS": 1,
+      "UNIONBANK.NS": 1,
+      "YESBANK.NS": 0
+    },
+    "valuation": {
+      "360ONE.NS": 2,
+      "ABCAPITAL.NS": 0,
+      "AUBANK.NS": 0,
+      "AXISBANK.NS": 2,
+      "BAJAJFINSV.NS": 2,
+      "BAJAJHFL.NS": 1,
+      "BAJAJHLDNG.NS": 0,
+      "BAJFINANCE.NS": 2,
+      "BANKBARODA.NS": 1,
+      "BANKINDIA.NS": 2,
+      "BSE.NS": 1,
+      "CANBK.NS": 1,
+      "CHOLAFIN.NS": 1,
+      "FEDERALBNK.NS": 2,
+      "HDFCAMC.NS": 1,
+      "HDFCBANK.NS": 2,
+      "HDFCLIFE.NS": 0,
+      "HUDCO.NS": 2,
+      "ICICIBANK.NS": 1,
+      "ICICIGI.NS": 2,
+      "IDFCFIRSTB.NS": 0,
+      "INDIANB.NS": 1,
+      "INDUSINDBK.NS": 1,
+      "IREDA.NS": 0,
+      "IRFC.NS": 2,
+      "JIOFIN.NS": 1,
+      "KOTAKBANK.NS": 2,
+      "LICHSGFIN.NS": 2,
+      "LICI.NS": 1,
+      "LTF.NS": 2,
+      "M&MFIN.NS": 2,
+      "MFSL.NS": 0,
+      "MOTILALOFS.NS": 1,
+      "MUTHOOTFIN.NS": 2,
+      "PAYTM.NS": 0,
+      "PFC.NS": 0,
+      "PNB.NS": 0,
+      "POLICYBZR.NS": 1,
+      "RECLTD.NS": 2,
+      "SBICARD.NS": 0,
+      "SBILIFE.NS": 2,
+      "SBIN.NS": 0,
+      "SHRIRAMFIN.NS": 1,
+      "UNIONBANK.NS": 1,
+      "YESBANK.NS": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "360ONE.NS",
+      "pc1": 2.019306,
+      "pc2": 1.035401
+    },
+    {
+      "symbol": "ABCAPITAL.NS",
+      "pc1": -1.000062,
+      "pc2": 1.087036
+    },
+    {
+      "symbol": "AUBANK.NS",
+      "pc1": -0.95701,
+      "pc2": 0.630559
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "pc1": 2.604047,
+      "pc2": 0.692556
+    },
+    {
+      "symbol": "BAJAJFINSV.NS",
+      "pc1": -0.000959,
+      "pc2": 0.046805
+    },
+    {
+      "symbol": "BAJAJHFL.NS",
+      "pc1": -1.916849,
+      "pc2": 0.27411
+    },
+    {
+      "symbol": "BAJAJHLDNG.NS",
+      "pc1": -1.785072,
+      "pc2": -0.229111
+    },
+    {
+      "symbol": "BAJFINANCE.NS",
+      "pc1": 1.822537,
+      "pc2": 1.331538
+    },
+    {
+      "symbol": "BANKBARODA.NS",
+      "pc1": -1.682264,
+      "pc2": -1.615594
+    },
+    {
+      "symbol": "BANKINDIA.NS",
+      "pc1": 0.154869,
+      "pc2": -0.392588
+    },
+    {
+      "symbol": "BSE.NS",
+      "pc1": 0.820826,
+      "pc2": -0.281548
+    },
+    {
+      "symbol": "CANBK.NS",
+      "pc1": -0.002766,
+      "pc2": -2.087703
+    },
+    {
+      "symbol": "CHOLAFIN.NS",
+      "pc1": -0.946546,
+      "pc2": -1.303659
+    },
+    {
+      "symbol": "FEDERALBNK.NS",
+      "pc1": 1.470211,
+      "pc2": 0.608346
+    },
+    {
+      "symbol": "HDFCAMC.NS",
+      "pc1": 0.650455,
+      "pc2": -0.269578
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "pc1": 0.031332,
+      "pc2": 0.139595
+    },
+    {
+      "symbol": "HDFCLIFE.NS",
+      "pc1": -1.873969,
+      "pc2": -0.278353
+    },
+    {
+      "symbol": "HUDCO.NS",
+      "pc1": 0.409694,
+      "pc2": -0.374926
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "pc1": -0.272073,
+      "pc2": -2.195536
+    },
+    {
+      "symbol": "ICICIGI.NS",
+      "pc1": 1.388373,
+      "pc2": 2.079828
+    },
+    {
+      "symbol": "IDFCFIRSTB.NS",
+      "pc1": -2.594601,
+      "pc2": 1.837794
+    },
+    {
+      "symbol": "INDIANB.NS",
+      "pc1": -0.899309,
+      "pc2": -1.05968
+    },
+    {
+      "symbol": "INDUSINDBK.NS",
+      "pc1": 1.027985,
+      "pc2": 0.086345
+    },
+    {
+      "symbol": "IREDA.NS",
+      "pc1": -0.363282,
+      "pc2": 1.349033
+    },
+    {
+      "symbol": "IRFC.NS",
+      "pc1": 0.987522,
+      "pc2": 0.148754
+    },
+    {
+      "symbol": "JIOFIN.NS",
+      "pc1": 1.309253,
+      "pc2": -2.014839
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "pc1": 1.855442,
+      "pc2": 0.253025
+    },
+    {
+      "symbol": "LICHSGFIN.NS",
+      "pc1": 1.066127,
+      "pc2": 0.15916
+    },
+    {
+      "symbol": "LICI.NS",
+      "pc1": 0.506029,
+      "pc2": -0.499732
+    },
+    {
+      "symbol": "LTF.NS",
+      "pc1": 1.541358,
+      "pc2": 1.180513
+    },
+    {
+      "symbol": "M&MFIN.NS",
+      "pc1": 1.451353,
+      "pc2": 0.263484
+    },
+    {
+      "symbol": "MFSL.NS",
+      "pc1": -1.551782,
+      "pc2": 1.436651
+    },
+    {
+      "symbol": "MOTILALOFS.NS",
+      "pc1": -0.667183,
+      "pc2": -0.830604
+    },
+    {
+      "symbol": "MUTHOOTFIN.NS",
+      "pc1": 1.975037,
+      "pc2": 0.668032
+    },
+    {
+      "symbol": "PAYTM.NS",
+      "pc1": -1.993265,
+      "pc2": -0.925856
+    },
+    {
+      "symbol": "PFC.NS",
+      "pc1": -0.158589,
+      "pc2": 1.049247
+    },
+    {
+      "symbol": "PNB.NS",
+      "pc1": -1.330692,
+      "pc2": 1.148578
+    },
+    {
+      "symbol": "POLICYBZR.NS",
+      "pc1": -1.989119,
+      "pc2": -0.381586
+    },
+    {
+      "symbol": "RECLTD.NS",
+      "pc1": 1.524694,
+      "pc2": -0.89618
+    },
+    {
+      "symbol": "SBICARD.NS",
+      "pc1": -1.096546,
+      "pc2": 0.358553
+    },
+    {
+      "symbol": "SBILIFE.NS",
+      "pc1": 1.226606,
+      "pc2": -1.239385
+    },
+    {
+      "symbol": "SBIN.NS",
+      "pc1": -2.866379,
+      "pc2": 0.762395
+    },
+    {
+      "symbol": "SHRIRAMFIN.NS",
+      "pc1": 1.790442,
+      "pc2": -2.02757
+    },
+    {
+      "symbol": "UNIONBANK.NS",
+      "pc1": -0.714498,
+      "pc2": 0.677124
+    },
+    {
+      "symbol": "YESBANK.NS",
+      "pc1": -0.970682,
+      "pc2": -0.400434
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "360ONE.NS",
+      "discount_price": 1857.91
+    },
+    {
+      "symbol": "ABCAPITAL.NS",
+      "discount_price": 783.54
+    },
+    {
+      "symbol": "AUBANK.NS",
+      "discount_price": 780.33
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "discount_price": 2096.89
+    },
+    {
+      "symbol": "BAJAJFINSV.NS",
+      "discount_price": 1176.41
+    },
+    {
+      "symbol": "BAJAJHFL.NS",
+      "discount_price": 533.09
+    },
+    {
+      "symbol": "BAJAJHLDNG.NS",
+      "discount_price": 541.6
+    },
+    {
+      "symbol": "BAJFINANCE.NS",
+      "discount_price": 1757.54
+    },
+    {
+      "symbol": "BANKBARODA.NS",
+      "discount_price": 670.79
+    },
+    {
+      "symbol": "BANKINDIA.NS",
+      "discount_price": 1237.26
+    },
+    {
+      "symbol": "BSE.NS",
+      "discount_price": 1520.83
+    },
+    {
+      "symbol": "CANBK.NS",
+      "discount_price": 1281.84
+    },
+    {
+      "symbol": "CHOLAFIN.NS",
+      "discount_price": 924.88
+    },
+    {
+      "symbol": "FEDERALBNK.NS",
+      "discount_price": 1688.18
+    },
+    {
+      "symbol": "HDFCAMC.NS",
+      "discount_price": 1452.6
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "discount_price": 1169.33
+    },
+    {
+      "symbol": "HDFCLIFE.NS",
+      "discount_price": 543.46
+    },
+    {
+      "symbol": "HUDCO.NS",
+      "discount_price": 1331.71
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "discount_price": 1189.0
+    },
+    {
+      "symbol": "ICICIGI.NS",
+      "discount_price": 1584.42
+    },
+    {
+      "symbol": "IDFCFIRSTB.NS",
+      "discount_price": 197.95
+    },
+    {
+      "symbol": "INDIANB.NS",
+      "discount_price": 920.57
+    },
+    {
+      "symbol": "INDUSINDBK.NS",
+      "discount_price": 1592.35
+    },
+    {
+      "symbol": "IREDA.NS",
+      "discount_price": 994.48
+    },
+    {
+      "symbol": "IRFC.NS",
+      "discount_price": 1517.33
+    },
+    {
+      "symbol": "JIOFIN.NS",
+      "discount_price": 1745.89
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "discount_price": 1845.94
+    },
+    {
+      "symbol": "LICHSGFIN.NS",
+      "discount_price": 1543.86
+    },
+    {
+      "symbol": "LICI.NS",
+      "discount_price": 1414.03
+    },
+    {
+      "symbol": "LTF.NS",
+      "discount_price": 1694.76
+    },
+    {
+      "symbol": "M&MFIN.NS",
+      "discount_price": 1699.2
+    },
+    {
+      "symbol": "MFSL.NS",
+      "discount_price": 568.68
+    },
+    {
+      "symbol": "MOTILALOFS.NS",
+      "discount_price": 992.29
+    },
+    {
+      "symbol": "MUTHOOTFIN.NS",
+      "discount_price": 1870.01
+    },
+    {
+      "symbol": "PAYTM.NS",
+      "discount_price": 498.08
+    },
+    {
+      "symbol": "PFC.NS",
+      "discount_price": 1101.8
+    },
+    {
+      "symbol": "PNB.NS",
+      "discount_price": 686.09
+    },
+    {
+      "symbol": "POLICYBZR.NS",
+      "discount_price": 516.16
+    },
+    {
+      "symbol": "RECLTD.NS",
+      "discount_price": 1765.88
+    },
+    {
+      "symbol": "SBICARD.NS",
+      "discount_price": 737.03
+    },
+    {
+      "symbol": "SBILIFE.NS",
+      "discount_price": 1660.71
+    },
+    {
+      "symbol": "SBIN.NS",
+      "discount_price": 153.42
+    },
+    {
+      "symbol": "SHRIRAMFIN.NS",
+      "discount_price": 1917.24
+    },
+    {
+      "symbol": "UNIONBANK.NS",
+      "discount_price": 929.14
+    },
+    {
+      "symbol": "YESBANK.NS",
+      "discount_price": 853.6
+    }
+  ]
+}

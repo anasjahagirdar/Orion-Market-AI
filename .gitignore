@@ -85,7 +85,8 @@ test-results/
 nosetests.xml
 
 # ─── PM2 / Logs ──────────────────────────────────────────────
-logs/
+logs/*.log
+!logs/.gitkeep
 *.pid
 *.pid.lock
 .pm2/

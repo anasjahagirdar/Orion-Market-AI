@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# No explicit dev-only Python packages were detected in this codebase.
+# Add tooling here as needed (for example: pytest, pytest-django, black, ruff).

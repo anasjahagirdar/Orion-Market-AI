@@ -1,0 +1,194 @@
+{
+  "market": "indian",
+  "sector": "Services",
+  "generated_at_utc": "2026-03-25T10:19:30.246086+00:00",
+  "meta": {
+    "random_state": 42,
+    "clusters_configured": 3,
+    "stock_count": 4
+  },
+  "stocks": [
+    {
+      "symbol": "ADANIPORTS.NS",
+      "name": "Adani Ports and Special Economic Zone Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Services",
+      "features": {
+        "price": 528.62,
+        "pe_ratio": 31.28,
+        "volume": 195578444,
+        "discount_price": 449.33
+      },
+      "cluster": {
+        "primary": 2,
+        "value_cluster": 1,
+        "valuation": 1
+      },
+      "pca": {
+        "x": -2.311704,
+        "y": 0.864371
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "CONCOR.NS",
+      "name": "Container Corporation of India Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Services",
+      "features": {
+        "price": 878.25,
+        "pe_ratio": 13.44,
+        "volume": 186253189,
+        "discount_price": 746.51
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": -0.418201,
+        "y": -0.869186
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "GMRAIRPORT.NS",
+      "name": "GMR Airports Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Services",
+      "features": {
+        "price": 1813.8,
+        "pe_ratio": 16.2,
+        "volume": 69051533,
+        "discount_price": 1541.73
+      },
+      "cluster": {
+        "primary": 1,
+        "value_cluster": 2,
+        "valuation": 2
+      },
+      "pca": {
+        "x": 2.497257,
+        "y": 0.721341
+      },
+      "feature_source": "synthetic"
+    },
+    {
+      "symbol": "INDIGO.NS",
+      "name": "InterGlobe Aviation Ltd.",
+      "market_code": "IN",
+      "market": "indian",
+      "sector": "Services",
+      "features": {
+        "price": 824.08,
+        "pe_ratio": 15.73,
+        "volume": 73166154,
+        "discount_price": 700.47
+      },
+      "cluster": {
+        "primary": 0,
+        "value_cluster": 0,
+        "valuation": 0
+      },
+      "pca": {
+        "x": 0.232648,
+        "y": -0.716526
+      },
+      "feature_source": "synthetic"
+    }
+  ],
+  "features": [
+    {
+      "symbol": "ADANIPORTS.NS",
+      "price": 528.62,
+      "pe_ratio": 31.28,
+      "volume": 195578444,
+      "discount_price": 449.33
+    },
+    {
+      "symbol": "CONCOR.NS",
+      "price": 878.25,
+      "pe_ratio": 13.44,
+      "volume": 186253189,
+      "discount_price": 746.51
+    },
+    {
+      "symbol": "GMRAIRPORT.NS",
+      "price": 1813.8,
+      "pe_ratio": 16.2,
+      "volume": 69051533,
+      "discount_price": 1541.73
+    },
+    {
+      "symbol": "INDIGO.NS",
+      "price": 824.08,
+      "pe_ratio": 15.73,
+      "volume": 73166154,
+      "discount_price": 700.47
+    }
+  ],
+  "cluster_labels": {
+    "primary": {
+      "ADANIPORTS.NS": 2,
+      "CONCOR.NS": 0,
+      "GMRAIRPORT.NS": 1,
+      "INDIGO.NS": 0
+    },
+    "value_cluster": {
+      "ADANIPORTS.NS": 1,
+      "CONCOR.NS": 0,
+      "GMRAIRPORT.NS": 2,
+      "INDIGO.NS": 0
+    },
+    "valuation": {
+      "ADANIPORTS.NS": 1,
+      "CONCOR.NS": 0,
+      "GMRAIRPORT.NS": 2,
+      "INDIGO.NS": 0
+    }
+  },
+  "pca_values": [
+    {
+      "symbol": "ADANIPORTS.NS",
+      "pc1": -2.311704,
+      "pc2": 0.864371
+    },
+    {
+      "symbol": "CONCOR.NS",
+      "pc1": -0.418201,
+      "pc2": -0.869186
+    },
+    {
+      "symbol": "GMRAIRPORT.NS",
+      "pc1": 2.497257,
+      "pc2": 0.721341
+    },
+    {
+      "symbol": "INDIGO.NS",
+      "pc1": 0.232648,
+      "pc2": -0.716526
+    }
+  ],
+  "discount_price": [
+    {
+      "symbol": "ADANIPORTS.NS",
+      "discount_price": 449.33
+    },
+    {
+      "symbol": "CONCOR.NS",
+      "discount_price": 746.51
+    },
+    {
+      "symbol": "GMRAIRPORT.NS",
+      "discount_price": 1541.73
+    },
+    {
+      "symbol": "INDIGO.NS",
+      "discount_price": 700.47
+    }
+  ]
+}
