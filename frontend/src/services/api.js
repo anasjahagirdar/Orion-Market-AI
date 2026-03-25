@@ -72,6 +72,28 @@ api.interceptors.request.use((config) => {
 export const authAPI = {
   register: (data) => api.post('/auth/register/', data),
   login: (data) => api.post('/auth/login/', data),
+  syncTelegramChat: (identifier) =>
+    api.post('/auth/sync-telegram-chat/', { identifier }),
+  sendTelegramOtp: (identifier, purpose = 'login') =>
+    api.post('/auth/send-telegram-otp/', { identifier, purpose }),
+  verifyTelegramOtp: (identifier, otp, purpose = 'login') =>
+    api.post('/auth/verify-telegram-otp/', { identifier, otp, purpose }),
+  getSecurityQuestions: (username) =>
+    api.post('/auth/security-questions/', { username }),
+  verifySecurityAnswers: (username, answers) =>
+    api.post('/auth/verify-security-answers/', { username, answers }),
+  resetPassword: (identifier, otp, newPassword) =>
+    api.post('/auth/reset-password/', {
+      identifier,
+      otp,
+      new_password: newPassword,
+    }),
+  resetPasswordWithSecurityToken: (username, securityToken, newPassword) =>
+    api.post('/auth/reset-password/', {
+      username,
+      security_token: securityToken,
+      new_password: newPassword,
+    }),
   logout: () => api.post('/auth/logout/'),
   profile: () => api.get('/auth/profile/'),
 };

@@ -7,6 +7,7 @@ import DashboardPage from './pages/DashboardPage';
 import ChatbotPage from './pages/ChatbotPage';
 import WatchlistPage from './pages/WatchlistPage';
 import BtcAnalysisPage from './pages/BtcAnalysisPage';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import './layout.css';
 
 // Protected route wrapper
@@ -34,6 +35,7 @@ function App() {
         />
         <Routes>
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route
             path="/dashboard"
             element={
