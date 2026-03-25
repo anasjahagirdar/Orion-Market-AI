@@ -12,6 +12,7 @@ import {
 } from 'recharts';
 import toast from 'react-hot-toast';
 import AppShell from '../components/AppShell';
+import AreaChart from '../components/AreaChart';
 import CandlestickChart from '../components/CandlestickChart';
 import FloatingChatbot from '../components/FloatingChatbot';
 import MetricCard from '../components/MetricCard';
@@ -317,9 +318,9 @@ const DashboardPage = () => {
 
       <div className="dashboard-grid">
         <section className="dashboard-card glass-card">
-          <h3>{selectedStock} Price Trend</h3>
+          <h3>{selectedStock} — Price History (1 Month)</h3>
           <p className="dashboard-card-subtitle">
-            {PERIOD_OPTIONS.find((item) => item.key === linePeriod)?.label} line chart
+            Premium technical view with overlays
           </p>
           <div className="line-filters">
             {PERIOD_OPTIONS.map((item) => (
@@ -333,86 +334,26 @@ const DashboardPage = () => {
               </button>
             ))}
           </div>
-          <div className="chart-wrap">
+          <div
+            style={{
+              background: '#0F172A',
+              borderRadius: '12px',
+              padding: '20px',
+              border: '1px solid rgba(255,255,255,0.07)',
+              marginTop: 14,
+            }}
+          >
             {loading ? (
               <p className="dashboard-empty">Loading chart...</p>
             ) : lineChartData.length === 0 ? (
               <p className="dashboard-empty">No chart data available for this timeframe.</p>
             ) : (
-              <ResponsiveContainer width="100%" height={280}>
-                <LineChart data={lineChartData}>
-                  <defs>
-                    <linearGradient id={lineGradientId} x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0%" stopColor="rgba(90, 139, 255, 0.42)" />
-                      <stop offset="78%" stopColor="rgba(90, 139, 255, 0.06)" />
-                      <stop offset="100%" stopColor="rgba(90, 139, 255, 0.01)" />
-                    </linearGradient>
-                  </defs>
-                  <CartesianGrid
-                    strokeDasharray="4 4"
-                    stroke="rgba(136, 168, 209, 0.18)"
-                    vertical={false}
-                  />
-                  <XAxis
-                    dataKey="date"
-                    tick={{ fill: '#9fb3d2', fontSize: 11 }}
-                    tickLine={false}
-                    axisLine={false}
-                    minTickGap={24}
-                    tickFormatter={formatChartDateTick}
-                  />
-                  <YAxis
-                    tick={{ fill: '#9fb3d2', fontSize: 11 }}
-                    tickLine={false}
-                    axisLine={false}
-                    domain={lineChartDomain}
-                    width={70}
-                    tickFormatter={(value) => formatPrice(value, 0)}
-                  />
-                  <Tooltip
-                    formatter={(value) => [formatPrice(value), 'Close']}
-                    labelFormatter={formatTooltipDate}
-                    cursor={{ stroke: 'rgba(90, 139, 255, 0.6)', strokeDasharray: '3 3' }}
-                    contentStyle={{
-                      borderRadius: '10px',
-                      border: '1px solid rgba(136, 168, 209, 0.34)',
-                      background: 'rgba(11, 19, 34, 0.95)',
-                    }}
-                  />
-                  <Area
-                    type="monotoneX"
-                    dataKey="close"
-                    stroke="none"
-                    fill={`url(#${lineGradientId})`}
-                  />
-                  <Line
-                    type="monotoneX"
-                    dataKey="close"
-                    stroke="#5a8bff"
-                    strokeWidth={3}
-                    dot={false}
-                    activeDot={{
-                      r: 6,
-                      stroke: '#0f1627',
-                      strokeWidth: 2,
-                      fill: '#f5c542',
-                    }}
-                    isAnimationActive
-                  />
-                </LineChart>
-              </ResponsiveContainer>
+              <>
+                <AreaChart data={stockHistory} symbol={selectedStock} />
+                <CandlestickChart data={stockHistory} symbol={selectedStock} />
+              </>
             )}
           </div>
-        </section>
-
-        <section className="dashboard-card glass-card">
-          <CandlestickChart
-            symbol={selectedStock}
-            data={stockHistory}
-            loading={loading}
-            period={linePeriod}
-            onPeriodChange={setLinePeriod}
-          />
         </section>
 
         <section className="dashboard-card glass-card news-card">

@@ -1,98 +1,198 @@
-import React, { useMemo } from 'react';
-import ReactApexChart from 'react-apexcharts';
-import './candlestick-chart.css';
+import React, { useEffect, useRef } from 'react';
+import {
+  createChart,
+  CandlestickSeries,
+  LineSeries,
+  HistogramSeries,
+  CrosshairMode,
+} from 'lightweight-charts';
 
-const PERIOD_OPTIONS = [
-  { key: '1mo', label: '1M' },
-  { key: '3mo', label: '3M' },
-  { key: '6mo', label: '6M' },
-  { key: '1y', label: '1Y' },
-];
+const calcSMA = (data, period) =>
+  data
+    .map((d, i) => {
+      if (i < period - 1) {
+        return null;
+      }
+      const avg =
+        data.slice(i - period + 1, i + 1).reduce((sum, x) => sum + x.close, 0) / period;
+      return { time: d.date, value: avg };
+    })
+    .filter(Boolean);
 
-const CandlestickChart = ({ symbol, data = [], loading, period, onPeriodChange }) => {
-  const series = useMemo(() => {
-    const candles = data.map((point) => ({
-      x: new Date(point.date),
-      y: [point.open, point.high, point.low, point.close],
+const CandlestickChart = ({ data = [], symbol = '' }) => {
+  const chartContainerRef = useRef(null);
+
+  useEffect(() => {
+    if (!data || data.length === 0) {
+      return undefined;
+    }
+    if (!chartContainerRef.current) {
+      return undefined;
+    }
+
+    const normalized = data
+      .map((d) => ({
+        date: d.date,
+        open: Number(d.open),
+        high: Number(d.high),
+        low: Number(d.low),
+        close: Number(d.close),
+        volume: Number(d.volume),
+      }))
+      .filter(
+        (d) =>
+          d.date &&
+          Number.isFinite(d.open) &&
+          Number.isFinite(d.high) &&
+          Number.isFinite(d.low) &&
+          Number.isFinite(d.close) &&
+          Number.isFinite(d.volume)
+      );
+
+    if (normalized.length === 0) {
+      return undefined;
+    }
+
+    const chart = createChart(chartContainerRef.current, {
+      layout: {
+        background: { color: '#0B0E14' },
+        textColor: '#94A3B8',
+      },
+      grid: {
+        vertLines: { color: 'rgba(148,163,184,0.05)' },
+        horzLines: { color: 'rgba(148,163,184,0.05)' },
+      },
+      crosshair: {
+        mode: CrosshairMode.Normal,
+        vertLine: {
+          color: 'rgba(255,255,255,0.3)',
+          style: 1,
+          width: 1,
+        },
+        horzLine: {
+          color: 'rgba(255,255,255,0.3)',
+          style: 1,
+          width: 1,
+        },
+      },
+      rightPriceScale: {
+        borderColor: 'rgba(148,163,184,0.1)',
+      },
+      timeScale: {
+        borderColor: 'rgba(148,163,184,0.1)',
+        timeVisible: true,
+      },
+      width: chartContainerRef.current.clientWidth,
+      height: 400,
+    });
+
+    const candleSeries = chart.addSeries(CandlestickSeries, {
+      upColor: '#00D4FF',
+      downColor: '#EF4444',
+      borderUpColor: '#00D4FF',
+      borderDownColor: '#EF4444',
+      wickUpColor: '#00D4FF',
+      wickDownColor: '#F87171',
+    });
+
+    const sma20Series = chart.addSeries(LineSeries, {
+      color: '#00D4FF',
+      lineWidth: 1.5,
+      priceLineVisible: false,
+      lastValueVisible: false,
+    });
+
+    const sma50Series = chart.addSeries(LineSeries, {
+      color: '#F59E0B',
+      lineWidth: 1.5,
+      priceLineVisible: false,
+      lastValueVisible: false,
+    });
+
+    const volumeSeries = chart.addSeries(HistogramSeries, {
+      priceFormat: { type: 'volume' },
+      priceScaleId: 'volume',
+    });
+    volumeSeries.priceScale().applyOptions({
+      scaleMargins: { top: 0.8, bottom: 0 },
+    });
+
+    const candleData = normalized.map((d) => ({
+      time: d.date,
+      open: d.open,
+      high: d.high,
+      low: d.low,
+      close: d.close,
     }));
-    return [{ data: candles }];
+
+    const volumeData = normalized.map((d) => ({
+      time: d.date,
+      value: d.volume,
+      color: d.close >= d.open ? '#00D4FF' : '#EF4444',
+    }));
+
+    candleSeries.setData(candleData);
+    sma20Series.setData(calcSMA(normalized, 20));
+    sma50Series.setData(calcSMA(normalized, 50));
+    volumeSeries.setData(volumeData);
+    chart.timeScale().fitContent();
+
+    const resizeObserver = new ResizeObserver(() => {
+      if (!chartContainerRef.current) {
+        return;
+      }
+      chart.applyOptions({
+        width: chartContainerRef.current.clientWidth,
+      });
+    });
+    resizeObserver.observe(chartContainerRef.current);
+
+    return () => {
+      resizeObserver.disconnect();
+      chart.remove();
+    };
   }, [data]);
 
-  const options = useMemo(
-    () => ({
-      chart: {
-        type: 'candlestick',
-        background: 'transparent',
-        toolbar: { show: false },
-        animations: { enabled: true, speed: 360 },
-      },
-      theme: { mode: 'dark' },
-      grid: {
-        borderColor: 'rgba(136, 168, 209, 0.2)',
-        strokeDashArray: 4,
-      },
-      plotOptions: {
-        candlestick: {
-          colors: {
-            upward: '#2ece86',
-            downward: '#ff5c7c',
-          },
-          wick: {
-            useFillColor: true,
-          },
-        },
-      },
-      xaxis: {
-        type: 'datetime',
-        labels: {
-          datetimeUTC: false,
-          style: { colors: '#9fb3d2' },
-        },
-      },
-      yaxis: {
-        tooltip: { enabled: true },
-        labels: {
-          style: { colors: '#9fb3d2' },
-          formatter: (value) => Number(value).toFixed(2),
-        },
-      },
-      tooltip: {
-        theme: 'dark',
-      },
-    }),
-    []
-  );
+  if (!data || data.length === 0) {
+    return <p className="dashboard-empty">No OHLC data available for this range.</p>;
+  }
 
   return (
-    <div className="candlestick-chart">
-      <div className="candlestick-header">
-        <div>
-          <h3>{symbol} OHLC Candlestick</h3>
-          <p className="dashboard-card-subtitle">Open, high, low, close view</p>
-        </div>
-        <div className="candlestick-filters">
-          {PERIOD_OPTIONS.map((item) => (
-            <button
-              key={item.key}
-              type="button"
-              className={`candlestick-filter ${period === item.key ? 'active' : ''}`}
-              onClick={() => onPeriodChange(item.key)}
-            >
-              {item.label}
-            </button>
-          ))}
+    <div
+      style={{
+        background: '#0B0E14',
+        borderRadius: '12px',
+        padding: '20px',
+        border: '1px solid rgba(255,255,255,0.07)',
+        marginTop: '16px',
+      }}
+    >
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          marginBottom: '16px',
+        }}
+      >
+        <h3
+          style={{
+            color: 'rgba(255,255,255,0.9)',
+            fontSize: '15px',
+            fontWeight: '600',
+            margin: 0,
+          }}
+        >
+          {symbol} — Candlestick Chart
+        </h3>
+        <div style={{ display: 'flex', gap: '16px', fontSize: '12px' }}>
+          <span style={{ color: '#00D4FF' }}>● SMA 20</span>
+          <span style={{ color: '#F59E0B' }}>● SMA 50</span>
+          <span style={{ color: '#00D4FF' }}>▲ Bullish</span>
+          <span style={{ color: '#EF4444' }}>▼ Bearish</span>
         </div>
       </div>
-
-      <div className="candlestick-canvas">
-        {loading ? (
-          <p className="dashboard-empty">Loading candlestick chart...</p>
-        ) : series[0].data.length === 0 ? (
-          <p className="dashboard-empty">No OHLC data available for this range.</p>
-        ) : (
-          <ReactApexChart options={options} series={series} type="candlestick" height={280} />
-        )}
-      </div>
+      <div ref={chartContainerRef} />
     </div>
   );
 };

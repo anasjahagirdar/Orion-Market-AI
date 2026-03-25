@@ -1533,3 +1533,862 @@ Provider failure from finnhub for 360ONE.NS: finnhub HTTP 401
 Provider failure from finnhub for 360ONE.NS history: finnhub HTTP 401
 Provider failure from alpha_vantage for 360ONE.NS: Alpha Vantage has no quote data for 360ONE.NS
 Rate limit from alpha_vantage for 360ONE.NS history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for 360ONE.NS history: finnhub HTTP 401
+Provider failure from alpha_vantage for 360ONE.NS history: Alpha Vantage has no historical data for 360ONE.NS
+Provider failure from finnhub for NOC: finnhub HTTP 401
+Provider failure from finnhub for NOC history: finnhub HTTP 401
+Rate limit from alpha_vantage for NOC: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for NOC history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for COST: finnhub HTTP 401
+Rate limit from alpha_vantage for COST: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ADANIENSOL.NS: finnhub HTTP 401
+Provider failure from finnhub for 360ONE.NS: finnhub HTTP 401
+Provider failure from finnhub for ABCAPITAL.NS: finnhub HTTP 401
+Provider failure from finnhub for ABB.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIENT.NS: finnhub HTTP 401
+Provider failure from finnhub for ACC.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for 360ONE.NS: Alpha Vantage has no quote data for 360ONE.NS
+Rate limit from alpha_vantage for ABB.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIENSOL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIENT.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ACC.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABCAPITAL.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ADANIGREEN.NS: finnhub HTTP 401
+Provider failure from finnhub for APLAPOLLO.NS: finnhub HTTP 401
+Provider failure from finnhub for AMBUJACEM.NS: finnhub HTTP 401
+Provider failure from finnhub for ALKEM.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIPOWER.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIPORTS.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for ADANIGREEN.NS: Alpha Vantage has no quote data for ADANIGREEN.NS
+Rate limit from alpha_vantage for APLAPOLLO.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMBUJACEM.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ALKEM.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIPOWER.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIPORTS.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for APOLLOHOSP.NS: finnhub HTTP 401
+Provider failure from finnhub for ASHOKLEY.NS: finnhub HTTP 401
+Provider failure from finnhub for ASIANPAINT.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for APOLLOHOSP.NS: Alpha Vantage has no quote data for APOLLOHOSP.NS
+Provider failure from finnhub for ASTRAL.NS: finnhub HTTP 401
+Provider failure from finnhub for ATGL.NS: finnhub HTTP 401
+Provider failure from finnhub for AUBANK.NS: finnhub HTTP 401
+Rate limit from alpha_vantage for ASHOKLEY.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ASIANPAINT.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ASTRAL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AUBANK.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ATGL.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AUROPHARMA.NS: finnhub HTTP 401
+Provider failure from finnhub for AXISBANK.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for AUROPHARMA.NS: Alpha Vantage has no quote data for AUROPHARMA.NS
+Provider failure from finnhub for BAJAJFINSV.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJHFL.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJHLDNG.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJ-AUTO.NS: finnhub HTTP 401
+Rate limit from alpha_vantage for AXISBANK.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJFINSV.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJHLDNG.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJHFL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJ-AUTO.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ABNB: finnhub HTTP 401
+Provider failure from finnhub for ADBE: finnhub HTTP 401
+Provider failure from finnhub for ABBV: finnhub HTTP 401
+Provider failure from finnhub for ACN: finnhub HTTP 401
+Provider failure from finnhub for ABT: finnhub HTTP 401
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for ADBE: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABBV: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ACN: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABNB: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ABT: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ADI: finnhub HTTP 401
+Provider failure from finnhub for ADP: finnhub HTTP 401
+Provider failure from finnhub for AEP: finnhub HTTP 401
+Provider failure from finnhub for AFL: finnhub HTTP 401
+Provider failure from finnhub for AJG: finnhub HTTP 401
+Provider failure from finnhub for ALL: finnhub HTTP 401
+Rate limit from alpha_vantage for ADI: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADP: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AEP: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AFL: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AJG: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ALL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AMAT: finnhub HTTP 401
+Provider failure from finnhub for AMD: finnhub HTTP 401
+Provider failure from finnhub for AMGN: finnhub HTTP 401
+Provider failure from finnhub for AMT: finnhub HTTP 401
+Provider failure from finnhub for AMZN: finnhub HTTP 401
+Provider failure from finnhub for ANET: finnhub HTTP 401
+Rate limit from alpha_vantage for AMAT: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMD: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMGN: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMT: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AMZN: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ANET: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AON: finnhub HTTP 401
+Provider failure from finnhub for APD: finnhub HTTP 401
+Provider failure from finnhub for APH: finnhub HTTP 401
+Provider failure from finnhub for APO: finnhub HTTP 401
+Provider failure from finnhub for APP: finnhub HTTP 401
+Provider failure from finnhub for AVGO: finnhub HTTP 401
+Rate limit from alpha_vantage for AON: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APD: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APH: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APO: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AVGO: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APP: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for COST: finnhub HTTP 401
+Rate limit from alpha_vantage for COST: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL history: finnhub HTTP 401
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ABB.NS: finnhub HTTP 401
+Provider failure from finnhub for ACC.NS: finnhub HTTP 401
+Provider failure from finnhub for ABCAPITAL.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIENSOL.NS: finnhub HTTP 401
+Provider failure from finnhub for 360ONE.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIENT.NS: finnhub HTTP 401
+Rate limit from alpha_vantage for ABB.NS: Alpha Vantage rate limit exceeded
+Provider failure from alpha_vantage for 360ONE.NS: Alpha Vantage has no quote data for 360ONE.NS
+Rate limit from alpha_vantage for ABCAPITAL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ACC.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIENSOL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIENT.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ADANIGREEN.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIPORTS.NS: finnhub HTTP 401
+Provider failure from finnhub for AMBUJACEM.NS: finnhub HTTP 401
+Provider failure from finnhub for ALKEM.NS: finnhub HTTP 401
+Provider failure from finnhub for ADANIPOWER.NS: finnhub HTTP 401
+Provider failure from finnhub for APLAPOLLO.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for AMBUJACEM.NS: Alpha Vantage has no quote data for AMBUJACEM.NS
+Rate limit from alpha_vantage for ADANIGREEN.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ALKEM.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIPORTS.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ADANIPOWER.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APLAPOLLO.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for ASTRAL.NS: finnhub HTTP 401
+Provider failure from finnhub for APOLLOHOSP.NS: finnhub HTTP 401
+Provider failure from finnhub for ASHOKLEY.NS: finnhub HTTP 401
+Provider failure from finnhub for ASIANPAINT.NS: finnhub HTTP 401
+Provider failure from finnhub for ATGL.NS: finnhub HTTP 401
+Provider failure from finnhub for AUBANK.NS: finnhub HTTP 401
+Provider failure from alpha_vantage for ASTRAL.NS: Alpha Vantage has no quote data for ASTRAL.NS
+Rate limit from alpha_vantage for ASHOKLEY.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for APOLLOHOSP.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ATGL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for ASIANPAINT.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AUBANK.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AUROPHARMA.NS: finnhub HTTP 401
+Provider failure from finnhub for AXISBANK.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJ-AUTO.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJHFL.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJFINSV.NS: finnhub HTTP 401
+Provider failure from finnhub for BAJAJHLDNG.NS: finnhub HTTP 401
+Rate limit from alpha_vantage for BAJAJ-AUTO.NS: Alpha Vantage rate limit exceeded
+Provider failure from alpha_vantage for AXISBANK.NS: Alpha Vantage has no quote data for AXISBANK.NS
+Rate limit from alpha_vantage for BAJAJHFL.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJFINSV.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for BAJAJHLDNG.NS: Alpha Vantage rate limit exceeded
+Rate limit from alpha_vantage for AUROPHARMA.NS: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 401
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL history: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL history: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL history: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage API key missing
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\models.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\urls.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL history: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage API key missing
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+Internal Server Error: /api/auth/register/
+Internal Server Error: /api/auth/register/
+Internal Server Error: /api/auth/register/
+Internal Server Error: /api/auth/register/
+Internal Server Error: /api/auth/register/
+Internal Server Error: /api/auth/register/
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Bad Request: /api/auth/send-telegram-otp/
+Bad Request: /api/auth/send-telegram-otp/
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\telegram_service.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Bad Request: /api/auth/register/
+Bad Gateway: /api/auth/send-telegram-otp/
+Bad Gateway: /api/auth/send-telegram-otp/
+Bad Gateway: /api/auth/send-telegram-otp/
+Bad Gateway: /api/auth/send-telegram-otp/
+Bad Gateway: /api/auth/send-telegram-otp/
+Bad Request: /api/auth/register/
+Bad Gateway: /api/auth/send-telegram-otp/
+Too Many Requests: /api/auth/send-telegram-otp/
+Too Many Requests: /api/auth/send-telegram-otp/
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\urls.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+FinBERT model loaded successfully
+FinBERT model loaded successfully
+Bad Request: /api/auth/send-telegram-otp/
+Bad Request: /api/auth/sync-telegram-chat/
+Bad Request: /api/auth/send-telegram-otp/
+Bad Request: /api/auth/sync-telegram-chat/
+Bad Request: /api/auth/send-telegram-otp/
+Bad Request: /api/auth/sync-telegram-chat/
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\telegram_service.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+FinBERT model loaded successfully
+D:\Bizmetric\F.S.D\Orion Market AI\backend\authentication\views.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+FinBERT model loaded successfully
+Bad Request: /api/auth/register/
+Bad Request: /api/auth/send-telegram-otp/
+Bad Request: /api/auth/sync-telegram-chat/
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL history: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+FinBERT model loaded successfully
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL history: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage API key missing
+Provider failure from finnhub for 360ONE.NS: Finnhub API key missing
+Provider failure from alpha_vantage for 360ONE.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ABB.NS: Finnhub API key missing
+Provider failure from finnhub for ABCAPITAL.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ABB.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for ABCAPITAL.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ADANIENT.NS: Finnhub API key missing
+Provider failure from finnhub for ADANIGREEN.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ADANIENT.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for ADANIGREEN.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ACC.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ACC.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ADANIENSOL.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ADANIENSOL.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ADANIPOWER.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ADANIPOWER.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ALKEM.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ALKEM.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ADANIPORTS.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ADANIPORTS.NS: Alpha Vantage API key missing
+Provider failure from finnhub for AMBUJACEM.NS: Finnhub API key missing
+Provider failure from alpha_vantage for AMBUJACEM.NS: Alpha Vantage API key missing
+Provider failure from finnhub for APOLLOHOSP.NS: Finnhub API key missing
+Provider failure from alpha_vantage for APOLLOHOSP.NS: Alpha Vantage API key missing
+Provider failure from finnhub for APLAPOLLO.NS: Finnhub API key missing
+Provider failure from alpha_vantage for APLAPOLLO.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ASHOKLEY.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ASHOKLEY.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ASIANPAINT.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ASIANPAINT.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ASTRAL.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ASTRAL.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ATGL.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ATGL.NS: Alpha Vantage API key missing
+Provider failure from finnhub for AUBANK.NS: Finnhub API key missing
+Provider failure from alpha_vantage for AUBANK.NS: Alpha Vantage API key missing
+Provider failure from finnhub for AUROPHARMA.NS: Finnhub API key missing
+Provider failure from alpha_vantage for AUROPHARMA.NS: Alpha Vantage API key missing
+Provider failure from finnhub for AXISBANK.NS: Finnhub API key missing
+Provider failure from alpha_vantage for AXISBANK.NS: Alpha Vantage API key missing
+Provider failure from finnhub for BAJAJFINSV.NS: Finnhub API key missing
+Provider failure from finnhub for BAJAJ-AUTO.NS: Finnhub API key missing
+Provider failure from alpha_vantage for BAJAJFINSV.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for BAJAJ-AUTO.NS: Alpha Vantage API key missing
+Provider failure from finnhub for BAJAJHFL.NS: Finnhub API key missing
+Provider failure from alpha_vantage for BAJAJHFL.NS: Alpha Vantage API key missing
+Provider failure from finnhub for BAJAJHLDNG.NS: Finnhub API key missing
+Provider failure from alpha_vantage for BAJAJHLDNG.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ADANIENSOL.NS history: Finnhub API key missing
+Provider failure from alpha_vantage for ADANIENSOL.NS history: Alpha Vantage API key missing
+Provider failure from finnhub for ABBV: Finnhub API key missing
+Provider failure from alpha_vantage for ABBV: Alpha Vantage API key missing
+Provider failure from finnhub for ABT: Finnhub API key missing
+Provider failure from finnhub for ABNB: Finnhub API key missing
+Provider failure from alpha_vantage for ABT: Alpha Vantage API key missing
+Provider failure from alpha_vantage for ABNB: Alpha Vantage API key missing
+Provider failure from finnhub for ACN: Finnhub API key missing
+Provider failure from alpha_vantage for ACN: Alpha Vantage API key missing
+Provider failure from finnhub for ADBE: Finnhub API key missing
+Provider failure from alpha_vantage for ADBE: Alpha Vantage API key missing
+Provider failure from finnhub for ADI: Finnhub API key missing
+Provider failure from alpha_vantage for ADI: Alpha Vantage API key missing
+Provider failure from finnhub for ADP: Finnhub API key missing
+Provider failure from alpha_vantage for ADP: Alpha Vantage API key missing
+Provider failure from finnhub for AEP: Finnhub API key missing
+Provider failure from alpha_vantage for AEP: Alpha Vantage API key missing
+Provider failure from finnhub for AFL: Finnhub API key missing
+Provider failure from alpha_vantage for AFL: Alpha Vantage API key missing
+Provider failure from finnhub for AJG: Finnhub API key missing
+Provider failure from alpha_vantage for AJG: Alpha Vantage API key missing
+Provider failure from finnhub for ALL: Finnhub API key missing
+Provider failure from alpha_vantage for ALL: Alpha Vantage API key missing
+Provider failure from finnhub for AMAT: Finnhub API key missing
+Provider failure from alpha_vantage for AMAT: Alpha Vantage API key missing
+Provider failure from finnhub for AMGN: Finnhub API key missing
+Provider failure from alpha_vantage for AMGN: Alpha Vantage API key missing
+Provider failure from finnhub for AMD: Finnhub API key missing
+Provider failure from alpha_vantage for AMD: Alpha Vantage API key missing
+Provider failure from finnhub for AMT: Finnhub API key missing
+Provider failure from alpha_vantage for AMT: Alpha Vantage API key missing
+Provider failure from finnhub for AMZN: Finnhub API key missing
+Provider failure from alpha_vantage for AMZN: Alpha Vantage API key missing
+Provider failure from finnhub for ANET: Finnhub API key missing
+Provider failure from alpha_vantage for ANET: Alpha Vantage API key missing
+Provider failure from finnhub for AON: Finnhub API key missing
+Provider failure from alpha_vantage for AON: Alpha Vantage API key missing
+Provider failure from finnhub for APD: Finnhub API key missing
+Provider failure from alpha_vantage for APD: Alpha Vantage API key missing
+Provider failure from finnhub for APH: Finnhub API key missing
+Provider failure from alpha_vantage for APH: Alpha Vantage API key missing
+Provider failure from finnhub for APO: Finnhub API key missing
+Provider failure from alpha_vantage for APO: Alpha Vantage API key missing
+Provider failure from finnhub for APP: Finnhub API key missing
+Provider failure from alpha_vantage for APP: Alpha Vantage API key missing
+Provider failure from finnhub for AVGO: Finnhub API key missing
+Provider failure from alpha_vantage for AVGO: Alpha Vantage API key missing
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+ChromaDB collection ready
+GROQ_API_KEY not configured
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL history: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage API key missing
+GROQ_API_KEY not configured
+Provider failure from finnhub for ABNB: Finnhub API key missing
+Provider failure from finnhub for ABBV: Finnhub API key missing
+Provider failure from alpha_vantage for ABNB: Alpha Vantage API key missing
+Provider failure from alpha_vantage for ABBV: Alpha Vantage API key missing
+Provider failure from finnhub for ACN: Finnhub API key missing
+Provider failure from alpha_vantage for ACN: Alpha Vantage API key missing
+Provider failure from finnhub for ABT: Finnhub API key missing
+Provider failure from alpha_vantage for ABT: Alpha Vantage API key missing
+Provider failure from finnhub for ADBE: Finnhub API key missing
+Provider failure from alpha_vantage for ADBE: Alpha Vantage API key missing
+Provider failure from finnhub for ADI: Finnhub API key missing
+Provider failure from alpha_vantage for ADI: Alpha Vantage API key missing
+Provider failure from finnhub for ADP: Finnhub API key missing
+Provider failure from finnhub for AFL: Finnhub API key missing
+Provider failure from finnhub for AJG: Finnhub API key missing
+Provider failure from alpha_vantage for ADP: Alpha Vantage API key missing
+Provider failure from alpha_vantage for AFL: Alpha Vantage API key missing
+Provider failure from alpha_vantage for AJG: Alpha Vantage API key missing
+Provider failure from finnhub for AEP: Finnhub API key missing
+Provider failure from alpha_vantage for AEP: Alpha Vantage API key missing
+Provider failure from finnhub for AMAT: Finnhub API key missing
+Provider failure from alpha_vantage for AMAT: Alpha Vantage API key missing
+Provider failure from finnhub for ALL: Finnhub API key missing
+Provider failure from alpha_vantage for ALL: Alpha Vantage API key missing
+Provider failure from finnhub for AMZN: Finnhub API key missing
+Provider failure from finnhub for AMGN: Finnhub API key missing
+Provider failure from finnhub for AMT: Finnhub API key missing
+Provider failure from alpha_vantage for AMZN: Alpha Vantage API key missing
+Provider failure from finnhub for AMD: Finnhub API key missing
+Provider failure from alpha_vantage for AMGN: Alpha Vantage API key missing
+Provider failure from alpha_vantage for AMT: Alpha Vantage API key missing
+Provider failure from alpha_vantage for AMD: Alpha Vantage API key missing
+Provider failure from finnhub for ANET: Finnhub API key missing
+Provider failure from alpha_vantage for ANET: Alpha Vantage API key missing
+Provider failure from finnhub for AON: Finnhub API key missing
+Provider failure from alpha_vantage for AON: Alpha Vantage API key missing
+Provider failure from finnhub for APD: Finnhub API key missing
+Provider failure from alpha_vantage for APD: Alpha Vantage API key missing
+Provider failure from finnhub for APO: Finnhub API key missing
+Provider failure from finnhub for APH: Finnhub API key missing
+Provider failure from alpha_vantage for APO: Alpha Vantage API key missing
+Provider failure from alpha_vantage for APH: Alpha Vantage API key missing
+Provider failure from finnhub for APP: Finnhub API key missing
+Provider failure from alpha_vantage for APP: Alpha Vantage API key missing
+Provider failure from finnhub for AVGO: Finnhub API key missing
+Provider failure from alpha_vantage for AVGO: Alpha Vantage API key missing
+Provider failure from finnhub for 360ONE.NS: Finnhub API key missing
+Provider failure from alpha_vantage for 360ONE.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ABB.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ABB.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ABCAPITAL.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ABCAPITAL.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ADANIENT.NS: Finnhub API key missing
+Provider failure from finnhub for ADANIENSOL.NS: Finnhub API key missing
+Provider failure from finnhub for ACC.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ADANIENT.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for ADANIENSOL.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for ACC.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ADANIGREEN.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ADANIGREEN.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ADANIPOWER.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ADANIPOWER.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ADANIPORTS.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ADANIPORTS.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ALKEM.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ALKEM.NS: Alpha Vantage API key missing
+Provider failure from finnhub for AMBUJACEM.NS: Finnhub API key missing
+Provider failure from finnhub for APLAPOLLO.NS: Finnhub API key missing
+Provider failure from alpha_vantage for AMBUJACEM.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for APLAPOLLO.NS: Alpha Vantage API key missing
+Provider failure from finnhub for APOLLOHOSP.NS: Finnhub API key missing
+Provider failure from alpha_vantage for APOLLOHOSP.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ASHOKLEY.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ASHOKLEY.NS: Alpha Vantage API key missing
+Provider failure from finnhub for ATGL.NS: Finnhub API key missing
+Provider failure from finnhub for ASIANPAINT.NS: Finnhub API key missing
+Provider failure from alpha_vantage for ASIANPAINT.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for ATGL.NS: Alpha Vantage API key missing
+Provider failure from finnhub for AUBANK.NS: Finnhub API key missing
+Provider failure from finnhub for ASTRAL.NS: Finnhub API key missing
+Provider failure from finnhub for AUROPHARMA.NS: Finnhub API key missing
+Provider failure from alpha_vantage for AUBANK.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for ASTRAL.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for AUROPHARMA.NS: Alpha Vantage API key missing
+Provider failure from finnhub for BAJAJ-AUTO.NS: Finnhub API key missing
+Provider failure from alpha_vantage for BAJAJ-AUTO.NS: Alpha Vantage API key missing
+Provider failure from finnhub for AXISBANK.NS: Finnhub API key missing
+Provider failure from finnhub for BAJAJFINSV.NS: Finnhub API key missing
+Provider failure from alpha_vantage for AXISBANK.NS: Alpha Vantage API key missing
+Provider failure from alpha_vantage for BAJAJFINSV.NS: Alpha Vantage API key missing
+Provider failure from finnhub for BAJAJHFL.NS: Finnhub API key missing
+Provider failure from alpha_vantage for BAJAJHFL.NS: Alpha Vantage API key missing
+Provider failure from finnhub for BAJAJHLDNG.NS: Finnhub API key missing
+Provider failure from alpha_vantage for BAJAJHLDNG.NS: Alpha Vantage API key missing
+Provider failure from finnhub for AAPL: Finnhub API key missing
+Provider failure from alpha_vantage for AAPL: Alpha Vantage API key missing
+Watching for file changes with StatReloader
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/commits/refs%2Fpr%2F29 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/ProsusAI/finbert/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+FinBERT model loaded successfully
+HTTP Request: HEAD https://huggingface.co/ProsusAI/finbert/resolve/refs%2Fpr%2F29/model.safetensors "HTTP/1.1 302 Found"
+Provider failure from finnhub for AAPL history: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for CUMMINSIND.NS: finnhub HTTP 403
+Provider failure from alpha_vantage for CUMMINSIND.NS: Alpha Vantage has no quote data for CUMMINSIND.NS
+Provider failure from finnhub for AAPL history: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL history: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL history: finnhub HTTP 403
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for AAPL history: finnhub HTTP 403
+Provider failure from alpha_vantage for AAPL history: Alpha Vantage has no historical data for AAPL
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL history: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL history: Alpha Vantage rate limit exceeded
+Provider failure from finnhub for AAPL: finnhub HTTP 403
+Rate limit from alpha_vantage for AAPL: Alpha Vantage rate limit exceeded
