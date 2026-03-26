@@ -129,3 +129,8 @@ $RECYCLE.BIN/
 !README.md
 
 backend/stocks/.yfinance_cache/
+
+**/__pycache__/
+*.pyc
+*.sqlite3
+.pm2/
