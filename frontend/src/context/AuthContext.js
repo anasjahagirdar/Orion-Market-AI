@@ -10,8 +10,12 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     // Check if user is already logged in
     const savedUser = localStorage.getItem('orion_user');
-    if (savedUser) {
+    const savedToken = localStorage.getItem('orion_token');
+    if (savedUser && savedToken && savedToken !== 'null' && savedToken !== 'undefined') {
       setUser(JSON.parse(savedUser));
+    } else {
+      localStorage.removeItem('orion_user');
+      localStorage.removeItem('orion_token');
     }
     setLoading(false);
   }, []);

@@ -1,4 +1,4 @@
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.decorators import api_view, permission_classes, authentication_classes
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework import status
@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 
 @api_view(['GET'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def get_stocks(request):
     """Get list of all tracked stocks"""
     try:
@@ -46,6 +47,7 @@ def get_stocks(request):
 
 @api_view(['GET'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def get_stock_detail(request, symbol):
     """Get details for a specific stock"""
     try:
@@ -65,6 +67,7 @@ def get_stock_detail(request, symbol):
 
 @api_view(['GET'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def get_stock_price(request, symbol):
     """Get current stock price with Finnhub -> Alpha Vantage -> yfinance fallback."""
     try:
@@ -99,6 +102,7 @@ def get_stock_price(request, symbol):
 
 @api_view(['GET'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def get_stock_history(request, symbol):
     """Get historical stock data with Finnhub -> Alpha Vantage -> yfinance fallback."""
     try:

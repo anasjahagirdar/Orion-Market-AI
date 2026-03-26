@@ -136,10 +136,12 @@ SESSION_COOKIE_HTTPONLY = True
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
+        # SessionAuthentication removed: it enforces CSRF on every request,
+        # which causes 401s for cross-origin React requests even on AllowAny views.
     ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+        # Deny by default; views explicitly opt in with @permission_classes([AllowAny])
+        'rest_framework.permissions.IsAuthenticated',
     ],
 }
 

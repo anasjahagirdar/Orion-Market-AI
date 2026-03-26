@@ -14,6 +14,19 @@ const api = axios.create({
 
 const responseCache = new Map();
 const inflightRequests = new Map();
+const PUBLIC_AUTH_PATHS = [
+  '/auth/login/',
+  '/auth/register/',
+  '/auth/send-telegram-otp/',
+  '/auth/verify-telegram-otp/',
+  '/auth/security-questions/',
+  '/auth/verify-security-answers/',
+  '/auth/reset-password/',
+  '/auth/sync-telegram-chat/',
+];
+
+const isPublicAuthPath = (url = '') =>
+  PUBLIC_AUTH_PATHS.some((path) => String(url || '').startsWith(path));
 
 const cacheKeyFor = (path, params = null) => {
   if (!params) {
@@ -62,11 +75,30 @@ const cachedGet = ({ key, ttlMs, requestFn }) => {
 // ─── Request interceptor: attach Token auth header ────
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('orion_token');
-  if (token) {
+  if (token && token !== 'null' && token !== 'undefined' && !isPublicAuthPath(config?.url)) {
     config.headers['Authorization'] = `Token ${token}`;
+  } else if (config?.headers && 'Authorization' in config.headers) {
+    delete config.headers['Authorization'];
   }
   return config;
 });
+
+// Avoid stale-token redirect loops on public auth endpoints.
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    const statusCode = error?.response?.status;
+    const requestUrl = error?.config?.url || '';
+    if (statusCode === 401 && !isPublicAuthPath(requestUrl)) {
+      localStorage.removeItem('orion_token');
+      localStorage.removeItem('orion_user');
+      if (typeof window !== 'undefined' && window.location.pathname !== '/login') {
+        window.location.href = '/login';
+      }
+    }
+    return Promise.reject(error);
+  }
+);
 
 // ─── Auth APIs ────────────────────────────────────────
 export const authAPI = {

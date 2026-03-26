@@ -11,7 +11,7 @@ from django.core.exceptions import ValidationError
 from django.utils import timezone
 from rest_framework import status
 from rest_framework.authtoken.models import Token
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.decorators import api_view, permission_classes, authentication_classes
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 
@@ -401,6 +401,7 @@ def _sync_telegram_chat_links_from_updates(limit=200, target_username=None):
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def register(request):
     """Register a new user."""
     try:
@@ -539,6 +540,7 @@ def register(request):
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def login_view(request):
     """Login using username + password."""
     try:
@@ -587,6 +589,7 @@ def login_view(request):
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def debug_reset_otp_rate_limit(request):
     """Development helper to clear OTP rate-limits for an identifier."""
     try:
@@ -630,6 +633,7 @@ def debug_reset_otp_rate_limit(request):
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def sync_telegram_chat(request):
     """Synchronize Telegram chat_id from bot updates for a given identifier."""
     try:
@@ -693,6 +697,7 @@ def sync_telegram_chat(request):
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def send_telegram_otp(request):
     """Send a Telegram OTP for login or password reset."""
     try:
@@ -835,6 +840,7 @@ def send_telegram_otp(request):
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def verify_telegram_otp(request):
     """Verify Telegram OTP and return auth token."""
     try:
@@ -932,6 +938,7 @@ def verify_telegram_otp(request):
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def get_security_questions(request):
     """Fetch security questions for username-based accounts."""
     try:
@@ -1002,6 +1009,7 @@ def get_security_questions(request):
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def verify_security_answers(request):
     """Verify security answers and return a short-lived reset token."""
     try:
@@ -1099,6 +1107,7 @@ def verify_security_answers(request):
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def reset_password(request):
     """Reset password using Telegram OTP or verified security-answer token."""
     try:

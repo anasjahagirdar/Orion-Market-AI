@@ -3,7 +3,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 from django.conf import settings
 from django.core.cache import cache
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.decorators import api_view, permission_classes, authentication_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework import status
@@ -481,6 +481,7 @@ def format_articles(articles):
 
 @api_view(['GET'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def get_news(request):
     """Get latest stock market news only"""
     try:
@@ -529,6 +530,7 @@ def get_news(request):
 
 @api_view(['GET'])
 @permission_classes([AllowAny])
+@authentication_classes([])
 def get_stock_news(request, symbol):
     """Get stock news enriched with dual-source sentiment."""
     try:
