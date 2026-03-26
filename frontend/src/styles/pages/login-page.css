@@ -1,0 +1,230 @@
+.auth-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: var(--bg-primary);
+  background-image: radial-gradient(rgba(59, 130, 246, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.auth-card {
+  width: min(460px, 100%);
+  background: rgba(14, 22, 40, 0.9);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-xl);
+  padding: 40px;
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.15), 0 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+.auth-brand {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.auth-logo-icon {
+  width: 64px;
+  height: 64px;
+  background: var(--grad-primary);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: var(--glow-blue);
+  margin: 0 auto 16px;
+  color: #fff;
+}
+
+.auth-brand h1 {
+  margin: 0;
+  background: var(--grad-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.auth-brand p {
+  margin: 8px 0 0;
+  color: var(--text-secondary);
+}
+
+.auth-toggle {
+  background: rgba(59, 130, 246, 0.08);
+  border-radius: 10px;
+  padding: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.auth-toggle button {
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-secondary);
+  height: 40px;
+  transition: all 0.2s ease;
+}
+
+.auth-toggle button.active {
+  background: var(--grad-primary);
+  color: #fff;
+  box-shadow: var(--glow-blue);
+  font-weight: 600;
+}
+
+.auth-method-toggle {
+  margin-bottom: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.auth-method-toggle button {
+  border: 1px solid var(--border-default);
+  border-radius: 10px;
+  background: rgba(59, 130, 246, 0.08);
+  color: var(--text-secondary);
+  height: 38px;
+  transition: all 0.2s ease;
+}
+
+.auth-method-toggle button.active {
+  background: var(--grad-primary);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: var(--glow-blue);
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.auth-field label {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.auth-field input {
+  padding: 12px 16px;
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid var(--border-default);
+  border-radius: 10px;
+  color: var(--text-primary);
+  font-size: 14px;
+  width: 100%;
+  height: auto;
+}
+
+.auth-field input:focus {
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.auth-submit {
+  margin-top: 10px;
+  background: var(--grad-primary);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 13px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: var(--glow-blue);
+  transition: all 0.2s ease;
+}
+
+.auth-submit:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.6);
+}
+
+.auth-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.security-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.auth-link-button {
+  align-self: flex-start;
+  border: 0;
+  background: transparent;
+  color: var(--accent-blue-light);
+  font-size: 12px;
+  padding: 0;
+}
+
+.auth-link-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.auth-telegram-hint {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.auth-telegram-hint a {
+  color: var(--accent-blue-light);
+}
+
+.auth-telegram-note {
+  margin: -2px 0 2px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.auth-switch {
+  margin-top: 16px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.auth-forgot {
+  margin: 10px 0 0;
+  text-align: right;
+}
+
+.auth-forgot button {
+  border: 0;
+  background: transparent;
+  color: var(--accent-blue-light);
+  font-size: 12px;
+}
+
+.auth-switch button {
+  background: none;
+  border: 0;
+  color: var(--accent-blue-light);
+  font-weight: 600;
+}
+
+@media (max-width: 680px) {
+  .auth-card {
+    padding: 26px;
+  }
+
+  .security-grid {
+    grid-template-columns: 1fr;
+  }
+}

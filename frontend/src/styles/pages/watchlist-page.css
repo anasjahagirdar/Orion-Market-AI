@@ -1,0 +1,174 @@
+.watchlist-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.watchlist-header h2 {
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.watchlist-header p {
+  margin: 5px 0 0;
+  color: var(--text-secondary);
+}
+
+.watchlist-search {
+  width: min(460px, 100%);
+}
+
+.watchlist-table-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  padding: 0;
+}
+
+.watchlist-table-head,
+.watchlist-table-row {
+  display: grid;
+  grid-template-columns: 1.6fr 0.8fr 0.9fr 0.9fr 0.9fr 0.9fr 0.8fr;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.watchlist-table-head {
+  background: rgba(59, 130, 246, 0.06);
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+}
+
+.watchlist-table-row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  transition: background 0.15s ease;
+}
+
+.watchlist-table-row:hover {
+  background: rgba(59, 130, 246, 0.04);
+}
+
+.watchlist-stock {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  text-align: left;
+  padding: 0;
+}
+
+.watchlist-stock strong {
+  display: block;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.watchlist-stock span {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.market-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 3px 8px;
+  width: fit-content;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.market-badge.us {
+  background: var(--success-dim);
+  color: var(--success);
+}
+
+.market-badge.in {
+  background: var(--accent-gold-dim);
+  color: var(--accent-gold);
+}
+
+.watchlist-table-row > span {
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.watchlist-change-positive {
+  background: var(--success-dim);
+  color: var(--success);
+  padding: 3px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.watchlist-change-negative {
+  background: var(--danger-dim);
+  color: var(--danger);
+  padding: 3px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.watchlist-remove-btn {
+  padding: 5px 12px;
+  background: var(--danger-dim);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 6px;
+  color: var(--danger);
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.watchlist-remove-btn:hover {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: rgba(239, 68, 68, 0.45);
+}
+
+.watchlist-empty {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 60px;
+}
+
+@media (max-width: 980px) {
+  .watchlist-header {
+    flex-direction: column;
+  }
+
+  .watchlist-search {
+    width: 100%;
+  }
+
+  .watchlist-table-head,
+  .watchlist-table-row {
+    grid-template-columns: 1.5fr repeat(6, minmax(72px, 1fr));
+    font-size: 12px;
+    padding: 12px 14px;
+  }
+}
+
+@media (max-width: 760px) {
+  .watchlist-table-head {
+    display: none;
+  }
+
+  .watchlist-table-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    border-bottom: 1px solid var(--border-subtle);
+    padding: 14px;
+  }
+}

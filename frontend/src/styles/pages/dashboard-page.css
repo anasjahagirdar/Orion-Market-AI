@@ -1,0 +1,263 @@
+.dashboard-stock-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.dashboard-stock-tab {
+  padding: 6px 14px;
+  background: rgba(0, 212, 255, 0.07);
+  border: 1px solid var(--border-default);
+  border-radius: 20px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.dashboard-stock-tab.active {
+  background: var(--grad-primary);
+  border: 1px solid transparent;
+  color: #fff;
+  box-shadow: var(--glow-blue);
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.9fr) minmax(320px, 1fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.dashboard-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.dashboard-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 100% 0, rgba(0, 212, 255, 0.08), transparent 45%);
+  opacity: 0.85;
+}
+
+.dashboard-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.38), 0 0 0 1px rgba(0, 212, 255, 0.14);
+  transform: translateY(-2px);
+}
+
+.dashboard-card h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  padding-left: 12px;
+}
+
+.dashboard-card h3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  bottom: 2px;
+  width: 3px;
+  border-radius: 999px;
+  background: var(--grad-primary);
+}
+
+.dashboard-card-subtitle {
+  margin: -8px 0 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.dashboard-chart-stage {
+  background: linear-gradient(180deg, rgba(13, 17, 23, 0.82), rgba(13, 17, 23, 0.96));
+  border-radius: 12px;
+  padding: 18px;
+  border: 1px solid var(--border-subtle);
+  margin-top: 14px;
+}
+
+.chart-wrap {
+  margin-top: 14px;
+  min-height: 290px;
+}
+
+.line-filters {
+  margin-top: 10px;
+  display: inline-flex;
+  gap: 7px;
+  border: 1px solid var(--border-default);
+  border-radius: 10px;
+  padding: 4px;
+  background: linear-gradient(180deg, rgba(0, 212, 255, 0.08), rgba(0, 212, 255, 0.04));
+  box-shadow: inset 0 1px 0 rgba(102, 232, 255, 0.14);
+}
+
+.line-filter {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: 7px;
+  font-size: 11px;
+  font-weight: 700;
+  min-width: 74px;
+  height: 30px;
+  transition: all 0.2s ease;
+}
+
+.line-filter:hover {
+  color: var(--text-primary);
+  border-color: var(--border-hover);
+  background: rgba(0, 212, 255, 0.08);
+}
+
+.line-filter.active {
+  background: var(--grad-primary);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: var(--glow-blue);
+}
+
+.news-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  /* Removed max-height so the card stretches to match the chart card height */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.news-list {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  /* Allow list to grow and scroll inside the fixed-height card */
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.dashboard-empty {
+  margin: 12px 0 0;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.dashboard-loading-stack {
+  margin-top: 4px;
+  display: grid;
+  gap: 10px;
+}
+
+.dashboard-loading-stack.news {
+  margin-top: 14px;
+  flex: 1;
+}
+
+.dashboard-skeleton-title {
+  height: 14px;
+  width: 42%;
+}
+
+.dashboard-skeleton-chart {
+  height: 280px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.dashboard-skeleton-chart-secondary {
+  height: 190px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.dashboard-skeleton-news {
+  height: 62px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.dashboard-skeleton-news.short {
+  width: 82%;
+}
+
+.dashboard-banner {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.12), rgba(245, 158, 11, 0.08));
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: var(--radius-md);
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  box-shadow: inset 0 1px 0 rgba(0, 212, 255, 0.2);
+}
+
+.dashboard-banner h3 {
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.dashboard-banner p {
+  margin: 5px 0 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.dashboard-banner button {
+  background: var(--grad-primary);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: var(--glow-blue);
+  transition: all 0.2s ease;
+}
+
+.dashboard-banner button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 28px rgba(0, 212, 255, 0.55);
+}
+
+@media (max-width: 1200px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .line-filters {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .dashboard-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

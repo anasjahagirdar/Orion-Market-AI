@@ -1,0 +1,150 @@
+.search-bar {
+  position: relative;
+  width: 100%;
+  z-index: 9000;
+}
+
+.search-input-wrap {
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid var(--border-default);
+  border-radius: 12px;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+}
+
+.search-input-wrap:focus-within {
+  border: 1px solid rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  background: rgba(59, 130, 246, 0.12);
+}
+
+.search-input-wrap input {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-size: 14px;
+  padding: 13px 0;
+  flex: 1;
+  outline: none;
+  height: auto;
+}
+
+.search-input-wrap input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-prefix {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.search-clear-btn {
+  border: 0;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 13px;
+  border-radius: 6px;
+  padding: 2px 6px;
+  transition: all 0.2s ease;
+}
+
+.search-clear-btn:hover {
+  color: var(--text-primary);
+  background: rgba(59, 130, 246, 0.12);
+}
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-default);
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  max-height: 360px;
+  overflow-y: auto;
+  padding: 8px;
+  z-index: 1000;
+}
+
+.search-dropdown-header {
+  margin: 0;
+  padding: 10px 12px;
+  color: var(--text-muted);
+  font-size: 12px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.search-result {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  transition: background 0.15s ease;
+}
+
+.search-result:hover {
+  background: rgba(59, 130, 246, 0.08);
+  transform: translateX(1px);
+}
+
+.search-result-symbol {
+  display: block;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.search-result-name {
+  display: block;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.search-result-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-market-chip {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  border: 0;
+}
+
+.search-market-chip.us {
+  background: var(--success-dim);
+  color: var(--success);
+}
+
+.search-market-chip.in {
+  background: var(--accent-gold-dim);
+  color: var(--accent-gold);
+}
+
+.search-sector-chip {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.search-empty {
+  margin: 0;
+  padding: 14px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+}

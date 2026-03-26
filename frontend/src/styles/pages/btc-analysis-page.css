@@ -1,0 +1,296 @@
+.btc-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 14px;
+}
+
+.btc-card {
+  padding: 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btc-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32), 0 0 0 1px rgba(0, 212, 255, 0.1);
+}
+
+.btc-card:first-child {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(239, 68, 68, 0.05));
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  border-radius: var(--radius-lg);
+}
+
+.btc-grid:first-of-type .btc-card:nth-child(2) {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(6, 182, 212, 0.05));
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.btc-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btc-card-header h3 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 16px;
+}
+
+.btc-range-pills {
+  display: flex;
+  gap: 8px;
+}
+
+.btc-range-pills button {
+  border: 1px solid var(--border-default);
+  background: rgba(59, 130, 246, 0.08);
+  color: var(--text-secondary);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.btc-range-pills button:hover {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+  background: rgba(0, 212, 255, 0.12);
+}
+
+.btc-range-pills button.active {
+  border-color: rgba(245, 158, 11, 0.4);
+  background: var(--accent-gold-dim);
+  color: var(--accent-gold);
+}
+
+.btc-refresh-btn {
+  border: 1px solid var(--border-default);
+  background: rgba(59, 130, 246, 0.14);
+  color: var(--accent-blue-light);
+  border-radius: 9px;
+  padding: 6px 10px;
+  transition: all 0.2s ease;
+}
+
+.btc-refresh-btn:hover:not(:disabled) {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+  box-shadow: 0 0 18px rgba(0, 212, 255, 0.24);
+  transform: translateY(-1px);
+}
+
+.btc-refresh-btn:disabled {
+  opacity: 0.62;
+  cursor: not-allowed;
+}
+
+.btc-state {
+  margin: 16px 0 4px;
+  color: var(--text-secondary);
+}
+
+.btc-state.error {
+  color: var(--danger);
+}
+
+.btc-loading-stack {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.btc-loading-stack.compact {
+  margin-top: 10px;
+}
+
+.btc-skeleton-line {
+  height: 320px;
+  width: 100%;
+  border-radius: var(--radius-md);
+}
+
+.btc-skeleton-candle {
+  height: 260px;
+  width: 100%;
+  border-radius: var(--radius-md);
+}
+
+.btc-skeleton-strip {
+  height: 88px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btc-chart-wrap {
+  margin-top: 12px;
+  min-height: 332px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 12px;
+  box-shadow: inset 0 1px 0 rgba(102, 232, 255, 0.08);
+}
+
+.btc-candle-section {
+  margin-top: 10px;
+}
+
+.btc-candle-section > div {
+  margin-top: 0 !important;
+  padding: 14px !important;
+  border-color: var(--border-subtle) !important;
+  background: #0b101d !important;
+}
+
+.btc-future-strip {
+  margin-top: 12px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 10px;
+}
+
+.btc-future-strip h4 {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.btc-future-list {
+  margin-top: 9px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(70px, 1fr));
+  gap: 8px;
+}
+
+.btc-future-item {
+  border-radius: 10px;
+  border: 1px solid rgba(16, 185, 129, 0.34);
+  background: rgba(16, 185, 129, 0.1);
+  padding: 7px 8px;
+}
+
+.btc-future-item span {
+  display: block;
+  color: var(--text-secondary);
+  font-size: 11px;
+}
+
+.btc-future-item strong {
+  display: block;
+  margin-top: 2px;
+  color: var(--text-primary);
+}
+
+.status-tag {
+  border-radius: 999px;
+  font-size: 11px;
+  padding: 3px 8px;
+  border: 1px solid var(--border-default);
+}
+
+.status-tag.ok {
+  color: var(--success);
+  border-color: rgba(16, 185, 129, 0.4);
+  background: var(--success-dim);
+}
+
+.status-tag.warn {
+  color: var(--accent-gold);
+  border-color: rgba(245, 158, 11, 0.5);
+  background: var(--accent-gold-dim);
+}
+
+.btc-explain-meta {
+  margin: 12px 0 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.impact-list {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+
+.impact-list li {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.impact-list span {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.impact-list strong {
+  color: var(--text-primary);
+  font-size: 12px;
+}
+
+.impact-list strong.up {
+  color: var(--success);
+}
+
+.impact-list strong.down {
+  color: var(--danger);
+}
+
+.impact-chart-wrap {
+  margin-top: 12px;
+  min-height: 300px;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 8px;
+}
+
+.kpi-grid .metric-card:nth-child(1) .metric-value {
+  color: var(--accent-gold);
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 0 0 20px rgba(245, 158, 11, 0.4);
+}
+
+.kpi-grid .metric-card:nth-child(2) .metric-value {
+  color: var(--success);
+  text-shadow: var(--glow-success);
+}
+
+.kpi-grid .metric-card:nth-child(3) .metric-value,
+.kpi-grid .metric-card:nth-child(4) .metric-value {
+  background: var(--grad-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1120px) {
+  .btc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .btc-future-list {
+    grid-template-columns: repeat(2, minmax(70px, 1fr));
+  }
+}
