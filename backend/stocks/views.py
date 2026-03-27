@@ -18,6 +18,12 @@ def get_stocks(request):
         market = request.query_params.get('market', None)
         search = request.query_params.get('search', None)
         limit_param = request.query_params.get('limit', None)
+        logger.info(
+            "get_stocks request market=%s search=%s limit=%s",
+            market,
+            search,
+            limit_param,
+        )
 
         stocks = Stock.objects.filter(is_active=True)
 
@@ -40,8 +46,10 @@ def get_stocks(request):
         stocks = stocks.order_by('symbol').values(
             'id', 'symbol', 'name', 'market', 'sector'
         )[:limit]
+        logger.info("get_stocks response count=%s", len(stocks))
         return Response({'stocks': list(stocks)})
     except Exception as e:
+        logger.exception("get_stocks error")
         return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
@@ -71,6 +79,7 @@ def get_stock_detail(request, symbol):
 def get_stock_price(request, symbol):
     """Get current stock price with Finnhub -> Alpha Vantage -> yfinance fallback."""
     try:
+        logger.info("get_stock_price request symbol=%s", symbol.upper())
         stock_name = None
         try:
             stock_name = Stock.objects.filter(symbol=symbol.upper()).values_list('name', flat=True).first()
@@ -78,6 +87,11 @@ def get_stock_price(request, symbol):
             stock_name = None
 
         price_data = get_price_data(symbol.upper(), default_name=stock_name)
+        logger.info(
+            "get_stock_price response symbol=%s source=%s",
+            symbol.upper(),
+            price_data.get('source'),
+        )
         return Response(price_data)
 
     except ProviderError as e:
@@ -108,7 +122,19 @@ def get_stock_history(request, symbol):
     try:
         period = request.query_params.get('period', '1mo')
         interval = request.query_params.get('interval', '1d')
+        logger.info(
+            "get_stock_history request symbol=%s period=%s interval=%s",
+            symbol.upper(),
+            period,
+            interval,
+        )
         payload = get_history_data(symbol.upper(), period=period, interval=interval)
+        logger.info(
+            "get_stock_history response symbol=%s source=%s points=%s",
+            symbol.upper(),
+            payload.get('source'),
+            len(payload.get('history') or []),
+        )
         return Response(payload)
 
     except ProviderError as e:

@@ -70,6 +70,34 @@ def _normalize_symbol(symbol):
     return symbol.upper().replace('.NS', '').replace('.BSE', '')
 
 
+def _finnhub_symbol_candidates(symbol):
+    raw = str(symbol or '').strip().upper()
+    base = _normalize_symbol(raw)
+    candidates = [raw, base]
+    if raw.endswith('.NS'):
+        candidates.append(f'NSE:{base}')
+    if raw.endswith('.BO') or raw.endswith('.BSE'):
+        candidates.append(f'BSE:{base}')
+
+    deduped = []
+    for item in candidates:
+        if item and item not in deduped:
+            deduped.append(item)
+    return deduped
+
+
+def _alpha_ticker_candidates(symbol):
+    raw = str(symbol or '').strip().upper()
+    base = _normalize_symbol(raw)
+    candidates = [raw, base]
+
+    deduped = []
+    for item in candidates:
+        if item and item not in deduped:
+            deduped.append(item)
+    return deduped
+
+
 def _published_from_alpha(value):
     if not value:
         return ''
@@ -190,21 +218,34 @@ def _fetch_alpha_sentiment(symbol, limit=10):
     if not api_key or api_key == 'your_alpha_vantage_key_here':
         return [], 'ALPHA_VANTAGE_API_KEY not configured'
 
+    ticker_candidates = _alpha_ticker_candidates(symbol)
     clean_symbol = _normalize_symbol(symbol)
+    ticker_candidates_set = {item.upper() for item in ticker_candidates}
+    logger.info(
+        'Alpha sentiment request symbol=%s tickers=%s limit=%s',
+        symbol,
+        ','.join(ticker_candidates),
+        limit,
+    )
 
     try:
         response = requests.get(
             ALPHA_BASE_URL,
             params={
                 'function': 'NEWS_SENTIMENT',
-                'tickers': clean_symbol,
+                'tickers': ','.join(ticker_candidates),
                 'sort': 'LATEST',
                 'limit': limit,
                 'apikey': api_key,
             },
             timeout=12,
         )
+        if response.status_code == 429:
+            return [], 'Alpha Vantage rate limit reached'
         payload = response.json()
+
+        if isinstance(payload, dict) and payload.get('Error Message'):
+            return [], f'Alpha Vantage error: {payload.get("Error Message")}'
 
         note = str(payload.get('Note', '')).lower() if isinstance(payload, dict) else ''
         info = str(payload.get('Information', '')).lower() if isinstance(payload, dict) else ''
@@ -212,13 +253,15 @@ def _fetch_alpha_sentiment(symbol, limit=10):
             return [], 'Alpha Vantage rate limit reached'
 
         feed = payload.get('feed', []) if isinstance(payload, dict) else []
+        logger.info('Alpha sentiment response symbol=%s feed_count=%s', symbol, len(feed))
         results = []
         for item in feed:
             ticker_specific_score = None
             ticker_specific_label = None
             for ticker_sentiment in item.get('ticker_sentiment', []):
                 current_ticker = str(ticker_sentiment.get('ticker', '')).upper()
-                if current_ticker == clean_symbol:
+                current_base = _normalize_symbol(current_ticker)
+                if current_ticker in ticker_candidates_set or current_base in ticker_candidates_set:
                     ticker_specific_score = _safe_float(ticker_sentiment.get('ticker_sentiment_score'))
                     ticker_specific_label = ticker_sentiment.get('ticker_sentiment_label')
                     break
@@ -259,42 +302,67 @@ def _fetch_finnhub_company_news(symbol, limit=10):
     if not api_key or api_key == 'your_finnhub_key_here':
         return [], 'FINNHUB_API_KEY not configured'
 
-    clean_symbol = _normalize_symbol(symbol)
     end_date = datetime.now(timezone.utc).date()
     start_date = end_date - timedelta(days=30)
+    candidates = _finnhub_symbol_candidates(symbol)
 
     try:
-        response = requests.get(
-            f'{FINNHUB_BASE_URL}/company-news',
-            params={
-                'symbol': clean_symbol,
-                'from': start_date.isoformat(),
-                'to': end_date.isoformat(),
-                'token': api_key,
-            },
-            timeout=12,
-        )
-        payload = response.json()
-
-        if isinstance(payload, dict) and payload.get('error'):
-            return [], f'Finnhub news error: {payload.get("error")}'
-
-        if not isinstance(payload, list):
-            return [], 'Finnhub company news unavailable'
-
-        results = []
-        for item in payload[:limit]:
-            results.append(
-                {
-                    'title': item.get('headline', ''),
-                    'description': item.get('summary', ''),
-                    'url': item.get('url', ''),
-                    'source': item.get('source', 'Finnhub'),
-                    'published_at': _published_from_finnhub(item.get('datetime')),
-                    'image': item.get('image', ''),
-                }
+        last_error = None
+        for candidate in candidates:
+            logger.info(
+                'Finnhub company-news request symbol=%s candidate=%s from=%s to=%s',
+                symbol,
+                candidate,
+                start_date.isoformat(),
+                end_date.isoformat(),
             )
-        return results, None
+            response = requests.get(
+                f'{FINNHUB_BASE_URL}/company-news',
+                params={
+                    'symbol': candidate,
+                    'from': start_date.isoformat(),
+                    'to': end_date.isoformat(),
+                    'token': api_key,
+                },
+                timeout=12,
+            )
+            if response.status_code == 429:
+                last_error = 'Finnhub rate limit reached'
+                continue
+
+            payload = response.json()
+            if isinstance(payload, dict) and payload.get('error'):
+                last_error = f'Finnhub news error: {payload.get("error")}'
+                continue
+
+            if not isinstance(payload, list):
+                last_error = 'Finnhub company news unavailable'
+                continue
+
+            results = []
+            for item in payload[:limit]:
+                results.append(
+                    {
+                        'title': item.get('headline', ''),
+                        'description': item.get('summary', ''),
+                        'url': item.get('url', ''),
+                        'source': item.get('source', 'Finnhub'),
+                        'published_at': _published_from_finnhub(item.get('datetime')),
+                        'image': item.get('image', ''),
+                    }
+                )
+            if results:
+                logger.info(
+                    'Finnhub company-news response symbol=%s candidate=%s count=%s',
+                    symbol,
+                    candidate,
+                    len(results),
+                )
+                return results, None
+
+            last_error = 'Finnhub company news unavailable'
+
+        return [], last_error or 'Finnhub company news unavailable'
     except requests.Timeout:
         return [], 'Finnhub news request timed out'
     except Exception as exc:
@@ -307,32 +375,49 @@ def _fetch_finnhub_news_sentiment_score(symbol):
     if not api_key or api_key == 'your_finnhub_key_here':
         return None, 'FINNHUB_API_KEY not configured'
 
-    clean_symbol = _normalize_symbol(symbol)
+    candidates = _finnhub_symbol_candidates(symbol)
 
     try:
-        response = requests.get(
-            f'{FINNHUB_BASE_URL}/news-sentiment',
-            params={'symbol': clean_symbol, 'token': api_key},
-            timeout=12,
-        )
-        payload = response.json()
+        last_error = None
+        for candidate in candidates:
+            logger.info('Finnhub sentiment request symbol=%s candidate=%s', symbol, candidate)
+            response = requests.get(
+                f'{FINNHUB_BASE_URL}/news-sentiment',
+                params={'symbol': candidate, 'token': api_key},
+                timeout=12,
+            )
+            if response.status_code == 429:
+                last_error = 'Finnhub rate limit reached'
+                continue
 
-        if isinstance(payload, dict) and payload.get('error'):
-            return None, f'Finnhub sentiment error: {payload.get("error")}'
+            payload = response.json()
+            if isinstance(payload, dict) and payload.get('error'):
+                last_error = f'Finnhub sentiment error: {payload.get("error")}'
+                continue
 
-        sentiment = payload.get('sentiment', {}) if isinstance(payload, dict) else {}
-        company_news_score = _safe_float(sentiment.get('companyNewsScore'))
-        if company_news_score is None and isinstance(payload, dict):
-            company_news_score = _safe_float(payload.get('companyNewsScore'))
-        if company_news_score is None:
-            bullish = _safe_float(sentiment.get('bullishPercent'))
-            bearish = _safe_float(sentiment.get('bearishPercent'))
-            if bullish is not None and bearish is not None:
-                company_news_score = (bullish - bearish) / 100
-        if company_news_score is None:
-            return None, 'Finnhub sentiment score unavailable'
+            sentiment = payload.get('sentiment', {}) if isinstance(payload, dict) else {}
+            company_news_score = _safe_float(sentiment.get('companyNewsScore'))
+            if company_news_score is None and isinstance(payload, dict):
+                company_news_score = _safe_float(payload.get('companyNewsScore'))
+            if company_news_score is None:
+                bullish = _safe_float(sentiment.get('bullishPercent'))
+                bearish = _safe_float(sentiment.get('bearishPercent'))
+                if bullish is not None and bearish is not None:
+                    company_news_score = (bullish - bearish) / 100
+            if company_news_score is None:
+                last_error = 'Finnhub sentiment score unavailable'
+                continue
 
-        return _clip_score(company_news_score, default=None), None
+            score = _clip_score(company_news_score, default=None)
+            logger.info(
+                'Finnhub sentiment response symbol=%s candidate=%s score=%s',
+                symbol,
+                candidate,
+                score,
+            )
+            return score, None
+
+        return None, last_error or 'Finnhub sentiment score unavailable'
     except requests.Timeout:
         return None, 'Finnhub sentiment request timed out'
     except Exception as exc:
@@ -344,6 +429,13 @@ def _merge_stock_news_with_sentiment(symbol):
     alpha_articles, alpha_error = _fetch_alpha_sentiment(symbol, limit=12)
     finnhub_articles, finnhub_news_error = _fetch_finnhub_company_news(symbol, limit=12)
     finnhub_score, finnhub_sentiment_error = _fetch_finnhub_news_sentiment_score(symbol)
+    logger.info(
+        'Merged sentiment inputs symbol=%s alpha_articles=%s finnhub_articles=%s finnhub_score=%s',
+        symbol,
+        len(alpha_articles),
+        len(finnhub_articles),
+        finnhub_score,
+    )
 
     warnings = []
     for item in [alpha_error, finnhub_news_error, finnhub_sentiment_error]:
@@ -534,9 +626,11 @@ def get_news(request):
 def get_stock_news(request, symbol):
     """Get stock news enriched with dual-source sentiment."""
     try:
+        logger.info('get_stock_news request symbol=%s', symbol.upper())
         cache_key = f'news:stock:{symbol.upper()}'
         cached = cache.get(cache_key)
         if cached:
+            logger.info('get_stock_news cache_hit symbol=%s total=%s', symbol.upper(), cached.get('total'))
             return Response(cached)
 
         formatted, warnings = _merge_stock_news_with_sentiment(symbol.upper())
@@ -552,9 +646,20 @@ def get_stock_news(request, symbol):
             payload['code'] = 'rate_limited'
             payload['retry_after_seconds'] = 60
             cache.set(cache_key, payload, 30)
+            logger.warning(
+                'get_stock_news rate_limited symbol=%s warnings=%s',
+                symbol.upper(),
+                warnings[:3],
+            )
             return Response(payload, status=status.HTTP_429_TOO_MANY_REQUESTS)
 
         cache.set(cache_key, payload, STOCK_NEWS_CACHE_TTL_SECONDS)
+        logger.info(
+            'get_stock_news response symbol=%s total=%s warnings=%s',
+            symbol.upper(),
+            payload.get('total'),
+            payload.get('warnings', [])[:3],
+        )
         return Response(payload)
 
     except Exception as e:

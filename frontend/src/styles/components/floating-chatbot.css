@@ -2,24 +2,24 @@
   position: fixed;
   inset: 0;
   background: transparent;
-  z-index: 998;
+  z-index: 1240;
 }
 
 .floating-chat-panel {
   position: fixed;
   right: 20px;
   bottom: 88px;
-  width: min(360px, calc(100vw - 24px));
-  height: 520px;
+  width: min(420px, calc(100vw - 24px));
+  height: min(620px, calc(100vh - 120px));
   border: 1px solid var(--border-default);
   border-radius: 18px;
   background: var(--bg-card);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(59, 130, 246, 0.2);
-  transform: translateY(16px) scale(0.96);
+  transform: translateY(14px) scale(0.97);
   opacity: 0;
   pointer-events: none;
-  transition: all 0.25s ease;
-  z-index: 999;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+  z-index: 1250;
   display: grid;
   grid-template-rows: auto 1fr auto auto;
   overflow: hidden;
@@ -37,20 +37,43 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
 }
 
-.floating-chat-header h4 {
+.floating-chat-title-wrap h4 {
   margin: 0;
   color: var(--text-primary);
 }
 
-.floating-chat-header p {
-  margin: 4px 0 0;
+.floating-chat-status-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.floating-chat-status-row p {
+  margin: 0;
   color: var(--text-muted);
   font-size: 12px;
 }
 
-.floating-chat-header button {
+.floating-chat-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #00c851;
+  box-shadow: 0 0 0 0 rgba(0, 200, 81, 0.6);
+  animation: floating-chat-pulse 1.8s infinite;
+}
+
+.floating-chat-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.floating-chat-actions button {
   border: 1px solid var(--border-default);
   border-radius: 9px;
   background: rgba(59, 130, 246, 0.1);
@@ -59,7 +82,7 @@
   transition: all 0.2s ease;
 }
 
-.floating-chat-header button:hover {
+.floating-chat-actions button:hover {
   border-color: var(--border-hover);
   color: var(--text-primary);
   box-shadow: 0 0 14px rgba(59, 130, 246, 0.24);
@@ -85,24 +108,93 @@
   justify-content: flex-start;
 }
 
+.floating-chat-bubble-wrap {
+  max-width: 86%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
 .floating-chat-bubble {
-  max-width: 80%;
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 9px 11px;
   border: 1px solid var(--border-subtle);
   font-size: 13px;
+  line-height: 1.45;
 }
 
 .floating-chat-row.user .floating-chat-bubble {
-  background: var(--grad-primary);
+  background: #6e57f7;
   border-color: transparent;
   color: #fff;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 14px rgba(59, 130, 246, 0.22);
+  border-top-right-radius: 4px;
 }
 
 .floating-chat-row.assistant .floating-chat-bubble {
   background: rgba(59, 130, 246, 0.08);
   color: var(--text-primary);
+  border-top-left-radius: 4px;
+}
+
+.floating-chat-bubble p {
+  margin: 0;
+}
+
+.floating-chat-bubble p + p {
+  margin-top: 8px;
+}
+
+.floating-chat-bubble ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.floating-chat-bubble li + li {
+  margin-top: 4px;
+}
+
+.floating-chat-time {
+  color: var(--text-muted);
+  font-size: 10px;
+  padding: 0 4px;
+}
+
+.floating-chat-row.user .floating-chat-time {
+  align-self: flex-end;
+}
+
+.floating-chat-thinking {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  border-color: rgba(59, 130, 246, 0.26);
+}
+
+.floating-chat-thinking-text {
+  font-size: 12px;
+}
+
+.floating-chat-dots {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.floating-chat-dots span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #8ea4d8;
+  animation: floating-chat-dot 1s infinite ease-in-out;
+}
+
+.floating-chat-dots span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.floating-chat-dots span:nth-child(3) {
+  animation-delay: 0.3s;
 }
 
 .floating-chat-suggestions {
@@ -136,20 +228,24 @@
   gap: 8px;
 }
 
-.floating-chat-input input {
+.floating-chat-input textarea {
   flex: 1;
   border: 1px solid var(--border-default);
   border-radius: 10px;
-  height: 38px;
+  min-height: 40px;
+  max-height: 120px;
+  resize: none;
   background: rgba(59, 130, 246, 0.08);
   color: var(--text-primary);
-  padding: 0 10px;
+  padding: 8px 10px;
+  font-family: inherit;
+  line-height: 1.4;
 }
 
 .floating-chat-input button {
   border: 0;
   border-radius: 10px;
-  background: var(--grad-primary);
+  background: #6e57f7;
   color: #fff;
   min-width: 74px;
   transition: all 0.2s ease;
@@ -157,10 +253,11 @@
 
 .floating-chat-input button:hover:not(:disabled) {
   transform: translateY(-1px);
-  box-shadow: 0 0 18px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 18px rgba(110, 87, 247, 0.35);
 }
 
-.floating-chat-input button:disabled {
+.floating-chat-input button:disabled,
+.floating-chat-input textarea:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
@@ -173,34 +270,61 @@
   height: 56px;
   border-radius: 50%;
   border: none;
-  background: var(--grad-primary);
+  background: #6e57f7;
   color: #fff;
   font-weight: 700;
-  box-shadow: var(--glow-blue);
-  z-index: 1000;
+  box-shadow: 0 0 18px rgba(110, 87, 247, 0.42);
+  z-index: 1250;
   transition: all 0.2s ease;
 }
 
 .floating-chat-fab:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 24px rgba(59, 130, 246, 0.42);
+  box-shadow: 0 0 24px rgba(110, 87, 247, 0.5);
 }
 
-.floating-chat-thinking {
-  color: var(--text-secondary);
-  border-color: rgba(59, 130, 246, 0.26);
+@keyframes floating-chat-dot {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.65;
+  }
+  40% {
+    transform: translateY(-3px);
+    opacity: 1;
+  }
+}
+
+@keyframes floating-chat-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 200, 81, 0.55);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(0, 200, 81, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 200, 81, 0);
+  }
 }
 
 @media (max-width: 680px) {
   .floating-chat-panel {
     right: 12px;
-    bottom: 80px;
+    bottom: 76px;
     width: calc(100vw - 24px);
-    height: 70vh;
+    height: min(78vh, 620px);
   }
 
   .floating-chat-fab {
     right: 12px;
     bottom: 14px;
+    width: 52px;
+    height: 52px;
+  }
+
+  .floating-chat-input button {
+    min-width: 66px;
   }
 }
+
