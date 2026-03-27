@@ -15,4 +15,5 @@ urlpatterns = [
     path('api/recompute-portfolio/<str:market>/', portfolio_views.recompute_portfolio_market),
     path('api/recompute-portfolio/', portfolio_views.recompute_portfolio),
     path('api/btc-analysis/', include('btc_analysis.urls')),
+    path('api/quality-stocks/', include('quality_stocks.urls')),
 ]

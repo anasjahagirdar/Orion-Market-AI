@@ -1,5 +1,7 @@
 import React from 'react';
 import Sidebar from './Sidebar';
+import ChatbotShell from '../Chatbot/ChatbotShell';
+import StockTicker from '../StockTicker/StockTicker';
 
 const AppShell = ({
   title,
@@ -44,7 +46,9 @@ const AppShell = ({
           </div>
         </header>
 
+        <StockTicker />
         <main className="app-page-content">{children}</main>
+        <ChatbotShell />
       </div>
     </div>
   );

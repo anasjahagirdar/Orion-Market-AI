@@ -1,5 +1,6 @@
 import secrets
 import re
+import logging
 from django.contrib.auth import authenticate, logout
 from django.contrib.auth.hashers import check_password, make_password
 from django.contrib.auth.models import User
@@ -51,6 +52,7 @@ RATE_LIMIT_WINDOW_SECONDS = 60 * 60
 IDENTIFIER_REGEX = re.compile(r'^[A-Za-z0-9@+._-]+$')
 TELEGRAM_USERNAME_REGEX = re.compile(r'^[A-Za-z0-9_]{3,64}$')
 OTP_REGEX = re.compile(r'^\d{6}$')
+logger = logging.getLogger(__name__)
 
 
 def _telegram_bot_link():
@@ -543,12 +545,16 @@ def register(request):
 @authentication_classes([])
 def login_view(request):
     """Login using username + password."""
+    username = ''
     try:
         data = request.data
         username = str(data.get('username') or '').strip()
         password = str(data.get('password') or '')
+        client_ip = request.META.get('REMOTE_ADDR', 'unknown')
+        logger.info("login_view request username=%s ip=%s", username or '<empty>', client_ip)
 
         if not username or not password:
+            logger.warning("login_view rejected missing credentials ip=%s", client_ip)
             return Response(
                 {'error': 'Username and password are required'},
                 status=status.HTTP_400_BAD_REQUEST,
@@ -556,6 +562,7 @@ def login_view(request):
 
         user_obj = User.objects.filter(username=username).first()
         if user_obj is None:
+            logger.warning("login_view invalid username=%s ip=%s", username, client_ip)
             return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
 
         try:
@@ -564,6 +571,7 @@ def login_view(request):
             profile = None
 
         if profile and profile.auth_type == UserProfile.AUTH_TYPE_TELEGRAM:
+            logger.warning("login_view telegram-only username=%s ip=%s", username, client_ip)
             return Response(
                 {'error': 'This account uses Telegram login only'},
                 status=status.HTTP_403_FORBIDDEN,
@@ -571,9 +579,11 @@ def login_view(request):
 
         user = authenticate(request, username=username, password=password)
         if user is None:
+            logger.warning("login_view bad password username=%s ip=%s", username, client_ip)
             return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
 
         token, _ = Token.objects.get_or_create(user=user)
+        logger.info("login_view success username=%s user_id=%s ip=%s", user.username, user.id, client_ip)
         return Response(
             {
                 'message': 'Login successful',
@@ -584,6 +594,7 @@ def login_view(request):
             }
         )
     except Exception as e:
+        logger.exception("login_view error username=%s", username or '<unknown>')
         return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 

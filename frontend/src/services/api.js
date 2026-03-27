@@ -1,11 +1,29 @@
 import axios from 'axios';
 
-// Base URL pointing to Django backend
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const resolveApiBaseUrl = () => {
+  const configuredBaseUrl = String(process.env.REACT_APP_API_BASE_URL || '').trim();
+  if (configuredBaseUrl) {
+    return configuredBaseUrl.replace(/\/+$/, '');
+  }
+
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname;
+    const isLocalHost = hostname === 'localhost' || hostname === '127.0.0.1';
+    if (isLocalHost) {
+      return 'http://127.0.0.1:8000/api';
+    }
+    return `${window.location.origin}/api`;
+  }
+
+  return 'http://127.0.0.1:8000/api';
+};
+
+const API_BASE_URL = resolveApiBaseUrl();
 
 // Create axios instance
 const api = axios.create({
   baseURL: API_BASE_URL,
+  timeout: 15000,
   withCredentials: false,
   headers: {
     'Content-Type': 'application/json',
@@ -87,6 +105,9 @@ api.interceptors.request.use((config) => {
 api.interceptors.response.use(
   (response) => response,
   (error) => {
+    if (!error?.response) {
+      error.message = `Unable to reach API (${API_BASE_URL}). Check backend availability and network access.`;
+    }
     const statusCode = error?.response?.status;
     const requestUrl = error?.config?.url || '';
     if (statusCode === 401 && !isPublicAuthPath(requestUrl)) {

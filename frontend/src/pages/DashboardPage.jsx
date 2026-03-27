@@ -14,7 +14,6 @@ import toast from 'react-hot-toast';
 import AppShell from '../components/layout/AppShell';
 import AreaChart from '../components/charts/AreaChart';
 import CandlestickChart from '../components/charts/CandlestickChart';
-import FloatingChatbot from '../components/ui/FloatingChatbot';
 import MetricBox from '../components/ui/MetricBox';
 import SearchBar from '../components/ui/SearchBar';
 import SentimentCard from '../components/ui/SentimentCard';
@@ -75,6 +74,7 @@ const DashboardPage = () => {
   const [stockHistory, setStockHistory] = useState([]);
   const [news, setNews] = useState([]);
   const [newsLoading, setNewsLoading] = useState(false);
+  const [newsWarning, setNewsWarning] = useState('');
   const [loading, setLoading] = useState(false);
   const stockPriceRequestRef = useRef(0);
   const lineChartRequestRef = useRef(0);
@@ -184,17 +184,33 @@ const DashboardPage = () => {
 
     const timeoutId = setTimeout(async () => {
       setNewsLoading(true);
+      setNewsWarning('');
       try {
         const response = await newsAPI.getStockNews(selectedStock);
         if (requestId !== newsRequestRef.current) {
           return;
         }
         setNews(response.data.articles?.slice(0, 8) || []);
+        const warnings = response.data?.warnings || [];
+        if (warnings.length > 0) {
+          setNewsWarning(String(warnings[0]));
+        }
       } catch (error) {
         if (requestId !== newsRequestRef.current) {
           return;
         }
-        setNews([]);
+        const payload = error?.response?.data || {};
+        setNews((payload.articles || []).slice(0, 8));
+
+        if (payload?.warnings?.length) {
+          setNewsWarning(String(payload.warnings[0]));
+        } else if (error?.response?.status === 429) {
+          setNewsWarning('Sentiment providers are rate limited. Showing fallback data when available.');
+        } else if (error?.message) {
+          setNewsWarning(error.message);
+        } else {
+          setNewsWarning('Unable to load sentiment headlines right now.');
+        }
       }
       if (requestId === newsRequestRef.current) {
         setNewsLoading(false);
@@ -357,6 +373,7 @@ const DashboardPage = () => {
           <p className="dashboard-card-subtitle">
             Dual API sentiment for {selectedStock} (Alpha Vantage + Finnhub)
           </p>
+          {newsWarning ? <p className="dashboard-card-subtitle">{newsWarning}</p> : null}
           {newsLoading ? (
             <div className="dashboard-loading-stack news">
               <div className="skeleton dashboard-skeleton-news" />
@@ -387,8 +404,6 @@ const DashboardPage = () => {
           Open AI Analysis
         </button>
       </div>
-
-      <FloatingChatbot />
     </AppShell>
   );
 };

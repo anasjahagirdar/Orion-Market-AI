@@ -1,0 +1,117 @@
+.stock-ticker {
+  position: relative;
+  height: 34px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  background: #0d1117;
+  overflow: hidden;
+}
+
+.stock-ticker-marquee {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.stock-ticker-track {
+  display: inline-flex;
+  align-items: center;
+  width: max-content;
+  height: 100%;
+  white-space: nowrap;
+  animation: ticker-scroll var(--ticker-duration, 48s) linear infinite;
+  will-change: transform;
+}
+
+.stock-ticker-marquee:hover .stock-ticker-track {
+  animation-play-state: paused;
+}
+
+.stock-ticker-marquee::before,
+.stock-ticker-marquee::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 38px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.stock-ticker-marquee::before {
+  left: 0;
+  background: linear-gradient(90deg, #0d1117 0%, rgba(13, 17, 23, 0) 100%);
+}
+
+.stock-ticker-marquee::after {
+  right: 0;
+  background: linear-gradient(270deg, #0d1117 0%, rgba(13, 17, 23, 0) 100%);
+}
+
+.stock-ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 12px;
+}
+
+.stock-ticker-symbol {
+  color: #e5ecff;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.stock-ticker-price {
+  color: #c4cde8;
+  font-variant-numeric: tabular-nums;
+  font-family: 'Consolas', 'Menlo', 'Monaco', monospace;
+}
+
+.stock-ticker-change {
+  font-variant-numeric: tabular-nums;
+  font-family: 'Consolas', 'Menlo', 'Monaco', monospace;
+  font-weight: 700;
+}
+
+.stock-ticker-change.positive {
+  color: #00c851;
+}
+
+.stock-ticker-change.negative {
+  color: #ff4444;
+}
+
+.stock-ticker-change.neutral {
+  color: #9aa4bf;
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 680px) {
+  .stock-ticker {
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .stock-ticker-item {
+    padding: 0 12px;
+    gap: 6px;
+    font-size: 11px;
+  }
+
+  .stock-ticker-marquee::before,
+  .stock-ticker-marquee::after {
+    width: 24px;
+  }
+}
+

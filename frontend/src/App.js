@@ -12,6 +12,7 @@ const WatchlistPage = lazy(() => import('./pages/WatchlistPage'));
 const BtcAnalysisPage = lazy(() => import('./pages/BtcAnalysisPage'));
 const PortfolioAnalysisPage = lazy(() => import('./pages/PortfolioAnalysisPage'));
 const ForgotPasswordPage = lazy(() => import('./pages/ForgotPasswordPage'));
+const QualityStocksPage = lazy(() => import('./pages/QualityStocks/QualityStocksPage'));
 
 // Protected route wrapper
 const ProtectedRoute = ({ children }) => {
@@ -79,6 +80,14 @@ function App() {
               element={
                 <ProtectedRoute>
                   <PortfolioAnalysisPage />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/quality-stocks"
+              element={
+                <ProtectedRoute>
+                  <QualityStocksPage />
                 </ProtectedRoute>
               }
             />

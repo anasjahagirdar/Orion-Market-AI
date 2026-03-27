@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'chatbot',
     'news',
     'portfolio',
+    'quality_stocks',
 ]
 
 MIDDLEWARE = [
