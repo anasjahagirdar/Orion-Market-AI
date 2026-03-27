@@ -56,7 +56,6 @@ Try the live platform instantly — no setup required:
 ![BTC Analysis 1](docs/screenshots/09_btc_analysis_1.jpeg)
 ![BTC Analysis 2](docs/screenshots/10_btc_analysis_2.jpeg)
 
-> 💡 **Note:** AI Chatbot screenshot (`11_chatbot.jpeg`) — add this to `docs/screenshots/` to display it here.
 
 ---
 
@@ -362,6 +361,6 @@ This project is built for **educational and research purposes**.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E57F7,50:1a1f35,100:0d1117&height=100&section=footer" width="100%"/>
 
-*Built with ❤️ by [Anas Jahagirdar](https://github.com/anasjahagirdar) & Taqi Sayyed*
+*Built with ❤️ by [Anas Jahagirdar](https://github.com/anasjahagirdar) & [Taqi Sayyed](https://github.com/TAQISAYYED)*
 
 </div>
